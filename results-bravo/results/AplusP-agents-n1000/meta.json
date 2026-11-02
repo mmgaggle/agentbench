@@ -1,0 +1,33 @@
+{
+  "args": {
+    "name": "AplusP-agents-n1000",
+    "agents": 1000,
+    "period": 20,
+    "duration": 120.0,
+    "warmup": null,
+    "saturate": null,
+    "target": null,
+    "agentd": null,
+    "keep_agentd": false,
+    "osds": 16,
+    "prime": 0,
+    "no_seed": true,
+    "no_probes": false,
+    "idle": false,
+    "probe_interval": 1.0,
+    "settle": 10,
+    "sim_arg": []
+  },
+  "start": 1793407054.871162,
+  "loadavg_before": [
+    1.5888671875,
+    3.873046875,
+    4.716796875
+  ],
+  "end": 1793407216.950611,
+  "loadavg_after": [
+    1.03759765625,
+    2.7099609375,
+    4.1328125
+  ]
+}

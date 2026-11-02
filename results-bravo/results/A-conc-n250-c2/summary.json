@@ -1,0 +1,75 @@
+{
+  "agents": 250,
+  "args": {
+    "agents": 250,
+    "duration": 40.0,
+    "error_every": 0,
+    "hosts_file": "/mon/vcluster/agents/hosts.json",
+    "label": "A-conc-n250-c2",
+    "listen": true,
+    "osds": 16,
+    "out": "/ab/results/A-conc-n250-c2",
+    "path": "/data",
+    "period": 20.0,
+    "prime": 0,
+    "saturate": 2,
+    "src_ips": 16,
+    "target": null,
+    "threads": 8,
+    "timeout": 10.0,
+    "warmup": 5.0
+  },
+  "body_bytes": 50360,
+  "connect": {
+    "count": 5730,
+    "max_ms": 0.284,
+    "mean_ms": 0.04554729493891797,
+    "p50_ms": 0.021,
+    "p90_ms": 0.15,
+    "p999_ms": 0.209,
+    "p99_ms": 0.18
+  },
+  "counts": {
+    "app_err": 0,
+    "conn_err": 0,
+    "http_err": 0,
+    "ok": 5730,
+    "timeout": 0
+  },
+  "errors": [],
+  "label": "A-conc-n250-c2",
+  "latency": {
+    "count": 5730,
+    "max_ms": 238.079,
+    "mean_ms": 13.871314485165808,
+    "p50_ms": 12.319,
+    "p90_ms": 16.447,
+    "p999_ms": 142.847,
+    "p99_ms": 30.591
+  },
+  "listener_msgs": 0,
+  "max_report_gap": null,
+  "mode": "saturate",
+  "offered_per_sec": null,
+  "ok_per_sec": 143.25,
+  "prime_secs": 0.0,
+  "response": {
+    "count": 5730,
+    "max_ms": 176.639,
+    "mean_ms": 11.868895287958127,
+    "p50_ms": 10.631,
+    "p90_ms": 13.895,
+    "p999_ms": 102.271,
+    "p99_ms": 27.295
+  },
+  "tls_handshake": {
+    "count": 5730,
+    "max_ms": 89.983,
+    "mean_ms": 1.9351923211169275,
+    "p50_ms": 1.464,
+    "p90_ms": 2.603,
+    "p999_ms": 53.759,
+    "p99_ms": 6.763
+  },
+  "window_secs": 40.0
+}

@@ -1,0 +1,12 @@
+[package]
+name = "intentctl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+proto = { path = "../proto" }
+rcgen = { version = "0.13", features = ["x509-parser"] }
+serde.workspace = true
+serde_json.workspace = true

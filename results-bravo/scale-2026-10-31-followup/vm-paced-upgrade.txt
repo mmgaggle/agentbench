@@ -1,0 +1,28 @@
+VM paced agent rollouts (agentvm on bravo, node1-3, Ceph Tentacle 20.2.4), 2026-10-31 ~20:17-20:19 UTC
+agentd restarted with --blob-grace-s 60; agents 0.2.4; intents republished by bootstrap.py
+
+1) crashing binary (vm/demo/crashing-agent.sh), 1 canary:
+   paced-upgrade.sh /ab/vm/demo/crashing-agent.sh 9.9.9-crashes --canary 1 --rate 0.2 --max-in-flight 1 --soak 10 --host-timeout 180
+node1: generation 44 stored (5 units, 8 files, 2 removals)
+rollout: 1 canary host(s) published
+node1: FAILED after 2.6s: agent upgrade to 4f4c58654887 failed to start and was rolled back
+rollout: halting after 1 failed host(s); 2 host(s) not started
+rollout: 0 done, 1 failed, 2 not started, in 2.6s
+   afterwards: node1 0.2.4 with "agent 9.9.9-crashes (4f4c58654887) was rolled back before; not trying it again";
+   node2, node3 untouched (0.2.4, no agent in their intents)
+
+2) agent 0.2.5 (stripped, 9.0 MB), same pacing (first attempt hit an intentctl bug: a stale error from
+   the previous generation failed the canary at once; fixed: errors count only after the new generation
+   is applied; node1 had been given 0.2.5 by that attempt):
+node1: generation 46 stored (5 units, 8 files, 2 removals)
+rollout: 1 canary host(s) published
+node1: done after 0.2s
+rollout: canaries done; soaking 10s
+node2: generation 43 stored (5 units, 8 files, 2 removals)
+node2: done after 2.6s
+node3: generation 46 stored (4 units, 4 files, 2 removals)
+node3: done after 2.6s
+rollout: 3 done, 0 failed, 0 not started, in 18.3s
+   journal: "upgrade to 528802707d31 committed" ~2 s after each "upgrading ... exiting"; drop-in removed;
+   node2 units active since 20:16:48 (boot), agent upgraded 20:18:21: no daemon restarted;
+   ceph health: HEALTH_OK, 6 osds up; agentd blob gc dropped 27 unreferenced blobs after the 60 s grace

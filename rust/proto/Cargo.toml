@@ -1,0 +1,23 @@
+[package]
+name = "proto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow.workspace = true
+base64 = "0.22"
+ed25519-dalek = "2"
+chacha20poly1305 = "0.10"
+hkdf = "0.12"
+hmac = "0.12"
+x25519-dalek = { version = "2", features = ["static_secrets"] }
+sha2 = "0.10"
+foca = { path = "../vendor/foca", features = ["std", "postcard-codec"] }
+postcard = { version = "1", features = ["alloc"] }
+rand = { version = "0.10", features = ["std_rng"] }
+tokio.workspace = true
+socket2 = "0.6"
+rustls.workspace = true
+rustls-pemfile.workspace = true
+serde.workspace = true
+serde_json.workspace = true

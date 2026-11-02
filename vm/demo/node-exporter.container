@@ -1,0 +1,31 @@
+# cephadm's node-exporter (cephadmlib/daemons/monitoring.py) as a Quadlet unit
+[Unit]
+Description=Ceph {daemon} for {fsid}
+After=network-online.target local-fs.target time-sync.target
+Wants=network-online.target local-fs.target time-sync.target
+PartOf=ceph-{fsid}.target
+Before=ceph-{fsid}.target
+StartLimitIntervalSec=30min
+StartLimitBurst=5
+
+[Container]
+ContainerName=ceph-{fsid}-{daemon}
+Image=quay.io/prometheus/node-exporter:v1.9.1
+Network=host
+User=65534:65534
+SecurityLabelDisable=true
+Exec=--no-collector.timex --web.listen-address=:9100 --path.procfs=/host/proc --path.sysfs=/host/sys --path.rootfs=/rootfs
+Volume=/proc:/host/proc:ro
+Volume=/sys:/host/sys:ro
+Volume=/:/rootfs:ro
+
+[Service]
+Restart=on-failure
+RestartSec=10s
+TimeoutStartSec=200
+TimeoutStopSec=120
+SuccessExitStatus=143
+LimitNOFILE=1048576
+
+[Install]
+WantedBy=ceph-{fsid}.target

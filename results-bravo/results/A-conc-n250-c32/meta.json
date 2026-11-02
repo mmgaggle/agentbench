@@ -1,0 +1,31 @@
+{
+  "args": {
+    "name": "A-conc-n250-c32",
+    "agents": 250,
+    "period": 20,
+    "duration": 40.0,
+    "warmup": null,
+    "saturate": 32,
+    "target": null,
+    "osds": 16,
+    "prime": 0,
+    "no_seed": true,
+    "no_probes": true,
+    "idle": false,
+    "probe_interval": 1.0,
+    "settle": 10,
+    "sim_arg": []
+  },
+  "start": 1793399205.4103467,
+  "loadavg_before": [
+    1.49560546875,
+    0.9755859375,
+    0.81494140625
+  ],
+  "end": 1793399251.442619,
+  "loadavg_after": [
+    1.54345703125,
+    1.06982421875,
+    0.857421875
+  ]
+}

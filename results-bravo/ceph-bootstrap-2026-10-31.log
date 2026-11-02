@@ -1,0 +1,63 @@
+[    0.1s] cluster df8fb14d-da3c-4cb3-9c23-57e85b067d15: mons node1, node2, node3, mgrs node1, node2, image quay.io/ceph/ceph:v20.2.4
+[    0.1s] phase 1: config, sealed keyrings, monmap, mkfs jobs, mon and mgr units
+[    0.7s]   node1: generation 9 stored (3 units, 5 files, 2 removals)
+[    0.7s]   node1: generation 9 applied after 0.50s: mgr.node1=active/running mon.node1=active/running node-exporter.node1=active/running
+[    1.3s]   node2: generation 9 stored (3 units, 5 files, 2 removals)
+[    1.3s]   node2: generation 9 applied after 0.50s: mgr.node2=active/running mon.node2=activating/start [waiting for job mkfs-mon-node2-3d1f4b (running)] node-exporter.node2=active/running
+[    1.7s]   node3: generation 8 stored (2 units, 4 files, 2 removals)
+[    1.7s]   node3: generation 8 applied after 0.30s: mon.node3=activating/start [waiting for job mkfs-mon-node3-3d1f4b (running)] node-exporter.node3=active/running
+[    1.7s]   node1: mkfs succeeded (0.3s): mkfs ok
+[    1.7s]   node2: mkfs succeeded (0.4s): mkfs ok
+[    1.7s]   node3: mkfs succeeded (0.2s): mkfs ok
+[    2.5s] quorum of 3: ['node1', 'node2', 'node3']
+[    4.9s] mgr: node2 active
+[    4.9s] phase 2: ceph-volume lvm batch, as a job on every host
+[    4.9s]   node1: generation 10 stored (3 units, 5 files, 2 removals)
+[    4.9s]   node2: generation 10 stored (3 units, 5 files, 2 removals)
+[    4.9s]   node3: generation 9 stored (2 units, 4 files, 2 removals)
+[    8.9s]   node1: osd-prepare succeeded (3.1s, exit 0)
+[    8.9s]   node2: osd-prepare succeeded (3.2s, exit 0)
+[    8.9s]   node3: osd-prepare succeeded (3.1s, exit 0)
+[    8.9s] phase 3: which OSDs did they make (ceph-volume lvm list job), then OSD units
+[    8.9s]   node1: generation 11 stored (3 units, 5 files, 2 removals)
+[    8.9s]   node2: generation 11 stored (3 units, 5 files, 2 removals)
+[    8.9s]   node3: generation 10 stored (2 units, 4 files, 2 removals)
+[    9.9s]   node1: osd.1 on /dev/vdb
+[    9.9s]   node1: osd.4 on /dev/vdc
+[   11.3s]   node1: generation 12 stored (5 units, 5 files, 2 removals)
+[   11.3s]   node1: generation 12 applied after 1.31s: mgr.node1=active/running mon.node1=active/running node-exporter.node1=active/running osd.1=active/running osd.4=active/running
+[   11.3s]   node2: osd.2 on /dev/vdb
+[   11.3s]   node2: osd.5 on /dev/vdc
+[   12.5s]   node2: generation 12 stored (5 units, 5 files, 2 removals)
+[   12.5s]   node2: generation 12 applied after 1.11s: mgr.node2=active/running mon.node2=active/running node-exporter.node2=active/running osd.2=active/running osd.5=active/running
+[   12.6s]   node3: osd.0 on /dev/vdb
+[   12.6s]   node3: osd.3 on /dev/vdc
+[   13.8s]   node3: generation 11 stored (4 units, 4 files, 2 removals)
+[   13.8s]   node3: generation 11 applied after 1.10s: mon.node3=active/running node-exporter.node3=active/running osd.0=active/running osd.3=active/running
+[   18.2s] 6 OSDs up and in
+[   18.2s] phase 4: a pool and some I/O
+[   35.7s]   rados bench: Total writes made:      2896
+[   35.7s]   rados bench: Bandwidth (MB/sec):     289.207
+[   35.7s]   rados bench: Average IOPS:           289
+  cluster:
+    id:     df8fb14d-da3c-4cb3-9c23-57e85b067d15
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum node1,node2,node3 (age 33s) [leader: node1]
+    mgr: node2(active, since 32s), standbys: node1
+    osd: 6 osds: 6 up (since 18s), 6 in (since 28s)
+ 
+  data:
+    pools:   2 pools, 33 pgs
+    objects: 2.47k objects, 2.4 GiB
+    usage:   7.1 GiB used, 53 GiB / 60 GiB avail
+    pgs:     33 active+clean
+ 
+  io:
+    client:   205 MiB/s wr, 0 op/s rd, 205 op/s wr
+ 
+
+[   35.9s] done
+
+[exited with code 0]

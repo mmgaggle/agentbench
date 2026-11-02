@@ -1,0 +1,9 @@
+{
+  "files": {
+    "/var/lib/ceph/{fsid}/web.{host}/www/index.html": {"src": "index.html", "mode": "0644"}
+  },
+  "units": {
+    "node-exporter.{host}": {"quadlet": "node-exporter.container"},
+    "web.{host}": {"quadlet": "web.container", "restart_nonce": "{nonce}"}
+  }
+}

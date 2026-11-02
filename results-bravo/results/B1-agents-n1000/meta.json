@@ -1,0 +1,34 @@
+{
+  "args": {
+    "name": "B1-agents-n1000",
+    "agents": 1000,
+    "period": 20,
+    "duration": 180.0,
+    "warmup": null,
+    "saturate": null,
+    "target": "127.0.0.1:7160",
+    "agentd": "--persist sync --policy always --key rsa",
+    "keep_agentd": false,
+    "osds": 16,
+    "prime": 16,
+    "no_seed": true,
+    "no_probes": false,
+    "idle": false,
+    "probe_interval": 1.0,
+    "settle": 10,
+    "sim_arg": []
+  },
+  "start": 1793403730.819013,
+  "loadavg_before": [
+    0.33203125,
+    0.47314453125,
+    0.73095703125
+  ],
+  "prime_secs": 21.900531058956403,
+  "end": 1793403973.8379722,
+  "loadavg_after": [
+    0.47900390625,
+    0.48095703125,
+    0.67236328125
+  ]
+}

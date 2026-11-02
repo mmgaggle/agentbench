@@ -1,0 +1,140 @@
+{
+ "start": {
+  "ack_requests": 0,
+  "bad_metadata": 0,
+  "connections": 50000,
+  "connections_open": 50000,
+  "failed": 0,
+  "failed_daemons": 80,
+  "handler_ms": {
+   "count": 0,
+   "max": 0.0,
+   "p50": 0.0,
+   "p99": 0.0
+  },
+  "health_updates": 81,
+  "hosts": 50000,
+  "kicks": 50082,
+  "messages": 0,
+  "not_up_to_date": 0,
+  "ok": 0,
+  "persist": {
+   "errors": 0,
+   "kv_set_ms": {
+    "count": 0,
+    "max": 0.0,
+    "p50": 0.0,
+    "p99": 0.0
+   },
+   "mode": "None",
+   "queued": 0,
+   "skipped": 0,
+   "writes": 0
+  },
+  "tls_errors": 0,
+  "uptime_s": 40.487218185,
+  "v2": {
+   "change_lag_ms": {
+    "count": 779,
+    "max": 2.397,
+    "p50": 1.061,
+    "p99": 2.085
+   },
+   "handler_ms": {
+    "count": 103765,
+    "max": 1.479,
+    "p50": 0.038,
+    "p99": 0.542
+   },
+   "kinds": {
+    "delta": {
+     "bytes": 957077,
+     "count": 779
+    },
+    "full": {
+     "bytes": 2363836566,
+     "count": 50000
+    },
+    "heartbeat": {
+     "bytes": 1679720,
+     "count": 47992
+    },
+    "usage": {
+     "bytes": 3749394,
+     "count": 4994
+    }
+   },
+   "resync": 0,
+   "unauthorized": 0
+  }
+ },
+ "end": {
+  "ack_requests": 0,
+  "bad_metadata": 0,
+  "connections": 50000,
+  "connections_open": 0,
+  "failed": 0,
+  "failed_daemons": 368,
+  "handler_ms": {
+   "count": 0,
+   "max": 0.0,
+   "p50": 0.0,
+   "p99": 0.0
+  },
+  "health_updates": 389,
+  "hosts": 50000,
+  "kicks": 50390,
+  "messages": 0,
+  "not_up_to_date": 0,
+  "ok": 0,
+  "persist": {
+   "errors": 0,
+   "kv_set_ms": {
+    "count": 0,
+    "max": 0.0,
+    "p50": 0.0,
+    "p99": 0.0
+   },
+   "mode": "None",
+   "queued": 0,
+   "skipped": 0,
+   "writes": 0
+  },
+  "tls_errors": 0,
+  "uptime_s": 180.594527103,
+  "v2": {
+   "change_lag_ms": {
+    "count": 3808,
+    "max": 4.211,
+    "p50": 1.17,
+    "p99": 2.433
+   },
+   "handler_ms": {
+    "count": 415363,
+    "max": 1.479,
+    "p50": 0.007,
+    "p99": 0.408
+   },
+   "kinds": {
+    "delta": {
+     "bytes": 4678216,
+     "count": 3808
+    },
+    "full": {
+     "bytes": 2363836566,
+     "count": 50000
+    },
+    "heartbeat": {
+     "bytes": 11779985,
+     "count": 336571
+    },
+    "usage": {
+     "bytes": 18757444,
+     "count": 24984
+    }
+   },
+   "resync": 0,
+   "unauthorized": 0
+  }
+ }
+}

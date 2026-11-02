@@ -1,0 +1,31 @@
+{
+  "args": {
+    "name": "A-idle-n1000",
+    "agents": 1000,
+    "period": 20,
+    "duration": 60.0,
+    "warmup": 5.0,
+    "saturate": null,
+    "target": null,
+    "osds": 16,
+    "prime": 16,
+    "no_seed": true,
+    "no_probes": false,
+    "idle": true,
+    "probe_interval": 1.0,
+    "settle": 10,
+    "sim_arg": []
+  },
+  "start": 1793400397.058014,
+  "loadavg_before": [
+    1.66552734375,
+    1.2919921875,
+    1.08642578125
+  ],
+  "end": 1793400463.1094775,
+  "loadavg_after": [
+    1.18505859375,
+    1.21826171875,
+    1.07470703125
+  ]
+}

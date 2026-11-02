@@ -1,0 +1,33 @@
+{
+  "args": {
+    "name": "Anp-sat-n1000",
+    "agents": 1000,
+    "period": 20,
+    "duration": 45.0,
+    "warmup": null,
+    "saturate": 8,
+    "target": null,
+    "agentd": null,
+    "keep_agentd": false,
+    "osds": 16,
+    "prime": 0,
+    "no_seed": true,
+    "no_probes": true,
+    "idle": false,
+    "probe_interval": 1.0,
+    "settle": 10,
+    "sim_arg": []
+  },
+  "start": 1793402495.234034,
+  "loadavg_before": [
+    0.89013671875,
+    0.7802734375,
+    0.86572265625
+  ],
+  "end": 1793402546.274229,
+  "loadavg_after": [
+    1.1474609375,
+    0.8779296875,
+    0.8974609375
+  ]
+}

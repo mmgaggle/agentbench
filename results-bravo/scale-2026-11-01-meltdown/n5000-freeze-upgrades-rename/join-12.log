@@ -1,0 +1,81 @@
+join request 1eebeaa65213 for h04964 sent; waiting for the mgr
+join request e0e2b956ad23 for h04963 sent; waiting for the mgr
+join request 75e5d8020a6f for h04962 sent; waiting for the mgr
+join request 4e6ed3fe05ae for h04966 sent; waiting for the mgr
+join request 6385f83e4a24 for h04960 sent; waiting for the mgr
+join request 159aec9fff42 for h04961 sent; waiting for the mgr
+join request cb2f9d6c42de for h04965 sent; waiting for the mgr
+join request 809498bf4d08 for h04984 sent; waiting for the mgr
+join request b02b080ccf1a for h04970 sent; waiting for the mgr
+join request 2e3d987da34d for h04985 sent; waiting for the mgr
+join request b7a4c939d6ee for h04991 sent; waiting for the mgr
+join request 7299c7c88cc4 for h04975 sent; waiting for the mgr
+join request 6ca3f18b5abf for h04974 sent; waiting for the mgr
+join request 883f3642cd0c for h04989 sent; waiting for the mgr
+join request 5234a0f09c74 for h04986 sent; waiting for the mgr
+join request 5384fc8bffe6 for h04977 sent; waiting for the mgr
+join request d822ed46b2f8 for h04969 sent; waiting for the mgr
+join request 0eeb52247f88 for h04987 sent; waiting for the mgr
+join request 0f5835dc56d3 for h04972 sent; waiting for the mgr
+join request c27b65721672 for h04973 sent; waiting for the mgr
+join request 89ecf7613103 for h04971 sent; waiting for the mgr
+join request 354efb2606ec for h04978 sent; waiting for the mgr
+join request e8b170c82d7b for h04988 sent; waiting for the mgr
+join request 223a22158c94 for h04990 sent; waiting for the mgr
+join request 46d7e8da8952 for h04967 sent; waiting for the mgr
+join request 85579c130d9d for h04968 sent; waiting for the mgr
+join request 1c01b5ab2e2d for h04995 sent; waiting for the mgr
+join request b37652c52ef8 for h04993 sent; waiting for the mgr
+join request f923335105b1 for h04980 sent; waiting for the mgr
+join request 67cf2163943e for h04996 sent; waiting for the mgr
+join request 8bfdd504b4c8 for h04994 sent; waiting for the mgr
+join request a5754a3010d3 for h04998 sent; waiting for the mgr
+join request 42e8ed6288dc for h04981 sent; waiting for the mgr
+join request 083c186f6a81 for h04983 sent; waiting for the mgr
+join request d37fdbf1f953 for h04997 sent; waiting for the mgr
+join request 7ea54a77df27 for h04999 sent; waiting for the mgr
+join request a77bb7299f76 for h04982 sent; waiting for the mgr
+join request 8b0f99eb86db for h04979 sent; waiting for the mgr
+join request 0865d90cf691 for h04976 sent; waiting for the mgr
+join request 0b86a84ce970 for h04992 sent; waiting for the mgr
+joined as h04963; config in /mon/scale/n5000/h04963/etc/agent.json
+joined as h04973; config in /mon/scale/n5000/h04973/etc/agent.json
+joined as h04967; config in /mon/scale/n5000/h04967/etc/agent.json
+joined as h04960; config in /mon/scale/n5000/h04960/etc/agent.json
+joined as h04970; config in /mon/scale/n5000/h04970/etc/agent.json
+joined as h04964; config in /mon/scale/n5000/h04964/etc/agent.json
+joined as h04978; config in /mon/scale/n5000/h04978/etc/agent.json
+joined as h04966; config in /mon/scale/n5000/h04966/etc/agent.json
+joined as h04968; config in /mon/scale/n5000/h04968/etc/agent.json
+joined as h04988; config in /mon/scale/n5000/h04988/etc/agent.json
+joined as h04982; config in /mon/scale/n5000/h04982/etc/agent.json
+joined as h04994; config in /mon/scale/n5000/h04994/etc/agent.json
+joined as h04979; config in /mon/scale/n5000/h04979/etc/agent.json
+joined as h04998; config in /mon/scale/n5000/h04998/etc/agent.json
+joined as h04976; config in /mon/scale/n5000/h04976/etc/agent.json
+joined as h04984; config in /mon/scale/n5000/h04984/etc/agent.json
+joined as h04983; config in /mon/scale/n5000/h04983/etc/agent.json
+joined as h04997; config in /mon/scale/n5000/h04997/etc/agent.json
+joined as h04986; config in /mon/scale/n5000/h04986/etc/agent.json
+joined as h04977; config in /mon/scale/n5000/h04977/etc/agent.json
+joined as h04971; config in /mon/scale/n5000/h04971/etc/agent.json
+joined as h04995; config in /mon/scale/n5000/h04995/etc/agent.json
+joined as h04987; config in /mon/scale/n5000/h04987/etc/agent.json
+joined as h04961; config in /mon/scale/n5000/h04961/etc/agent.json
+joined as h04962; config in /mon/scale/n5000/h04962/etc/agent.json
+joined as h04989; config in /mon/scale/n5000/h04989/etc/agent.json
+joined as h04990; config in /mon/scale/n5000/h04990/etc/agent.json
+joined as h04972; config in /mon/scale/n5000/h04972/etc/agent.json
+joined as h04999; config in /mon/scale/n5000/h04999/etc/agent.json
+joined as h04980; config in /mon/scale/n5000/h04980/etc/agent.json
+joined as h04975; config in /mon/scale/n5000/h04975/etc/agent.json
+joined as h04991; config in /mon/scale/n5000/h04991/etc/agent.json
+joined as h04981; config in /mon/scale/n5000/h04981/etc/agent.json
+joined as h04993; config in /mon/scale/n5000/h04993/etc/agent.json
+joined as h04965; config in /mon/scale/n5000/h04965/etc/agent.json
+joined as h04969; config in /mon/scale/n5000/h04969/etc/agent.json
+joined as h04974; config in /mon/scale/n5000/h04974/etc/agent.json
+joined as h04985; config in /mon/scale/n5000/h04985/etc/agent.json
+joined as h04996; config in /mon/scale/n5000/h04996/etc/agent.json
+joined as h04992; config in /mon/scale/n5000/h04992/etc/agent.json
+joined 40/40 in 0.79s; per host p50 0.48s p99 0.78s max 0.78s

@@ -1,0 +1,1024 @@
+{"resync": 5000, "failed": 0, "down": 0, "t": 1793572757.384, "wall_s": 0.0681, "cpu_s": 0.0308, "requests": 4, "mb": 1.55}
+{"summary": true, "events": 1329, "hosts": 1029, "lag_max_s": 0.965, "t": 1793572763.385, "wall_s": 0.0207, "cpu_s": 0.0117, "requests": 3, "mb": 0.64}
+{"summary": true, "events": 1802, "hosts": 1054, "lag_max_s": 1.019, "t": 1793572764.385, "wall_s": 0.021, "cpu_s": 0.0121, "requests": 3, "mb": 0.89}
+{"summary": true, "events": 2734, "hosts": 1103, "lag_max_s": 1.029, "t": 1793572765.385, "wall_s": 0.0336, "cpu_s": 0.02, "requests": 3, "mb": 1.37}
+{"summary": true, "events": 2235, "hosts": 1071, "lag_max_s": 1.02, "t": 1793572766.385, "wall_s": 0.0252, "cpu_s": 0.0159, "requests": 3, "mb": 1.12}
+{"summary": true, "events": 2626, "hosts": 1051, "lag_max_s": 1.03, "t": 1793572767.386, "wall_s": 0.0363, "cpu_s": 0.0238, "requests": 3, "mb": 1.33}
+{"summary": true, "events": 2166, "hosts": 176, "lag_max_s": 1.021, "t": 1793572768.386, "wall_s": 0.025, "cpu_s": 0.019, "requests": 3, "mb": 1.22}
+{"summary": true, "events": 2241, "hosts": 151, "lag_max_s": 0.985, "t": 1793572769.386, "wall_s": 0.0165, "cpu_s": 0.011, "requests": 3, "mb": 1.26}
+{"summary": true, "events": 1562, "hosts": 106, "lag_max_s": 0.994, "t": 1793572770.386, "wall_s": 0.0179, "cpu_s": 0.0116, "requests": 3, "mb": 0.91}
+{"summary": true, "events": 2599, "hosts": 172, "lag_max_s": 1.007, "t": 1793572771.386, "wall_s": 0.0263, "cpu_s": 0.0186, "requests": 3, "mb": 1.44}
+{"summary": true, "events": 2345, "hosts": 160, "lag_max_s": 0.995, "t": 1793572772.386, "wall_s": 0.0243, "cpu_s": 0.0168, "requests": 3, "mb": 1.32}
+{"summary": true, "events": 1601, "hosts": 113, "lag_max_s": 0.992, "t": 1793572773.386, "wall_s": 0.0238, "cpu_s": 0.0188, "requests": 3, "mb": 0.93}
+{"summary": true, "events": 2648, "hosts": 178, "lag_max_s": 1.019, "t": 1793572774.386, "wall_s": 0.025, "cpu_s": 0.0169, "requests": 3, "mb": 1.47}
+{"summary": true, "events": 3078, "hosts": 206, "lag_max_s": 1.023, "t": 1793572775.386, "wall_s": 0.0324, "cpu_s": 0.0232, "requests": 3, "mb": 1.7}
+{"summary": true, "events": 1880, "hosts": 126, "lag_max_s": 0.996, "t": 1793572776.386, "wall_s": 0.0297, "cpu_s": 0.0238, "requests": 3, "mb": 1.08}
+{"summary": true, "events": 1779, "hosts": 123, "lag_max_s": 1.003, "t": 1793572777.386, "wall_s": 0.0203, "cpu_s": 0.0148, "requests": 3, "mb": 1.03}
+{"summary": true, "events": 894, "hosts": 61, "lag_max_s": 0.94, "t": 1793572778.386, "wall_s": 0.0172, "cpu_s": 0.0134, "requests": 3, "mb": 0.57}
+{"summary": true, "events": 2452, "hosts": 164, "lag_max_s": 1.012, "t": 1793572779.386, "wall_s": 0.0248, "cpu_s": 0.0189, "requests": 3, "mb": 1.37}
+{"summary": true, "events": 2075, "hosts": 149, "lag_max_s": 0.995, "t": 1793572780.387, "wall_s": 0.0245, "cpu_s": 0.0172, "requests": 3, "mb": 1.18}
+{"summary": true, "events": 2382, "hosts": 162, "lag_max_s": 1.006, "t": 1793572781.387, "wall_s": 0.0224, "cpu_s": 0.0154, "requests": 3, "mb": 1.33}
+{"summary": true, "events": 1942, "hosts": 141, "lag_max_s": 1.006, "t": 1793572782.387, "wall_s": 0.0205, "cpu_s": 0.0146, "requests": 3, "mb": 1.11}
+{"summary": true, "events": 1643, "hosts": 115, "lag_max_s": 0.936, "t": 1793572783.387, "wall_s": 0.0328, "cpu_s": 0.0271, "requests": 3, "mb": 0.96}
+{"summary": true, "events": 1589, "hosts": 111, "lag_max_s": 0.839, "t": 1793572784.387, "wall_s": 0.0237, "cpu_s": 0.0176, "requests": 3, "mb": 0.92}
+{"summary": true, "events": 2235, "hosts": 154, "lag_max_s": 1.01, "t": 1793572785.387, "wall_s": 0.0254, "cpu_s": 0.0176, "requests": 3, "mb": 1.26}
+{"summary": true, "events": 2876, "hosts": 207, "lag_max_s": 1.007, "t": 1793572786.387, "wall_s": 0.037, "cpu_s": 0.0265, "requests": 3, "mb": 1.59}
+{"summary": true, "events": 2618, "hosts": 180, "lag_max_s": 1.004, "t": 1793572787.387, "wall_s": 0.0276, "cpu_s": 0.0187, "requests": 3, "mb": 1.46}
+{"summary": true, "events": 3332, "hosts": 222, "lag_max_s": 0.921, "t": 1793572788.387, "wall_s": 0.0333, "cpu_s": 0.0226, "requests": 3, "mb": 1.83}
+{"summary": true, "events": 1943, "hosts": 145, "lag_max_s": 0.989, "t": 1793572789.387, "wall_s": 0.0281, "cpu_s": 0.0215, "requests": 3, "mb": 1.11}
+{"summary": true, "events": 2750, "hosts": 191, "lag_max_s": 1.012, "t": 1793572790.387, "wall_s": 0.0274, "cpu_s": 0.0209, "requests": 3, "mb": 1.52}
+{"summary": true, "events": 3222, "hosts": 220, "lag_max_s": 1.003, "t": 1793572791.387, "wall_s": 0.044, "cpu_s": 0.0343, "requests": 3, "mb": 1.77}
+{"summary": true, "events": 2868, "hosts": 193, "lag_max_s": 0.987, "t": 1793572792.387, "wall_s": 0.0357, "cpu_s": 0.0288, "requests": 3, "mb": 1.58}
+{"summary": true, "events": 2732, "hosts": 182, "lag_max_s": 1.007, "t": 1793572793.388, "wall_s": 0.0283, "cpu_s": 0.0206, "requests": 3, "mb": 1.52}
+{"summary": true, "events": 2718, "hosts": 183, "lag_max_s": 1.001, "t": 1793572794.388, "wall_s": 0.0379, "cpu_s": 0.0292, "requests": 3, "mb": 1.51}
+{"summary": true, "events": 2472, "hosts": 172, "lag_max_s": 0.999, "t": 1793572795.388, "wall_s": 0.0394, "cpu_s": 0.0315, "requests": 3, "mb": 1.38}
+{"summary": true, "events": 3813, "hosts": 254, "lag_max_s": 1.011, "t": 1793572796.388, "wall_s": 0.0385, "cpu_s": 0.0287, "requests": 3, "mb": 2.08}
+{"summary": true, "events": 1135, "hosts": 85, "lag_max_s": 0.998, "t": 1793572797.388, "wall_s": 0.0254, "cpu_s": 0.0204, "requests": 3, "mb": 0.73}
+{"summary": true, "events": 20, "hosts": 10, "lag_max_s": 0.508, "t": 1793572798.388, "wall_s": 0.0234, "cpu_s": 0.0203, "requests": 3, "mb": 0.16}
+{"summary": true, "events": 7, "hosts": 7, "lag_max_s": 0.274, "t": 1793572808.389, "wall_s": 0.0311, "cpu_s": 0.0281, "requests": 3, "mb": 0.14}
+{"summary": true, "events": 51, "hosts": 26, "lag_max_s": 0.913, "t": 1793572809.389, "wall_s": 0.0248, "cpu_s": 0.021, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 1.001, "t": 1793572810.389, "wall_s": 0.0283, "cpu_s": 0.0249, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.904, "t": 1793572811.389, "wall_s": 0.023, "cpu_s": 0.0195, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.917, "t": 1793572812.389, "wall_s": 0.0247, "cpu_s": 0.0208, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.903, "t": 1793572813.389, "wall_s": 0.0247, "cpu_s": 0.0211, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.909, "t": 1793572814.389, "wall_s": 0.0255, "cpu_s": 0.0209, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.894, "t": 1793572815.389, "wall_s": 0.0229, "cpu_s": 0.0197, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.908, "t": 1793572816.389, "wall_s": 0.0249, "cpu_s": 0.0217, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.93, "t": 1793572817.389, "wall_s": 0.0348, "cpu_s": 0.0313, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 1.003, "t": 1793572818.389, "wall_s": 0.0257, "cpu_s": 0.0219, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.917, "t": 1793572819.389, "wall_s": 0.0242, "cpu_s": 0.021, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.918, "t": 1793572820.389, "wall_s": 0.0251, "cpu_s": 0.0216, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 1.003, "t": 1793572821.39, "wall_s": 0.0257, "cpu_s": 0.0223, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.919, "t": 1793572822.39, "wall_s": 0.0282, "cpu_s": 0.0239, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 1.002, "t": 1793572823.39, "wall_s": 0.0267, "cpu_s": 0.0231, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.912, "t": 1793572824.39, "wall_s": 0.0252, "cpu_s": 0.0219, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.917, "t": 1793572825.39, "wall_s": 0.0279, "cpu_s": 0.0245, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 1.015, "t": 1793572826.39, "wall_s": 0.0341, "cpu_s": 0.0304, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.909, "t": 1793572827.39, "wall_s": 0.0275, "cpu_s": 0.0243, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.905, "t": 1793572828.39, "wall_s": 0.0266, "cpu_s": 0.0232, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.909, "t": 1793572829.39, "wall_s": 0.0272, "cpu_s": 0.0237, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.905, "t": 1793572830.39, "wall_s": 0.0254, "cpu_s": 0.0217, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.916, "t": 1793572831.39, "wall_s": 0.025, "cpu_s": 0.0202, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.921, "t": 1793572832.39, "wall_s": 0.0233, "cpu_s": 0.0188, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.911, "t": 1793572833.39, "wall_s": 0.0276, "cpu_s": 0.024, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.921, "t": 1793572834.39, "wall_s": 0.028, "cpu_s": 0.0245, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 1.014, "t": 1793572835.39, "wall_s": 0.0329, "cpu_s": 0.0297, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.919, "t": 1793572836.391, "wall_s": 0.0252, "cpu_s": 0.0217, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 1.003, "t": 1793572837.391, "wall_s": 0.0252, "cpu_s": 0.0219, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.915, "t": 1793572838.391, "wall_s": 0.0278, "cpu_s": 0.0237, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 1.001, "t": 1793572839.391, "wall_s": 0.0244, "cpu_s": 0.0202, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.91, "t": 1793572840.391, "wall_s": 0.0271, "cpu_s": 0.0234, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.908, "t": 1793572841.391, "wall_s": 0.0278, "cpu_s": 0.0237, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.906, "t": 1793572842.391, "wall_s": 0.0267, "cpu_s": 0.0228, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.91, "t": 1793572843.391, "wall_s": 0.0269, "cpu_s": 0.0233, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.911, "t": 1793572844.391, "wall_s": 0.0339, "cpu_s": 0.0305, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.913, "t": 1793572845.391, "wall_s": 0.0278, "cpu_s": 0.0241, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.911, "t": 1793572846.391, "wall_s": 0.0248, "cpu_s": 0.0214, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.904, "t": 1793572847.391, "wall_s": 0.0254, "cpu_s": 0.022, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.91, "t": 1793572848.391, "wall_s": 0.0296, "cpu_s": 0.0259, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.911, "t": 1793572849.391, "wall_s": 0.024, "cpu_s": 0.0205, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.915, "t": 1793572850.392, "wall_s": 0.0271, "cpu_s": 0.0231, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.915, "t": 1793572851.392, "wall_s": 0.0262, "cpu_s": 0.0229, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 1.001, "t": 1793572852.392, "wall_s": 0.0262, "cpu_s": 0.0228, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 32, "lag_max_s": 0.946, "t": 1793572853.392, "wall_s": 0.0404, "cpu_s": 0.0366, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 60, "hosts": 31, "lag_max_s": 0.901, "t": 1793572854.392, "wall_s": 0.0266, "cpu_s": 0.0227, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.913, "t": 1793572855.392, "wall_s": 0.0308, "cpu_s": 0.0268, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.917, "t": 1793572856.392, "wall_s": 0.0229, "cpu_s": 0.0198, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 1.004, "t": 1793572857.392, "wall_s": 0.0254, "cpu_s": 0.0217, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.911, "t": 1793572858.392, "wall_s": 0.0271, "cpu_s": 0.0235, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.902, "t": 1793572859.392, "wall_s": 0.0264, "cpu_s": 0.0228, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.917, "t": 1793572860.392, "wall_s": 0.0274, "cpu_s": 0.0236, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 1.003, "t": 1793572861.392, "wall_s": 0.0262, "cpu_s": 0.0223, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.926, "t": 1793572862.392, "wall_s": 0.0365, "cpu_s": 0.0316, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.891, "t": 1793572863.392, "wall_s": 0.0292, "cpu_s": 0.0259, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.917, "t": 1793572864.393, "wall_s": 0.0277, "cpu_s": 0.0238, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 1.001, "t": 1793572865.393, "wall_s": 0.0289, "cpu_s": 0.0249, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.913, "t": 1793572866.393, "wall_s": 0.0291, "cpu_s": 0.0243, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.912, "t": 1793572867.393, "wall_s": 0.0283, "cpu_s": 0.0244, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.999, "t": 1793572868.393, "wall_s": 0.0256, "cpu_s": 0.0221, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.901, "t": 1793572869.393, "wall_s": 0.0291, "cpu_s": 0.0257, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.907, "t": 1793572870.393, "wall_s": 0.0333, "cpu_s": 0.0299, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.906, "t": 1793572871.393, "wall_s": 0.0303, "cpu_s": 0.0264, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.892, "t": 1793572872.393, "wall_s": 0.028, "cpu_s": 0.0243, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 62, "hosts": 32, "lag_max_s": 0.898, "failed": 0, "down": 2, "t": 1793572873.393, "wall_s": 0.0285, "cpu_s": 0.0245, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 80, "hosts": 50, "lag_max_s": 0.902, "failed": 0, "down": 22, "t": 1793572874.393, "wall_s": 0.0349, "cpu_s": 0.0281, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 69, "hosts": 39, "lag_max_s": 0.894, "failed": 0, "down": 31, "t": 1793572875.393, "wall_s": 0.0309, "cpu_s": 0.0269, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 67, "hosts": 37, "lag_max_s": 0.902, "failed": 0, "down": 38, "t": 1793572876.393, "wall_s": 0.0298, "cpu_s": 0.0239, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 61, "hosts": 31, "lag_max_s": 0.891, "failed": 0, "down": 39, "t": 1793572877.394, "wall_s": 0.03, "cpu_s": 0.0253, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 61, "hosts": 31, "lag_max_s": 0.904, "failed": 0, "down": 40, "t": 1793572878.394, "wall_s": 0.0303, "cpu_s": 0.0249, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.91, "t": 1793572879.394, "wall_s": 0.045, "cpu_s": 0.0396, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.887, "t": 1793572880.394, "wall_s": 0.0297, "cpu_s": 0.0259, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.891, "t": 1793572881.394, "wall_s": 0.0302, "cpu_s": 0.0254, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.885, "t": 1793572882.394, "wall_s": 0.0286, "cpu_s": 0.0249, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.896, "t": 1793572883.394, "wall_s": 0.0319, "cpu_s": 0.0278, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.888, "t": 1793572884.394, "wall_s": 0.0312, "cpu_s": 0.0273, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 61, "hosts": 31, "lag_max_s": 0.89, "t": 1793572885.394, "wall_s": 0.0293, "cpu_s": 0.0254, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 59, "hosts": 30, "lag_max_s": 0.893, "t": 1793572886.394, "wall_s": 0.0283, "cpu_s": 0.0243, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.894, "t": 1793572887.394, "wall_s": 0.0296, "cpu_s": 0.0257, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 61, "hosts": 31, "lag_max_s": 0.916, "failed": 0, "down": 39, "t": 1793572888.394, "wall_s": 0.0449, "cpu_s": 0.0405, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 99, "hosts": 69, "lag_max_s": 0.896, "failed": 0, "down": 0, "t": 1793572889.395, "wall_s": 0.0357, "cpu_s": 0.0298, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 61, "hosts": 31, "lag_max_s": 0.889, "t": 1793572890.395, "wall_s": 0.0301, "cpu_s": 0.0253, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 59, "hosts": 30, "lag_max_s": 0.888, "t": 1793572891.395, "wall_s": 0.0313, "cpu_s": 0.0273, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 63, "hosts": 31, "lag_max_s": 0.872, "t": 1793572892.395, "wall_s": 0.029, "cpu_s": 0.025, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 57, "hosts": 29, "lag_max_s": 0.892, "t": 1793572893.395, "wall_s": 0.0286, "cpu_s": 0.0249, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.89, "t": 1793572894.395, "wall_s": 0.0307, "cpu_s": 0.0269, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.888, "t": 1793572895.395, "wall_s": 0.0318, "cpu_s": 0.0275, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.898, "t": 1793572896.395, "wall_s": 0.0328, "cpu_s": 0.0285, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.904, "t": 1793572897.395, "wall_s": 0.0451, "cpu_s": 0.0395, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.893, "t": 1793572898.395, "wall_s": 0.0312, "cpu_s": 0.0267, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 61, "hosts": 31, "lag_max_s": 0.884, "t": 1793572899.395, "wall_s": 0.0309, "cpu_s": 0.027, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 59, "hosts": 30, "lag_max_s": 0.895, "t": 1793572900.395, "wall_s": 0.031, "cpu_s": 0.0268, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.886, "t": 1793572901.396, "wall_s": 0.0287, "cpu_s": 0.0249, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.896, "t": 1793572902.396, "wall_s": 0.0311, "cpu_s": 0.0267, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.893, "t": 1793572903.396, "wall_s": 0.0301, "cpu_s": 0.0262, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.895, "t": 1793572904.396, "wall_s": 0.0315, "cpu_s": 0.0273, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 61, "hosts": 31, "lag_max_s": 0.887, "t": 1793572905.396, "wall_s": 0.0301, "cpu_s": 0.0261, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 59, "hosts": 30, "lag_max_s": 0.908, "t": 1793572906.396, "wall_s": 0.0458, "cpu_s": 0.042, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 63, "hosts": 31, "lag_max_s": 0.87, "t": 1793572907.396, "wall_s": 0.0307, "cpu_s": 0.0266, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 57, "hosts": 29, "lag_max_s": 0.892, "t": 1793572908.396, "wall_s": 0.0296, "cpu_s": 0.0255, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.898, "t": 1793572909.396, "wall_s": 0.0321, "cpu_s": 0.0283, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.896, "t": 1793572910.396, "wall_s": 0.0321, "cpu_s": 0.0282, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 63, "hosts": 31, "lag_max_s": 0.879, "t": 1793572911.396, "wall_s": 0.0313, "cpu_s": 0.0274, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 57, "hosts": 29, "lag_max_s": 0.891, "t": 1793572912.396, "wall_s": 0.034, "cpu_s": 0.0284, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 61, "hosts": 31, "lag_max_s": 0.883, "t": 1793572913.397, "wall_s": 0.0303, "cpu_s": 0.0264, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 59, "hosts": 30, "lag_max_s": 0.89, "t": 1793572914.397, "wall_s": 0.033, "cpu_s": 0.0293, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.909, "t": 1793572915.397, "wall_s": 0.0453, "cpu_s": 0.0418, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 61, "hosts": 31, "lag_max_s": 0.893, "t": 1793572916.397, "wall_s": 0.0311, "cpu_s": 0.0274, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 59, "hosts": 30, "lag_max_s": 0.896, "t": 1793572917.397, "wall_s": 0.031, "cpu_s": 0.027, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 61, "hosts": 31, "lag_max_s": 0.894, "t": 1793572918.397, "wall_s": 0.0328, "cpu_s": 0.0286, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 31, "lag_max_s": 0.881, "t": 1793572919.397, "wall_s": 0.032, "cpu_s": 0.0278, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 59, "hosts": 30, "lag_max_s": 0.898, "t": 1793572920.397, "wall_s": 0.034, "cpu_s": 0.0278, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 61, "hosts": 31, "lag_max_s": 0.888, "t": 1793572921.397, "wall_s": 0.0312, "cpu_s": 0.027, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 62, "hosts": 31, "lag_max_s": 0.884, "t": 1793572922.397, "wall_s": 0.0302, "cpu_s": 0.0265, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 57, "hosts": 29, "lag_max_s": 0.91, "t": 1793572923.397, "wall_s": 0.0476, "cpu_s": 0.0434, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 61, "hosts": 31, "lag_max_s": 0.889, "t": 1793572924.397, "wall_s": 0.0312, "cpu_s": 0.0274, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 31, "lag_max_s": 0.883, "t": 1793572925.398, "wall_s": 0.0308, "cpu_s": 0.0272, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 59, "hosts": 30, "lag_max_s": 0.895, "t": 1793572926.398, "wall_s": 0.0313, "cpu_s": 0.027, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 63, "hosts": 31, "lag_max_s": 0.882, "t": 1793572927.398, "wall_s": 0.032, "cpu_s": 0.0281, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 57, "hosts": 29, "lag_max_s": 0.892, "t": 1793572928.398, "wall_s": 0.0304, "cpu_s": 0.0266, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.895, "t": 1793572929.398, "wall_s": 0.0331, "cpu_s": 0.029, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.888, "t": 1793572930.398, "wall_s": 0.0302, "cpu_s": 0.0263, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.898, "t": 1793572931.398, "wall_s": 0.0313, "cpu_s": 0.0267, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.913, "t": 1793572932.398, "wall_s": 0.0455, "cpu_s": 0.0415, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.911, "t": 1793572933.398, "wall_s": 0.0688, "cpu_s": 0.0459, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 58, "hosts": 30, "lag_max_s": 0.986, "t": 1793572934.398, "wall_s": 0.0584, "cpu_s": 0.0443, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 62, "hosts": 31, "lag_max_s": 1.029, "t": 1793572935.398, "wall_s": 0.0799, "cpu_s": 0.0498, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 63, "hosts": 31, "lag_max_s": 0.991, "t": 1793572936.398, "wall_s": 0.0439, "cpu_s": 0.0345, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 60, "hosts": 30, "lag_max_s": 0.801, "t": 1793572937.398, "wall_s": 0.0589, "cpu_s": 0.0434, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 55, "hosts": 29, "lag_max_s": 0.768, "t": 1793572938.399, "wall_s": 0.0674, "cpu_s": 0.0421, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 61, "hosts": 32, "lag_max_s": 1.012, "t": 1793572939.399, "wall_s": 0.0593, "cpu_s": 0.0447, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 64, "hosts": 32, "lag_max_s": 1.017, "t": 1793572940.399, "wall_s": 0.0494, "cpu_s": 0.039, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 57, "hosts": 29, "lag_max_s": 0.898, "t": 1793572941.399, "wall_s": 0.0998, "cpu_s": 0.077, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 61, "hosts": 31, "lag_max_s": 1.012, "t": 1793572942.399, "wall_s": 0.0368, "cpu_s": 0.0306, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 61, "hosts": 31, "lag_max_s": 0.826, "t": 1793572943.399, "wall_s": 0.0498, "cpu_s": 0.0428, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 61, "hosts": 32, "lag_max_s": 1.013, "t": 1793572944.399, "wall_s": 0.0363, "cpu_s": 0.0296, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 60, "hosts": 32, "lag_max_s": 0.847, "t": 1793572945.399, "wall_s": 0.0372, "cpu_s": 0.0297, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 63, "hosts": 31, "lag_max_s": 1.012, "t": 1793572946.399, "wall_s": 0.0502, "cpu_s": 0.0404, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 64, "hosts": 30, "lag_max_s": 1.01, "t": 1793572947.399, "wall_s": 0.0595, "cpu_s": 0.0424, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 61, "hosts": 32, "lag_max_s": 1.003, "t": 1793572948.399, "wall_s": 0.0615, "cpu_s": 0.0437, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 68, "hosts": 34, "lag_max_s": 1.007, "t": 1793572949.399, "wall_s": 0.0555, "cpu_s": 0.0434, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 58, "hosts": 30, "lag_max_s": 0.804, "t": 1793572950.399, "wall_s": 0.0808, "cpu_s": 0.0736, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 59, "hosts": 33, "lag_max_s": 0.824, "t": 1793572951.4, "wall_s": 0.0328, "cpu_s": 0.0283, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 81, "hosts": 38, "lag_max_s": 1.015, "t": 1793572952.4, "wall_s": 0.0414, "cpu_s": 0.0315, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 52, "hosts": 34, "lag_max_s": 1.009, "failed": 0, "down": 1, "t": 1793572953.4, "wall_s": 0.0339, "cpu_s": 0.0297, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 79, "hosts": 40, "lag_max_s": 0.898, "failed": 0, "down": 2, "t": 1793572954.4, "wall_s": 0.0338, "cpu_s": 0.0294, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 77, "hosts": 41, "lag_max_s": 0.898, "t": 1793572955.4, "wall_s": 0.035, "cpu_s": 0.0307, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 76, "hosts": 36, "lag_max_s": 1.007, "failed": 0, "down": 3, "t": 1793572956.4, "wall_s": 0.032, "cpu_s": 0.0279, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 69, "hosts": 37, "lag_max_s": 0.895, "failed": 0, "down": 10, "t": 1793572957.4, "wall_s": 0.0351, "cpu_s": 0.0314, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 86, "hosts": 55, "lag_max_s": 0.897, "failed": 0, "down": 33, "t": 1793572958.4, "wall_s": 0.0312, "cpu_s": 0.0264, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 68, "hosts": 37, "lag_max_s": 0.905, "failed": 0, "down": 35, "t": 1793572959.4, "wall_s": 0.044, "cpu_s": 0.0398, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 74, "hosts": 43, "lag_max_s": 0.891, "failed": 0, "down": 38, "t": 1793572960.4, "wall_s": 0.0302, "cpu_s": 0.0264, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 85, "hosts": 55, "lag_max_s": 0.898, "failed": 0, "down": 60, "t": 1793572961.4, "wall_s": 0.0373, "cpu_s": 0.0326, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 83, "hosts": 52, "lag_max_s": 0.89, "failed": 0, "down": 73, "t": 1793572962.4, "wall_s": 0.0382, "cpu_s": 0.0318, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 79, "hosts": 47, "lag_max_s": 1.007, "failed": 0, "down": 77, "t": 1793572963.401, "wall_s": 0.0358, "cpu_s": 0.0316, "requests": 3, "mb": 0.32}
+{"summary": true, "events": 67, "hosts": 39, "lag_max_s": 0.889, "failed": 0, "down": 80, "t": 1793572964.401, "wall_s": 0.0325, "cpu_s": 0.0273, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 78, "hosts": 49, "lag_max_s": 0.897, "failed": 0, "down": 81, "t": 1793572965.401, "wall_s": 0.0339, "cpu_s": 0.0296, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 72, "hosts": 42, "lag_max_s": 0.888, "failed": 0, "down": 84, "t": 1793572966.401, "wall_s": 0.0338, "cpu_s": 0.0298, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 75, "hosts": 42, "lag_max_s": 0.895, "failed": 0, "down": 79, "t": 1793572967.401, "wall_s": 0.0475, "cpu_s": 0.0424, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 61, "hosts": 33, "lag_max_s": 0.892, "t": 1793572968.401, "wall_s": 0.0303, "cpu_s": 0.0265, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 87, "hosts": 56, "lag_max_s": 1.003, "failed": 0, "down": 75, "t": 1793572969.401, "wall_s": 0.0364, "cpu_s": 0.0316, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 86, "hosts": 55, "lag_max_s": 0.895, "failed": 0, "down": 63, "t": 1793572970.401, "wall_s": 0.0351, "cpu_s": 0.0304, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 77, "hosts": 48, "lag_max_s": 0.868, "failed": 0, "down": 54, "t": 1793572971.401, "wall_s": 0.0332, "cpu_s": 0.0289, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 72, "hosts": 43, "lag_max_s": 1.008, "failed": 0, "down": 49, "t": 1793572972.401, "wall_s": 0.0351, "cpu_s": 0.031, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 78, "hosts": 48, "lag_max_s": 0.905, "failed": 0, "down": 39, "t": 1793572973.401, "wall_s": 0.0374, "cpu_s": 0.033, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 52, "hosts": 40, "lag_max_s": 0.898, "failed": 0, "down": 34, "t": 1793572974.401, "wall_s": 0.036, "cpu_s": 0.0319, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 73, "hosts": 54, "lag_max_s": 1.0, "failed": 0, "down": 28, "t": 1793572975.401, "wall_s": 0.0333, "cpu_s": 0.0286, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 77, "hosts": 47, "lag_max_s": 1.014, "failed": 0, "down": 25, "t": 1793572976.402, "wall_s": 0.0449, "cpu_s": 0.0404, "requests": 3, "mb": 0.32}
+{"summary": true, "events": 86, "hosts": 52, "lag_max_s": 0.894, "failed": 0, "down": 21, "t": 1793572977.402, "wall_s": 0.0353, "cpu_s": 0.0312, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 95, "hosts": 56, "lag_max_s": 0.896, "failed": 0, "down": 18, "t": 1793572978.402, "wall_s": 0.0371, "cpu_s": 0.0318, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 95, "hosts": 57, "lag_max_s": 0.897, "failed": 0, "down": 21, "t": 1793572979.402, "wall_s": 0.0356, "cpu_s": 0.0308, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 96, "hosts": 60, "lag_max_s": 0.886, "failed": 0, "down": 19, "t": 1793572980.402, "wall_s": 0.0314, "cpu_s": 0.0268, "requests": 3, "mb": 0.38}
+{"summary": true, "events": 82, "hosts": 49, "lag_max_s": 0.894, "failed": 0, "down": 18, "t": 1793572981.402, "wall_s": 0.0342, "cpu_s": 0.0285, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 73, "hosts": 38, "lag_max_s": 0.889, "failed": 0, "down": 20, "t": 1793572982.402, "wall_s": 0.0328, "cpu_s": 0.0288, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 64, "hosts": 34, "lag_max_s": 1.004, "failed": 0, "down": 21, "t": 1793572983.402, "wall_s": 0.0354, "cpu_s": 0.0311, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 68, "hosts": 37, "lag_max_s": 0.903, "failed": 0, "down": 20, "t": 1793572984.402, "wall_s": 0.0447, "cpu_s": 0.0393, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 63, "hosts": 32, "lag_max_s": 0.875, "failed": 0, "down": 21, "t": 1793572985.402, "wall_s": 0.0377, "cpu_s": 0.034, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 66, "hosts": 38, "lag_max_s": 0.894, "failed": 0, "down": 23, "t": 1793572986.402, "wall_s": 0.036, "cpu_s": 0.0318, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 73, "hosts": 42, "lag_max_s": 0.89, "failed": 0, "down": 32, "t": 1793572987.402, "wall_s": 0.0338, "cpu_s": 0.0296, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 78, "hosts": 50, "lag_max_s": 0.888, "failed": 0, "down": 50, "t": 1793572988.403, "wall_s": 0.0342, "cpu_s": 0.0298, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 80, "hosts": 51, "lag_max_s": 0.888, "failed": 0, "down": 66, "t": 1793572989.403, "wall_s": 0.0362, "cpu_s": 0.0322, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 79, "hosts": 49, "lag_max_s": 0.89, "failed": 0, "down": 79, "t": 1793572990.403, "wall_s": 0.0349, "cpu_s": 0.03, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 91, "hosts": 62, "lag_max_s": 0.892, "failed": 0, "down": 104, "t": 1793572991.403, "wall_s": 0.0367, "cpu_s": 0.0303, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 86, "hosts": 55, "lag_max_s": 0.885, "failed": 0, "down": 118, "t": 1793572992.403, "wall_s": 0.0357, "cpu_s": 0.0309, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 88, "hosts": 60, "lag_max_s": 0.903, "failed": 0, "down": 134, "t": 1793572993.403, "wall_s": 0.048, "cpu_s": 0.0432, "requests": 3, "mb": 0.38}
+{"summary": true, "events": 100, "hosts": 77, "lag_max_s": 0.889, "failed": 0, "down": 176, "t": 1793572994.403, "wall_s": 0.0339, "cpu_s": 0.0284, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 151, "hosts": 121, "lag_max_s": 0.849, "failed": 0, "down": 237, "t": 1793572995.403, "wall_s": 0.0445, "cpu_s": 0.0378, "requests": 3, "mb": 0.64}
+{"summary": true, "events": 137, "hosts": 97, "lag_max_s": 1.002, "failed": 0, "down": 280, "t": 1793572996.403, "wall_s": 0.0391, "cpu_s": 0.0333, "requests": 3, "mb": 0.54}
+{"summary": true, "events": 125, "hosts": 89, "lag_max_s": 0.836, "failed": 0, "down": 309, "t": 1793572997.403, "wall_s": 0.0413, "cpu_s": 0.0331, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 97, "hosts": 70, "lag_max_s": 0.89, "failed": 0, "down": 327, "t": 1793572998.403, "wall_s": 0.0389, "cpu_s": 0.0328, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 146, "hosts": 112, "lag_max_s": 0.996, "failed": 0, "down": 376, "t": 1793572999.403, "wall_s": 0.0427, "cpu_s": 0.0358, "requests": 3, "mb": 0.6}
+{"summary": true, "events": 131, "hosts": 107, "lag_max_s": 0.879, "failed": 0, "down": 413, "t": 1793573000.404, "wall_s": 0.0371, "cpu_s": 0.0302, "requests": 3, "mb": 0.58}
+{"summary": true, "events": 153, "hosts": 112, "lag_max_s": 1.023, "failed": 0, "down": 431, "t": 1793573001.404, "wall_s": 0.0661, "cpu_s": 0.0569, "requests": 3, "mb": 0.61}
+{"summary": true, "events": 134, "hosts": 99, "lag_max_s": 1.0, "failed": 0, "down": 452, "t": 1793573002.404, "wall_s": 0.04, "cpu_s": 0.0324, "requests": 3, "mb": 0.55}
+{"summary": true, "events": 175, "hosts": 142, "lag_max_s": 1.008, "failed": 0, "down": 478, "t": 1793573003.404, "wall_s": 0.0413, "cpu_s": 0.0332, "requests": 3, "mb": 0.73}
+{"summary": true, "events": 187, "hosts": 151, "lag_max_s": 1.004, "failed": 0, "down": 507, "t": 1793573004.404, "wall_s": 0.0439, "cpu_s": 0.0354, "requests": 3, "mb": 0.77}
+{"summary": true, "events": 155, "hosts": 125, "lag_max_s": 0.99, "failed": 0, "down": 534, "t": 1793573005.404, "wall_s": 0.0432, "cpu_s": 0.0358, "requests": 3, "mb": 0.66}
+{"summary": true, "events": 125, "hosts": 92, "lag_max_s": 1.002, "failed": 0, "down": 541, "t": 1793573006.404, "wall_s": 0.043, "cpu_s": 0.0356, "requests": 3, "mb": 0.52}
+{"summary": true, "events": 153, "hosts": 121, "lag_max_s": 1.005, "failed": 0, "down": 561, "t": 1793573007.404, "wall_s": 0.0412, "cpu_s": 0.0333, "requests": 3, "mb": 0.64}
+{"summary": true, "events": 148, "hosts": 117, "lag_max_s": 1.006, "failed": 0, "down": 564, "t": 1793573008.404, "wall_s": 0.0476, "cpu_s": 0.0395, "requests": 3, "mb": 0.62}
+{"summary": true, "events": 95, "hosts": 63, "lag_max_s": 0.871, "failed": 0, "down": 559, "t": 1793573009.404, "wall_s": 0.0392, "cpu_s": 0.034, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 129, "hosts": 98, "lag_max_s": 1.025, "failed": 0, "down": 568, "t": 1793573010.404, "wall_s": 0.0584, "cpu_s": 0.0524, "requests": 3, "mb": 0.54}
+{"summary": true, "events": 202, "hosts": 166, "lag_max_s": 0.893, "failed": 0, "down": 592, "t": 1793573011.404, "wall_s": 0.0515, "cpu_s": 0.0427, "requests": 3, "mb": 0.84}
+{"summary": true, "events": 129, "hosts": 96, "lag_max_s": 0.971, "failed": 0, "down": 583, "t": 1793573012.404, "wall_s": 0.0396, "cpu_s": 0.0316, "requests": 3, "mb": 0.53}
+{"summary": true, "events": 151, "hosts": 120, "lag_max_s": 0.894, "failed": 0, "down": 596, "t": 1793573013.405, "wall_s": 0.0436, "cpu_s": 0.0367, "requests": 3, "mb": 0.64}
+{"summary": true, "events": 144, "hosts": 112, "lag_max_s": 0.882, "failed": 0, "down": 592, "t": 1793573014.405, "wall_s": 0.0417, "cpu_s": 0.0354, "requests": 3, "mb": 0.6}
+{"summary": true, "events": 88, "hosts": 74, "lag_max_s": 0.886, "failed": 0, "down": 590, "t": 1793573015.405, "wall_s": 0.042, "cpu_s": 0.0365, "requests": 3, "mb": 0.43}
+{"summary": true, "events": 121, "hosts": 102, "lag_max_s": 0.888, "failed": 0, "down": 589, "t": 1793573016.405, "wall_s": 0.0456, "cpu_s": 0.0388, "requests": 3, "mb": 0.56}
+{"summary": true, "events": 120, "hosts": 91, "lag_max_s": 0.878, "failed": 0, "down": 603, "t": 1793573017.405, "wall_s": 0.0406, "cpu_s": 0.0345, "requests": 3, "mb": 0.51}
+{"summary": true, "events": 100, "hosts": 62, "lag_max_s": 0.888, "failed": 0, "down": 600, "t": 1793573018.405, "wall_s": 0.0528, "cpu_s": 0.048, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 122, "hosts": 87, "lag_max_s": 0.874, "failed": 0, "down": 597, "t": 1793573019.405, "wall_s": 0.0411, "cpu_s": 0.0349, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 86, "hosts": 60, "lag_max_s": 0.995, "t": 1793573020.405, "wall_s": 0.0402, "cpu_s": 0.0352, "requests": 3, "mb": 0.38}
+{"summary": true, "events": 122, "hosts": 86, "lag_max_s": 1.008, "failed": 0, "down": 575, "t": 1793573021.405, "wall_s": 0.0459, "cpu_s": 0.0402, "requests": 3, "mb": 0.49}
+{"summary": true, "events": 134, "hosts": 87, "lag_max_s": 0.997, "failed": 0, "down": 570, "t": 1793573022.405, "wall_s": 0.0505, "cpu_s": 0.0413, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 106, "hosts": 72, "lag_max_s": 1.0, "failed": 0, "down": 558, "t": 1793573023.405, "wall_s": 0.0401, "cpu_s": 0.0339, "requests": 3, "mb": 0.43}
+{"summary": true, "events": 120, "hosts": 79, "lag_max_s": 0.884, "failed": 0, "down": 556, "t": 1793573024.405, "wall_s": 0.0434, "cpu_s": 0.0381, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 126, "hosts": 90, "lag_max_s": 1.007, "failed": 0, "down": 546, "t": 1793573025.405, "wall_s": 0.0452, "cpu_s": 0.0383, "requests": 3, "mb": 0.51}
+{"summary": true, "events": 112, "hosts": 80, "lag_max_s": 0.883, "t": 1793573026.406, "wall_s": 0.0568, "cpu_s": 0.051, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 103, "hosts": 67, "lag_max_s": 0.882, "failed": 0, "down": 549, "t": 1793573027.406, "wall_s": 0.0387, "cpu_s": 0.0338, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 81, "hosts": 51, "lag_max_s": 0.891, "failed": 0, "down": 548, "t": 1793573028.406, "wall_s": 0.0399, "cpu_s": 0.0353, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 64, "hosts": 34, "lag_max_s": 0.885, "t": 1793573029.406, "wall_s": 0.0414, "cpu_s": 0.0378, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 66, "hosts": 34, "lag_max_s": 0.89, "failed": 0, "down": 546, "t": 1793573030.406, "wall_s": 0.0404, "cpu_s": 0.0367, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 101, "hosts": 72, "lag_max_s": 0.893, "failed": 0, "down": 543, "t": 1793573031.406, "wall_s": 0.0406, "cpu_s": 0.0352, "requests": 3, "mb": 0.43}
+{"summary": true, "events": 93, "hosts": 61, "lag_max_s": 0.87, "failed": 0, "down": 542, "t": 1793573032.406, "wall_s": 0.0419, "cpu_s": 0.0368, "requests": 3, "mb": 0.38}
+{"summary": true, "events": 115, "hosts": 80, "lag_max_s": 0.872, "failed": 0, "down": 539, "t": 1793573033.406, "wall_s": 0.04, "cpu_s": 0.0346, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 110, "hosts": 78, "lag_max_s": 0.888, "failed": 0, "down": 549, "t": 1793573034.406, "wall_s": 0.0468, "cpu_s": 0.0401, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 129, "hosts": 98, "lag_max_s": 0.908, "failed": 0, "down": 560, "t": 1793573035.406, "wall_s": 0.0687, "cpu_s": 0.0623, "requests": 3, "mb": 0.54}
+{"summary": true, "events": 99, "hosts": 83, "lag_max_s": 1.002, "failed": 0, "down": 566, "t": 1793573036.406, "wall_s": 0.0417, "cpu_s": 0.0351, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 120, "hosts": 71, "lag_max_s": 1.006, "failed": 0, "down": 570, "t": 1793573037.406, "wall_s": 0.0434, "cpu_s": 0.0376, "requests": 3, "mb": 0.43}
+{"summary": true, "events": 133, "hosts": 96, "lag_max_s": 1.004, "failed": 0, "down": 571, "t": 1793573038.406, "wall_s": 0.0422, "cpu_s": 0.0364, "requests": 3, "mb": 0.54}
+{"summary": true, "events": 121, "hosts": 88, "lag_max_s": 1.008, "failed": 0, "down": 580, "t": 1793573039.407, "wall_s": 0.0392, "cpu_s": 0.033, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 104, "hosts": 70, "lag_max_s": 0.888, "failed": 0, "down": 592, "t": 1793573040.407, "wall_s": 0.0407, "cpu_s": 0.0357, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 119, "hosts": 83, "lag_max_s": 0.996, "failed": 0, "down": 607, "t": 1793573041.407, "wall_s": 0.0442, "cpu_s": 0.0376, "requests": 3, "mb": 0.48}
+{"summary": true, "events": 101, "hosts": 69, "lag_max_s": 0.876, "failed": 0, "down": 622, "t": 1793573042.407, "wall_s": 0.0441, "cpu_s": 0.0385, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 122, "hosts": 90, "lag_max_s": 0.885, "failed": 0, "down": 640, "t": 1793573043.407, "wall_s": 0.0579, "cpu_s": 0.05, "requests": 3, "mb": 0.51}
+{"summary": true, "events": 153, "hosts": 112, "lag_max_s": 0.883, "failed": 0, "down": 663, "t": 1793573044.407, "wall_s": 0.0452, "cpu_s": 0.0375, "requests": 3, "mb": 0.6}
+{"summary": true, "events": 152, "hosts": 118, "lag_max_s": 1.013, "failed": 0, "down": 685, "t": 1793573045.407, "wall_s": 0.0505, "cpu_s": 0.0425, "requests": 3, "mb": 0.63}
+{"summary": true, "events": 203, "hosts": 166, "lag_max_s": 0.881, "failed": 0, "down": 724, "t": 1793573046.407, "wall_s": 0.0535, "cpu_s": 0.045, "requests": 3, "mb": 0.84}
+{"summary": true, "events": 162, "hosts": 126, "lag_max_s": 0.871, "failed": 0, "down": 728, "t": 1793573047.407, "wall_s": 0.0491, "cpu_s": 0.0411, "requests": 3, "mb": 0.66}
+{"summary": true, "events": 151, "hosts": 112, "lag_max_s": 0.876, "failed": 0, "down": 743, "t": 1793573048.407, "wall_s": 0.0452, "cpu_s": 0.0386, "requests": 3, "mb": 0.6}
+{"summary": true, "events": 98, "hosts": 68, "lag_max_s": 0.882, "failed": 0, "down": 745, "t": 1793573049.407, "wall_s": 0.0441, "cpu_s": 0.0373, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 155, "hosts": 122, "lag_max_s": 0.884, "failed": 0, "down": 756, "t": 1793573050.407, "wall_s": 0.046, "cpu_s": 0.039, "requests": 3, "mb": 0.65}
+{"summary": true, "events": 129, "hosts": 95, "lag_max_s": 0.88, "failed": 0, "down": 747, "t": 1793573051.407, "wall_s": 0.0592, "cpu_s": 0.053, "requests": 3, "mb": 0.53}
+{"summary": true, "events": 153, "hosts": 119, "lag_max_s": 0.885, "failed": 0, "down": 760, "t": 1793573052.408, "wall_s": 0.0494, "cpu_s": 0.0413, "requests": 3, "mb": 0.63}
+{"summary": true, "events": 201, "hosts": 165, "lag_max_s": 1.017, "failed": 0, "down": 793, "t": 1793573053.408, "wall_s": 0.0615, "cpu_s": 0.0521, "requests": 3, "mb": 0.83}
+{"summary": true, "events": 159, "hosts": 124, "lag_max_s": 0.988, "failed": 0, "down": 817, "t": 1793573054.408, "wall_s": 0.0528, "cpu_s": 0.0439, "requests": 3, "mb": 0.66}
+{"summary": true, "events": 159, "hosts": 123, "lag_max_s": 1.009, "failed": 0, "down": 807, "t": 1793573055.408, "wall_s": 0.0479, "cpu_s": 0.0411, "requests": 3, "mb": 0.65}
+{"summary": true, "events": 131, "hosts": 97, "lag_max_s": 0.887, "failed": 0, "down": 824, "t": 1793573056.408, "wall_s": 0.0471, "cpu_s": 0.0373, "requests": 3, "mb": 0.54}
+{"summary": true, "events": 111, "hosts": 85, "lag_max_s": 0.851, "failed": 0, "down": 828, "t": 1793573057.408, "wall_s": 0.0433, "cpu_s": 0.0376, "requests": 3, "mb": 0.49}
+{"summary": true, "events": 127, "hosts": 110, "lag_max_s": 1.017, "failed": 0, "down": 825, "t": 1793573058.408, "wall_s": 0.0482, "cpu_s": 0.0418, "requests": 3, "mb": 0.59}
+{"summary": true, "events": 78, "hosts": 78, "lag_max_s": 0.999, "failed": 0, "down": 815, "t": 1793573059.408, "wall_s": 0.0504, "cpu_s": 0.0429, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 34, "hosts": 33, "lag_max_s": 0.891, "failed": 0, "down": 811, "t": 1793573060.408, "wall_s": 0.0591, "cpu_s": 0.0544, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 25, "hosts": 25, "lag_max_s": 0.503, "failed": 0, "down": 804, "t": 1793573061.408, "wall_s": 0.0425, "cpu_s": 0.0388, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 86, "hosts": 82, "lag_max_s": 0.837, "failed": 0, "down": 796, "t": 1793573062.408, "wall_s": 0.0531, "cpu_s": 0.045, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 80, "hosts": 79, "lag_max_s": 0.873, "failed": 0, "down": 766, "t": 1793573063.408, "wall_s": 0.0431, "cpu_s": 0.0372, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 64, "hosts": 63, "lag_max_s": 0.895, "t": 1793573064.409, "wall_s": 0.0443, "cpu_s": 0.0369, "requests": 3, "mb": 0.38}
+{"summary": true, "events": 71, "hosts": 70, "lag_max_s": 0.895, "failed": 0, "down": 747, "t": 1793573065.409, "wall_s": 0.0487, "cpu_s": 0.0422, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 76, "hosts": 75, "lag_max_s": 0.895, "failed": 0, "down": 727, "t": 1793573066.409, "wall_s": 0.0464, "cpu_s": 0.0411, "requests": 3, "mb": 0.44}
+{"summary": true, "events": 41, "hosts": 41, "lag_max_s": 0.899, "failed": 0, "down": 724, "t": 1793573067.409, "wall_s": 0.0459, "cpu_s": 0.0396, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 29, "hosts": 29, "lag_max_s": 0.902, "failed": 0, "down": 727, "t": 1793573077.41, "wall_s": 0.0519, "cpu_s": 0.0477, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 23, "hosts": 23, "lag_max_s": 0.426, "failed": 0, "down": 730, "t": 1793573078.41, "wall_s": 0.0421, "cpu_s": 0.037, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 28, "hosts": 28, "lag_max_s": 0.221, "failed": 0, "down": 736, "t": 1793573079.41, "wall_s": 0.0396, "cpu_s": 0.0355, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 72, "hosts": 72, "lag_max_s": 0.648, "failed": 0, "down": 734, "t": 1793573080.41, "wall_s": 0.0441, "cpu_s": 0.0362, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 66, "hosts": 64, "lag_max_s": 0.828, "failed": 0, "down": 730, "t": 1793573081.41, "wall_s": 0.0431, "cpu_s": 0.0363, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 79, "hosts": 79, "lag_max_s": 0.844, "failed": 0, "down": 747, "t": 1793573082.41, "wall_s": 0.0454, "cpu_s": 0.0378, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 26, "hosts": 26, "lag_max_s": 0.773, "failed": 0, "down": 755, "t": 1793573083.41, "wall_s": 0.0407, "cpu_s": 0.0351, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 58, "hosts": 58, "lag_max_s": 0.678, "failed": 0, "down": 775, "t": 1793573084.41, "wall_s": 0.0474, "cpu_s": 0.0405, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 68, "hosts": 67, "lag_max_s": 0.84, "failed": 0, "down": 787, "t": 1793573085.41, "wall_s": 0.0464, "cpu_s": 0.039, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 64, "hosts": 64, "lag_max_s": 0.882, "failed": 0, "down": 779, "t": 1793573086.41, "wall_s": 0.0556, "cpu_s": 0.0501, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 17, "hosts": 17, "lag_max_s": 0.903, "failed": 0, "down": 778, "t": 1793573087.41, "wall_s": 0.0432, "cpu_s": 0.0397, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 87, "hosts": 86, "lag_max_s": 0.894, "failed": 0, "down": 793, "t": 1793573088.411, "wall_s": 0.0476, "cpu_s": 0.0414, "requests": 3, "mb": 0.48}
+{"summary": true, "events": 96, "hosts": 95, "lag_max_s": 0.891, "failed": 0, "down": 801, "t": 1793573089.411, "wall_s": 0.0491, "cpu_s": 0.0424, "requests": 3, "mb": 0.52}
+{"summary": true, "events": 54, "hosts": 53, "lag_max_s": 0.781, "failed": 0, "down": 799, "t": 1793573090.411, "wall_s": 0.0475, "cpu_s": 0.0416, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 53, "hosts": 52, "lag_max_s": 0.882, "failed": 0, "down": 806, "t": 1793573091.411, "wall_s": 0.0427, "cpu_s": 0.0377, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 71, "hosts": 71, "lag_max_s": 0.838, "failed": 0, "down": 811, "t": 1793573092.411, "wall_s": 0.0441, "cpu_s": 0.0383, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 86, "hosts": 84, "lag_max_s": 0.892, "failed": 0, "down": 827, "t": 1793573093.411, "wall_s": 0.0463, "cpu_s": 0.0387, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 64, "hosts": 64, "lag_max_s": 0.874, "t": 1793573094.411, "wall_s": 0.0616, "cpu_s": 0.0537, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 54, "hosts": 54, "lag_max_s": 0.616, "failed": 0, "down": 839, "t": 1793573095.411, "wall_s": 0.0455, "cpu_s": 0.0399, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 55, "hosts": 55, "lag_max_s": 0.897, "failed": 0, "down": 836, "t": 1793573096.411, "wall_s": 0.0452, "cpu_s": 0.0405, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 101, "hosts": 101, "lag_max_s": 0.786, "failed": 0, "down": 855, "t": 1793573097.411, "wall_s": 0.0497, "cpu_s": 0.0435, "requests": 3, "mb": 0.55}
+{"summary": true, "events": 30, "hosts": 30, "lag_max_s": 0.768, "failed": 0, "down": 859, "t": 1793573098.411, "wall_s": 0.0434, "cpu_s": 0.0391, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 87, "hosts": 87, "lag_max_s": 0.842, "failed": 0, "down": 870, "t": 1793573099.411, "wall_s": 0.0479, "cpu_s": 0.0421, "requests": 3, "mb": 0.49}
+{"summary": true, "events": 41, "hosts": 41, "lag_max_s": 0.889, "failed": 0, "down": 867, "t": 1793573100.412, "wall_s": 0.0452, "cpu_s": 0.0405, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 42, "hosts": 42, "lag_max_s": 0.798, "failed": 0, "down": 871, "t": 1793573101.412, "wall_s": 0.0433, "cpu_s": 0.0389, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 13, "hosts": 13, "lag_max_s": 0.858, "failed": 0, "down": 868, "t": 1793573102.412, "wall_s": 0.0396, "cpu_s": 0.0363, "requests": 3, "mb": 0.17}
+{"summary": true, "events": 74, "hosts": 71, "lag_max_s": 0.614, "failed": 0, "down": 870, "t": 1793573103.412, "wall_s": 0.0585, "cpu_s": 0.0534, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 81, "hosts": 80, "lag_max_s": 0.89, "failed": 0, "down": 863, "t": 1793573104.412, "wall_s": 0.0462, "cpu_s": 0.0404, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 86, "hosts": 86, "lag_max_s": 0.88, "failed": 0, "down": 865, "t": 1793573105.412, "wall_s": 0.0458, "cpu_s": 0.0399, "requests": 3, "mb": 0.48}
+{"summary": true, "events": 55, "hosts": 55, "lag_max_s": 0.851, "failed": 0, "down": 848, "t": 1793573106.412, "wall_s": 0.0471, "cpu_s": 0.0425, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 23, "hosts": 23, "lag_max_s": 0.89, "failed": 0, "down": 845, "t": 1793573107.412, "wall_s": 0.0431, "cpu_s": 0.0393, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 90, "hosts": 90, "lag_max_s": 0.905, "failed": 0, "down": 823, "t": 1793573108.412, "wall_s": 0.0499, "cpu_s": 0.0434, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 34, "hosts": 34, "lag_max_s": 0.887, "failed": 0, "down": 815, "t": 1793573109.412, "wall_s": 0.0435, "cpu_s": 0.0389, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 16, "hosts": 16, "lag_max_s": 0.257, "t": 1793573110.412, "wall_s": 0.0411, "cpu_s": 0.0376, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 38, "hosts": 38, "lag_max_s": 0.92, "failed": 0, "down": 805, "t": 1793573111.412, "wall_s": 0.0565, "cpu_s": 0.0519, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 31, "hosts": 31, "lag_max_s": 1.006, "failed": 0, "down": 798, "t": 1793573112.413, "wall_s": 0.0432, "cpu_s": 0.039, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 99, "hosts": 94, "lag_max_s": 0.91, "failed": 0, "down": 785, "t": 1793573113.413, "wall_s": 0.0513, "cpu_s": 0.045, "requests": 3, "mb": 0.52}
+{"summary": true, "events": 42, "hosts": 42, "lag_max_s": 0.881, "failed": 0, "down": 773, "t": 1793573114.413, "wall_s": 0.0447, "cpu_s": 0.0397, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 46, "hosts": 46, "lag_max_s": 0.899, "failed": 0, "down": 751, "t": 1793573115.413, "wall_s": 0.0444, "cpu_s": 0.04, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 65, "hosts": 65, "lag_max_s": 1.003, "failed": 0, "down": 740, "t": 1793573116.413, "wall_s": 0.0467, "cpu_s": 0.0418, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 88, "hosts": 87, "lag_max_s": 0.901, "failed": 0, "down": 730, "t": 1793573117.413, "wall_s": 0.0545, "cpu_s": 0.0485, "requests": 3, "mb": 0.49}
+{"summary": true, "events": 89, "hosts": 86, "lag_max_s": 0.997, "failed": 0, "down": 739, "t": 1793573118.413, "wall_s": 0.0622, "cpu_s": 0.0557, "requests": 3, "mb": 0.48}
+{"summary": true, "events": 69, "hosts": 69, "lag_max_s": 0.879, "failed": 0, "down": 710, "t": 1793573119.413, "wall_s": 0.0519, "cpu_s": 0.0463, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 51, "hosts": 51, "lag_max_s": 0.898, "failed": 0, "down": 701, "t": 1793573120.413, "wall_s": 0.0625, "cpu_s": 0.0569, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 37, "hosts": 37, "lag_max_s": 0.775, "failed": 0, "down": 704, "t": 1793573121.413, "wall_s": 0.0434, "cpu_s": 0.0395, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 51, "hosts": 51, "lag_max_s": 0.874, "failed": 0, "down": 697, "t": 1793573122.413, "wall_s": 0.0453, "cpu_s": 0.0406, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 28, "hosts": 28, "lag_max_s": 0.908, "failed": 0, "down": 689, "t": 1793573123.413, "wall_s": 0.0424, "cpu_s": 0.0385, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 41, "hosts": 41, "lag_max_s": 0.907, "failed": 0, "down": 686, "t": 1793573124.414, "wall_s": 0.0447, "cpu_s": 0.0403, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 75, "hosts": 74, "lag_max_s": 0.901, "failed": 0, "down": 677, "t": 1793573125.414, "wall_s": 0.0479, "cpu_s": 0.0418, "requests": 3, "mb": 0.43}
+{"summary": true, "events": 21, "hosts": 21, "lag_max_s": 0.434, "failed": 0, "down": 676, "t": 1793573126.414, "wall_s": 0.0432, "cpu_s": 0.0393, "requests": 3, "mb": 0.2}
+{"summary": true, "events": 70, "hosts": 68, "lag_max_s": 0.903, "failed": 0, "down": 662, "t": 1793573127.414, "wall_s": 0.0472, "cpu_s": 0.0423, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 32, "hosts": 32, "lag_max_s": 0.905, "failed": 0, "down": 656, "t": 1793573128.414, "wall_s": 0.0588, "cpu_s": 0.0544, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 91, "hosts": 90, "lag_max_s": 0.88, "t": 1793573129.414, "wall_s": 0.0501, "cpu_s": 0.0437, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 60, "hosts": 60, "lag_max_s": 1.01, "failed": 0, "down": 655, "t": 1793573130.414, "wall_s": 0.0461, "cpu_s": 0.0409, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 31, "hosts": 30, "lag_max_s": 0.874, "failed": 0, "down": 644, "t": 1793573131.414, "wall_s": 0.0437, "cpu_s": 0.0391, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 40, "hosts": 40, "lag_max_s": 0.906, "failed": 0, "down": 640, "t": 1793573132.414, "wall_s": 0.0493, "cpu_s": 0.043, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 78, "hosts": 75, "lag_max_s": 0.845, "failed": 0, "down": 644, "t": 1793573133.414, "wall_s": 0.0502, "cpu_s": 0.044, "requests": 3, "mb": 0.44}
+{"summary": true, "events": 84, "hosts": 81, "lag_max_s": 0.867, "failed": 0, "down": 656, "t": 1793573134.414, "wall_s": 0.0502, "cpu_s": 0.0437, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 102, "hosts": 100, "lag_max_s": 1.01, "failed": 0, "down": 662, "t": 1793573135.414, "wall_s": 0.0522, "cpu_s": 0.0445, "requests": 3, "mb": 0.54}
+{"summary": true, "events": 68, "hosts": 67, "lag_max_s": 0.883, "failed": 0, "down": 676, "t": 1793573136.415, "wall_s": 0.0457, "cpu_s": 0.0396, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 31, "hosts": 31, "lag_max_s": 0.91, "failed": 0, "down": 679, "t": 1793573137.415, "wall_s": 0.0563, "cpu_s": 0.0518, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 75, "hosts": 74, "lag_max_s": 0.902, "failed": 0, "down": 690, "t": 1793573138.415, "wall_s": 0.0468, "cpu_s": 0.0401, "requests": 3, "mb": 0.43}
+{"summary": true, "events": 34, "hosts": 34, "lag_max_s": 0.686, "failed": 0, "down": 688, "t": 1793573139.415, "wall_s": 0.0432, "cpu_s": 0.0389, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 65, "hosts": 64, "lag_max_s": 0.914, "failed": 0, "down": 709, "t": 1793573140.415, "wall_s": 0.0455, "cpu_s": 0.0404, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 88, "hosts": 87, "lag_max_s": 0.9, "failed": 0, "down": 711, "t": 1793573141.415, "wall_s": 0.049, "cpu_s": 0.0401, "requests": 3, "mb": 0.49}
+{"summary": true, "events": 67, "hosts": 67, "lag_max_s": 0.821, "failed": 0, "down": 708, "t": 1793573142.415, "wall_s": 0.0452, "cpu_s": 0.0401, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 16, "hosts": 16, "lag_max_s": 0.893, "t": 1793573143.415, "wall_s": 0.0419, "cpu_s": 0.0385, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 64, "hosts": 64, "lag_max_s": 0.917, "failed": 0, "down": 710, "t": 1793573144.415, "wall_s": 0.0453, "cpu_s": 0.0403, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 49, "hosts": 48, "lag_max_s": 0.915, "failed": 0, "down": 717, "t": 1793573145.415, "wall_s": 0.0594, "cpu_s": 0.0549, "requests": 3, "mb": 0.32}
+{"summary": true, "events": 22, "hosts": 22, "lag_max_s": 0.897, "failed": 0, "down": 713, "t": 1793573146.415, "wall_s": 0.0432, "cpu_s": 0.0376, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 121, "hosts": 120, "lag_max_s": 0.886, "failed": 0, "down": 732, "t": 1793573147.415, "wall_s": 0.0501, "cpu_s": 0.0427, "requests": 3, "mb": 0.63}
+{"summary": true, "events": 53, "hosts": 52, "lag_max_s": 0.838, "failed": 0, "down": 737, "t": 1793573148.416, "wall_s": 0.0456, "cpu_s": 0.0413, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 73, "hosts": 72, "lag_max_s": 0.852, "failed": 0, "down": 740, "t": 1793573149.416, "wall_s": 0.053, "cpu_s": 0.0451, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 119, "hosts": 119, "lag_max_s": 0.835, "failed": 0, "down": 755, "t": 1793573150.416, "wall_s": 0.0518, "cpu_s": 0.0445, "requests": 3, "mb": 0.63}
+{"summary": true, "events": 108, "hosts": 106, "lag_max_s": 0.879, "t": 1793573151.416, "wall_s": 0.0462, "cpu_s": 0.04, "requests": 3, "mb": 0.57}
+{"summary": true, "events": 37, "hosts": 37, "lag_max_s": 0.901, "failed": 0, "down": 748, "t": 1793573152.416, "wall_s": 0.0446, "cpu_s": 0.0405, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 69, "hosts": 68, "lag_max_s": 0.888, "failed": 0, "down": 755, "t": 1793573153.416, "wall_s": 0.0463, "cpu_s": 0.0413, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 79, "hosts": 78, "lag_max_s": 0.917, "failed": 0, "down": 750, "t": 1793573154.416, "wall_s": 0.0633, "cpu_s": 0.055, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 28, "hosts": 28, "lag_max_s": 0.589, "failed": 0, "down": 748, "t": 1793573155.416, "wall_s": 0.0438, "cpu_s": 0.0379, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 130, "hosts": 129, "lag_max_s": 1.014, "failed": 0, "down": 744, "t": 1793573156.416, "wall_s": 0.0521, "cpu_s": 0.0417, "requests": 3, "mb": 0.67}
+{"summary": true, "events": 27, "hosts": 26, "lag_max_s": 0.87, "failed": 0, "down": 743, "t": 1793573157.416, "wall_s": 0.0532, "cpu_s": 0.0489, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 45, "hosts": 45, "lag_max_s": 0.765, "failed": 0, "down": 724, "t": 1793573158.416, "wall_s": 0.0519, "cpu_s": 0.0477, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 56, "hosts": 55, "lag_max_s": 0.905, "failed": 0, "down": 720, "t": 1793573159.416, "wall_s": 0.0484, "cpu_s": 0.0415, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 60, "hosts": 60, "lag_max_s": 0.88, "failed": 0, "down": 696, "t": 1793573160.416, "wall_s": 0.0463, "cpu_s": 0.0397, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 40, "hosts": 40, "lag_max_s": 0.831, "failed": 0, "down": 688, "t": 1793573161.417, "wall_s": 0.0439, "cpu_s": 0.0396, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 58, "hosts": 58, "lag_max_s": 0.912, "failed": 0, "down": 684, "t": 1793573162.417, "wall_s": 0.0594, "cpu_s": 0.0547, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 41, "hosts": 41, "lag_max_s": 0.889, "failed": 0, "down": 675, "t": 1793573163.417, "wall_s": 0.0479, "cpu_s": 0.0438, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 103, "hosts": 102, "lag_max_s": 0.91, "failed": 0, "down": 662, "t": 1793573164.417, "wall_s": 0.0513, "cpu_s": 0.0432, "requests": 3, "mb": 0.55}
+{"summary": true, "events": 29, "hosts": 29, "lag_max_s": 0.832, "failed": 0, "down": 639, "t": 1793573165.417, "wall_s": 0.0457, "cpu_s": 0.0407, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 70, "hosts": 69, "lag_max_s": 0.792, "failed": 0, "down": 629, "t": 1793573166.417, "wall_s": 0.0507, "cpu_s": 0.0443, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 27, "hosts": 27, "lag_max_s": 0.884, "failed": 0, "down": 624, "t": 1793573167.417, "wall_s": 0.0447, "cpu_s": 0.0404, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 49, "hosts": 47, "lag_max_s": 0.905, "failed": 0, "down": 633, "t": 1793573168.417, "wall_s": 0.0462, "cpu_s": 0.04, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 94, "hosts": 91, "lag_max_s": 0.852, "failed": 0, "down": 629, "t": 1793573169.417, "wall_s": 0.0508, "cpu_s": 0.041, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 60, "hosts": 59, "lag_max_s": 0.885, "failed": 0, "down": 621, "t": 1793573170.417, "wall_s": 0.0471, "cpu_s": 0.0394, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 21, "hosts": 21, "lag_max_s": 0.709, "failed": 0, "down": 620, "t": 1793573171.417, "wall_s": 0.0555, "cpu_s": 0.0497, "requests": 3, "mb": 0.2}
+{"summary": true, "events": 68, "hosts": 67, "lag_max_s": 0.837, "failed": 0, "down": 606, "t": 1793573172.417, "wall_s": 0.049, "cpu_s": 0.0433, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 16, "hosts": 16, "lag_max_s": 0.89, "failed": 0, "down": 598, "t": 1793573173.418, "wall_s": 0.0418, "cpu_s": 0.038, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 55, "hosts": 55, "lag_max_s": 0.881, "failed": 0, "down": 593, "t": 1793573174.418, "wall_s": 0.0485, "cpu_s": 0.0433, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 16, "hosts": 16, "lag_max_s": 0.892, "failed": 0, "down": 581, "t": 1793573175.418, "wall_s": 0.0433, "cpu_s": 0.0399, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 25, "hosts": 24, "lag_max_s": 0.907, "failed": 0, "down": 574, "t": 1793573176.418, "wall_s": 0.056, "cpu_s": 0.0522, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 61, "hosts": 61, "lag_max_s": 0.719, "failed": 0, "down": 569, "t": 1793573177.418, "wall_s": 0.0548, "cpu_s": 0.0498, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 87, "hosts": 84, "lag_max_s": 0.899, "failed": 0, "down": 568, "t": 1793573178.418, "wall_s": 0.056, "cpu_s": 0.0466, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 41, "hosts": 40, "lag_max_s": 0.63, "failed": 0, "down": 575, "t": 1793573179.418, "wall_s": 0.062, "cpu_s": 0.0561, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 43, "hosts": 43, "lag_max_s": 0.876, "failed": 0, "down": 578, "t": 1793573180.418, "wall_s": 0.0452, "cpu_s": 0.0404, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 82, "hosts": 81, "lag_max_s": 1.007, "failed": 0, "down": 586, "t": 1793573181.418, "wall_s": 0.0506, "cpu_s": 0.0442, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 17, "hosts": 16, "lag_max_s": 0.84, "failed": 0, "down": 577, "t": 1793573182.418, "wall_s": 0.0439, "cpu_s": 0.0398, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 37, "hosts": 37, "lag_max_s": 0.917, "failed": 0, "down": 566, "t": 1793573183.418, "wall_s": 0.046, "cpu_s": 0.0412, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 115, "hosts": 113, "lag_max_s": 0.905, "failed": 0, "down": 579, "t": 1793573184.418, "wall_s": 0.0503, "cpu_s": 0.0433, "requests": 3, "mb": 0.6}
+{"summary": true, "events": 35, "hosts": 35, "lag_max_s": 0.897, "failed": 0, "down": 586, "t": 1793573185.418, "wall_s": 0.047, "cpu_s": 0.041, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 69, "hosts": 69, "lag_max_s": 0.856, "failed": 0, "down": 603, "t": 1793573186.419, "wall_s": 0.0487, "cpu_s": 0.041, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 14, "hosts": 14, "lag_max_s": 0.677, "failed": 0, "down": 605, "t": 1793573187.419, "wall_s": 0.0441, "cpu_s": 0.0391, "requests": 3, "mb": 0.17}
+{"summary": true, "events": 85, "hosts": 85, "lag_max_s": 0.852, "failed": 0, "down": 616, "t": 1793573188.419, "wall_s": 0.0616, "cpu_s": 0.0558, "requests": 3, "mb": 0.48}
+{"summary": true, "events": 95, "hosts": 95, "lag_max_s": 0.875, "failed": 0, "down": 633, "t": 1793573189.419, "wall_s": 0.0482, "cpu_s": 0.0422, "requests": 3, "mb": 0.52}
+{"summary": true, "events": 65, "hosts": 64, "lag_max_s": 0.823, "failed": 0, "down": 650, "t": 1793573190.419, "wall_s": 0.0481, "cpu_s": 0.0426, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 84, "hosts": 84, "lag_max_s": 0.894, "failed": 0, "down": 652, "t": 1793573191.419, "wall_s": 0.0509, "cpu_s": 0.0424, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 85, "hosts": 85, "lag_max_s": 0.888, "failed": 0, "down": 669, "t": 1793573192.419, "wall_s": 0.0549, "cpu_s": 0.0491, "requests": 3, "mb": 0.48}
+{"summary": true, "events": 37, "hosts": 37, "lag_max_s": 0.792, "failed": 0, "down": 664, "t": 1793573193.419, "wall_s": 0.048, "cpu_s": 0.0437, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 85, "hosts": 85, "lag_max_s": 0.893, "failed": 0, "down": 671, "t": 1793573194.419, "wall_s": 0.0566, "cpu_s": 0.0499, "requests": 3, "mb": 0.48}
+{"summary": true, "events": 58, "hosts": 57, "lag_max_s": 0.876, "failed": 0, "down": 681, "t": 1793573195.419, "wall_s": 0.049, "cpu_s": 0.0439, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 151, "hosts": 150, "lag_max_s": 0.908, "failed": 0, "down": 700, "t": 1793573196.419, "wall_s": 0.0657, "cpu_s": 0.0575, "requests": 3, "mb": 0.76}
+{"summary": true, "events": 41, "hosts": 40, "lag_max_s": 0.73, "failed": 0, "down": 713, "t": 1793573197.419, "wall_s": 0.0456, "cpu_s": 0.0409, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 54, "hosts": 53, "lag_max_s": 0.784, "failed": 0, "down": 715, "t": 1793573198.419, "wall_s": 0.0469, "cpu_s": 0.0411, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 66, "hosts": 66, "lag_max_s": 0.914, "failed": 0, "down": 723, "t": 1793573199.42, "wall_s": 0.0525, "cpu_s": 0.045, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 85, "hosts": 85, "lag_max_s": 0.686, "failed": 0, "down": 728, "t": 1793573200.42, "wall_s": 0.052, "cpu_s": 0.0436, "requests": 3, "mb": 0.48}
+{"summary": true, "events": 62, "hosts": 62, "lag_max_s": 0.83, "failed": 0, "down": 726, "t": 1793573201.42, "wall_s": 0.0505, "cpu_s": 0.0434, "requests": 3, "mb": 0.38}
+{"summary": true, "events": 18, "hosts": 18, "lag_max_s": 0.683, "t": 1793573202.42, "wall_s": 0.0457, "cpu_s": 0.0404, "requests": 3, "mb": 0.19}
+{"summary": true, "events": 68, "hosts": 68, "lag_max_s": 0.857, "failed": 0, "down": 715, "t": 1793573203.42, "wall_s": 0.0473, "cpu_s": 0.042, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 69, "hosts": 69, "lag_max_s": 1.015, "failed": 0, "down": 707, "t": 1793573204.42, "wall_s": 0.0533, "cpu_s": 0.0452, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 56, "hosts": 56, "lag_max_s": 1.004, "failed": 0, "down": 698, "t": 1793573205.42, "wall_s": 0.0594, "cpu_s": 0.0531, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 154, "hosts": 152, "lag_max_s": 1.018, "failed": 0, "down": 687, "t": 1793573206.42, "wall_s": 0.059, "cpu_s": 0.0479, "requests": 3, "mb": 0.77}
+{"summary": true, "events": 71, "hosts": 71, "lag_max_s": 0.996, "failed": 0, "down": 670, "t": 1793573207.42, "wall_s": 0.0559, "cpu_s": 0.0485, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 56, "hosts": 56, "lag_max_s": 1.001, "failed": 0, "down": 660, "t": 1793573208.42, "wall_s": 0.0483, "cpu_s": 0.0435, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 64, "hosts": 64, "lag_max_s": 0.893, "failed": 0, "down": 648, "t": 1793573209.42, "wall_s": 0.0549, "cpu_s": 0.0486, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 90, "hosts": 90, "lag_max_s": 0.847, "failed": 0, "down": 626, "t": 1793573210.421, "wall_s": 0.0531, "cpu_s": 0.0452, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 65, "hosts": 63, "lag_max_s": 1.007, "failed": 0, "down": 607, "t": 1793573211.421, "wall_s": 0.0491, "cpu_s": 0.0439, "requests": 3, "mb": 0.38}
+{"summary": true, "events": 37, "hosts": 36, "lag_max_s": 0.897, "failed": 0, "down": 598, "t": 1793573212.421, "wall_s": 0.0469, "cpu_s": 0.0426, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 34, "hosts": 34, "lag_max_s": 0.791, "failed": 0, "down": 600, "t": 1793573213.421, "wall_s": 0.0613, "cpu_s": 0.0558, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 51, "hosts": 51, "lag_max_s": 0.898, "failed": 0, "down": 589, "t": 1793573214.421, "wall_s": 0.0469, "cpu_s": 0.041, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 44, "hosts": 44, "lag_max_s": 1.013, "failed": 0, "down": 581, "t": 1793573215.421, "wall_s": 0.0475, "cpu_s": 0.042, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 11, "hosts": 11, "lag_max_s": 0.587, "failed": 0, "down": 576, "t": 1793573216.421, "wall_s": 0.0437, "cpu_s": 0.0404, "requests": 3, "mb": 0.16}
+{"summary": true, "events": 70, "hosts": 69, "lag_max_s": 0.781, "failed": 0, "down": 586, "t": 1793573217.421, "wall_s": 0.0505, "cpu_s": 0.0421, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 60, "hosts": 59, "lag_max_s": 0.895, "failed": 0, "down": 598, "t": 1793573218.421, "wall_s": 0.0499, "cpu_s": 0.045, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 102, "hosts": 99, "lag_max_s": 1.018, "failed": 0, "down": 599, "t": 1793573219.421, "wall_s": 0.0553, "cpu_s": 0.0462, "requests": 3, "mb": 0.54}
+{"summary": true, "events": 72, "hosts": 70, "lag_max_s": 1.004, "failed": 0, "down": 594, "t": 1793573220.421, "wall_s": 0.0503, "cpu_s": 0.0428, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 22, "hosts": 22, "lag_max_s": 0.859, "failed": 0, "down": 592, "t": 1793573221.421, "wall_s": 0.0469, "cpu_s": 0.041, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 23, "hosts": 23, "lag_max_s": 0.892, "failed": 0, "down": 585, "t": 1793573222.421, "wall_s": 0.066, "cpu_s": 0.0619, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 67, "hosts": 66, "lag_max_s": 0.912, "failed": 0, "down": 588, "t": 1793573223.421, "wall_s": 0.0572, "cpu_s": 0.0515, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 75, "hosts": 74, "lag_max_s": 0.886, "failed": 0, "down": 595, "t": 1793573224.422, "wall_s": 0.0523, "cpu_s": 0.0463, "requests": 3, "mb": 0.43}
+{"summary": true, "events": 52, "hosts": 50, "lag_max_s": 0.999, "failed": 0, "down": 609, "t": 1793573225.422, "wall_s": 0.0472, "cpu_s": 0.0421, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 76, "hosts": 74, "lag_max_s": 0.897, "failed": 0, "down": 594, "t": 1793573226.422, "wall_s": 0.0519, "cpu_s": 0.0463, "requests": 3, "mb": 0.43}
+{"summary": true, "events": 26, "hosts": 26, "lag_max_s": 1.008, "failed": 0, "down": 589, "t": 1793573227.422, "wall_s": 0.0457, "cpu_s": 0.0418, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 99, "hosts": 97, "lag_max_s": 0.826, "failed": 0, "down": 604, "t": 1793573228.422, "wall_s": 0.054, "cpu_s": 0.0477, "requests": 3, "mb": 0.53}
+{"summary": true, "events": 90, "hosts": 90, "lag_max_s": 0.892, "t": 1793573229.422, "wall_s": 0.0553, "cpu_s": 0.0469, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 64, "hosts": 64, "lag_max_s": 0.863, "failed": 0, "down": 616, "t": 1793573230.422, "wall_s": 0.0631, "cpu_s": 0.0551, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 115, "hosts": 113, "lag_max_s": 0.848, "failed": 0, "down": 615, "t": 1793573231.422, "wall_s": 0.0556, "cpu_s": 0.0431, "requests": 3, "mb": 0.6}
+{"summary": true, "events": 93, "hosts": 90, "lag_max_s": 0.814, "failed": 0, "down": 642, "t": 1793573232.422, "wall_s": 0.0507, "cpu_s": 0.0424, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 18, "hosts": 18, "lag_max_s": 0.837, "failed": 0, "down": 646, "t": 1793573233.422, "wall_s": 0.0456, "cpu_s": 0.0419, "requests": 3, "mb": 0.19}
+{"summary": true, "events": 65, "hosts": 65, "lag_max_s": 0.905, "failed": 0, "down": 657, "t": 1793573234.422, "wall_s": 0.0515, "cpu_s": 0.0458, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 109, "hosts": 106, "lag_max_s": 0.897, "failed": 0, "down": 666, "t": 1793573235.422, "wall_s": 0.0559, "cpu_s": 0.0486, "requests": 3, "mb": 0.57}
+{"summary": true, "events": 50, "hosts": 50, "lag_max_s": 0.987, "failed": 0, "down": 689, "t": 1793573236.423, "wall_s": 0.0505, "cpu_s": 0.0456, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 35, "hosts": 34, "lag_max_s": 1.013, "failed": 0, "down": 693, "t": 1793573237.423, "wall_s": 0.0504, "cpu_s": 0.0462, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 124, "hosts": 121, "lag_max_s": 0.919, "failed": 0, "down": 723, "t": 1793573238.423, "wall_s": 0.0768, "cpu_s": 0.0682, "requests": 3, "mb": 0.63}
+{"summary": true, "events": 24, "hosts": 24, "lag_max_s": 0.98, "t": 1793573239.423, "wall_s": 0.0496, "cpu_s": 0.0456, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 134, "hosts": 130, "lag_max_s": 1.014, "failed": 0, "down": 731, "t": 1793573240.423, "wall_s": 0.0567, "cpu_s": 0.0489, "requests": 3, "mb": 0.67}
+{"summary": true, "events": 78, "hosts": 78, "lag_max_s": 0.987, "failed": 0, "down": 733, "t": 1793573241.423, "wall_s": 0.0575, "cpu_s": 0.0514, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 50, "hosts": 50, "lag_max_s": 0.997, "failed": 0, "down": 743, "t": 1793573242.423, "wall_s": 0.0481, "cpu_s": 0.043, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 84, "hosts": 84, "lag_max_s": 0.902, "failed": 0, "down": 741, "t": 1793573243.423, "wall_s": 0.053, "cpu_s": 0.0471, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 57, "hosts": 57, "lag_max_s": 0.906, "failed": 0, "down": 750, "t": 1793573244.423, "wall_s": 0.0507, "cpu_s": 0.0455, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 60, "hosts": 60, "lag_max_s": 0.9, "failed": 0, "down": 746, "t": 1793573245.423, "wall_s": 0.0521, "cpu_s": 0.0445, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 56, "hosts": 56, "lag_max_s": 1.008, "failed": 0, "down": 748, "t": 1793573246.423, "wall_s": 0.0509, "cpu_s": 0.0448, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 83, "hosts": 81, "lag_max_s": 1.012, "failed": 0, "down": 737, "t": 1793573247.423, "wall_s": 0.0623, "cpu_s": 0.0568, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 47, "hosts": 47, "lag_max_s": 0.878, "failed": 0, "down": 746, "t": 1793573248.424, "wall_s": 0.0482, "cpu_s": 0.0431, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 97, "hosts": 96, "lag_max_s": 0.775, "failed": 0, "down": 739, "t": 1793573249.424, "wall_s": 0.0545, "cpu_s": 0.048, "requests": 3, "mb": 0.53}
+{"summary": true, "events": 79, "hosts": 79, "lag_max_s": 0.99, "failed": 0, "down": 738, "t": 1793573250.424, "wall_s": 0.0523, "cpu_s": 0.0466, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 64, "hosts": 64, "lag_max_s": 1.002, "failed": 0, "down": 716, "t": 1793573251.424, "wall_s": 0.0525, "cpu_s": 0.0472, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 91, "hosts": 90, "lag_max_s": 0.903, "failed": 0, "down": 685, "t": 1793573252.424, "wall_s": 0.0571, "cpu_s": 0.0503, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 89, "hosts": 87, "lag_max_s": 0.883, "failed": 0, "down": 656, "t": 1793573253.424, "wall_s": 0.0577, "cpu_s": 0.0507, "requests": 3, "mb": 0.49}
+{"summary": true, "events": 55, "hosts": 55, "lag_max_s": 0.895, "failed": 0, "down": 645, "t": 1793573254.424, "wall_s": 0.0531, "cpu_s": 0.048, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 88, "hosts": 86, "lag_max_s": 0.9, "failed": 0, "down": 619, "t": 1793573255.424, "wall_s": 0.0698, "cpu_s": 0.0633, "requests": 3, "mb": 0.48}
+{"summary": true, "events": 41, "hosts": 41, "lag_max_s": 0.998, "failed": 0, "down": 604, "t": 1793573256.424, "wall_s": 0.0485, "cpu_s": 0.0435, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 63, "hosts": 63, "lag_max_s": 1.007, "failed": 0, "down": 581, "t": 1793573257.424, "wall_s": 0.049, "cpu_s": 0.0435, "requests": 3, "mb": 0.38}
+{"summary": true, "events": 15, "hosts": 15, "lag_max_s": 0.895, "failed": 0, "down": 570, "t": 1793573258.424, "wall_s": 0.0452, "cpu_s": 0.0417, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 5, "hosts": 5, "lag_max_s": 0.901, "failed": 0, "down": 565, "t": 1793573259.424, "wall_s": 0.0449, "cpu_s": 0.0417, "requests": 3, "mb": 0.13}
+{"summary": true, "events": 3, "hosts": 3, "lag_max_s": 0.847, "failed": 0, "down": 562, "t": 1793573260.424, "wall_s": 0.0443, "cpu_s": 0.0412, "requests": 3, "mb": 0.12}
+{"summary": true, "events": 6, "hosts": 6, "lag_max_s": 0.917, "failed": 0, "down": 558, "t": 1793573261.424, "wall_s": 0.0454, "cpu_s": 0.042, "requests": 3, "mb": 0.14}
+{"summary": true, "events": 40, "hosts": 40, "lag_max_s": 0.919, "failed": 0, "down": 554, "t": 1793573262.425, "wall_s": 0.0495, "cpu_s": 0.0451, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 2, "hosts": 2, "lag_max_s": 0.538, "failed": 0, "down": 552, "t": 1793573263.425, "wall_s": 0.0442, "cpu_s": 0.0413, "requests": 3, "mb": 0.12}
+{"summary": true, "events": 42, "hosts": 42, "lag_max_s": 0.878, "failed": 0, "down": 550, "t": 1793573264.425, "wall_s": 0.0641, "cpu_s": 0.0596, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 48, "hosts": 47, "lag_max_s": 0.694, "failed": 0, "down": 560, "t": 1793573265.425, "wall_s": 0.0499, "cpu_s": 0.0446, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 26, "hosts": 26, "lag_max_s": 0.764, "failed": 0, "down": 545, "t": 1793573266.425, "wall_s": 0.0471, "cpu_s": 0.043, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 39, "hosts": 39, "lag_max_s": 1.014, "failed": 0, "down": 544, "t": 1793573267.425, "wall_s": 0.0526, "cpu_s": 0.0459, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 37, "hosts": 37, "lag_max_s": 1.012, "t": 1793573268.425, "wall_s": 0.0501, "cpu_s": 0.0454, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 34, "hosts": 34, "lag_max_s": 0.894, "failed": 0, "down": 538, "t": 1793573269.425, "wall_s": 0.049, "cpu_s": 0.0444, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 9, "hosts": 9, "lag_max_s": 1.003, "failed": 0, "down": 537, "t": 1793573270.425, "wall_s": 0.0455, "cpu_s": 0.0423, "requests": 3, "mb": 0.15}
+{"summary": true, "events": 59, "hosts": 59, "lag_max_s": 1.01, "failed": 0, "down": 547, "t": 1793573271.425, "wall_s": 0.0501, "cpu_s": 0.0448, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 36, "hosts": 35, "lag_max_s": 1.009, "failed": 0, "down": 564, "t": 1793573272.425, "wall_s": 0.0486, "cpu_s": 0.0443, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 61, "hosts": 61, "lag_max_s": 1.027, "failed": 0, "down": 569, "t": 1793573273.425, "wall_s": 0.0683, "cpu_s": 0.0617, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 101, "hosts": 100, "lag_max_s": 0.806, "failed": 0, "down": 578, "t": 1793573274.426, "wall_s": 0.0535, "cpu_s": 0.0445, "requests": 3, "mb": 0.54}
+{"summary": true, "events": 53, "hosts": 53, "lag_max_s": 0.838, "failed": 0, "down": 583, "t": 1793573275.426, "wall_s": 0.0531, "cpu_s": 0.0463, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 17, "hosts": 17, "lag_max_s": 0.607, "failed": 0, "down": 588, "t": 1793573276.426, "wall_s": 0.0478, "cpu_s": 0.0422, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 28, "hosts": 28, "lag_max_s": 0.838, "failed": 0, "down": 596, "t": 1793573277.426, "wall_s": 0.0488, "cpu_s": 0.043, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 18, "hosts": 18, "lag_max_s": 0.833, "failed": 0, "down": 594, "t": 1793573278.426, "wall_s": 0.0477, "cpu_s": 0.0437, "requests": 3, "mb": 0.19}
+{"summary": true, "events": 13, "hosts": 13, "lag_max_s": 0.87, "failed": 0, "down": 589, "t": 1793573279.426, "wall_s": 0.0457, "cpu_s": 0.0419, "requests": 3, "mb": 0.17}
+{"summary": true, "events": 104, "hosts": 103, "lag_max_s": 0.909, "failed": 0, "down": 601, "t": 1793573280.426, "wall_s": 0.0551, "cpu_s": 0.0471, "requests": 3, "mb": 0.56}
+{"summary": true, "events": 84, "hosts": 82, "lag_max_s": 0.905, "failed": 0, "down": 603, "t": 1793573281.426, "wall_s": 0.0697, "cpu_s": 0.0618, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 95, "hosts": 92, "lag_max_s": 0.859, "failed": 0, "down": 642, "t": 1793573282.426, "wall_s": 0.0572, "cpu_s": 0.0506, "requests": 3, "mb": 0.51}
+{"summary": true, "events": 81, "hosts": 80, "lag_max_s": 0.876, "failed": 0, "down": 667, "t": 1793573283.426, "wall_s": 0.0559, "cpu_s": 0.0499, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 102, "hosts": 101, "lag_max_s": 0.887, "failed": 0, "down": 691, "t": 1793573284.426, "wall_s": 0.0578, "cpu_s": 0.0491, "requests": 3, "mb": 0.55}
+{"summary": true, "events": 49, "hosts": 49, "lag_max_s": 0.793, "failed": 0, "down": 698, "t": 1793573285.426, "wall_s": 0.0532, "cpu_s": 0.0485, "requests": 3, "mb": 0.32}
+{"summary": true, "events": 74, "hosts": 74, "lag_max_s": 0.869, "failed": 0, "down": 708, "t": 1793573286.427, "wall_s": 0.0529, "cpu_s": 0.0473, "requests": 3, "mb": 0.43}
+{"summary": true, "events": 27, "hosts": 27, "lag_max_s": 0.723, "failed": 0, "down": 719, "t": 1793573287.427, "wall_s": 0.0473, "cpu_s": 0.0427, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 16, "hosts": 16, "lag_max_s": 0.871, "failed": 0, "down": 721, "t": 1793573288.427, "wall_s": 0.0506, "cpu_s": 0.0466, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 36, "hosts": 36, "lag_max_s": 0.907, "failed": 0, "down": 723, "t": 1793573289.427, "wall_s": 0.0493, "cpu_s": 0.0449, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 41, "hosts": 41, "lag_max_s": 0.916, "failed": 0, "down": 720, "t": 1793573290.427, "wall_s": 0.0634, "cpu_s": 0.0565, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 69, "hosts": 68, "lag_max_s": 0.882, "failed": 0, "down": 729, "t": 1793573291.427, "wall_s": 0.0537, "cpu_s": 0.0466, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 56, "hosts": 56, "lag_max_s": 1.014, "t": 1793573292.427, "wall_s": 0.0508, "cpu_s": 0.0441, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 48, "hosts": 48, "lag_max_s": 0.85, "failed": 0, "down": 735, "t": 1793573293.427, "wall_s": 0.0512, "cpu_s": 0.0452, "requests": 3, "mb": 0.32}
+{"summary": true, "events": 40, "hosts": 40, "lag_max_s": 0.821, "failed": 0, "down": 743, "t": 1793573294.427, "wall_s": 0.0492, "cpu_s": 0.0425, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 50, "hosts": 50, "lag_max_s": 0.71, "failed": 0, "down": 751, "t": 1793573295.427, "wall_s": 0.0521, "cpu_s": 0.0449, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 166, "hosts": 164, "lag_max_s": 0.635, "failed": 0, "down": 771, "t": 1793573296.427, "wall_s": 0.0629, "cpu_s": 0.0529, "requests": 3, "mb": 0.82}
+{"summary": true, "events": 70, "hosts": 69, "lag_max_s": 0.868, "failed": 0, "down": 777, "t": 1793573297.427, "wall_s": 0.0553, "cpu_s": 0.0495, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 97, "hosts": 97, "lag_max_s": 0.902, "failed": 0, "down": 762, "t": 1793573298.427, "wall_s": 0.0708, "cpu_s": 0.0596, "requests": 3, "mb": 0.53}
+{"summary": true, "events": 87, "hosts": 86, "lag_max_s": 0.838, "failed": 0, "down": 733, "t": 1793573299.428, "wall_s": 0.0569, "cpu_s": 0.0503, "requests": 3, "mb": 0.48}
+{"summary": true, "events": 59, "hosts": 59, "lag_max_s": 1.008, "failed": 0, "down": 732, "t": 1793573300.428, "wall_s": 0.0534, "cpu_s": 0.0478, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 81, "hosts": 80, "lag_max_s": 0.892, "failed": 0, "down": 727, "t": 1793573301.428, "wall_s": 0.0537, "cpu_s": 0.0479, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 52, "hosts": 52, "lag_max_s": 1.001, "failed": 0, "down": 701, "t": 1793573302.428, "wall_s": 0.0494, "cpu_s": 0.0443, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 89, "hosts": 88, "lag_max_s": 0.911, "failed": 0, "down": 676, "t": 1793573303.428, "wall_s": 0.0504, "cpu_s": 0.0442, "requests": 3, "mb": 0.49}
+{"summary": true, "events": 79, "hosts": 79, "lag_max_s": 0.901, "failed": 0, "down": 645, "t": 1793573304.428, "wall_s": 0.0534, "cpu_s": 0.0444, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 32, "hosts": 31, "lag_max_s": 0.818, "failed": 0, "down": 627, "t": 1793573305.428, "wall_s": 0.0469, "cpu_s": 0.0426, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 36, "hosts": 36, "lag_max_s": 0.825, "failed": 0, "down": 607, "t": 1793573306.428, "wall_s": 0.0491, "cpu_s": 0.0429, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 31, "hosts": 31, "lag_max_s": 0.91, "failed": 0, "down": 604, "t": 1793573307.428, "wall_s": 0.0611, "cpu_s": 0.0562, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 24, "hosts": 24, "lag_max_s": 0.9, "failed": 0, "down": 590, "t": 1793573308.428, "wall_s": 0.048, "cpu_s": 0.044, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 43, "hosts": 42, "lag_max_s": 0.906, "failed": 0, "down": 585, "t": 1793573309.428, "wall_s": 0.0497, "cpu_s": 0.0442, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 25, "hosts": 25, "lag_max_s": 1.005, "failed": 0, "down": 578, "t": 1793573310.428, "wall_s": 0.0478, "cpu_s": 0.042, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 42, "hosts": 42, "lag_max_s": 0.599, "failed": 0, "down": 566, "t": 1793573311.428, "wall_s": 0.0468, "cpu_s": 0.0424, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 36, "hosts": 36, "lag_max_s": 0.85, "failed": 0, "down": 558, "t": 1793573312.429, "wall_s": 0.0479, "cpu_s": 0.0436, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 35, "hosts": 35, "lag_max_s": 0.848, "failed": 0, "down": 551, "t": 1793573313.429, "wall_s": 0.0483, "cpu_s": 0.0427, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 73, "hosts": 73, "lag_max_s": 0.856, "failed": 0, "down": 546, "t": 1793573314.429, "wall_s": 0.0532, "cpu_s": 0.0458, "requests": 3, "mb": 0.43}
+{"summary": true, "events": 61, "hosts": 61, "lag_max_s": 0.743, "failed": 0, "down": 529, "t": 1793573315.429, "wall_s": 0.0668, "cpu_s": 0.0596, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 84, "hosts": 83, "lag_max_s": 1.006, "failed": 0, "down": 523, "t": 1793573316.429, "wall_s": 0.0558, "cpu_s": 0.0494, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 42, "hosts": 41, "lag_max_s": 0.7, "failed": 0, "down": 525, "t": 1793573317.429, "wall_s": 0.0503, "cpu_s": 0.0459, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 38, "hosts": 38, "lag_max_s": 0.879, "failed": 0, "down": 521, "t": 1793573318.429, "wall_s": 0.05, "cpu_s": 0.0439, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 41, "hosts": 41, "lag_max_s": 0.832, "failed": 0, "down": 520, "t": 1793573319.429, "wall_s": 0.0515, "cpu_s": 0.0459, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 26, "hosts": 26, "lag_max_s": 0.524, "failed": 0, "down": 528, "t": 1793573320.429, "wall_s": 0.0485, "cpu_s": 0.0438, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 30, "hosts": 30, "lag_max_s": 0.574, "failed": 0, "down": 534, "t": 1793573321.429, "wall_s": 0.048, "cpu_s": 0.0431, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 59, "hosts": 59, "lag_max_s": 0.907, "failed": 0, "down": 543, "t": 1793573322.429, "wall_s": 0.052, "cpu_s": 0.0441, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 41, "hosts": 41, "lag_max_s": 0.83, "failed": 0, "down": 554, "t": 1793573323.429, "wall_s": 0.0503, "cpu_s": 0.0435, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 70, "hosts": 70, "lag_max_s": 0.593, "failed": 0, "down": 584, "t": 1793573324.43, "wall_s": 0.0654, "cpu_s": 0.0594, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 54, "hosts": 54, "lag_max_s": 0.839, "failed": 0, "down": 596, "t": 1793573325.43, "wall_s": 0.0527, "cpu_s": 0.0458, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 136, "hosts": 136, "lag_max_s": 0.911, "failed": 0, "down": 622, "t": 1793573326.43, "wall_s": 0.0579, "cpu_s": 0.0496, "requests": 3, "mb": 0.7}
+{"summary": true, "events": 32, "hosts": 31, "lag_max_s": 0.877, "failed": 0, "down": 628, "t": 1793573327.43, "wall_s": 0.0533, "cpu_s": 0.0474, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 125, "hosts": 124, "lag_max_s": 0.693, "failed": 0, "down": 661, "t": 1793573328.43, "wall_s": 0.0574, "cpu_s": 0.0493, "requests": 3, "mb": 0.65}
+{"summary": true, "events": 70, "hosts": 69, "lag_max_s": 0.885, "failed": 0, "down": 679, "t": 1793573329.43, "wall_s": 0.0581, "cpu_s": 0.0502, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 39, "hosts": 39, "lag_max_s": 0.827, "failed": 0, "down": 706, "t": 1793573330.43, "wall_s": 0.051, "cpu_s": 0.0453, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 128, "hosts": 124, "lag_max_s": 1.017, "failed": 0, "down": 756, "t": 1793573331.43, "wall_s": 0.0553, "cpu_s": 0.0472, "requests": 3, "mb": 0.65}
+{"summary": true, "events": 98, "hosts": 98, "lag_max_s": 1.026, "failed": 0, "down": 771, "t": 1793573332.43, "wall_s": 0.0664, "cpu_s": 0.0599, "requests": 3, "mb": 0.53}
+{"summary": true, "events": 56, "hosts": 56, "lag_max_s": 1.005, "failed": 0, "down": 772, "t": 1793573333.43, "wall_s": 0.0492, "cpu_s": 0.0443, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 76, "hosts": 76, "lag_max_s": 0.91, "failed": 0, "down": 782, "t": 1793573334.43, "wall_s": 0.0511, "cpu_s": 0.0454, "requests": 3, "mb": 0.44}
+{"summary": true, "events": 117, "hosts": 116, "lag_max_s": 0.861, "failed": 0, "down": 807, "t": 1793573335.43, "wall_s": 0.0555, "cpu_s": 0.0464, "requests": 3, "mb": 0.61}
+{"summary": true, "events": 74, "hosts": 73, "lag_max_s": 0.459, "failed": 0, "down": 825, "t": 1793573336.43, "wall_s": 0.0534, "cpu_s": 0.0441, "requests": 3, "mb": 0.43}
+{"summary": true, "events": 39, "hosts": 39, "lag_max_s": 0.801, "failed": 0, "down": 822, "t": 1793573337.431, "wall_s": 0.051, "cpu_s": 0.0441, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 68, "hosts": 67, "lag_max_s": 0.902, "failed": 0, "down": 820, "t": 1793573338.431, "wall_s": 0.0537, "cpu_s": 0.0482, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 57, "hosts": 57, "lag_max_s": 0.896, "failed": 0, "down": 823, "t": 1793573339.431, "wall_s": 0.0542, "cpu_s": 0.0459, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 104, "hosts": 103, "lag_max_s": 0.912, "failed": 0, "down": 819, "t": 1793573340.431, "wall_s": 0.0569, "cpu_s": 0.0465, "requests": 3, "mb": 0.56}
+{"summary": true, "events": 88, "hosts": 88, "lag_max_s": 1.007, "failed": 0, "down": 813, "t": 1793573341.431, "wall_s": 0.07, "cpu_s": 0.0638, "requests": 3, "mb": 0.49}
+{"summary": true, "events": 105, "hosts": 102, "lag_max_s": 0.894, "failed": 0, "down": 808, "t": 1793573342.431, "wall_s": 0.0628, "cpu_s": 0.053, "requests": 3, "mb": 0.55}
+{"summary": true, "events": 90, "hosts": 90, "lag_max_s": 0.854, "failed": 0, "down": 800, "t": 1793573343.431, "wall_s": 0.0587, "cpu_s": 0.0495, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 90, "hosts": 89, "lag_max_s": 0.835, "failed": 0, "down": 784, "t": 1793573344.431, "wall_s": 0.0586, "cpu_s": 0.0497, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 69, "hosts": 67, "lag_max_s": 0.88, "failed": 0, "down": 773, "t": 1793573345.431, "wall_s": 0.0524, "cpu_s": 0.045, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 40, "hosts": 40, "lag_max_s": 0.883, "failed": 0, "down": 759, "t": 1793573346.431, "wall_s": 0.0487, "cpu_s": 0.044, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 94, "hosts": 94, "lag_max_s": 1.01, "failed": 0, "down": 727, "t": 1793573347.431, "wall_s": 0.0524, "cpu_s": 0.0458, "requests": 3, "mb": 0.52}
+{"summary": true, "events": 49, "hosts": 48, "lag_max_s": 0.896, "failed": 0, "down": 710, "t": 1793573348.431, "wall_s": 0.049, "cpu_s": 0.0441, "requests": 3, "mb": 0.32}
+{"summary": true, "events": 20, "hosts": 20, "lag_max_s": 1.023, "failed": 0, "down": 704, "t": 1793573349.432, "wall_s": 0.0623, "cpu_s": 0.0584, "requests": 3, "mb": 0.2}
+{"summary": true, "events": 63, "hosts": 63, "lag_max_s": 0.871, "failed": 0, "down": 681, "t": 1793573350.432, "wall_s": 0.0499, "cpu_s": 0.0447, "requests": 3, "mb": 0.38}
+{"summary": true, "events": 55, "hosts": 55, "lag_max_s": 0.856, "failed": 0, "down": 672, "t": 1793573351.432, "wall_s": 0.0524, "cpu_s": 0.0454, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 32, "hosts": 32, "lag_max_s": 0.846, "failed": 0, "down": 646, "t": 1793573352.432, "wall_s": 0.0505, "cpu_s": 0.0445, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 19, "hosts": 19, "lag_max_s": 0.902, "failed": 0, "down": 641, "t": 1793573353.432, "wall_s": 0.0476, "cpu_s": 0.0439, "requests": 3, "mb": 0.19}
+{"summary": true, "events": 102, "hosts": 100, "lag_max_s": 0.921, "failed": 0, "down": 593, "t": 1793573354.432, "wall_s": 0.0569, "cpu_s": 0.0504, "requests": 3, "mb": 0.54}
+{"summary": true, "events": 64, "hosts": 63, "lag_max_s": 0.892, "failed": 0, "down": 579, "t": 1793573355.432, "wall_s": 0.0525, "cpu_s": 0.0468, "requests": 3, "mb": 0.38}
+{"summary": true, "events": 57, "hosts": 57, "lag_max_s": 0.716, "failed": 0, "down": 552, "t": 1793573356.432, "wall_s": 0.0495, "cpu_s": 0.0442, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 50, "hosts": 50, "lag_max_s": 0.797, "failed": 0, "down": 540, "t": 1793573357.432, "wall_s": 0.0559, "cpu_s": 0.0505, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 28, "hosts": 27, "lag_max_s": 0.904, "failed": 0, "down": 530, "t": 1793573358.432, "wall_s": 0.0647, "cpu_s": 0.0589, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 36, "hosts": 35, "lag_max_s": 0.855, "failed": 0, "down": 522, "t": 1793573359.432, "wall_s": 0.0539, "cpu_s": 0.0481, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 35, "hosts": 35, "lag_max_s": 0.891, "failed": 0, "down": 517, "t": 1793573360.432, "wall_s": 0.0484, "cpu_s": 0.0434, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 31, "hosts": 31, "lag_max_s": 0.909, "failed": 0, "down": 500, "t": 1793573361.432, "wall_s": 0.048, "cpu_s": 0.0435, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 6, "hosts": 6, "lag_max_s": 0.912, "failed": 0, "down": 498, "t": 1793573362.433, "wall_s": 0.0459, "cpu_s": 0.0428, "requests": 3, "mb": 0.14}
+{"summary": true, "events": 41, "hosts": 41, "lag_max_s": 0.911, "failed": 0, "down": 511, "t": 1793573363.433, "wall_s": 0.0509, "cpu_s": 0.0456, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 81, "hosts": 80, "lag_max_s": 0.913, "failed": 0, "down": 540, "t": 1793573364.433, "wall_s": 0.0543, "cpu_s": 0.0482, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 82, "hosts": 82, "lag_max_s": 0.846, "failed": 0, "down": 552, "t": 1793573365.433, "wall_s": 0.0552, "cpu_s": 0.0468, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 32, "hosts": 32, "lag_max_s": 0.905, "failed": 0, "down": 556, "t": 1793573366.433, "wall_s": 0.0631, "cpu_s": 0.0587, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 40, "hosts": 39, "lag_max_s": 1.006, "failed": 0, "down": 562, "t": 1793573367.433, "wall_s": 0.0508, "cpu_s": 0.0436, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 39, "hosts": 39, "lag_max_s": 0.767, "failed": 0, "down": 567, "t": 1793573368.433, "wall_s": 0.0515, "cpu_s": 0.0451, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 69, "hosts": 69, "lag_max_s": 0.599, "failed": 0, "down": 590, "t": 1793573369.433, "wall_s": 0.0518, "cpu_s": 0.046, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 80, "hosts": 80, "lag_max_s": 0.811, "failed": 0, "down": 628, "t": 1793573370.433, "wall_s": 0.0531, "cpu_s": 0.0451, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 24, "hosts": 24, "lag_max_s": 0.618, "failed": 0, "down": 636, "t": 1793573371.433, "wall_s": 0.0489, "cpu_s": 0.0444, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 57, "hosts": 57, "lag_max_s": 0.906, "failed": 0, "down": 651, "t": 1793573372.433, "wall_s": 0.054, "cpu_s": 0.0475, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 144, "hosts": 141, "lag_max_s": 0.836, "failed": 0, "down": 689, "t": 1793573373.433, "wall_s": 0.0603, "cpu_s": 0.05, "requests": 3, "mb": 0.72}
+{"summary": true, "events": 93, "hosts": 92, "lag_max_s": 1.015, "failed": 0, "down": 702, "t": 1793573374.434, "wall_s": 0.062, "cpu_s": 0.0526, "requests": 3, "mb": 0.51}
+{"summary": true, "events": 37, "hosts": 37, "lag_max_s": 1.014, "failed": 0, "down": 713, "t": 1793573375.434, "wall_s": 0.0632, "cpu_s": 0.0566, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 45, "hosts": 45, "lag_max_s": 1.002, "failed": 0, "down": 722, "t": 1793573376.434, "wall_s": 0.0504, "cpu_s": 0.045, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 74, "hosts": 74, "lag_max_s": 0.915, "failed": 0, "down": 746, "t": 1793573377.434, "wall_s": 0.0551, "cpu_s": 0.0489, "requests": 3, "mb": 0.43}
+{"summary": true, "events": 143, "hosts": 139, "lag_max_s": 0.9, "failed": 0, "down": 781, "t": 1793573378.434, "wall_s": 0.0556, "cpu_s": 0.047, "requests": 3, "mb": 0.71}
+{"summary": true, "events": 55, "hosts": 55, "lag_max_s": 0.893, "failed": 0, "down": 794, "t": 1793573379.434, "wall_s": 0.0519, "cpu_s": 0.0451, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 95, "hosts": 95, "lag_max_s": 1.0, "failed": 0, "down": 811, "t": 1793573380.434, "wall_s": 0.0545, "cpu_s": 0.0462, "requests": 3, "mb": 0.52}
+{"summary": true, "events": 94, "hosts": 94, "lag_max_s": 0.828, "failed": 0, "down": 827, "t": 1793573381.434, "wall_s": 0.0562, "cpu_s": 0.0462, "requests": 3, "mb": 0.52}
+{"summary": true, "events": 55, "hosts": 55, "lag_max_s": 0.887, "failed": 0, "down": 828, "t": 1793573382.434, "wall_s": 0.0527, "cpu_s": 0.0462, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 52, "hosts": 51, "lag_max_s": 0.916, "failed": 0, "down": 842, "t": 1793573383.434, "wall_s": 0.0654, "cpu_s": 0.0588, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 49, "hosts": 49, "lag_max_s": 0.827, "failed": 0, "down": 843, "t": 1793573384.434, "wall_s": 0.0533, "cpu_s": 0.0462, "requests": 3, "mb": 0.32}
+{"summary": true, "events": 59, "hosts": 59, "lag_max_s": 0.658, "failed": 0, "down": 842, "t": 1793573385.434, "wall_s": 0.0551, "cpu_s": 0.0483, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 147, "hosts": 144, "lag_max_s": 0.847, "failed": 0, "down": 849, "t": 1793573386.435, "wall_s": 0.0595, "cpu_s": 0.0508, "requests": 3, "mb": 0.73}
+{"summary": true, "events": 55, "hosts": 55, "lag_max_s": 0.802, "failed": 0, "down": 864, "t": 1793573387.435, "wall_s": 0.0564, "cpu_s": 0.0496, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 116, "hosts": 116, "lag_max_s": 0.895, "failed": 0, "down": 879, "t": 1793573388.435, "wall_s": 0.0637, "cpu_s": 0.0532, "requests": 3, "mb": 0.61}
+{"summary": true, "events": 118, "hosts": 117, "lag_max_s": 1.022, "failed": 0, "down": 875, "t": 1793573389.435, "wall_s": 0.0677, "cpu_s": 0.056, "requests": 3, "mb": 0.62}
+{"summary": true, "events": 82, "hosts": 82, "lag_max_s": 1.012, "failed": 0, "down": 883, "t": 1793573390.435, "wall_s": 0.0556, "cpu_s": 0.0474, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 94, "hosts": 93, "lag_max_s": 1.014, "failed": 0, "down": 871, "t": 1793573391.435, "wall_s": 0.0562, "cpu_s": 0.0497, "requests": 3, "mb": 0.51}
+{"summary": true, "events": 97, "hosts": 97, "lag_max_s": 1.034, "failed": 0, "down": 865, "t": 1793573392.435, "wall_s": 0.075, "cpu_s": 0.0683, "requests": 3, "mb": 0.53}
+{"summary": true, "events": 81, "hosts": 81, "lag_max_s": 0.697, "failed": 0, "down": 844, "t": 1793573393.435, "wall_s": 0.0575, "cpu_s": 0.0498, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 24, "hosts": 24, "lag_max_s": 0.62, "failed": 0, "down": 840, "t": 1793573394.435, "wall_s": 0.0501, "cpu_s": 0.0444, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 90, "hosts": 88, "lag_max_s": 0.896, "failed": 0, "down": 814, "t": 1793573395.435, "wall_s": 0.0573, "cpu_s": 0.0492, "requests": 3, "mb": 0.49}
+{"summary": true, "events": 69, "hosts": 69, "lag_max_s": 0.735, "failed": 0, "down": 783, "t": 1793573396.435, "wall_s": 0.0513, "cpu_s": 0.0449, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 65, "hosts": 64, "lag_max_s": 0.842, "failed": 0, "down": 756, "t": 1793573397.435, "wall_s": 0.0513, "cpu_s": 0.0458, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 69, "hosts": 69, "lag_max_s": 0.884, "failed": 0, "down": 725, "t": 1793573398.435, "wall_s": 0.0519, "cpu_s": 0.046, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 36, "hosts": 36, "lag_max_s": 0.89, "failed": 0, "down": 713, "t": 1793573399.436, "wall_s": 0.0521, "cpu_s": 0.0466, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 21, "hosts": 21, "lag_max_s": 0.783, "failed": 0, "down": 698, "t": 1793573400.436, "wall_s": 0.0626, "cpu_s": 0.0589, "requests": 3, "mb": 0.2}
+{"summary": true, "events": 49, "hosts": 49, "lag_max_s": 0.835, "failed": 0, "down": 677, "t": 1793573401.436, "wall_s": 0.0549, "cpu_s": 0.05, "requests": 3, "mb": 0.32}
+{"summary": true, "events": 59, "hosts": 59, "lag_max_s": 0.907, "failed": 0, "down": 648, "t": 1793573402.436, "wall_s": 0.0614, "cpu_s": 0.0562, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 50, "hosts": 50, "lag_max_s": 0.888, "failed": 0, "down": 632, "t": 1793573403.436, "wall_s": 0.0519, "cpu_s": 0.0465, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 28, "hosts": 27, "lag_max_s": 0.902, "failed": 0, "down": 626, "t": 1793573404.436, "wall_s": 0.054, "cpu_s": 0.0494, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 38, "hosts": 38, "lag_max_s": 0.894, "failed": 0, "down": 616, "t": 1793573405.436, "wall_s": 0.0599, "cpu_s": 0.0551, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 46, "hosts": 44, "lag_max_s": 0.808, "failed": 0, "down": 600, "t": 1793573406.436, "wall_s": 0.0496, "cpu_s": 0.0444, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 15, "hosts": 15, "lag_max_s": 0.782, "failed": 0, "down": 593, "t": 1793573407.436, "wall_s": 0.0469, "cpu_s": 0.0434, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 23, "hosts": 23, "lag_max_s": 0.812, "failed": 0, "down": 590, "t": 1793573408.436, "wall_s": 0.0474, "cpu_s": 0.0437, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 16, "hosts": 16, "lag_max_s": 0.597, "failed": 0, "down": 586, "t": 1793573409.436, "wall_s": 0.0633, "cpu_s": 0.0592, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 31, "hosts": 31, "lag_max_s": 0.817, "failed": 0, "down": 585, "t": 1793573410.437, "wall_s": 0.0502, "cpu_s": 0.0437, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 89, "hosts": 89, "lag_max_s": 0.838, "failed": 0, "down": 588, "t": 1793573411.437, "wall_s": 0.0537, "cpu_s": 0.0473, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 57, "hosts": 56, "lag_max_s": 0.854, "failed": 0, "down": 597, "t": 1793573412.437, "wall_s": 0.0544, "cpu_s": 0.0479, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 14, "hosts": 14, "lag_max_s": 0.638, "failed": 0, "down": 601, "t": 1793573413.437, "wall_s": 0.049, "cpu_s": 0.0453, "requests": 3, "mb": 0.17}
+{"summary": true, "events": 42, "hosts": 42, "lag_max_s": 0.861, "failed": 0, "down": 597, "t": 1793573414.437, "wall_s": 0.0533, "cpu_s": 0.0477, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 16, "hosts": 16, "lag_max_s": 0.908, "failed": 0, "down": 593, "t": 1793573415.437, "wall_s": 0.0501, "cpu_s": 0.0462, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 61, "hosts": 61, "lag_max_s": 0.917, "failed": 0, "down": 622, "t": 1793573416.437, "wall_s": 0.054, "cpu_s": 0.0485, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 44, "hosts": 44, "lag_max_s": 0.914, "failed": 0, "down": 620, "t": 1793573417.437, "wall_s": 0.075, "cpu_s": 0.0699, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 62, "hosts": 62, "lag_max_s": 1.007, "failed": 0, "down": 636, "t": 1793573418.437, "wall_s": 0.0578, "cpu_s": 0.0519, "requests": 3, "mb": 0.38}
+{"summary": true, "events": 1115, "hosts": 1106, "lag_max_s": 1.029, "failed": 0, "down": 666, "t": 1793573419.437, "wall_s": 0.2074, "cpu_s": 0.1054, "requests": 3, "mb": 4.87}
+{"summary": true, "events": 1202, "hosts": 1139, "lag_max_s": 1.288, "failed": 0, "down": 665, "t": 1793573420.438, "wall_s": 0.335, "cpu_s": 0.1293, "requests": 3, "mb": 5.05}
+{"summary": true, "events": 1568, "hosts": 743, "lag_max_s": 1.133, "failed": 0, "down": 650, "t": 1793573421.438, "wall_s": 0.1791, "cpu_s": 0.094, "requests": 3, "mb": 3.53}
+{"summary": true, "events": 4268, "hosts": 2372, "lag_max_s": 1.352, "failed": 0, "down": 471, "t": 1793573422.438, "wall_s": 0.3908, "cpu_s": 0.1587, "requests": 3, "mb": 10.9}
+{"summary": true, "events": 2722, "hosts": 1507, "lag_max_s": 1.284, "failed": 0, "down": 352, "t": 1793573423.438, "wall_s": 0.3267, "cpu_s": 0.1333, "requests": 3, "mb": 7.0}
+{"summary": true, "events": 2302, "hosts": 1418, "lag_max_s": 1.198, "failed": 0, "down": 302, "t": 1793573424.438, "wall_s": 0.2403, "cpu_s": 0.1179, "requests": 3, "mb": 6.5}
+{"summary": true, "events": 2339, "hosts": 1064, "lag_max_s": 1.17, "failed": 0, "down": 172, "t": 1793573425.438, "wall_s": 0.2086, "cpu_s": 0.1232, "requests": 3, "mb": 5.11}
+{"summary": true, "events": 1836, "hosts": 851, "lag_max_s": 1.149, "failed": 0, "down": 37, "t": 1793573426.438, "wall_s": 0.1892, "cpu_s": 0.077, "requests": 3, "mb": 4.11}
+{"summary": true, "events": 577, "hosts": 263, "lag_max_s": 1.032, "failed": 0, "down": 2, "t": 1793573427.438, "wall_s": 0.0685, "cpu_s": 0.0559, "requests": 3, "mb": 1.35}
+{"summary": true, "events": 1, "hosts": 1, "lag_max_s": 0.309, "failed": 0, "down": 1, "t": 1793573433.439, "wall_s": 0.0444, "cpu_s": 0.0415, "requests": 3, "mb": 0.11}
+{"summary": true, "events": 2, "hosts": 2, "lag_max_s": 0.917, "failed": 0, "down": 3, "t": 1793573446.44, "wall_s": 0.0401, "cpu_s": 0.0368, "requests": 3, "mb": 0.12}
+{"summary": true, "events": 2, "hosts": 2, "lag_max_s": 0.842, "failed": 0, "down": 5, "t": 1793573447.44, "wall_s": 0.0406, "cpu_s": 0.0365, "requests": 3, "mb": 0.12}
+{"summary": true, "events": 2, "hosts": 2, "lag_max_s": 0.694, "failed": 0, "down": 7, "t": 1793573448.44, "wall_s": 0.0395, "cpu_s": 0.0362, "requests": 3, "mb": 0.12}
+{"summary": true, "events": 3, "hosts": 3, "lag_max_s": 0.894, "failed": 0, "down": 10, "t": 1793573450.44, "wall_s": 0.0397, "cpu_s": 0.0364, "requests": 3, "mb": 0.12}
+{"summary": true, "events": 6, "hosts": 6, "lag_max_s": 0.834, "failed": 0, "down": 16, "t": 1793573451.44, "wall_s": 0.0383, "cpu_s": 0.0351, "requests": 3, "mb": 0.14}
+{"summary": true, "events": 9, "hosts": 9, "lag_max_s": 0.559, "failed": 0, "down": 25, "t": 1793573452.44, "wall_s": 0.0485, "cpu_s": 0.0454, "requests": 3, "mb": 0.15}
+{"summary": true, "events": 20, "hosts": 19, "lag_max_s": 0.911, "failed": 0, "down": 43, "t": 1793573453.44, "wall_s": 0.0427, "cpu_s": 0.038, "requests": 3, "mb": 0.19}
+{"summary": true, "events": 17, "hosts": 17, "lag_max_s": 1.001, "failed": 0, "down": 60, "t": 1793573454.44, "wall_s": 0.0441, "cpu_s": 0.0396, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 22, "hosts": 22, "lag_max_s": 1.019, "failed": 0, "down": 82, "t": 1793573455.44, "wall_s": 0.0622, "cpu_s": 0.0389, "requests": 3, "mb": 0.2}
+{"summary": true, "events": 19, "hosts": 19, "lag_max_s": 0.936, "failed": 0, "down": 97, "t": 1793573456.44, "wall_s": 0.0446, "cpu_s": 0.0411, "requests": 3, "mb": 0.19}
+{"summary": true, "events": 42, "hosts": 42, "lag_max_s": 0.951, "failed": 0, "down": 135, "t": 1793573457.44, "wall_s": 0.0433, "cpu_s": 0.0383, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 58, "hosts": 58, "lag_max_s": 0.738, "failed": 0, "down": 189, "t": 1793573458.441, "wall_s": 0.0592, "cpu_s": 0.0534, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 1, "hosts": 1, "lag_max_s": 0.823, "failed": 0, "down": 190, "t": 1793573459.441, "wall_s": 0.047, "cpu_s": 0.044, "requests": 3, "mb": 0.11}
+{"summary": true, "events": 88, "hosts": 87, "lag_max_s": 0.939, "failed": 0, "down": 262, "t": 1793573460.441, "wall_s": 0.0508, "cpu_s": 0.0439, "requests": 3, "mb": 0.49}
+{"summary": true, "events": 39, "hosts": 39, "lag_max_s": 0.868, "failed": 0, "down": 289, "t": 1793573461.441, "wall_s": 0.0739, "cpu_s": 0.0685, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 17, "hosts": 17, "lag_max_s": 0.923, "failed": 0, "down": 304, "t": 1793573462.441, "wall_s": 0.0536, "cpu_s": 0.0496, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 57, "hosts": 56, "lag_max_s": 0.943, "failed": 0, "down": 339, "t": 1793573463.441, "wall_s": 0.0539, "cpu_s": 0.0476, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 8, "hosts": 8, "lag_max_s": 0.714, "failed": 0, "down": 345, "t": 1793573464.441, "wall_s": 0.0522, "cpu_s": 0.0483, "requests": 3, "mb": 0.14}
+{"summary": true, "events": 68, "hosts": 68, "lag_max_s": 0.85, "failed": 0, "down": 373, "t": 1793573465.441, "wall_s": 0.0545, "cpu_s": 0.048, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 83, "hosts": 83, "lag_max_s": 0.818, "failed": 0, "down": 416, "t": 1793573466.441, "wall_s": 0.0499, "cpu_s": 0.0426, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 131, "hosts": 129, "lag_max_s": 0.986, "failed": 0, "down": 499, "t": 1793573467.441, "wall_s": 0.0519, "cpu_s": 0.0433, "requests": 3, "mb": 0.67}
+{"summary": true, "events": 192, "hosts": 189, "lag_max_s": 0.69, "failed": 0, "down": 585, "t": 1793573468.441, "wall_s": 0.0734, "cpu_s": 0.0595, "requests": 3, "mb": 0.93}
+{"summary": true, "events": 103, "hosts": 100, "lag_max_s": 1.02, "failed": 0, "down": 636, "t": 1793573469.441, "wall_s": 0.0757, "cpu_s": 0.0683, "requests": 3, "mb": 0.54}
+{"summary": true, "events": 36, "hosts": 36, "lag_max_s": 0.426, "failed": 0, "down": 652, "t": 1793573470.441, "wall_s": 0.0491, "cpu_s": 0.0443, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 168, "hosts": 167, "lag_max_s": 0.933, "failed": 0, "down": 724, "t": 1793573471.442, "wall_s": 0.0621, "cpu_s": 0.0511, "requests": 3, "mb": 0.83}
+{"summary": true, "events": 100, "hosts": 98, "lag_max_s": 0.913, "failed": 0, "down": 766, "t": 1793573472.442, "wall_s": 0.0554, "cpu_s": 0.0471, "requests": 3, "mb": 0.53}
+{"summary": true, "events": 99, "hosts": 99, "lag_max_s": 0.952, "failed": 0, "down": 807, "t": 1793573473.442, "wall_s": 0.0588, "cpu_s": 0.0502, "requests": 3, "mb": 0.54}
+{"summary": true, "events": 45, "hosts": 45, "lag_max_s": 0.874, "failed": 0, "down": 822, "t": 1793573474.442, "wall_s": 0.0508, "cpu_s": 0.0446, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 98, "hosts": 98, "lag_max_s": 0.887, "failed": 0, "down": 868, "t": 1793573475.442, "wall_s": 0.056, "cpu_s": 0.0436, "requests": 3, "mb": 0.53}
+{"summary": true, "events": 70, "hosts": 70, "lag_max_s": 0.973, "failed": 0, "down": 888, "t": 1793573476.442, "wall_s": 0.049, "cpu_s": 0.0427, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 112, "hosts": 112, "lag_max_s": 0.823, "failed": 0, "down": 922, "t": 1793573477.442, "wall_s": 0.0524, "cpu_s": 0.0439, "requests": 3, "mb": 0.6}
+{"summary": true, "events": 96, "hosts": 96, "lag_max_s": 0.817, "failed": 0, "down": 946, "t": 1793573478.442, "wall_s": 0.0624, "cpu_s": 0.0551, "requests": 3, "mb": 0.53}
+{"summary": true, "events": 32, "hosts": 32, "lag_max_s": 0.75, "failed": 0, "down": 954, "t": 1793573479.442, "wall_s": 0.0521, "cpu_s": 0.0471, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 141, "hosts": 141, "lag_max_s": 0.804, "failed": 0, "down": 981, "t": 1793573480.442, "wall_s": 0.0577, "cpu_s": 0.0432, "requests": 3, "mb": 0.72}
+{"summary": true, "events": 94, "hosts": 93, "lag_max_s": 0.995, "failed": 0, "down": 1015, "t": 1793573481.442, "wall_s": 0.0487, "cpu_s": 0.0424, "requests": 3, "mb": 0.51}
+{"summary": true, "events": 80, "hosts": 80, "lag_max_s": 0.833, "failed": 0, "down": 1039, "t": 1793573482.442, "wall_s": 0.0485, "cpu_s": 0.0418, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 32, "hosts": 32, "lag_max_s": 0.87, "failed": 0, "down": 1047, "t": 1793573483.442, "wall_s": 0.0455, "cpu_s": 0.0412, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 53, "hosts": 53, "lag_max_s": 0.788, "failed": 0, "down": 1060, "t": 1793573484.443, "wall_s": 0.0505, "cpu_s": 0.0439, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 94, "hosts": 94, "lag_max_s": 0.867, "failed": 0, "down": 1080, "t": 1793573485.443, "wall_s": 0.0851, "cpu_s": 0.051, "requests": 3, "mb": 0.52}
+{"summary": true, "events": 53, "hosts": 53, "lag_max_s": 0.973, "failed": 0, "down": 1081, "t": 1793573486.443, "wall_s": 0.0617, "cpu_s": 0.0537, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 62, "hosts": 61, "lag_max_s": 0.984, "failed": 0, "down": 1091, "t": 1793573487.443, "wall_s": 0.0455, "cpu_s": 0.04, "requests": 3, "mb": 0.38}
+{"summary": true, "events": 42, "hosts": 42, "lag_max_s": 0.858, "failed": 0, "down": 1093, "t": 1793573488.443, "wall_s": 0.0598, "cpu_s": 0.0418, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 6, "hosts": 6, "lag_max_s": 0.319, "failed": 0, "down": 1091, "t": 1793573489.443, "wall_s": 0.0443, "cpu_s": 0.0408, "requests": 3, "mb": 0.14}
+{"summary": true, "events": 15, "hosts": 15, "lag_max_s": 0.827, "failed": 0, "down": 1080, "t": 1793573490.443, "wall_s": 0.0602, "cpu_s": 0.0467, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 72, "hosts": 72, "lag_max_s": 1.005, "failed": 0, "down": 1063, "t": 1793573491.443, "wall_s": 0.0482, "cpu_s": 0.0425, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 32, "hosts": 32, "lag_max_s": 1.011, "failed": 0, "down": 1060, "t": 1793573492.443, "wall_s": 0.0488, "cpu_s": 0.0421, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 56, "hosts": 56, "lag_max_s": 0.984, "failed": 0, "down": 1018, "t": 1793573493.443, "wall_s": 0.0515, "cpu_s": 0.0454, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 57, "hosts": 57, "lag_max_s": 0.828, "failed": 0, "down": 991, "t": 1793573494.443, "wall_s": 0.0583, "cpu_s": 0.0522, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 16, "hosts": 16, "lag_max_s": 0.794, "failed": 0, "down": 979, "t": 1793573495.443, "wall_s": 0.0661, "cpu_s": 0.0616, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 54, "hosts": 54, "lag_max_s": 0.986, "failed": 0, "down": 949, "t": 1793573496.444, "wall_s": 0.0457, "cpu_s": 0.0399, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 44, "hosts": 44, "lag_max_s": 0.938, "failed": 0, "down": 925, "t": 1793573497.444, "wall_s": 0.0465, "cpu_s": 0.0403, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 38, "hosts": 37, "lag_max_s": 0.992, "failed": 0, "down": 901, "t": 1793573498.444, "wall_s": 0.0513, "cpu_s": 0.0459, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 32, "hosts": 32, "lag_max_s": 0.949, "failed": 0, "down": 881, "t": 1793573499.444, "wall_s": 0.0471, "cpu_s": 0.0402, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 30, "hosts": 30, "lag_max_s": 0.867, "failed": 0, "down": 861, "t": 1793573500.444, "wall_s": 0.0464, "cpu_s": 0.0412, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 43, "hosts": 43, "lag_max_s": 0.763, "failed": 0, "down": 838, "t": 1793573501.444, "wall_s": 0.048, "cpu_s": 0.0426, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 22, "hosts": 22, "lag_max_s": 0.678, "failed": 0, "down": 844, "t": 1793573508.445, "wall_s": 0.0477, "cpu_s": 0.0431, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 33, "hosts": 33, "lag_max_s": 0.661, "failed": 0, "down": 851, "t": 1793573509.445, "wall_s": 0.0698, "cpu_s": 0.0654, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 19, "hosts": 19, "lag_max_s": 0.326, "failed": 0, "down": 862, "t": 1793573510.445, "wall_s": 0.0457, "cpu_s": 0.0404, "requests": 3, "mb": 0.19}
+{"summary": true, "events": 83, "hosts": 81, "lag_max_s": 0.917, "failed": 0, "down": 865, "t": 1793573511.445, "wall_s": 0.0491, "cpu_s": 0.0424, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 202, "hosts": 131, "lag_max_s": 0.878, "failed": 0, "down": 831, "t": 1793573512.445, "wall_s": 0.0534, "cpu_s": 0.0445, "requests": 3, "mb": 0.69}
+{"summary": true, "events": 160, "hosts": 159, "lag_max_s": 0.959, "failed": 0, "down": 859, "t": 1793573513.445, "wall_s": 0.0568, "cpu_s": 0.0458, "requests": 3, "mb": 0.8}
+{"summary": true, "events": 94, "hosts": 93, "lag_max_s": 0.84, "failed": 0, "down": 875, "t": 1793573514.445, "wall_s": 0.0527, "cpu_s": 0.0427, "requests": 3, "mb": 0.51}
+{"summary": true, "events": 172, "hosts": 167, "lag_max_s": 0.895, "failed": 0, "down": 899, "t": 1793573515.445, "wall_s": 0.073, "cpu_s": 0.0463, "requests": 3, "mb": 0.83}
+{"summary": true, "events": 109, "hosts": 108, "lag_max_s": 0.807, "failed": 0, "down": 928, "t": 1793573516.445, "wall_s": 0.0552, "cpu_s": 0.044, "requests": 3, "mb": 0.58}
+{"summary": true, "events": 74, "hosts": 73, "lag_max_s": 1.0, "failed": 0, "down": 946, "t": 1793573517.445, "wall_s": 0.0515, "cpu_s": 0.0443, "requests": 3, "mb": 0.43}
+{"summary": true, "events": 84, "hosts": 83, "lag_max_s": 0.642, "failed": 0, "down": 930, "t": 1793573518.445, "wall_s": 0.0609, "cpu_s": 0.053, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 107, "hosts": 106, "lag_max_s": 0.785, "failed": 0, "down": 943, "t": 1793573519.445, "wall_s": 0.0523, "cpu_s": 0.0434, "requests": 3, "mb": 0.57}
+{"summary": true, "events": 70, "hosts": 69, "lag_max_s": 0.97, "failed": 0, "down": 937, "t": 1793573520.445, "wall_s": 0.0506, "cpu_s": 0.0435, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 56, "hosts": 56, "lag_max_s": 0.98, "failed": 0, "down": 923, "t": 1793573521.446, "wall_s": 0.0481, "cpu_s": 0.0423, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 55, "hosts": 55, "lag_max_s": 1.007, "failed": 0, "down": 914, "t": 1793573522.446, "wall_s": 0.0516, "cpu_s": 0.0446, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 24, "hosts": 24, "lag_max_s": 0.264, "failed": 0, "down": 916, "t": 1793573523.446, "wall_s": 0.0472, "cpu_s": 0.0423, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 36, "hosts": 36, "lag_max_s": 0.755, "failed": 0, "down": 910, "t": 1793573524.446, "wall_s": 0.0509, "cpu_s": 0.046, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 24, "hosts": 24, "lag_max_s": 0.973, "failed": 0, "down": 912, "t": 1793573525.446, "wall_s": 0.0472, "cpu_s": 0.0422, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 102, "hosts": 102, "lag_max_s": 0.535, "failed": 0, "down": 902, "t": 1793573526.446, "wall_s": 0.064, "cpu_s": 0.056, "requests": 3, "mb": 0.55}
+{"summary": true, "events": 135, "hosts": 133, "lag_max_s": 0.985, "failed": 0, "down": 883, "t": 1793573528.446, "wall_s": 0.0576, "cpu_s": 0.0456, "requests": 3, "mb": 0.69}
+{"summary": true, "events": 92, "hosts": 91, "lag_max_s": 0.676, "failed": 0, "down": 852, "t": 1793573529.446, "wall_s": 0.0521, "cpu_s": 0.0437, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 13, "hosts": 13, "lag_max_s": 1.017, "t": 1793573530.446, "wall_s": 0.058, "cpu_s": 0.0394, "requests": 3, "mb": 0.17}
+{"summary": true, "events": 49, "hosts": 49, "lag_max_s": 0.704, "failed": 0, "down": 833, "t": 1793573531.446, "wall_s": 0.0483, "cpu_s": 0.0428, "requests": 3, "mb": 0.32}
+{"summary": true, "events": 67, "hosts": 67, "lag_max_s": 0.932, "failed": 0, "down": 796, "t": 1793573533.447, "wall_s": 0.0524, "cpu_s": 0.0463, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 66, "hosts": 66, "lag_max_s": 0.929, "failed": 0, "down": 755, "t": 1793573534.447, "wall_s": 0.0513, "cpu_s": 0.0448, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 57, "hosts": 56, "lag_max_s": 1.009, "failed": 0, "down": 731, "t": 1793573535.447, "wall_s": 0.0476, "cpu_s": 0.042, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 46, "hosts": 46, "lag_max_s": 0.878, "failed": 0, "down": 715, "t": 1793573536.447, "wall_s": 0.0471, "cpu_s": 0.0421, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 31, "hosts": 31, "lag_max_s": 0.625, "failed": 0, "down": 690, "t": 1793573537.447, "wall_s": 0.0594, "cpu_s": 0.0544, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 51, "hosts": 51, "lag_max_s": 0.87, "failed": 0, "down": 657, "t": 1793573538.447, "wall_s": 0.0507, "cpu_s": 0.0448, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 35, "hosts": 35, "lag_max_s": 0.931, "failed": 0, "down": 634, "t": 1793573539.447, "wall_s": 0.0505, "cpu_s": 0.0452, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 31, "hosts": 31, "lag_max_s": 0.882, "failed": 0, "down": 617, "t": 1793573540.447, "wall_s": 0.0483, "cpu_s": 0.0436, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 41, "hosts": 40, "lag_max_s": 0.432, "failed": 0, "down": 596, "t": 1793573541.447, "wall_s": 0.0499, "cpu_s": 0.0452, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 47, "hosts": 47, "lag_max_s": 0.684, "failed": 0, "down": 583, "t": 1793573542.447, "wall_s": 0.0479, "cpu_s": 0.043, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 45, "hosts": 44, "lag_max_s": 0.857, "failed": 0, "down": 562, "t": 1793573543.447, "wall_s": 0.0549, "cpu_s": 0.05, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 39, "hosts": 38, "lag_max_s": 1.006, "failed": 0, "down": 553, "t": 1793573544.447, "wall_s": 0.0508, "cpu_s": 0.0463, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 10, "hosts": 10, "lag_max_s": 0.599, "failed": 0, "down": 547, "t": 1793573545.447, "wall_s": 0.0781, "cpu_s": 0.0741, "requests": 3, "mb": 0.15}
+{"summary": true, "events": 17, "hosts": 17, "lag_max_s": 0.674, "failed": 0, "down": 546, "t": 1793573546.448, "wall_s": 0.0559, "cpu_s": 0.0521, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 14, "hosts": 14, "lag_max_s": 0.526, "failed": 0, "down": 542, "t": 1793573547.448, "wall_s": 0.0472, "cpu_s": 0.0434, "requests": 3, "mb": 0.17}
+{"summary": true, "events": 61, "hosts": 61, "lag_max_s": 0.871, "failed": 0, "down": 533, "t": 1793573548.448, "wall_s": 0.0609, "cpu_s": 0.0546, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 21, "hosts": 21, "lag_max_s": 0.909, "failed": 0, "down": 532, "t": 1793573549.448, "wall_s": 0.0479, "cpu_s": 0.0443, "requests": 3, "mb": 0.2}
+{"summary": true, "events": 28, "hosts": 28, "lag_max_s": 0.554, "failed": 0, "down": 524, "t": 1793573550.448, "wall_s": 0.0621, "cpu_s": 0.042, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 52, "hosts": 52, "lag_max_s": 0.845, "failed": 0, "down": 528, "t": 1793573551.448, "wall_s": 0.0549, "cpu_s": 0.0491, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 78, "hosts": 78, "lag_max_s": 0.922, "failed": 0, "down": 530, "t": 1793573552.448, "wall_s": 0.0607, "cpu_s": 0.053, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 51, "hosts": 51, "lag_max_s": 0.872, "failed": 0, "down": 546, "t": 1793573553.448, "wall_s": 0.0541, "cpu_s": 0.0474, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 72, "hosts": 72, "lag_max_s": 1.03, "failed": 0, "down": 578, "t": 1793573554.448, "wall_s": 0.0657, "cpu_s": 0.0588, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 131, "hosts": 131, "lag_max_s": 1.018, "failed": 0, "down": 614, "t": 1793573555.448, "wall_s": 0.0575, "cpu_s": 0.0465, "requests": 3, "mb": 0.68}
+{"summary": true, "events": 62, "hosts": 61, "lag_max_s": 0.8, "failed": 0, "down": 624, "t": 1793573556.448, "wall_s": 0.0513, "cpu_s": 0.0437, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 53, "hosts": 53, "lag_max_s": 0.887, "failed": 0, "down": 633, "t": 1793573557.448, "wall_s": 0.0507, "cpu_s": 0.045, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 52, "hosts": 50, "lag_max_s": 0.836, "failed": 0, "down": 657, "t": 1793573558.448, "wall_s": 0.05, "cpu_s": 0.0424, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 46, "hosts": 46, "lag_max_s": 0.844, "failed": 0, "down": 706, "t": 1793573559.449, "wall_s": 0.0637, "cpu_s": 0.0464, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 99, "hosts": 98, "lag_max_s": 1.007, "failed": 0, "down": 718, "t": 1793573560.449, "wall_s": 0.0515, "cpu_s": 0.0437, "requests": 3, "mb": 0.53}
+{"summary": true, "events": 52, "hosts": 52, "lag_max_s": 0.7, "failed": 0, "down": 736, "t": 1793573561.449, "wall_s": 0.0488, "cpu_s": 0.043, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 129, "hosts": 125, "lag_max_s": 1.005, "failed": 0, "down": 773, "t": 1793573562.449, "wall_s": 0.0727, "cpu_s": 0.0582, "requests": 3, "mb": 0.65}
+{"summary": true, "events": 56, "hosts": 56, "lag_max_s": 0.643, "failed": 0, "down": 775, "t": 1793573563.449, "wall_s": 0.0644, "cpu_s": 0.0454, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 134, "hosts": 133, "lag_max_s": 1.04, "failed": 0, "down": 771, "t": 1793573564.449, "wall_s": 0.0868, "cpu_s": 0.0491, "requests": 3, "mb": 0.69}
+{"summary": true, "events": 121, "hosts": 120, "lag_max_s": 0.89, "failed": 0, "down": 808, "t": 1793573565.449, "wall_s": 0.0743, "cpu_s": 0.0492, "requests": 3, "mb": 0.63}
+{"summary": true, "events": 52, "hosts": 52, "lag_max_s": 0.666, "failed": 0, "down": 814, "t": 1793573566.449, "wall_s": 0.0639, "cpu_s": 0.0434, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 73, "hosts": 72, "lag_max_s": 0.978, "failed": 0, "down": 821, "t": 1793573567.449, "wall_s": 0.0593, "cpu_s": 0.0514, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 51, "hosts": 51, "lag_max_s": 0.819, "failed": 0, "down": 824, "t": 1793573568.449, "wall_s": 0.0531, "cpu_s": 0.0469, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 41, "hosts": 41, "lag_max_s": 0.332, "failed": 0, "down": 819, "t": 1793573569.449, "wall_s": 0.0512, "cpu_s": 0.0465, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 67, "hosts": 67, "lag_max_s": 0.645, "failed": 0, "down": 830, "t": 1793573570.449, "wall_s": 0.0515, "cpu_s": 0.0446, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 74, "hosts": 72, "lag_max_s": 0.926, "failed": 0, "down": 834, "t": 1793573571.449, "wall_s": 0.0583, "cpu_s": 0.0525, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 104, "hosts": 103, "lag_max_s": 1.001, "failed": 0, "down": 838, "t": 1793573572.45, "wall_s": 0.0522, "cpu_s": 0.0441, "requests": 3, "mb": 0.56}
+{"summary": true, "events": 168, "hosts": 165, "lag_max_s": 1.012, "failed": 0, "down": 832, "t": 1793573573.45, "wall_s": 0.0666, "cpu_s": 0.0557, "requests": 3, "mb": 0.82}
+{"summary": true, "events": 47, "hosts": 47, "lag_max_s": 0.907, "failed": 0, "down": 827, "t": 1793573574.45, "wall_s": 0.0595, "cpu_s": 0.0539, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 27, "hosts": 27, "lag_max_s": 0.908, "failed": 0, "down": 818, "t": 1793573575.45, "wall_s": 0.048, "cpu_s": 0.0429, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 48, "hosts": 48, "lag_max_s": 0.849, "failed": 0, "down": 806, "t": 1793573576.45, "wall_s": 0.048, "cpu_s": 0.0429, "requests": 3, "mb": 0.32}
+{"summary": true, "events": 75, "hosts": 75, "lag_max_s": 0.921, "failed": 0, "down": 785, "t": 1793573577.45, "wall_s": 0.077, "cpu_s": 0.0453, "requests": 3, "mb": 0.44}
+{"summary": true, "events": 27, "hosts": 27, "lag_max_s": 0.721, "failed": 0, "down": 772, "t": 1793573578.45, "wall_s": 0.0459, "cpu_s": 0.0416, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 29, "hosts": 29, "lag_max_s": 0.951, "failed": 0, "down": 764, "t": 1793573579.45, "wall_s": 0.0592, "cpu_s": 0.0539, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 54, "hosts": 54, "lag_max_s": 1.014, "failed": 0, "down": 759, "t": 1793573580.45, "wall_s": 0.0491, "cpu_s": 0.043, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 14, "hosts": 14, "lag_max_s": 0.71, "failed": 0, "down": 753, "t": 1793573581.45, "wall_s": 0.0638, "cpu_s": 0.0457, "requests": 3, "mb": 0.17}
+{"summary": true, "events": 44, "hosts": 44, "lag_max_s": 0.926, "failed": 0, "down": 729, "t": 1793573582.45, "wall_s": 0.0519, "cpu_s": 0.0436, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 30, "hosts": 30, "lag_max_s": 0.839, "failed": 0, "down": 718, "t": 1793573583.45, "wall_s": 0.0666, "cpu_s": 0.0458, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 32, "hosts": 32, "lag_max_s": 0.997, "failed": 0, "down": 709, "t": 1793573584.45, "wall_s": 0.051, "cpu_s": 0.0461, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 11, "hosts": 11, "lag_max_s": 0.913, "failed": 0, "down": 704, "t": 1793573585.451, "wall_s": 0.0495, "cpu_s": 0.0441, "requests": 3, "mb": 0.16}
+{"summary": true, "events": 30, "hosts": 30, "lag_max_s": 0.87, "failed": 0, "down": 690, "t": 1793573586.451, "wall_s": 0.046, "cpu_s": 0.0411, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 15, "hosts": 15, "lag_max_s": 0.399, "failed": 0, "down": 681, "t": 1793573587.451, "wall_s": 0.0455, "cpu_s": 0.0414, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 45, "hosts": 45, "lag_max_s": 0.653, "failed": 0, "down": 658, "t": 1793573588.451, "wall_s": 0.0579, "cpu_s": 0.0528, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 19, "hosts": 19, "lag_max_s": 0.637, "failed": 0, "down": 653, "t": 1793573589.451, "wall_s": 0.0462, "cpu_s": 0.0418, "requests": 3, "mb": 0.19}
+{"summary": true, "events": 35, "hosts": 35, "lag_max_s": 0.782, "failed": 0, "down": 630, "t": 1793573590.451, "wall_s": 0.0466, "cpu_s": 0.0418, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 22, "hosts": 22, "lag_max_s": 0.702, "failed": 0, "down": 628, "t": 1793573591.451, "wall_s": 0.0561, "cpu_s": 0.0431, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 35, "hosts": 35, "lag_max_s": 0.965, "failed": 0, "down": 615, "t": 1793573592.451, "wall_s": 0.0507, "cpu_s": 0.046, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 41, "hosts": 41, "lag_max_s": 0.958, "failed": 0, "down": 630, "t": 1793573593.451, "wall_s": 0.0676, "cpu_s": 0.0443, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 68, "hosts": 68, "lag_max_s": 0.848, "failed": 0, "down": 656, "t": 1793573594.451, "wall_s": 0.0715, "cpu_s": 0.0463, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 66, "hosts": 66, "lag_max_s": 0.921, "failed": 0, "down": 689, "t": 1793573595.451, "wall_s": 0.0659, "cpu_s": 0.0446, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 60, "hosts": 60, "lag_max_s": 1.011, "failed": 0, "down": 690, "t": 1793573596.451, "wall_s": 0.0636, "cpu_s": 0.0577, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 32, "hosts": 32, "lag_max_s": 0.459, "failed": 0, "down": 702, "t": 1793573597.452, "wall_s": 0.071, "cpu_s": 0.0621, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 45, "hosts": 45, "lag_max_s": 1.005, "failed": 0, "down": 709, "t": 1793573598.452, "wall_s": 0.0589, "cpu_s": 0.0538, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 47, "hosts": 47, "lag_max_s": 0.992, "failed": 0, "down": 706, "t": 1793573599.452, "wall_s": 0.0589, "cpu_s": 0.0512, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 132, "hosts": 131, "lag_max_s": 0.926, "failed": 0, "down": 743, "t": 1793573600.452, "wall_s": 0.0597, "cpu_s": 0.049, "requests": 3, "mb": 0.68}
+{"summary": true, "events": 84, "hosts": 83, "lag_max_s": 1.004, "failed": 0, "down": 754, "t": 1793573601.452, "wall_s": 0.0512, "cpu_s": 0.0451, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 115, "hosts": 115, "lag_max_s": 0.992, "failed": 0, "down": 795, "t": 1793573602.452, "wall_s": 0.0558, "cpu_s": 0.0468, "requests": 3, "mb": 0.61}
+{"summary": true, "events": 113, "hosts": 112, "lag_max_s": 0.676, "failed": 0, "down": 824, "t": 1793573603.452, "wall_s": 0.059, "cpu_s": 0.048, "requests": 3, "mb": 0.6}
+{"summary": true, "events": 98, "hosts": 97, "lag_max_s": 0.783, "failed": 0, "down": 846, "t": 1793573604.452, "wall_s": 0.0568, "cpu_s": 0.0474, "requests": 3, "mb": 0.53}
+{"summary": true, "events": 146, "hosts": 145, "lag_max_s": 0.717, "failed": 0, "down": 870, "t": 1793573605.452, "wall_s": 0.0696, "cpu_s": 0.0587, "requests": 3, "mb": 0.74}
+{"summary": true, "events": 64, "hosts": 64, "lag_max_s": 1.008, "failed": 0, "down": 876, "t": 1793573606.452, "wall_s": 0.0793, "cpu_s": 0.0474, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 153, "hosts": 152, "lag_max_s": 1.036, "failed": 0, "down": 915, "t": 1793573607.452, "wall_s": 0.1003, "cpu_s": 0.0501, "requests": 3, "mb": 0.77}
+{"summary": true, "events": 74, "hosts": 74, "lag_max_s": 0.962, "failed": 0, "down": 934, "t": 1793573608.452, "wall_s": 0.0672, "cpu_s": 0.0457, "requests": 3, "mb": 0.43}
+{"summary": true, "events": 83, "hosts": 83, "lag_max_s": 1.003, "failed": 0, "down": 950, "t": 1793573609.452, "wall_s": 0.0584, "cpu_s": 0.0515, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 85, "hosts": 84, "lag_max_s": 1.006, "failed": 0, "down": 965, "t": 1793573610.453, "wall_s": 0.0548, "cpu_s": 0.0484, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 160, "hosts": 160, "lag_max_s": 0.863, "failed": 0, "down": 973, "t": 1793573611.453, "wall_s": 0.0587, "cpu_s": 0.0481, "requests": 3, "mb": 0.8}
+{"summary": true, "events": 94, "hosts": 94, "lag_max_s": 0.949, "failed": 0, "down": 963, "t": 1793573612.453, "wall_s": 0.0753, "cpu_s": 0.0487, "requests": 3, "mb": 0.52}
+{"summary": true, "events": 25, "hosts": 25, "lag_max_s": 0.912, "failed": 0, "down": 968, "t": 1793573613.453, "wall_s": 0.093, "cpu_s": 0.079, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 84, "hosts": 84, "lag_max_s": 0.962, "failed": 0, "down": 972, "t": 1793573614.453, "wall_s": 0.0711, "cpu_s": 0.0481, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 17, "hosts": 17, "lag_max_s": 0.665, "failed": 0, "down": 977, "t": 1793573615.453, "wall_s": 0.0492, "cpu_s": 0.0448, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 42, "hosts": 42, "lag_max_s": 0.229, "failed": 0, "down": 965, "t": 1793573616.453, "wall_s": 0.0489, "cpu_s": 0.0434, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 86, "hosts": 86, "lag_max_s": 0.878, "failed": 0, "down": 951, "t": 1793573617.453, "wall_s": 0.0518, "cpu_s": 0.0448, "requests": 3, "mb": 0.48}
+{"summary": true, "events": 97, "hosts": 97, "lag_max_s": 0.98, "failed": 0, "down": 954, "t": 1793573618.453, "wall_s": 0.0524, "cpu_s": 0.0446, "requests": 3, "mb": 0.53}
+{"summary": true, "events": 135, "hosts": 132, "lag_max_s": 0.99, "failed": 0, "down": 937, "t": 1793573619.453, "wall_s": 0.0601, "cpu_s": 0.0468, "requests": 3, "mb": 0.68}
+{"summary": true, "events": 93, "hosts": 91, "lag_max_s": 0.982, "failed": 0, "down": 922, "t": 1793573620.453, "wall_s": 0.0681, "cpu_s": 0.045, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 107, "hosts": 106, "lag_max_s": 1.018, "failed": 0, "down": 884, "t": 1793573621.453, "wall_s": 0.0701, "cpu_s": 0.0474, "requests": 3, "mb": 0.57}
+{"summary": true, "events": 76, "hosts": 76, "lag_max_s": 1.015, "failed": 0, "down": 869, "t": 1793573622.454, "wall_s": 0.0777, "cpu_s": 0.0709, "requests": 3, "mb": 0.44}
+{"summary": true, "events": 26, "hosts": 26, "lag_max_s": 0.873, "failed": 0, "down": 867, "t": 1793573623.454, "wall_s": 0.0754, "cpu_s": 0.0452, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 41, "hosts": 41, "lag_max_s": 0.955, "failed": 0, "down": 854, "t": 1793573624.454, "wall_s": 0.0494, "cpu_s": 0.0437, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 12, "hosts": 12, "lag_max_s": 0.902, "failed": 0, "down": 850, "t": 1793573625.454, "wall_s": 0.0456, "cpu_s": 0.0419, "requests": 3, "mb": 0.16}
+{"summary": true, "events": 8, "hosts": 8, "lag_max_s": 0.709, "failed": 0, "down": 844, "t": 1793573635.455, "wall_s": 0.0579, "cpu_s": 0.0488, "requests": 3, "mb": 0.15}
+{"summary": true, "events": 17, "hosts": 17, "lag_max_s": 0.938, "failed": 0, "down": 837, "t": 1793573636.455, "wall_s": 0.0455, "cpu_s": 0.0413, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 36, "hosts": 36, "lag_max_s": 0.654, "failed": 0, "down": 807, "t": 1793573638.455, "wall_s": 0.0611, "cpu_s": 0.0446, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 39, "hosts": 39, "lag_max_s": 1.002, "failed": 0, "down": 810, "t": 1793573639.455, "wall_s": 0.0507, "cpu_s": 0.0443, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 21, "hosts": 21, "lag_max_s": 0.621, "failed": 0, "down": 805, "t": 1793573640.455, "wall_s": 0.0602, "cpu_s": 0.0557, "requests": 3, "mb": 0.2}
+{"summary": true, "events": 102, "hosts": 101, "lag_max_s": 0.961, "failed": 0, "down": 774, "t": 1793573641.455, "wall_s": 0.0557, "cpu_s": 0.0468, "requests": 3, "mb": 0.55}
+{"summary": true, "events": 55, "hosts": 55, "lag_max_s": 1.009, "failed": 0, "down": 762, "t": 1793573642.455, "wall_s": 0.054, "cpu_s": 0.0477, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 59, "hosts": 58, "lag_max_s": 1.011, "failed": 0, "down": 761, "t": 1793573643.455, "wall_s": 0.0515, "cpu_s": 0.045, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 55, "hosts": 55, "lag_max_s": 0.631, "failed": 0, "down": 756, "t": 1793573644.455, "wall_s": 0.0557, "cpu_s": 0.0497, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 78, "hosts": 78, "lag_max_s": 0.89, "failed": 0, "down": 764, "t": 1793573645.456, "wall_s": 0.0585, "cpu_s": 0.0485, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 12, "hosts": 12, "lag_max_s": 0.554, "failed": 0, "down": 762, "t": 1793573646.456, "wall_s": 0.0485, "cpu_s": 0.0433, "requests": 3, "mb": 0.16}
+{"summary": true, "events": 42, "hosts": 42, "lag_max_s": 0.854, "failed": 0, "down": 770, "t": 1793573647.456, "wall_s": 0.0523, "cpu_s": 0.0453, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 78, "hosts": 78, "lag_max_s": 0.785, "failed": 0, "down": 776, "t": 1793573648.456, "wall_s": 0.0581, "cpu_s": 0.0487, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 83, "hosts": 83, "lag_max_s": 0.398, "failed": 0, "down": 813, "t": 1793573649.456, "wall_s": 0.09, "cpu_s": 0.0825, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 10, "hosts": 10, "lag_max_s": 0.922, "failed": 0, "down": 815, "t": 1793573650.456, "wall_s": 0.0585, "cpu_s": 0.0542, "requests": 3, "mb": 0.15}
+{"summary": true, "events": 55, "hosts": 55, "lag_max_s": 1.006, "failed": 0, "down": 834, "t": 1793573651.456, "wall_s": 0.0617, "cpu_s": 0.0546, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 90, "hosts": 89, "lag_max_s": 0.971, "failed": 0, "down": 874, "t": 1793573652.456, "wall_s": 0.06, "cpu_s": 0.052, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 32, "hosts": 32, "lag_max_s": 0.545, "failed": 0, "down": 879, "t": 1793573653.456, "wall_s": 0.0603, "cpu_s": 0.0552, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 113, "hosts": 113, "lag_max_s": 1.023, "failed": 0, "down": 915, "t": 1793573654.456, "wall_s": 0.0654, "cpu_s": 0.0549, "requests": 3, "mb": 0.6}
+{"summary": true, "events": 54, "hosts": 54, "lag_max_s": 0.902, "failed": 0, "down": 919, "t": 1793573655.456, "wall_s": 0.0552, "cpu_s": 0.0489, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 47, "hosts": 47, "lag_max_s": 0.915, "failed": 0, "down": 922, "t": 1793573656.456, "wall_s": 0.0675, "cpu_s": 0.046, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 143, "hosts": 143, "lag_max_s": 0.583, "failed": 0, "down": 947, "t": 1793573657.456, "wall_s": 0.0782, "cpu_s": 0.0659, "requests": 3, "mb": 0.73}
+{"summary": true, "events": 134, "hosts": 132, "lag_max_s": 0.929, "failed": 0, "down": 961, "t": 1793573658.456, "wall_s": 0.0598, "cpu_s": 0.0496, "requests": 3, "mb": 0.68}
+{"summary": true, "events": 100, "hosts": 100, "lag_max_s": 0.94, "failed": 0, "down": 969, "t": 1793573659.457, "wall_s": 0.067, "cpu_s": 0.0507, "requests": 3, "mb": 0.54}
+{"summary": true, "events": 111, "hosts": 110, "lag_max_s": 0.995, "failed": 0, "down": 992, "t": 1793573660.457, "wall_s": 0.0591, "cpu_s": 0.0489, "requests": 3, "mb": 0.59}
+{"summary": true, "events": 119, "hosts": 119, "lag_max_s": 0.908, "failed": 0, "down": 979, "t": 1793573661.457, "wall_s": 0.069, "cpu_s": 0.0513, "requests": 3, "mb": 0.63}
+{"summary": true, "events": 97, "hosts": 95, "lag_max_s": 0.96, "failed": 0, "down": 1000, "t": 1793573662.457, "wall_s": 0.057, "cpu_s": 0.0482, "requests": 3, "mb": 0.52}
+{"summary": true, "events": 36, "hosts": 36, "lag_max_s": 0.489, "failed": 0, "down": 998, "t": 1793573663.457, "wall_s": 0.062, "cpu_s": 0.0565, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 22, "hosts": 22, "lag_max_s": 0.583, "failed": 0, "down": 1004, "t": 1793573664.457, "wall_s": 0.0504, "cpu_s": 0.0449, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 108, "hosts": 108, "lag_max_s": 0.912, "failed": 0, "down": 980, "t": 1793573665.457, "wall_s": 0.0781, "cpu_s": 0.0511, "requests": 3, "mb": 0.58}
+{"summary": true, "events": 51, "hosts": 51, "lag_max_s": 0.71, "failed": 0, "down": 979, "t": 1793573666.457, "wall_s": 0.0682, "cpu_s": 0.0604, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 46, "hosts": 46, "lag_max_s": 0.385, "failed": 0, "down": 967, "t": 1793573667.457, "wall_s": 0.0704, "cpu_s": 0.0488, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 88, "hosts": 87, "lag_max_s": 0.899, "failed": 0, "down": 957, "t": 1793573668.457, "wall_s": 0.0548, "cpu_s": 0.0468, "requests": 3, "mb": 0.49}
+{"summary": true, "events": 73, "hosts": 72, "lag_max_s": 0.927, "failed": 0, "down": 948, "t": 1793573669.457, "wall_s": 0.0639, "cpu_s": 0.057, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 70, "hosts": 70, "lag_max_s": 0.922, "failed": 0, "down": 924, "t": 1793573670.457, "wall_s": 0.0541, "cpu_s": 0.0472, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 102, "hosts": 101, "lag_max_s": 0.946, "failed": 0, "down": 902, "t": 1793573671.457, "wall_s": 0.0669, "cpu_s": 0.0584, "requests": 3, "mb": 0.55}
+{"summary": true, "events": 78, "hosts": 78, "lag_max_s": 0.993, "failed": 0, "down": 894, "t": 1793573672.458, "wall_s": 0.0554, "cpu_s": 0.0479, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 41, "hosts": 41, "lag_max_s": 0.99, "failed": 0, "down": 879, "t": 1793573673.458, "wall_s": 0.0521, "cpu_s": 0.0457, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 56, "hosts": 56, "lag_max_s": 0.691, "failed": 0, "down": 861, "t": 1793573674.458, "wall_s": 0.071, "cpu_s": 0.0562, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 43, "hosts": 43, "lag_max_s": 0.66, "failed": 0, "down": 842, "t": 1793573675.458, "wall_s": 0.053, "cpu_s": 0.0463, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 67, "hosts": 67, "lag_max_s": 0.97, "failed": 0, "down": 815, "t": 1793573676.458, "wall_s": 0.0581, "cpu_s": 0.0483, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 46, "hosts": 46, "lag_max_s": 0.795, "failed": 0, "down": 799, "t": 1793573677.458, "wall_s": 0.0527, "cpu_s": 0.046, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 74, "hosts": 72, "lag_max_s": 0.898, "failed": 0, "down": 773, "t": 1793573678.458, "wall_s": 0.067, "cpu_s": 0.0446, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 33, "hosts": 33, "lag_max_s": 0.785, "failed": 0, "down": 764, "t": 1793573679.458, "wall_s": 0.0616, "cpu_s": 0.0565, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 24, "hosts": 24, "lag_max_s": 0.883, "failed": 0, "down": 754, "t": 1793573680.458, "wall_s": 0.0608, "cpu_s": 0.0561, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 61, "hosts": 61, "lag_max_s": 0.896, "failed": 0, "down": 735, "t": 1793573681.458, "wall_s": 0.0623, "cpu_s": 0.056, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 28, "hosts": 28, "lag_max_s": 0.972, "failed": 0, "down": 727, "t": 1793573682.458, "wall_s": 0.0543, "cpu_s": 0.048, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 29, "hosts": 29, "lag_max_s": 0.752, "failed": 0, "down": 714, "t": 1793573683.458, "wall_s": 0.0608, "cpu_s": 0.0562, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 59, "hosts": 58, "lag_max_s": 0.933, "failed": 0, "down": 707, "t": 1793573684.459, "wall_s": 0.0669, "cpu_s": 0.0457, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 21, "hosts": 21, "lag_max_s": 0.984, "failed": 0, "down": 702, "t": 1793573685.459, "wall_s": 0.0604, "cpu_s": 0.0536, "requests": 3, "mb": 0.2}
+{"summary": true, "events": 22, "hosts": 21, "lag_max_s": 0.967, "failed": 0, "down": 690, "t": 1793573686.459, "wall_s": 0.0553, "cpu_s": 0.0494, "requests": 3, "mb": 0.2}
+{"summary": true, "events": 43, "hosts": 43, "lag_max_s": 0.683, "failed": 0, "down": 685, "t": 1793573687.459, "wall_s": 0.0535, "cpu_s": 0.0487, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 29, "hosts": 29, "lag_max_s": 0.957, "failed": 0, "down": 670, "t": 1793573688.459, "wall_s": 0.049, "cpu_s": 0.0446, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 41, "hosts": 41, "lag_max_s": 0.917, "failed": 0, "down": 667, "t": 1793573689.459, "wall_s": 0.0558, "cpu_s": 0.0497, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 61, "hosts": 61, "lag_max_s": 0.679, "failed": 0, "down": 670, "t": 1793573690.459, "wall_s": 0.0698, "cpu_s": 0.0468, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 32, "hosts": 32, "lag_max_s": 0.967, "failed": 0, "down": 678, "t": 1793573691.459, "wall_s": 0.0905, "cpu_s": 0.0643, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 20, "hosts": 20, "lag_max_s": 0.722, "failed": 0, "down": 686, "t": 1793573692.459, "wall_s": 0.0494, "cpu_s": 0.0451, "requests": 3, "mb": 0.2}
+{"summary": true, "events": 30, "hosts": 30, "lag_max_s": 0.862, "failed": 0, "down": 694, "t": 1793573693.459, "wall_s": 0.0562, "cpu_s": 0.0493, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 56, "hosts": 56, "lag_max_s": 0.789, "failed": 0, "down": 702, "t": 1793573694.459, "wall_s": 0.0541, "cpu_s": 0.047, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 44, "hosts": 44, "lag_max_s": 0.88, "failed": 0, "down": 710, "t": 1793573695.459, "wall_s": 0.0544, "cpu_s": 0.0484, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 103, "hosts": 101, "lag_max_s": 0.97, "failed": 0, "down": 751, "t": 1793573696.459, "wall_s": 0.058, "cpu_s": 0.0492, "requests": 3, "mb": 0.55}
+{"summary": true, "events": 100, "hosts": 98, "lag_max_s": 0.975, "failed": 0, "down": 787, "t": 1793573697.46, "wall_s": 0.0665, "cpu_s": 0.0515, "requests": 3, "mb": 0.53}
+{"summary": true, "events": 30, "hosts": 30, "lag_max_s": 0.445, "failed": 0, "down": 799, "t": 1793573698.46, "wall_s": 0.0518, "cpu_s": 0.0456, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 119, "hosts": 118, "lag_max_s": 0.802, "failed": 0, "down": 836, "t": 1793573699.46, "wall_s": 0.0615, "cpu_s": 0.0515, "requests": 3, "mb": 0.62}
+{"summary": true, "events": 114, "hosts": 114, "lag_max_s": 0.865, "failed": 0, "down": 868, "t": 1793573700.46, "wall_s": 0.0827, "cpu_s": 0.0638, "requests": 3, "mb": 0.6}
+{"summary": true, "events": 52, "hosts": 52, "lag_max_s": 0.78, "failed": 0, "down": 886, "t": 1793573701.46, "wall_s": 0.0544, "cpu_s": 0.0473, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 46, "hosts": 46, "lag_max_s": 0.926, "failed": 0, "down": 896, "t": 1793573702.46, "wall_s": 0.0625, "cpu_s": 0.0503, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 163, "hosts": 161, "lag_max_s": 0.949, "failed": 0, "down": 937, "t": 1793573703.46, "wall_s": 0.065, "cpu_s": 0.0528, "requests": 3, "mb": 0.81}
+{"summary": true, "events": 162, "hosts": 161, "lag_max_s": 1.022, "failed": 0, "down": 943, "t": 1793573704.46, "wall_s": 0.102, "cpu_s": 0.0547, "requests": 3, "mb": 0.81}
+{"summary": true, "events": 102, "hosts": 102, "lag_max_s": 0.779, "failed": 0, "down": 953, "t": 1793573705.46, "wall_s": 0.0814, "cpu_s": 0.0532, "requests": 3, "mb": 0.55}
+{"summary": true, "events": 128, "hosts": 128, "lag_max_s": 0.994, "failed": 0, "down": 985, "t": 1793573706.46, "wall_s": 0.0701, "cpu_s": 0.0564, "requests": 3, "mb": 0.66}
+{"summary": true, "events": 49, "hosts": 49, "lag_max_s": 0.657, "failed": 0, "down": 994, "t": 1793573707.46, "wall_s": 0.0545, "cpu_s": 0.0488, "requests": 3, "mb": 0.32}
+{"summary": true, "events": 69, "hosts": 68, "lag_max_s": 0.999, "failed": 0, "down": 983, "t": 1793573708.46, "wall_s": 0.0826, "cpu_s": 0.0689, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 64, "hosts": 64, "lag_max_s": 0.846, "failed": 0, "down": 993, "t": 1793573709.46, "wall_s": 0.0712, "cpu_s": 0.0473, "requests": 3, "mb": 0.39}
+{"summary": true, "events": 60, "hosts": 60, "lag_max_s": 0.926, "failed": 0, "down": 1005, "t": 1793573710.461, "wall_s": 0.0653, "cpu_s": 0.0593, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 115, "hosts": 113, "lag_max_s": 0.932, "failed": 0, "down": 1000, "t": 1793573711.461, "wall_s": 0.0597, "cpu_s": 0.0503, "requests": 3, "mb": 0.6}
+{"summary": true, "events": 101, "hosts": 100, "lag_max_s": 1.003, "failed": 0, "down": 973, "t": 1793573712.461, "wall_s": 0.0664, "cpu_s": 0.0558, "requests": 3, "mb": 0.54}
+{"summary": true, "events": 73, "hosts": 72, "lag_max_s": 0.916, "failed": 0, "down": 966, "t": 1793573713.461, "wall_s": 0.0583, "cpu_s": 0.0515, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 56, "hosts": 56, "lag_max_s": 0.891, "failed": 0, "down": 956, "t": 1793573714.461, "wall_s": 0.0607, "cpu_s": 0.05, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 182, "hosts": 178, "lag_max_s": 0.94, "failed": 0, "down": 930, "t": 1793573715.461, "wall_s": 0.0656, "cpu_s": 0.0512, "requests": 3, "mb": 0.88}
+{"summary": true, "events": 82, "hosts": 82, "lag_max_s": 1.009, "failed": 0, "down": 900, "t": 1793573716.461, "wall_s": 0.0737, "cpu_s": 0.0493, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 27, "hosts": 27, "lag_max_s": 0.884, "failed": 0, "down": 895, "t": 1793573717.461, "wall_s": 0.0727, "cpu_s": 0.068, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 20, "hosts": 20, "lag_max_s": 0.9, "failed": 0, "down": 891, "t": 1793573718.461, "wall_s": 0.0498, "cpu_s": 0.0454, "requests": 3, "mb": 0.2}
+{"summary": true, "events": 51, "hosts": 51, "lag_max_s": 0.899, "failed": 0, "down": 874, "t": 1793573719.461, "wall_s": 0.0532, "cpu_s": 0.0471, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 68, "hosts": 68, "lag_max_s": 0.818, "failed": 0, "down": 856, "t": 1793573720.461, "wall_s": 0.0568, "cpu_s": 0.0494, "requests": 3, "mb": 0.41}
+{"summary": true, "events": 63, "hosts": 63, "lag_max_s": 0.72, "failed": 0, "down": 824, "t": 1793573721.461, "wall_s": 0.0543, "cpu_s": 0.0468, "requests": 3, "mb": 0.38}
+{"summary": true, "events": 126, "hosts": 126, "lag_max_s": 1.018, "failed": 0, "down": 732, "t": 1793573722.461, "wall_s": 0.0614, "cpu_s": 0.0516, "requests": 3, "mb": 0.65}
+{"summary": true, "events": 157, "hosts": 156, "lag_max_s": 1.025, "failed": 0, "down": 610, "t": 1793573723.462, "wall_s": 0.0735, "cpu_s": 0.0617, "requests": 3, "mb": 0.78}
+{"summary": true, "events": 152, "hosts": 152, "lag_max_s": 1.017, "failed": 0, "down": 482, "t": 1793573724.462, "wall_s": 0.0647, "cpu_s": 0.0527, "requests": 3, "mb": 0.77}
+{"summary": true, "events": 82, "hosts": 82, "lag_max_s": 1.009, "failed": 0, "down": 412, "t": 1793573725.462, "wall_s": 0.0687, "cpu_s": 0.0595, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 122, "hosts": 121, "lag_max_s": 1.006, "failed": 0, "down": 324, "t": 1793573726.462, "wall_s": 0.0739, "cpu_s": 0.0646, "requests": 3, "mb": 0.63}
+{"summary": true, "events": 158, "hosts": 157, "lag_max_s": 1.011, "failed": 0, "down": 198, "t": 1793573727.462, "wall_s": 0.0665, "cpu_s": 0.0537, "requests": 3, "mb": 0.79}
+{"summary": true, "events": 92, "hosts": 92, "lag_max_s": 0.999, "failed": 0, "down": 124, "t": 1793573728.462, "wall_s": 0.0592, "cpu_s": 0.0495, "requests": 3, "mb": 0.51}
+{"summary": true, "events": 34, "hosts": 34, "lag_max_s": 0.991, "failed": 0, "down": 98, "t": 1793573729.462, "wall_s": 0.0491, "cpu_s": 0.0445, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 26, "hosts": 26, "lag_max_s": 0.981, "failed": 0, "down": 96, "t": 1793573730.462, "wall_s": 0.0501, "cpu_s": 0.0462, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 36, "hosts": 36, "lag_max_s": 0.934, "failed": 0, "down": 92, "t": 1793573731.462, "wall_s": 0.0509, "cpu_s": 0.0461, "requests": 3, "mb": 0.27}
+{"summary": true, "events": 14, "hosts": 14, "lag_max_s": 0.941, "failed": 0, "down": 104, "t": 1793573732.462, "wall_s": 0.0627, "cpu_s": 0.0427, "requests": 3, "mb": 0.17}
+{"summary": true, "events": 27, "hosts": 26, "lag_max_s": 0.998, "failed": 0, "down": 113, "t": 1793573733.462, "wall_s": 0.053, "cpu_s": 0.049, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 15, "hosts": 15, "lag_max_s": 0.866, "failed": 0, "down": 118, "t": 1793573734.462, "wall_s": 0.0582, "cpu_s": 0.0535, "requests": 3, "mb": 0.17}
+{"summary": true, "events": 29, "hosts": 29, "lag_max_s": 0.824, "failed": 0, "down": 139, "t": 1793573735.462, "wall_s": 0.0483, "cpu_s": 0.0443, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 19, "hosts": 19, "lag_max_s": 1.002, "failed": 0, "down": 144, "t": 1793573736.463, "wall_s": 0.0484, "cpu_s": 0.0446, "requests": 3, "mb": 0.19}
+{"summary": true, "events": 40, "hosts": 40, "lag_max_s": 0.839, "failed": 0, "down": 163, "t": 1793573737.463, "wall_s": 0.0667, "cpu_s": 0.0528, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 30, "hosts": 29, "lag_max_s": 0.998, "failed": 0, "down": 180, "t": 1793573738.463, "wall_s": 0.0497, "cpu_s": 0.0455, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 49, "hosts": 49, "lag_max_s": 0.932, "failed": 0, "down": 203, "t": 1793573739.463, "wall_s": 0.0569, "cpu_s": 0.0513, "requests": 3, "mb": 0.32}
+{"summary": true, "events": 35, "hosts": 35, "lag_max_s": 1.01, "failed": 0, "down": 214, "t": 1793573740.463, "wall_s": 0.0512, "cpu_s": 0.0466, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 52, "hosts": 51, "lag_max_s": 0.909, "failed": 0, "down": 240, "t": 1793573741.463, "wall_s": 0.0578, "cpu_s": 0.0485, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 44, "hosts": 44, "lag_max_s": 1.014, "failed": 0, "down": 260, "t": 1793573742.463, "wall_s": 0.0726, "cpu_s": 0.0673, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 40, "hosts": 39, "lag_max_s": 0.587, "failed": 0, "down": 286, "t": 1793573743.463, "wall_s": 0.052, "cpu_s": 0.0469, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 52, "hosts": 52, "lag_max_s": 0.971, "failed": 0, "down": 316, "t": 1793573744.463, "wall_s": 0.0528, "cpu_s": 0.0469, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 59, "hosts": 57, "lag_max_s": 0.885, "failed": 0, "down": 349, "t": 1793573745.463, "wall_s": 0.0514, "cpu_s": 0.0456, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 47, "hosts": 47, "lag_max_s": 0.985, "failed": 0, "down": 370, "t": 1793573746.463, "wall_s": 0.0547, "cpu_s": 0.0495, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 93, "hosts": 91, "lag_max_s": 0.886, "failed": 0, "down": 415, "t": 1793573747.463, "wall_s": 0.0782, "cpu_s": 0.0479, "requests": 3, "mb": 0.5}
+{"summary": true, "events": 79, "hosts": 77, "lag_max_s": 0.9, "failed": 0, "down": 442, "t": 1793573748.463, "wall_s": 0.0873, "cpu_s": 0.0578, "requests": 3, "mb": 0.44}
+{"summary": true, "events": 79, "hosts": 78, "lag_max_s": 0.832, "failed": 0, "down": 489, "t": 1793573749.463, "wall_s": 0.0582, "cpu_s": 0.0512, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 24, "hosts": 24, "lag_max_s": 0.88, "failed": 0, "down": 495, "t": 1793573750.464, "wall_s": 0.0529, "cpu_s": 0.0486, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 94, "hosts": 92, "lag_max_s": 0.56, "failed": 0, "down": 513, "t": 1793573751.464, "wall_s": 0.0878, "cpu_s": 0.0622, "requests": 3, "mb": 0.51}
+{"summary": true, "events": 147, "hosts": 145, "lag_max_s": 0.982, "failed": 0, "down": 594, "t": 1793573752.464, "wall_s": 0.0719, "cpu_s": 0.059, "requests": 3, "mb": 0.74}
+{"summary": true, "events": 79, "hosts": 79, "lag_max_s": 0.977, "failed": 0, "down": 613, "t": 1793573753.464, "wall_s": 0.0585, "cpu_s": 0.0499, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 24, "hosts": 24, "lag_max_s": 0.241, "failed": 0, "down": 619, "t": 1793573754.464, "wall_s": 0.058, "cpu_s": 0.0542, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 158, "hosts": 155, "lag_max_s": 0.819, "failed": 0, "down": 659, "t": 1793573755.464, "wall_s": 0.0663, "cpu_s": 0.0524, "requests": 3, "mb": 0.78}
+{"summary": true, "events": 97, "hosts": 95, "lag_max_s": 0.981, "failed": 0, "down": 658, "t": 1793573756.464, "wall_s": 0.0655, "cpu_s": 0.0556, "requests": 3, "mb": 0.52}
+{"summary": true, "events": 29, "hosts": 29, "lag_max_s": 0.766, "failed": 0, "down": 669, "t": 1793573757.464, "wall_s": 0.0562, "cpu_s": 0.0505, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 67, "hosts": 67, "lag_max_s": 0.906, "failed": 0, "down": 696, "t": 1793573758.464, "wall_s": 0.0559, "cpu_s": 0.0498, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 83, "hosts": 82, "lag_max_s": 1.023, "failed": 0, "down": 707, "t": 1793573759.464, "wall_s": 0.0842, "cpu_s": 0.061, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 78, "hosts": 77, "lag_max_s": 0.994, "failed": 0, "down": 717, "t": 1793573760.464, "wall_s": 0.0714, "cpu_s": 0.0483, "requests": 3, "mb": 0.44}
+{"summary": true, "events": 56, "hosts": 55, "lag_max_s": 0.978, "t": 1793573761.464, "wall_s": 0.0649, "cpu_s": 0.0534, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 58, "hosts": 58, "lag_max_s": 0.962, "failed": 0, "down": 705, "t": 1793573762.464, "wall_s": 0.0526, "cpu_s": 0.0461, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 52, "hosts": 52, "lag_max_s": 0.873, "failed": 0, "down": 709, "t": 1793573763.465, "wall_s": 0.0535, "cpu_s": 0.0473, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 30, "hosts": 30, "lag_max_s": 1.006, "failed": 0, "down": 703, "t": 1793573764.465, "wall_s": 0.059, "cpu_s": 0.0457, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 61, "hosts": 61, "lag_max_s": 0.919, "failed": 0, "down": 708, "t": 1793573765.465, "wall_s": 0.0618, "cpu_s": 0.0483, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 55, "hosts": 55, "lag_max_s": 0.715, "failed": 0, "down": 693, "t": 1793573766.465, "wall_s": 0.0726, "cpu_s": 0.0523, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 58, "hosts": 58, "lag_max_s": 0.846, "failed": 0, "down": 685, "t": 1793573767.465, "wall_s": 0.0549, "cpu_s": 0.0486, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 82, "hosts": 81, "lag_max_s": 1.035, "failed": 0, "down": 663, "t": 1793573768.465, "wall_s": 0.0805, "cpu_s": 0.0619, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 56, "hosts": 54, "lag_max_s": 0.852, "failed": 0, "down": 646, "t": 1793573769.465, "wall_s": 0.0549, "cpu_s": 0.0476, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 59, "hosts": 59, "lag_max_s": 1.011, "failed": 0, "down": 636, "t": 1793573770.465, "wall_s": 0.0518, "cpu_s": 0.0464, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 57, "hosts": 56, "lag_max_s": 0.549, "failed": 0, "down": 617, "t": 1793573771.465, "wall_s": 0.0529, "cpu_s": 0.0462, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 41, "hosts": 41, "lag_max_s": 0.944, "failed": 0, "down": 622, "t": 1793573772.465, "wall_s": 0.0738, "cpu_s": 0.0517, "requests": 3, "mb": 0.29}
+{"summary": true, "events": 57, "hosts": 56, "lag_max_s": 0.968, "failed": 0, "down": 607, "t": 1793573773.465, "wall_s": 0.079, "cpu_s": 0.0563, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 38, "hosts": 38, "lag_max_s": 0.944, "failed": 0, "down": 595, "t": 1793573774.465, "wall_s": 0.0727, "cpu_s": 0.0463, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 35, "hosts": 34, "lag_max_s": 0.751, "failed": 0, "down": 592, "t": 1793573775.465, "wall_s": 0.052, "cpu_s": 0.0476, "requests": 3, "mb": 0.26}
+{"summary": true, "events": 58, "hosts": 57, "lag_max_s": 0.922, "failed": 0, "down": 564, "t": 1793573776.466, "wall_s": 0.0683, "cpu_s": 0.0564, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 50, "hosts": 49, "lag_max_s": 0.801, "failed": 0, "down": 554, "t": 1793573777.466, "wall_s": 0.0684, "cpu_s": 0.0475, "requests": 3, "mb": 0.32}
+{"summary": true, "events": 30, "hosts": 30, "lag_max_s": 0.548, "failed": 0, "down": 556, "t": 1793573778.466, "wall_s": 0.0586, "cpu_s": 0.0457, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 31, "hosts": 31, "lag_max_s": 0.871, "failed": 0, "down": 549, "t": 1793573779.466, "wall_s": 0.0538, "cpu_s": 0.0474, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 24, "hosts": 24, "lag_max_s": 0.956, "failed": 0, "down": 543, "t": 1793573780.466, "wall_s": 0.0519, "cpu_s": 0.0465, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 39, "hosts": 39, "lag_max_s": 0.87, "failed": 0, "down": 554, "t": 1793573781.466, "wall_s": 0.0526, "cpu_s": 0.0476, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 2, "hosts": 2, "lag_max_s": 0.842, "failed": 0, "down": 552, "t": 1793573812.469, "wall_s": 0.0472, "cpu_s": 0.043, "requests": 3, "mb": 0.12}
+{"summary": true, "events": 27, "hosts": 27, "lag_max_s": 0.306, "failed": 0, "down": 551, "t": 1793573815.469, "wall_s": 0.0731, "cpu_s": 0.0488, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 47, "hosts": 46, "lag_max_s": 0.849, "failed": 0, "down": 554, "t": 1793573817.469, "wall_s": 0.0679, "cpu_s": 0.0464, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 46, "hosts": 46, "lag_max_s": 0.972, "failed": 0, "down": 558, "t": 1793573818.469, "wall_s": 0.0638, "cpu_s": 0.0578, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 21, "hosts": 21, "lag_max_s": 0.66, "failed": 0, "down": 563, "t": 1793573819.469, "wall_s": 0.0537, "cpu_s": 0.0462, "requests": 3, "mb": 0.2}
+{"summary": true, "events": 20, "hosts": 20, "lag_max_s": 0.899, "failed": 0, "down": 561, "t": 1793573820.469, "wall_s": 0.0668, "cpu_s": 0.0472, "requests": 3, "mb": 0.2}
+{"summary": true, "events": 60, "hosts": 59, "lag_max_s": 0.798, "failed": 0, "down": 551, "t": 1793573821.469, "wall_s": 0.0682, "cpu_s": 0.0454, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 47, "hosts": 46, "lag_max_s": 0.661, "failed": 0, "down": 544, "t": 1793573822.469, "wall_s": 0.0687, "cpu_s": 0.0458, "requests": 3, "mb": 0.31}
+{"summary": true, "events": 25, "hosts": 25, "lag_max_s": 1.006, "failed": 0, "down": 535, "t": 1793573823.469, "wall_s": 0.0696, "cpu_s": 0.0469, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 17, "hosts": 17, "lag_max_s": 0.434, "failed": 0, "down": 530, "t": 1793573824.47, "wall_s": 0.0533, "cpu_s": 0.0456, "requests": 3, "mb": 0.18}
+{"summary": true, "events": 25, "hosts": 25, "lag_max_s": 0.584, "failed": 0, "down": 533, "t": 1793573825.47, "wall_s": 0.052, "cpu_s": 0.0442, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 73, "hosts": 72, "lag_max_s": 0.865, "failed": 0, "down": 520, "t": 1793573826.47, "wall_s": 0.0581, "cpu_s": 0.051, "requests": 3, "mb": 0.42}
+{"summary": true, "events": 19, "hosts": 19, "lag_max_s": 0.899, "failed": 0, "down": 521, "t": 1793573827.47, "wall_s": 0.0798, "cpu_s": 0.0559, "requests": 3, "mb": 0.19}
+{"summary": true, "events": 24, "hosts": 24, "lag_max_s": 0.262, "t": 1793573828.47, "wall_s": 0.0531, "cpu_s": 0.0453, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 39, "hosts": 39, "lag_max_s": 0.767, "failed": 0, "down": 522, "t": 1793573829.47, "wall_s": 0.0635, "cpu_s": 0.049, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 54, "hosts": 54, "lag_max_s": 0.995, "failed": 0, "down": 516, "t": 1793573830.47, "wall_s": 0.0559, "cpu_s": 0.0504, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 23, "hosts": 23, "lag_max_s": 0.93, "failed": 0, "down": 509, "t": 1793573831.47, "wall_s": 0.0496, "cpu_s": 0.0453, "requests": 3, "mb": 0.21}
+{"summary": true, "events": 6, "hosts": 6, "lag_max_s": 0.363, "t": 1793573832.47, "wall_s": 0.0518, "cpu_s": 0.0477, "requests": 3, "mb": 0.14}
+{"summary": true, "events": 76, "hosts": 75, "lag_max_s": 0.976, "failed": 0, "down": 521, "t": 1793573833.47, "wall_s": 0.0544, "cpu_s": 0.0474, "requests": 3, "mb": 0.43}
+{"summary": true, "events": 44, "hosts": 44, "lag_max_s": 0.66, "failed": 0, "down": 525, "t": 1793573834.47, "wall_s": 0.0563, "cpu_s": 0.0507, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 100, "hosts": 100, "lag_max_s": 0.952, "failed": 0, "down": 537, "t": 1793573835.47, "wall_s": 0.0708, "cpu_s": 0.0624, "requests": 3, "mb": 0.54}
+{"summary": true, "events": 82, "hosts": 82, "lag_max_s": 0.997, "failed": 0, "down": 553, "t": 1793573836.471, "wall_s": 0.0676, "cpu_s": 0.0603, "requests": 3, "mb": 0.47}
+{"summary": true, "events": 86, "hosts": 86, "lag_max_s": 0.982, "failed": 0, "down": 583, "t": 1793573837.471, "wall_s": 0.063, "cpu_s": 0.0528, "requests": 3, "mb": 0.48}
+{"summary": true, "events": 85, "hosts": 85, "lag_max_s": 0.972, "failed": 0, "down": 614, "t": 1793573838.471, "wall_s": 0.0673, "cpu_s": 0.06, "requests": 3, "mb": 0.48}
+{"summary": true, "events": 56, "hosts": 56, "lag_max_s": 0.952, "failed": 0, "down": 621, "t": 1793573839.471, "wall_s": 0.0878, "cpu_s": 0.0495, "requests": 3, "mb": 0.35}
+{"summary": true, "events": 114, "hosts": 113, "lag_max_s": 1.01, "failed": 0, "down": 648, "t": 1793573840.471, "wall_s": 0.086, "cpu_s": 0.0591, "requests": 3, "mb": 0.6}
+{"summary": true, "events": 88, "hosts": 86, "lag_max_s": 0.929, "failed": 0, "down": 678, "t": 1793573841.471, "wall_s": 0.0764, "cpu_s": 0.0523, "requests": 3, "mb": 0.48}
+{"summary": true, "events": 113, "hosts": 110, "lag_max_s": 0.936, "failed": 0, "down": 700, "t": 1793573842.471, "wall_s": 0.081, "cpu_s": 0.0583, "requests": 3, "mb": 0.59}
+{"summary": true, "events": 97, "hosts": 93, "lag_max_s": 1.009, "failed": 0, "down": 716, "t": 1793573843.471, "wall_s": 0.0611, "cpu_s": 0.0515, "requests": 3, "mb": 0.51}
+{"summary": true, "events": 29, "hosts": 28, "lag_max_s": 0.272, "failed": 0, "down": 729, "t": 1793573844.471, "wall_s": 0.074, "cpu_s": 0.0672, "requests": 3, "mb": 0.23}
+{"summary": true, "events": 69, "hosts": 68, "lag_max_s": 0.65, "failed": 0, "down": 750, "t": 1793573845.471, "wall_s": 0.0565, "cpu_s": 0.0499, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 113, "hosts": 112, "lag_max_s": 0.978, "failed": 0, "down": 781, "t": 1793573846.471, "wall_s": 0.0661, "cpu_s": 0.0536, "requests": 3, "mb": 0.6}
+{"summary": true, "events": 78, "hosts": 78, "lag_max_s": 0.896, "failed": 0, "down": 793, "t": 1793573847.471, "wall_s": 0.0575, "cpu_s": 0.0507, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 80, "hosts": 79, "lag_max_s": 0.807, "failed": 0, "down": 821, "t": 1793573848.472, "wall_s": 0.065, "cpu_s": 0.0516, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 146, "hosts": 144, "lag_max_s": 1.037, "failed": 0, "down": 831, "t": 1793573849.472, "wall_s": 0.0829, "cpu_s": 0.0524, "requests": 3, "mb": 0.73}
+{"summary": true, "events": 128, "hosts": 126, "lag_max_s": 0.818, "failed": 0, "down": 843, "t": 1793573850.472, "wall_s": 0.0778, "cpu_s": 0.0527, "requests": 3, "mb": 0.66}
+{"summary": true, "events": 40, "hosts": 40, "lag_max_s": 0.952, "failed": 0, "down": 847, "t": 1793573851.472, "wall_s": 0.0527, "cpu_s": 0.0474, "requests": 3, "mb": 0.28}
+{"summary": true, "events": 33, "hosts": 33, "lag_max_s": 0.984, "failed": 0, "down": 854, "t": 1793573852.472, "wall_s": 0.072, "cpu_s": 0.0667, "requests": 3, "mb": 0.25}
+{"summary": true, "events": 120, "hosts": 120, "lag_max_s": 0.992, "failed": 0, "down": 870, "t": 1793573853.472, "wall_s": 0.078, "cpu_s": 0.051, "requests": 3, "mb": 0.63}
+{"summary": true, "events": 101, "hosts": 101, "lag_max_s": 0.871, "failed": 0, "down": 875, "t": 1793573854.472, "wall_s": 0.0631, "cpu_s": 0.0537, "requests": 3, "mb": 0.55}
+{"summary": true, "events": 44, "hosts": 44, "lag_max_s": 0.612, "t": 1793573855.472, "wall_s": 0.0527, "cpu_s": 0.0469, "requests": 3, "mb": 0.3}
+{"summary": true, "events": 98, "hosts": 98, "lag_max_s": 0.833, "failed": 0, "down": 881, "t": 1793573856.472, "wall_s": 0.0728, "cpu_s": 0.0492, "requests": 3, "mb": 0.53}
+{"summary": true, "events": 67, "hosts": 67, "lag_max_s": 0.766, "failed": 0, "down": 876, "t": 1793573857.472, "wall_s": 0.0536, "cpu_s": 0.0477, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 81, "hosts": 80, "lag_max_s": 1.003, "failed": 0, "down": 867, "t": 1793573858.472, "wall_s": 0.0613, "cpu_s": 0.0533, "requests": 3, "mb": 0.46}
+{"summary": true, "events": 66, "hosts": 66, "lag_max_s": 1.004, "failed": 0, "down": 859, "t": 1793573859.472, "wall_s": 0.0571, "cpu_s": 0.0508, "requests": 3, "mb": 0.4}
+{"summary": true, "events": 49, "hosts": 49, "lag_max_s": 0.985, "failed": 0, "down": 838, "t": 1793573860.473, "wall_s": 0.073, "cpu_s": 0.0671, "requests": 3, "mb": 0.32}
+{"summary": true, "events": 58, "hosts": 58, "lag_max_s": 0.979, "failed": 0, "down": 828, "t": 1793573861.473, "wall_s": 0.0548, "cpu_s": 0.0493, "requests": 3, "mb": 0.36}
+{"summary": true, "events": 50, "hosts": 50, "lag_max_s": 0.948, "failed": 0, "down": 826, "t": 1793573862.473, "wall_s": 0.0514, "cpu_s": 0.0464, "requests": 3, "mb": 0.33}
+{"summary": true, "events": 61, "hosts": 61, "lag_max_s": 0.809, "failed": 0, "down": 821, "t": 1793573863.473, "wall_s": 0.0534, "cpu_s": 0.0473, "requests": 3, "mb": 0.37}
+{"summary": true, "events": 77, "hosts": 76, "lag_max_s": 0.865, "failed": 0, "down": 820, "t": 1793573864.473, "wall_s": 0.0569, "cpu_s": 0.0483, "requests": 3, "mb": 0.44}
+{"summary": true, "events": 52, "hosts": 52, "lag_max_s": 0.993, "failed": 0, "down": 794, "t": 1793573865.473, "wall_s": 0.0568, "cpu_s": 0.0497, "requests": 3, "mb": 0.34}
+{"summary": true, "events": 95, "hosts": 92, "lag_max_s": 1.007, "failed": 0, "down": 775, "t": 1793573866.473, "wall_s": 0.0574, "cpu_s": 0.0497, "requests": 3, "mb": 0.51}
+{"summary": true, "events": 78, "hosts": 78, "lag_max_s": 0.86, "failed": 0, "down": 761, "t": 1793573867.473, "wall_s": 0.0566, "cpu_s": 0.0493, "requests": 3, "mb": 0.45}
+{"summary": true, "events": 30, "hosts": 29, "lag_max_s": 0.979, "failed": 0, "down": 755, "t": 1793573868.473, "wall_s": 0.0539, "cpu_s": 0.0489, "requests": 3, "mb": 0.24}
+{"summary": true, "events": 26, "hosts": 25, "lag_max_s": 0.92, "failed": 0, "down": 745, "t": 1793573869.473, "wall_s": 0.0645, "cpu_s": 0.0596, "requests": 3, "mb": 0.22}
+{"summary": true, "events": 78, "hosts": 76, "lag_max_s": 0.792, "failed": 0, "down": 711, "t": 1793573870.473, "wall_s": 0.0603, "cpu_s": 0.0529, "requests": 3, "mb": 0.44}
+{"summary": true, "events": 27, "hosts": 27, "lag_max_s": 0.774, "failed": 0, "down": 702, "t": 1793573871.473, "wall_s": 0.0527, "cpu_s": 0.0484, "requests": 3, "mb": 0.23}
+{"total": {"polls": 1115, "events": 162830, "cpu_s": 47.101237502, "resyncs": 1, "gaps": 0, "errors": 0, "requests": 3162, "mb": 448.9, "hosts": 5000}}

@@ -1,0 +1,22 @@
+# exits with status 3 after 2 s: exercises Restart=on-failure, NRestarts
+# and, after 5 restarts, start-limit-hit
+[Unit]
+Description=Ceph {daemon} for {fsid}
+PartOf=ceph-{fsid}.target
+Before=ceph-{fsid}.target
+StartLimitIntervalSec=30min
+StartLimitBurst=5
+
+[Container]
+ContainerName=ceph-{fsid}-{daemon}
+Image=quay.io/prometheus/busybox:latest
+RunInit=true
+Exec=sh -c "echo up; sleep 2; echo crashing; exit 3"
+
+[Service]
+Restart=on-failure
+RestartSec=10s
+SuccessExitStatus=143
+
+[Install]
+WantedBy=ceph-{fsid}.target

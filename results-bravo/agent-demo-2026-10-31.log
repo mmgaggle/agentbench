@@ -1,0 +1,89 @@
+== deploy: node-exporter + web on all nodes
+node1: generation 8 stored (2 units, 1 files, 0 removals)
+node2: generation 8 stored (2 units, 1 files, 0 removals)
+node3: generation 9 stored (2 units, 1 files, 0 removals)
+node3: generation 9 applied after 0.30s: node-exporter.node3=active/running web.node3=active/running
+node1: generation 8 applied after 0.40s: node-exporter.node1=active/running web.node1=active/running
+node2: generation 8 applied after 0.40s: node-exporter.node2=active/running web.node2=active/running
+
+== config: new index.html, same restart key -> file rewritten, no restart
+node1: generation 9 stored (2 units, 1 files, 0 removals)
+node2: generation 9 stored (2 units, 1 files, 0 removals)
+node3: generation 10 stored (2 units, 1 files, 0 removals)
+node1: generation 9 applied after 0.10s: node-exporter.node1=active/running web.node1=active/running
+node2: generation 9 applied after 0.10s: node-exporter.node2=active/running web.node2=active/running
+node3: generation 10 applied after 0.10s: node-exporter.node3=active/running web.node3=active/running
+web.node1 serves: hello from node1, content version 2
+MainPID 4036 -> 4036, ActiveEnter 489876904 -> 489876904
+
+== restart: new restart key -> unit restarted
+node1: generation 10 stored (2 units, 1 files, 0 removals)
+node2: generation 10 stored (2 units, 1 files, 0 removals)
+node3: generation 11 stored (2 units, 1 files, 0 removals)
+node1: generation 10 applied after 0.20s: node-exporter.node1=active/running web.node1=active/running
+node2: generation 10 applied after 0.20s: node-exporter.node2=active/running web.node2=active/running
+node3: generation 11 applied after 0.20s: node-exporter.node3=active/running web.node3=active/running
+MainPID 4036 -> 4276, NRestarts 0
+
+== crash: SIGKILL web.node2's container; systemd restarts it after RestartSec=10s
+  active/running -> deactivating/stop-post result=exit-code restarts=0: agent saw it 76.5 ms after, agentd 99.6 ms
+  deactivating/stop-post -> activating/auto-restart result=exit-code restarts=0: agent saw it 98.4 ms after, agentd 121.8 ms
+  activating/auto-restart -> activating/start result=success restarts=1: agent saw it 10118.3 ms after, agentd 10142.4 ms
+  activating/start -> active/running result=success restarts=1: agent saw it 10176.4 ms after, agentd 10200.0 ms
+
+== crash loop: crashy.node3 exits 3 every 2 s; Restart=on-failure, StartLimitBurst=5
+node3: generation 12 stored (3 units, 1 files, 0 removals)
+node3: generation 12 applied after 0.40s: crashy.node3=active/running node-exporter.node3=active/running web.node3=active/running
+  null -> activating/start result=success restarts=0 apply_error=null
+  activating/start -> active/running result=success restarts=0 apply_error=null
+  active/running -> deactivating/stop-post result=exit-code restarts=0 apply_error=null
+  deactivating/stop-post -> activating/auto-restart result=exit-code restarts=0 apply_error=null
+  activating/auto-restart -> activating/start result=success restarts=1 apply_error=null
+  activating/start -> active/running result=success restarts=1 apply_error=null
+  active/running -> deactivating/stop-post result=exit-code restarts=1 apply_error=null
+  deactivating/stop-post -> activating/auto-restart result=exit-code restarts=1 apply_error=null
+  activating/auto-restart -> activating/start result=success restarts=2 apply_error=null
+  activating/start -> active/running result=success restarts=2 apply_error=null
+  active/running -> deactivating/stop-post result=exit-code restarts=2 apply_error=null
+  deactivating/stop-post -> activating/auto-restart result=exit-code restarts=2 apply_error=null
+  activating/auto-restart -> activating/start result=success restarts=3 apply_error=null
+  activating/start -> active/running result=success restarts=3 apply_error=null
+  active/running -> deactivating/stop-post result=exit-code restarts=3 apply_error=null
+  deactivating/stop-post -> activating/auto-restart result=exit-code restarts=3 apply_error=null
+  activating/auto-restart -> activating/start result=success restarts=4 apply_error=null
+  activating/start -> active/running result=success restarts=4 apply_error=null
+  active/running -> deactivating/stop-post result=exit-code restarts=4 apply_error=null
+  deactivating/stop-post -> activating/auto-restart result=exit-code restarts=4 apply_error=null
+  activating/auto-restart -> failed/failed result=exit-code restarts=5 apply_error=null
+{"active_state":"failed","sub_state":"failed","result":"exit-code","n_restarts":5,"apply_error":null}
+  after another drift pass (the agent must not override systemd's start limit):
+{"active_state":"failed","n_restarts":5}
+
+== remove: web and crashy leave node3 via remove (stop, delete unit, archive data)
+node3: generation 13 stored (1 units, 0 files, 2 removals)
+node3: generation 13 applied after 0.40s: node-exporter.node3=active/running
+ceph-df8fb14d-da3c-4cb3-9c23-57e85b067d15-node-exporter.node3.container
+web.node3_1793437995
+web.node3_1793438277
+inactive
+
+== stray: a Quadlet file the intent doesn't mention is reported, not touched
+node1: generation 11 stored (2 units, 1 files, 0 removals)
+node1: generation 11 applied after 0.10s: node-exporter.node1=active/running web.node1=active/running
+["mystery.node1"]
+
+== agent restart: daemons keep running
+web.node1 MainPID 4276 -> 4276
+ceph-agent 0.1.0 on node1: agentd 10.77.0.1:7160, saved intent generation 11
+Started ceph-agent.service - Ceph host agent.
+applied generation 11 in 45 ms (2 units, 0 with errors)
+
+== agent down: systemd still restarts a crashed daemon; the agent reports it when back
+with the agent stopped: web.node1 active, NRestarts 1
+{"active_state":"active","n_restarts":1}
+
+== forged: an intent signed by another key is rejected and reported
+node2: generation 11 stored (1 units, 0 files, 2 removals)
+{"intended":11,"applied":10,"errors":["rejected intent generation 11: intent signed by untrusted key 93c8b857a3d1c7ae"]}
+active
+

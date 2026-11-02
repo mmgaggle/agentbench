@@ -1,0 +1,31 @@
+[17:16:05] join
+[17:16:14] join-done
+joined as h00225; config in /mon/scale/n10000/h00225/etc/agent.json
+joined as h00004; config in /mon/scale/n10000/h00004/etc/agent.json
+joined as h00235; config in /mon/scale/n10000/h00235/etc/agent.json
+9.7s: answered 4, 10000 approved in all
+[17:16:14] start
+{"label": "start", "mode": "counts", "elapsed_s": 1.7, "reported": 10000, "up": 0, "timeline": [[0.0, 0, 0], [1.19, 6511, 0], [1.7, 10000, 0]]}
+[17:16:16] start-done
+[17:16:26] deploy
+deploy: published 10000 hosts in 10.56s (mgr CPU 33.64s, 280000 requests, 3.364 ms CPU/host)
+{"label": "deploy", "cmd": "deploy", "hosts": 10000, "daemons": 140000, "publish_s": 10.562, "publish_cpu_s": 33.64, "publish_requests": 280000, "procs": 4, "not_applied": 0, "applied_after_store_s": {"p50": 33.014, "p90": 54.31, "p99": 57.615, "max": 58.312}, "applied_after_publish_start_s": {"p50": 37.846, "p99": 65.89, "max": 66.561749591}, "events": {"events": 160000, "unit": 140000, "applied": 10000, "gaps": 0, "polls": 529}}
+[17:17:33] deploy-done
+[17:17:33] steady
+[17:18:03] steady-done
+[17:18:03] change
+change: published 10000 hosts in 2.38s (mgr CPU 1.13s, 10000 requests, 0.113 ms CPU/host)
+{"label": "change", "cmd": "change", "hosts": 10000, "daemons": 140000, "publish_s": 2.379, "publish_cpu_s": 1.13, "publish_requests": 10000, "procs": 1, "not_applied": 0, "applied_after_store_s": {"p50": 0.293, "p90": 0.464, "p99": 0.562, "max": 0.642}, "applied_after_publish_start_s": {"p50": 1.268, "p99": 2.543, "max": 2.567089111}, "events": {"events": 150000, "unit": 130000, "applied": 10000, "gaps": 0, "polls": 2}}
+[17:18:06] change-done
+[17:18:26] restart
+bench/scale/run.sh: line 206: 56856 Killed                  taskset -c $AGENTD_CPUS "$B/agentd" --hosts-file "$D/hosts.json" --persist none --key ec --cert-dir "$T" --listen 127.0.0.1:7160 --admin $ADMIN --swim-bind 127.3.0.1:7946 --swim-cluster-size "$N" >> "$OUT/agentd.log" 2>&1
+agentd has 10000 members
+{"label": "reconnect", "mode": "counts", "elapsed_s": 2.97, "reported": 10000, "up": 0, "timeline": [[0.48, 0, 0], [1.92, 1378, 0], [2.47, 6874, 0], [2.97, 10000, 0]]}
+republish: published 10000 hosts in 13.49s (mgr CPU 33.94s, 280000 requests, 3.394 ms CPU/host)
+{"label": "republish", "cmd": "republish", "hosts": 10000, "daemons": 140000, "publish_s": 13.488, "publish_cpu_s": 33.942, "publish_requests": 280000, "procs": 4, "not_applied": 0, "applied_after_store_s": {"p50": 34.003, "p90": 53.506, "p99": 56.105, "max": 56.775}, "applied_after_publish_start_s": {"p50": 40.138, "p99": 66.864, "max": 67.396090924}, "events": {"events": 20000, "unit": 0, "applied": 10000, "gaps": 0, "polls": 485}}
+[17:19:37] restart-done
+agent log lines: 110054
+  60000 applied generation N in N ms (N units, N with errors)
+  10000 agentd: connection error: peer closed connection without sending TLS close_notify: https://docs.rs/rustls/latest/rustls/manual/_N_howto/index.html#unexpected-eof; retrying in Ns
+done: /ab/results/scale/n10000
+done

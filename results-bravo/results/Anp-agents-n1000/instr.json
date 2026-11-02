@@ -1,0 +1,115 @@
+{
+  "_seconds": 121.24946355819702,
+  "gc.gen0": {
+    "calls": 1982,
+    "wall_ms_per_call": 0.4630719714936181,
+    "cpu_ms_per_call": 0.4630719714936181,
+    "wall_s": 0.9178086475003511,
+    "cpu_s": 0.9178086475003511
+  },
+  "gc.gen1": {
+    "calls": 180,
+    "wall_ms_per_call": 6.16107548897465,
+    "cpu_ms_per_call": 6.16107548897465,
+    "wall_s": 1.1089935880154371,
+    "cpu_s": 1.1089935880154371
+  },
+  "gc.gen2": {
+    "calls": 16,
+    "wall_ms_per_call": 235.99214968271554,
+    "cpu_ms_per_call": 235.99214968271554,
+    "wall_s": 3.7758743949234486,
+    "cpu_s": 3.7758743949234486
+  },
+  "set_store": {
+    "calls": 17858,
+    "wall_ms_per_call": 4.911442326715651,
+    "cpu_ms_per_call": 0.1272287763467345,
+    "wall_s": 87.70853707048809,
+    "cpu_s": 2.2720514879999847
+  },
+  "get_error_daemons": {
+    "calls": 17880,
+    "wall_ms_per_call": 3.881748224004647,
+    "cpu_ms_per_call": 3.4079047392617556,
+    "wall_s": 69.40565824520309,
+    "cpu_s": 60.933336738000186
+  },
+  "failed_daemon_health_check": {
+    "calls": 5960,
+    "wall_ms_per_call": 3.793996882245207,
+    "cpu_ms_per_call": 3.5902412020134467,
+    "wall_s": 22.612221418181434,
+    "cpu_s": 21.39783756400014
+  },
+  "save_host_devices": {
+    "calls": 5960,
+    "wall_ms_per_call": 6.652030452330762,
+    "cpu_ms_per_call": 0.5557310805369104,
+    "wall_s": 39.646101495891344,
+    "cpu_s": 3.3121572399999866
+  },
+  "save_host": {
+    "calls": 5960,
+    "wall_ms_per_call": 12.310511376831803,
+    "cpu_ms_per_call": 1.168108239093964,
+    "wall_s": 73.37064780591754,
+    "cpu_s": 6.9619251050000255
+  },
+  "process_ls_output": {
+    "calls": 5960,
+    "wall_ms_per_call": 62.884065327334184,
+    "cpu_ms_per_call": 2.3170674703020233,
+    "wall_s": 374.78902935091173,
+    "cpu_s": 13.809722123000059
+  },
+  "update_host_facts": {
+    "calls": 5960,
+    "wall_ms_per_call": 0.02778969146858201,
+    "cpu_ms_per_call": 0.027542615436244623,
+    "wall_s": 0.16562656115274876,
+    "cpu_s": 0.16415398800001796
+  },
+  "Devices.from_json": {
+    "calls": 5960,
+    "wall_ms_per_call": 25.0127597121407,
+    "cpu_ms_per_call": 0.40709476510066855,
+    "wall_s": 149.07604788435856,
+    "cpu_s": 2.4262847999999844
+  },
+  "update_host_devices": {
+    "calls": 5960,
+    "wall_ms_per_call": 0.11619266548198678,
+    "cpu_ms_per_call": 0.10235644328859049,
+    "wall_s": 0.6925082862726413,
+    "cpu_s": 0.6100444019999993
+  },
+  "all_host_metadata_up_to_date": {
+    "calls": 5960,
+    "wall_ms_per_call": 0.17195286924814832,
+    "cpu_ms_per_call": 0.136790617449663,
+    "wall_s": 1.024839100718964,
+    "cpu_s": 0.8152720799999915
+  },
+  "save_agent": {
+    "calls": 5960,
+    "wall_ms_per_call": 4.331198658762131,
+    "cpu_ms_per_call": 0.09038206040268226,
+    "wall_s": 25.8139440062223,
+    "cpu_s": 0.5386770799999863
+  },
+  "agent.handle_metadata": {
+    "calls": 5960,
+    "wall_ms_per_call": 104.44390882290439,
+    "cpu_ms_per_call": 13.525954487583931,
+    "wall_s": 622.4856965845102,
+    "cpu_s": 80.61468874600023
+  },
+  "agent.index": {
+    "calls": 5960,
+    "wall_ms_per_call": 104.48751658721375,
+    "cpu_ms_per_call": 13.56872946107379,
+    "wall_s": 622.745598859794,
+    "cpu_s": 80.86962758799979
+  }
+}

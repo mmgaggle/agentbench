@@ -1,0 +1,15 @@
+[Unit]
+Description=Ceph host agent
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=notify
+NotifyAccess=main
+ExecStart=/usr/local/bin/ceph-agent run --config /etc/ceph-agent/agent.json
+Restart=always
+RestartSec=2
+WatchdogSec=30
+
+[Install]
+WantedBy=multi-user.target

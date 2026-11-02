@@ -1,0 +1,52 @@
+[20:16:32] join
+[20:16:41] join-done
+joined as h00023; config in /mon/scale/n10000/h00023/etc/agent.json
+joined as h00328; config in /mon/scale/n10000/h00328/etc/agent.json
+joined as h00294; config in /mon/scale/n10000/h00294/etc/agent.json
+9.0s: answered 11, 10000 approved in all
+[20:16:41] start
+{"label": "start", "mode": "counts", "elapsed_s": 1.92, "reported": 10000, "up": 0, "timeline": [[0.0, 0, 0], [0.53, 1768, 0], [1.41, 9093, 0], [1.92, 10000, 0]]}
+[20:16:43] start-done
+[20:17:18] deploy
+deploy: published 10000 hosts in 10.36s (mgr CPU 33.16s, 280000 requests, 3.316 ms CPU/host)
+{"label": "deploy", "cmd": "deploy", "hosts": 10000, "daemons": 140000, "publish_s": 10.358, "publish_cpu_s": 33.16, "publish_requests": 280000, "procs": 4, "not_applied": 0, "applied_after_store_s": {"p50": 34.996, "p90": 57.816, "p99": 60.723, "max": 61.408}, "applied_after_publish_start_s": {"p50": 40.191, "p99": 68.633, "max": 69.384482855}, "events": {"events": 160000, "unit": 140000, "applied": 10000, "gaps": 0, "polls": 557}}
+[20:18:27] deploy-done
+[20:18:27] ceph-upgrade
+ceph-upgrade: published 10000 hosts in 4.72s (mgr CPU 9.06s, 150000 requests, 0.906 ms CPU/host)
+{"label": "ceph-upgrade", "cmd": "ceph-upgrade", "hosts": 10000, "daemons": 140000, "publish_s": 4.716, "publish_cpu_s": 9.057, "publish_requests": 150000, "procs": 4, "not_applied": 0, "applied_after_store_s": {"p50": 0.199, "p90": 0.415, "p99": 0.482, "max": 0.538}, "applied_after_publish_start_s": {"p50": 2.303, "p99": 4.744, "max": 4.785115188}, "events": {"events": 150000, "unit": 130000, "applied": 10000, "gaps": 0, "polls": 1}}
+[20:18:33] ceph-upgrade-done
+[20:18:33] gc
+{"label": "gc", "mode": "gc", "elapsed_s": 37.1, "before": {"blobs": 400001, "blob_bytes": 262565860, "blobs_unreferenced": 130000, "rss_mb": 1474.9, "blob_gc": {"last_ms": 3.049211, "removed": 0, "removed_bytes": 0, "runs": 17}}, "after": {"blobs": 270001, "blob_bytes": 141382520, "blobs_unreferenced": 0, "rss_mb": 1315.9, "blob_gc": {"last_ms": 9.914791, "removed": 130000, "removed_bytes": 121183340, "runs": 22}}}
+[20:19:10] gc-done
+[20:19:20] ceph-upgrade-2
+ceph-upgrade: published 10000 hosts in 5.48s (mgr CPU 9.08s, 150000 requests, 0.908 ms CPU/host)
+{"label": "ceph-upgrade-2", "cmd": "ceph-upgrade", "hosts": 10000, "daemons": 140000, "publish_s": 5.481, "publish_cpu_s": 9.076, "publish_requests": 150000, "procs": 4, "not_applied": 0, "applied_after_store_s": {"p50": 0.155, "p90": 0.386, "p99": 0.504, "max": 0.576}, "applied_after_publish_start_s": {"p50": 2.826, "p99": 5.837, "max": 5.89747714}, "events": {"events": 150000, "unit": 130000, "applied": 10000, "gaps": 0, "polls": 2}}
+[20:19:26] ceph-upgrade-2-done
+[20:19:26] gc-2
+{"label": "gc-2", "mode": "gc", "elapsed_s": 36.1, "before": {"blobs": 400001, "blob_bytes": 262565860, "blobs_unreferenced": 130000, "rss_mb": 1538.8, "blob_gc": {"last_ms": 2.2154599999999998, "removed": 130000, "removed_bytes": 121183340, "runs": 24}}, "after": {"blobs": 270001, "blob_bytes": 141382520, "blobs_unreferenced": 0, "rss_mb": 1389.6, "blob_gc": {"last_ms": 24.715562, "removed": 260000, "removed_bytes": 242366680, "runs": 29}}}
+[20:20:02] gc-2-done
+[20:20:12] ceph-upgrade-3
+ceph-upgrade: published 10000 hosts in 5.26s (mgr CPU 9.07s, 150000 requests, 0.907 ms CPU/host)
+{"label": "ceph-upgrade-3", "cmd": "ceph-upgrade", "hosts": 10000, "daemons": 140000, "publish_s": 5.259, "publish_cpu_s": 9.074, "publish_requests": 150000, "procs": 4, "not_applied": 0, "applied_after_store_s": {"p50": 0.198, "p90": 0.395, "p99": 0.468, "max": 0.519}, "applied_after_publish_start_s": {"p50": 2.62, "p99": 5.342, "max": 5.38877935}, "events": {"events": 150000, "unit": 130000, "applied": 10000, "gaps": 0, "polls": 1}}
+[20:20:18] ceph-upgrade-3-done
+[20:20:18] gc-3
+{"label": "gc-3", "mode": "gc", "elapsed_s": 36.1, "before": {"blobs": 400001, "blob_bytes": 262565860, "blobs_unreferenced": 130000, "rss_mb": 1555.7, "blob_gc": {"last_ms": 2.086509, "removed": 260000, "removed_bytes": 242366680, "runs": 31}}, "after": {"blobs": 270001, "blob_bytes": 141382520, "blobs_unreferenced": 0, "rss_mb": 1461.5, "blob_gc": {"last_ms": 16.560588000000003, "removed": 390000, "removed_bytes": 363550020, "runs": 36}}}
+[20:20:54] gc-3-done
+[20:21:04] ceph-upgrade-4
+ceph-upgrade: published 10000 hosts in 6.00s (mgr CPU 8.98s, 150000 requests, 0.898 ms CPU/host)
+{"label": "ceph-upgrade-4", "cmd": "ceph-upgrade", "hosts": 10000, "daemons": 140000, "publish_s": 6.0, "publish_cpu_s": 8.985, "publish_requests": 150000, "procs": 4, "not_applied": 0, "applied_after_store_s": {"p50": 0.179, "p90": 0.378, "p99": 0.463, "max": 0.517}, "applied_after_publish_start_s": {"p50": 2.955, "p99": 6.069, "max": 6.110533318}, "events": {"events": 150000, "unit": 130000, "applied": 10000, "gaps": 0, "polls": 1}}
+[20:21:11] ceph-upgrade-4-done
+[20:21:11] gc-4
+{"label": "gc-4", "mode": "gc", "elapsed_s": 36.3, "before": {"blobs": 400001, "blob_bytes": 262565860, "blobs_unreferenced": 130000, "rss_mb": 1616.7, "blob_gc": {"last_ms": 2.902476, "removed": 390000, "removed_bytes": 363550020, "runs": 38}}, "after": {"blobs": 270001, "blob_bytes": 141382520, "blobs_unreferenced": 0, "rss_mb": 1493.0, "blob_gc": {"last_ms": 25.964893, "removed": 520000, "removed_bytes": 484733360, "runs": 43}}}
+[20:21:47] gc-4-done
+[20:21:58] ceph-upgrade-5
+ceph-upgrade: published 10000 hosts in 5.00s (mgr CPU 8.93s, 150000 requests, 0.893 ms CPU/host)
+{"label": "ceph-upgrade-5", "cmd": "ceph-upgrade", "hosts": 10000, "daemons": 140000, "publish_s": 4.997, "publish_cpu_s": 8.931, "publish_requests": 150000, "procs": 4, "not_applied": 0, "applied_after_store_s": {"p50": 0.209, "p90": 0.374, "p99": 0.45, "max": 0.492}, "applied_after_publish_start_s": {"p50": 2.387, "p99": 5.145, "max": 5.178253763}, "events": {"events": 150000, "unit": 130000, "applied": 10000, "gaps": 0, "polls": 2}}
+[20:22:03] ceph-upgrade-5-done
+[20:22:03] gc-5
+{"label": "gc-5", "mode": "gc", "elapsed_s": 36.2, "before": {"blobs": 400001, "blob_bytes": 262565860, "blobs_unreferenced": 130000, "rss_mb": 1626.7, "blob_gc": {"last_ms": 4.713598, "removed": 520000, "removed_bytes": 484733360, "runs": 45}}, "after": {"blobs": 270001, "blob_bytes": 141382520, "blobs_unreferenced": 0, "rss_mb": 1507.6, "blob_gc": {"last_ms": 19.705829, "removed": 650000, "removed_bytes": 605916700, "runs": 50}}}
+[20:22:40] gc-5-done
+agent log lines: 190019
+ 120000 applied generation N in N ms (N units, N with errors)
+      1 agentd: request to agentd timed out; retrying in Ns
+done: /ab/results/scale/n10000-gc-cycles

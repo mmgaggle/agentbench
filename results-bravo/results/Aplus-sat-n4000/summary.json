@@ -1,0 +1,77 @@
+{
+  "agents": 4000,
+  "args": {
+    "agents": 4000,
+    "duration": 45.0,
+    "error_every": 0,
+    "hosts_file": "/mon/vcluster/agents/hosts.json",
+    "label": "Aplus-sat-n4000",
+    "listen": true,
+    "osds": 16,
+    "out": "/ab/results/Aplus-sat-n4000",
+    "path": "/data",
+    "period": 20.0,
+    "prime": 0,
+    "saturate": 8,
+    "src_ips": 16,
+    "target": null,
+    "threads": 8,
+    "timeout": 10.0,
+    "warmup": 5.0
+  },
+  "body_bytes": 50360,
+  "connect": {
+    "count": 3924,
+    "max_ms": 2087.935,
+    "mean_ms": 8.963187054026502,
+    "p50_ms": 0.021,
+    "p90_ms": 0.152,
+    "p999_ms": 1054.719,
+    "p99_ms": 0.23
+  },
+  "counts": {
+    "app_err": 0,
+    "conn_err": 0,
+    "http_err": 0,
+    "ok": 3924,
+    "timeout": 7
+  },
+  "errors": [
+    "Timeout: no response in 10s"
+  ],
+  "label": "Aplus-sat-n4000",
+  "latency": {
+    "count": 3924,
+    "max_ms": 9994.239,
+    "mean_ms": 74.4961345565749,
+    "p50_ms": 34.335,
+    "p90_ms": 56.255,
+    "p999_ms": 2496.511,
+    "p99_ms": 1046.015
+  },
+  "listener_msgs": 0,
+  "max_report_gap": null,
+  "mode": "saturate",
+  "offered_per_sec": null,
+  "ok_per_sec": 87.2,
+  "prime_secs": 0.0,
+  "response": {
+    "count": 3924,
+    "max_ms": 2250.751,
+    "mean_ms": 26.13288328236493,
+    "p50_ms": 13.935,
+    "p90_ms": 31.407,
+    "p999_ms": 1097.727,
+    "p99_ms": 133.503
+  },
+  "tls_handshake": {
+    "count": 3924,
+    "max_ms": 9977.855,
+    "mean_ms": 39.38186365953111,
+    "p50_ms": 19.551,
+    "p90_ms": 37.183,
+    "p999_ms": 2283.519,
+    "p99_ms": 444.159
+  },
+  "window_secs": 45.0
+}

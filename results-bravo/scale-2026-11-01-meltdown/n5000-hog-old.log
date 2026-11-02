@@ -1,0 +1,22 @@
+[00:29:37] join
+[00:29:42] join-done
+joined as h00067; config in /mon/scale/n5000/h00067/etc/agent.json
+joined as h00167; config in /mon/scale/n5000/h00167/etc/agent.json
+joined as h00217; config in /mon/scale/n5000/h00217/etc/agent.json
+4.9s: answered 6, 5000 approved in all
+[00:29:42] start
+{"label": "start", "mode": "counts", "elapsed_s": 125.75, "reported": 5000, "up": 5000, "timeline": [[111.11, 4432, 4432], [111.61, 4456, 4456], [112.12, 4473, 4477], [112.62, 4493, 4493], [113.12, 4517, 4517], [113.63, 4531, 4537], [114.13, 4553, 4553], [114.64, 4577, 4577], [115.15, 4590, 4593], [115.65, 4613, 4614], [116.16, 4638, 4638], [116.66, 4651, 4654], [117.17, 4674, 4674], [117.67, 4698, 4698], [118.18, 4711, 4713], [118.68, 4734, 4734], [119.18, 4759, 4759], [119.69, 4771, 4774], [120.19, 4795, 4795], [120.7, 4819, 4819], [121.21, 4831, 4832], [121.71, 4855, 4855], [122.21, 4880, 4880], [122.72, 4892, 4893], [123.23, 4916, 4916], [123.73, 4940, 4940], [124.24, 4952, 4952], [124.74, 4976, 4976], [125.25, 5000, 4998], [125.75, 5000, 5000]]}
+[00:31:48] start-done
+[00:32:23] deploy
+deploy: published 5000 hosts in 5.17s (mgr CPU 16.91s, 140000 requests, 3.381 ms CPU/host)
+{"label": "deploy", "cmd": "deploy", "hosts": 5000, "daemons": 70000, "publish_s": 5.171, "publish_cpu_s": 16.907, "publish_requests": 140000, "procs": 4, "not_applied": 0, "applied_after_store_s": {"p50": 18.359, "p90": 29.74, "p99": 31.123, "max": 31.528}, "applied_after_publish_start_s": {"p50": 21.037, "p99": 35.198, "max": 35.400684935}, "events": {"events": 80301, "unit": 70000, "applied": 5000, "gaps": 0, "polls": 296}}
+[00:32:59] deploy-done
+[00:32:59] agent-upgrade-paced-hog
+[00:34:29] hog
+[00:35:39] hog-done
+{"label": "agent-upgrade-paced-hog", "cmd": "agent-upgrade", "hosts": 5000, "version": "0.2.10-sim", "sha256": "b0404775c1937cef", "binary_bytes": 8388608, "rate": 20.0, "canary": 10, "soak_s": 10.0, "max_in_flight_limit": 100, "wall_s": 261.11, "upgraded": 5000, "failed": 0, "halted": null, "not_started": 0, "still_in_flight": 0, "max_in_flight": 79, "mgr_publish_s": 23.02, "host_upgrade_s": {"p50": 0.537, "p90": 1.156, "p99": 4.734, "max": 5.625}, "liveness_down_events": 6540, "hosts_seen_down": 4152, "watched_after_s": 60, "agent_events": 5000, "failures": {}}
+[00:38:21] agent-upgrade-paced-hog-done
+[00:43:21] settled-agent-upgrade-paced-hog
+agent log lines: 97196
+  67160 applied generation N in N ms (N units, N with errors)
+done: /ab/results/scale/n5000-hog-old

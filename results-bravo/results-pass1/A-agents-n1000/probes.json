@@ -1,0 +1,56 @@
+{
+  "orch_host_ls": {
+    "n": 1,
+    "errors": 0,
+    "p50_ms": 70.557,
+    "p90_ms": 70.557,
+    "p99_ms": 70.557,
+    "max_ms": 70.557,
+    "mean_ms": 70.557
+  },
+  "orch_ps_host": {
+    "n": 0,
+    "errors": 0,
+    "p50_ms": null,
+    "p90_ms": null,
+    "p99_ms": null,
+    "max_ms": null,
+    "mean_ms": null
+  },
+  "balancer_status": {
+    "n": 181,
+    "errors": 0,
+    "p50_ms": 85.809,
+    "p90_ms": 304.315,
+    "p99_ms": 533.542,
+    "max_ms": 1027.995,
+    "mean_ms": 124.16234254143646
+  },
+  "pg_stat": {
+    "n": 181,
+    "errors": 0,
+    "p50_ms": 0.827,
+    "p90_ms": 0.923,
+    "p99_ms": 1.169,
+    "max_ms": 1.276,
+    "mean_ms": 0.8255414364640884
+  },
+  "mon_health": {
+    "n": 181,
+    "errors": 0,
+    "p50_ms": 0.974,
+    "p90_ms": 1.271,
+    "p99_ms": 1.473,
+    "max_ms": 1.593,
+    "mean_ms": 1.0031049723756906
+  },
+  "prom_metrics": {
+    "n": 179,
+    "errors": 0,
+    "p50_ms": 320.636,
+    "p90_ms": 798.221,
+    "p99_ms": 1224.387,
+    "max_ms": 1313.151,
+    "mean_ms": 387.41177653631286
+  }
+}

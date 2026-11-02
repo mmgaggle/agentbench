@@ -1,0 +1,33 @@
+{
+  "args": {
+    "name": "B1-sat-n1000-c64",
+    "agents": 1000,
+    "period": 20,
+    "duration": 60.0,
+    "warmup": null,
+    "saturate": 64,
+    "target": "127.0.0.1:7160",
+    "agentd": "--persist sync --policy always --key rsa",
+    "keep_agentd": false,
+    "osds": 16,
+    "prime": 0,
+    "no_seed": true,
+    "no_probes": false,
+    "idle": false,
+    "probe_interval": 1.0,
+    "settle": 10,
+    "sim_arg": []
+  },
+  "start": 1793404523.8669493,
+  "loadavg_before": [
+    2.7734375,
+    1.69677734375,
+    1.2333984375
+  ],
+  "end": 1793404590.9276571,
+  "loadavg_after": [
+    3.48388671875,
+    2.208984375,
+    1.4501953125
+  ]
+}

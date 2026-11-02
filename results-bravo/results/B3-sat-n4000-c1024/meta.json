@@ -1,0 +1,33 @@
+{
+  "args": {
+    "name": "B3-sat-n4000-c1024",
+    "agents": 4000,
+    "period": 20,
+    "duration": 60.0,
+    "warmup": null,
+    "saturate": 1024,
+    "target": "127.0.0.1:7160",
+    "agentd": "--persist writeback --policy changed --key ec",
+    "keep_agentd": false,
+    "osds": 16,
+    "prime": 0,
+    "no_seed": true,
+    "no_probes": false,
+    "idle": false,
+    "probe_interval": 1.0,
+    "settle": 10,
+    "sim_arg": []
+  },
+  "start": 1793406468.6262915,
+  "loadavg_before": [
+    11.55615234375,
+    8.50634765625,
+    5.0166015625
+  ],
+  "end": 1793406537.678028,
+  "loadavg_after": [
+    16.34375,
+    10.7587890625,
+    6.0634765625
+  ]
+}

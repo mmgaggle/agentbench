@@ -1,0 +1,31 @@
+{
+  "args": {
+    "name": "A-sat-n1000",
+    "agents": 1000,
+    "period": 20,
+    "duration": 60.0,
+    "warmup": null,
+    "saturate": 8,
+    "target": null,
+    "osds": 16,
+    "prime": 0,
+    "no_seed": true,
+    "no_probes": false,
+    "idle": false,
+    "probe_interval": 1.0,
+    "settle": 10,
+    "sim_arg": []
+  },
+  "start": 1793397740.5831218,
+  "loadavg_before": [
+    1.0751953125,
+    1.08984375,
+    1.0
+  ],
+  "end": 1793398005.6882896,
+  "loadavg_after": [
+    1.6201171875,
+    1.240234375,
+    1.0693359375
+  ]
+}

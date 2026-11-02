@@ -1,0 +1,13 @@
+agentd: loaded 0 hosts in 0.0s
+agentd: SWIM member at 127.3.0.1:7946
+agentd: serving 127.0.0.1:7160 (key Ec, persist None/Always), admin 127.0.0.1:7161
+blob gc: dropped 117325 unreferenced blobs (109302965 bytes) in 80.3 ms, trim 16.8 ms
+blob gc: dropped 12675 unreferenced blobs (11880375 bytes) in 9.9 ms, trim 0.0 ms
+blob gc: dropped 95784 unreferenced blobs (89181924 bytes) in 59.3 ms, trim 42.4 ms
+blob gc: dropped 34216 unreferenced blobs (32001416 bytes) in 24.7 ms, trim 12.1 ms
+blob gc: dropped 106171 unreferenced blobs (98860211 bytes) in 81.4 ms, trim 22.6 ms
+blob gc: dropped 23829 unreferenced blobs (22323129 bytes) in 16.6 ms, trim 10.3 ms
+blob gc: dropped 96187 unreferenced blobs (89557427 bytes) in 68.7 ms, trim 53.1 ms
+blob gc: dropped 33813 unreferenced blobs (31625913 bytes) in 26.0 ms, trim 16.7 ms
+blob gc: dropped 105612 unreferenced blobs (98339352 bytes) in 80.8 ms, trim 48.4 ms
+blob gc: dropped 24388 unreferenced blobs (22843988 bytes) in 19.7 ms, trim 11.4 ms

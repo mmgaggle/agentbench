@@ -1,0 +1,174 @@
+{
+ "v": [
+  {
+   "proto": "v1",
+   "hosts": 4000,
+   "requests_per_sec": 200.0,
+   "failed": 0,
+   "p50_ms": 1.376,
+   "p99_ms": 3.723,
+   "agentd_cpu": 0.176,
+   "bytes_per_agent_per_period": 50360,
+   "new_connections_per_sec": 171.4,
+   "change_lag_p50_ms": null,
+   "change_lag_p99_ms": null,
+   "kinds": null
+  },
+  {
+   "proto": "v2",
+   "hosts": 4000,
+   "requests_per_sec": 207.8,
+   "failed": 0,
+   "p50_ms": 0.303,
+   "p99_ms": 2.365,
+   "agentd_cpu": 0.022,
+   "bytes_per_agent_per_period": 96,
+   "new_connections_per_sec": 0.0,
+   "change_lag_p50_ms": 1.69,
+   "change_lag_p99_ms": 2.979,
+   "kinds": {
+    "delta": 2.0,
+    "full": 0.0,
+    "heartbeat": 192.3,
+    "usage": 13.4
+   }
+  },
+  {
+   "proto": "v1",
+   "hosts": 10000,
+   "requests_per_sec": 500.0,
+   "failed": 0,
+   "p50_ms": 0.964,
+   "p99_ms": 2.407,
+   "agentd_cpu": 0.358,
+   "bytes_per_agent_per_period": 50360,
+   "new_connections_per_sec": 428.5,
+   "change_lag_p50_ms": null,
+   "change_lag_p99_ms": null,
+   "kinds": null
+  },
+  {
+   "proto": "v2",
+   "hosts": 10000,
+   "requests_per_sec": 519.3,
+   "failed": 0,
+   "p50_ms": 0.246,
+   "p99_ms": 0.875,
+   "agentd_cpu": 0.025,
+   "bytes_per_agent_per_period": 96,
+   "new_connections_per_sec": 0.0,
+   "change_lag_p50_ms": 1.502,
+   "change_lag_p99_ms": 2.617,
+   "kinds": {
+    "delta": 5.1,
+    "full": 0.0,
+    "heartbeat": 480.7,
+    "usage": 33.5
+   }
+  },
+  {
+   "proto": "v1",
+   "hosts": 20000,
+   "requests_per_sec": 999.9,
+   "failed": 0,
+   "p50_ms": 0.897,
+   "p99_ms": 2.381,
+   "agentd_cpu": 0.676,
+   "bytes_per_agent_per_period": 50360,
+   "new_connections_per_sec": 856.9,
+   "change_lag_p50_ms": null,
+   "change_lag_p99_ms": null,
+   "kinds": null
+  },
+  {
+   "proto": "v2",
+   "hosts": 20000,
+   "requests_per_sec": 1038.6,
+   "failed": 0,
+   "p50_ms": 0.223,
+   "p99_ms": 1.232,
+   "agentd_cpu": 0.074,
+   "bytes_per_agent_per_period": 97,
+   "new_connections_per_sec": 0.0,
+   "change_lag_p50_ms": 1.332,
+   "change_lag_p99_ms": 2.711,
+   "kinds": {
+    "delta": 10.1,
+    "full": 0.0,
+    "heartbeat": 960.9,
+    "usage": 67.6
+   }
+  },
+  {
+   "proto": "v1",
+   "hosts": 50000,
+   "requests_per_sec": 2499.8,
+   "failed": 0,
+   "p50_ms": 0.928,
+   "p99_ms": 2.085,
+   "agentd_cpu": 1.666,
+   "bytes_per_agent_per_period": 50360,
+   "new_connections_per_sec": 2142.0,
+   "change_lag_p50_ms": null,
+   "change_lag_p99_ms": null,
+   "kinds": null
+  },
+  {
+   "proto": "v2",
+   "hosts": 50000,
+   "requests_per_sec": 2596.4,
+   "failed": 0,
+   "p50_ms": 0.112,
+   "p99_ms": 0.852,
+   "agentd_cpu": 0.132,
+   "bytes_per_agent_per_period": 96,
+   "new_connections_per_sec": 0.0,
+   "change_lag_p50_ms": 1.17,
+   "change_lag_p99_ms": 2.433,
+   "kinds": {
+    "delta": 25.2,
+    "full": 0.0,
+    "heartbeat": 2404.6,
+    "usage": 166.6
+   }
+  }
+ ],
+ "swim": [
+  {
+   "members": 1000,
+   "converge_secs": 20,
+   "member_pkts_per_sec": 2.44,
+   "member_bytes_per_sec": 82,
+   "controller_pkts_per_sec": 4.7,
+   "controller_cpu": 0.001,
+   "sim_cpu_per_member_ms": 0.185,
+   "signal_coverage": 1.0,
+   "signal_p50_ms": 330,
+   "signal_p99_ms": 587,
+   "signal_max_ms": 781,
+   "killed": 10,
+   "undetected": 0,
+   "false_down": 0,
+   "detect_p50_s": 14.2,
+   "detect_max_s": 16.9
+  },
+  {
+   "members": 4000,
+   "converge_secs": 22,
+   "member_pkts_per_sec": 2.15,
+   "member_bytes_per_sec": 70,
+   "controller_pkts_per_sec": 4.7,
+   "controller_cpu": 0.002,
+   "sim_cpu_per_member_ms": 0.325,
+   "signal_coverage": 1.0,
+   "signal_p50_ms": 440,
+   "signal_p99_ms": 726,
+   "signal_max_ms": 1146,
+   "killed": 40,
+   "undetected": 0,
+   "false_down": 0,
+   "detect_p50_s": 16.8,
+   "detect_max_s": 22.0
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+[19:05:55] join
+[19:06:00] join-done
+joined as h00057; config in /mon/scale/n5000/h00057/etc/agent.json
+joined as h00049; config in /mon/scale/n5000/h00049/etc/agent.json
+joined as h00081; config in /mon/scale/n5000/h00081/etc/agent.json
+5.0s: answered 9, 5000 approved in all
+[19:06:00] start
+{"label": "start", "mode": "counts", "elapsed_s": 125.25, "reported": 5000, "up": 5000, "timeline": [[110.61, 4415, 4417], [111.11, 4432, 4432], [111.62, 4456, 4456], [112.12, 4474, 4477], [112.62, 4493, 4493], [113.13, 4517, 4517], [113.63, 4533, 4538], [114.14, 4553, 4553], [114.64, 4577, 4577], [115.15, 4593, 4596], [115.65, 4614, 4614], [116.16, 4638, 4638], [116.66, 4654, 4657], [117.17, 4674, 4674], [117.67, 4698, 4698], [118.18, 4713, 4716], [118.68, 4734, 4734], [119.19, 4759, 4759], [119.69, 4771, 4776], [120.2, 4795, 4795], [120.7, 4819, 4819], [121.21, 4831, 4835], [121.71, 4855, 4855], [122.22, 4880, 4880], [122.72, 4892, 4896], [123.23, 4916, 4916], [123.73, 4940, 4940], [124.24, 4952, 4954], [124.74, 4976, 4976], [125.25, 5000, 5000]]}
+[19:08:05] start-done
+[19:08:40] deploy
+deploy: published 5000 hosts in 4.94s (mgr CPU 16.61s, 140000 requests, 3.322 ms CPU/host)
+{"label": "deploy", "cmd": "deploy", "hosts": 5000, "daemons": 70000, "publish_s": 4.937, "publish_cpu_s": 16.608, "publish_requests": 140000, "procs": 4, "not_applied": 0, "applied_after_store_s": {"p50": 17.128, "p90": 28.552, "p99": 29.784, "max": 30.199}, "applied_after_publish_start_s": {"p50": 19.727, "p99": 33.437, "max": 33.879035069}, "events": {"events": 80322, "unit": 70000, "applied": 5000, "gaps": 0, "polls": 282}}
+[19:09:14] deploy-done
+[19:09:14] ceph-upgrade
+ceph-upgrade: published 5000 hosts in 2.18s (mgr CPU 4.45s, 75000 requests, 0.890 ms CPU/host)
+{"label": "ceph-upgrade", "cmd": "ceph-upgrade", "hosts": 5000, "daemons": 70000, "publish_s": 2.185, "publish_cpu_s": 4.449, "publish_requests": 75000, "procs": 4, "not_applied": 0, "applied_after_store_s": {"p50": 0.123, "p90": 0.198, "p99": 0.231, "max": 0.257}, "applied_after_publish_start_s": {"p50": 1.041, "p99": 2.265, "max": 2.290564408}, "events": {"events": 75000, "unit": 65000, "applied": 5000, "gaps": 0, "polls": 2}}
+[19:09:17] ceph-upgrade-done
+[19:09:17] gc
+{"label": "gc", "mode": "gc", "elapsed_s": 128.2, "before": {"blobs": 200001, "blob_bytes": 131080860, "blobs_unreferenced": 65000, "rss_mb": 779.9, "blob_gc": {"last_ms": 1.4673539999999998, "removed": 0, "removed_bytes": 0, "runs": 7}}, "after": {"blobs": 135001, "blob_bytes": 70582520, "blobs_unreferenced": 0, "rss_mb": 832.2, "blob_gc": {"last_ms": 34.107152, "removed": 65000, "removed_bytes": 60498340, "runs": 12}}}
+[19:11:25] gc-done
+[19:11:35] agent-upgrade-paced
+{"label": "agent-upgrade-paced", "cmd": "agent-upgrade", "hosts": 5000, "version": "0.2.6-sim", "sha256": "14760b1ca7a69dc2", "binary_bytes": 8388608, "rate": 20.0, "canary": 10, "soak_s": 10.0, "max_in_flight_limit": 100, "wall_s": 261.08, "upgraded": 5000, "failed": 0, "halted": null, "not_started": 0, "still_in_flight": 0, "max_in_flight": 18, "mgr_publish_s": 24.74, "host_upgrade_s": {"p50": 0.533, "p90": 0.577, "p99": 0.61, "max": 0.748}, "liveness_down_events": 0, "hosts_seen_down": 0, "agent_events": 5000, "failures": {}}
+[19:15:57] agent-upgrade-paced-done
+[19:16:27] agent-upgrade-all
+{"label": "agent-upgrade-all", "cmd": "agent-upgrade", "hosts": 5000, "version": "0.2.7-sim", "sha256": "604beb23be388cd2", "binary_bytes": 8388608, "rate": 0.0, "canary": 0, "soak_s": 10, "max_in_flight_limit": 0, "wall_s": 6.45, "upgraded": 5000, "failed": 0, "halted": null, "not_started": 0, "still_in_flight": 0, "max_in_flight": 5000, "mgr_publish_s": 4.36, "host_upgrade_s": {"p50": 1.981, "p90": 2.662, "p99": 2.849, "max": 2.944}, "liveness_down_events": 0, "hosts_seen_down": 0, "agent_events": 5000, "failures": {}}
+[19:16:34] agent-upgrade-all-done
+{"label": "after-agent-upgrade-all", "mode": "counts", "elapsed_s": 0.1, "reported": 5000, "up": 5000, "timeline": [[0.1, 5000, 5000]]}
+[19:16:34] settled-after-agent-upgrade-all
+agent log lines: 116378
+  66365 applied generation N in N ms (N units, N with errors)
+done: /ab/results/scale/n5000-upgrades

@@ -1,0 +1,81 @@
+{
+  "agents": 2000,
+  "args": {
+    "agents": 2000,
+    "duration": 180.0,
+    "error_every": 0,
+    "hosts_file": "/mon/vcluster/agents/hosts.json",
+    "label": "B3-agents-n2000",
+    "listen": true,
+    "osds": 16,
+    "out": "/ab/results/B3-agents-n2000",
+    "path": "/data",
+    "period": 20.0,
+    "prime": 0,
+    "saturate": null,
+    "src_ips": 16,
+    "target": "127.0.0.1:7160",
+    "threads": 8,
+    "timeout": 10.0,
+    "warmup": 20.0
+  },
+  "body_bytes": 50360,
+  "connect": {
+    "count": 17997,
+    "max_ms": 0.613,
+    "mean_ms": 0.20328821470245045,
+    "p50_ms": 0.253,
+    "p90_ms": 0.294,
+    "p999_ms": 0.496,
+    "p99_ms": 0.37
+  },
+  "counts": {
+    "app_err": 0,
+    "conn_err": 0,
+    "http_err": 0,
+    "ok": 17997,
+    "timeout": 0
+  },
+  "errors": [],
+  "label": "B3-agents-n2000",
+  "latency": {
+    "count": 17997,
+    "max_ms": 17.551,
+    "mean_ms": 1.8864775795965967,
+    "p50_ms": 1.773,
+    "p90_ms": 2.577,
+    "p999_ms": 14.063,
+    "p99_ms": 3.943
+  },
+  "listener_msgs": 0,
+  "max_report_gap": {
+    "agents_over_1_5x_period": 0,
+    "agents_over_3x_period": 0,
+    "max_s": 20.018845310000003,
+    "p50_s": 20.00416051800002,
+    "p99_s": 20.014259275
+  },
+  "mode": "agents",
+  "offered_per_sec": 100.0,
+  "ok_per_sec": 99.98333333333333,
+  "prime_secs": 0.0,
+  "response": {
+    "count": 17997,
+    "max_ms": 13.327,
+    "mean_ms": 0.9218196921709177,
+    "p50_ms": 0.885,
+    "p90_ms": 1.422,
+    "p999_ms": 4.955,
+    "p99_ms": 2.093
+  },
+  "tls_handshake": {
+    "count": 17997,
+    "max_ms": 16.135,
+    "mean_ms": 0.7164864144023991,
+    "p50_ms": 0.639,
+    "p90_ms": 1.015,
+    "p999_ms": 11.999,
+    "p99_ms": 1.515
+  },
+  "window_secs": 180.0
+}

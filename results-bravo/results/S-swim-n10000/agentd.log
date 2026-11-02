@@ -1,0 +1,3 @@
+agentd: loaded 10000 hosts in 0.0s
+agentd: SWIM controller at 127.3.0.1:7946
+agentd: serving 127.0.0.1:7160 (key Ec, persist None/Always), admin 127.0.0.1:7161

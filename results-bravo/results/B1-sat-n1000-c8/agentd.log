@@ -1,0 +1,2 @@
+agentd: loaded 1000 hosts in 0.4s
+agentd: serving 127.0.0.1:7160 (key Rsa, persist Sync/Always), admin 127.0.0.1:7161

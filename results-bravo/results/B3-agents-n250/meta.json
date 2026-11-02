@@ -1,0 +1,34 @@
+{
+  "args": {
+    "name": "B3-agents-n250",
+    "agents": 250,
+    "period": 20,
+    "duration": 180.0,
+    "warmup": null,
+    "saturate": null,
+    "target": "127.0.0.1:7160",
+    "agentd": "--persist writeback --policy changed --key ec",
+    "keep_agentd": false,
+    "osds": 16,
+    "prime": 16,
+    "no_seed": true,
+    "no_probes": false,
+    "idle": false,
+    "probe_interval": 1.0,
+    "settle": 10,
+    "sim_arg": []
+  },
+  "start": 1793403471.983681,
+  "loadavg_before": [
+    0.51416015625,
+    0.779296875,
+    0.89697265625
+  ],
+  "prime_secs": 20.0059307559859,
+  "end": 1793403713.1239407,
+  "loadavg_after": [
+    0.36962890625,
+    0.4892578125,
+    0.74267578125
+  ]
+}

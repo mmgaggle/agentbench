@@ -1,0 +1,163 @@
+applied /ab/mgr-modules/cephadm/agent.py
+seeded 1000 hosts (2001 keys, 9000 stale removed) in 9.5s
+cephadm reloaded with 1000 hosts
+agentsim: 1000 agents -> 127.0.0.1:7150/data, body 50360 bytes
+t=  11s ok/s=   51.3 err/s=   0.0 p50=    15.9ms p99=   143.5ms
+t=  21s ok/s=   48.1 err/s=   0.0 p50=    18.5ms p99=  2050.0ms
+t=  31s ok/s=   50.6 err/s=   0.0 p50=    18.9ms p99=  1063.9ms
+t=  41s ok/s=   49.6 err/s=   0.0 p50=    18.3ms p99=  1244.2ms
+t=  51s ok/s=   50.5 err/s=   0.0 p50=    21.8ms p99=  1108.0ms
+t=  61s ok/s=   48.3 err/s=   0.0 p50=    22.0ms p99=  1169.4ms
+t=  70s ok/s=   51.7 err/s=   0.0 p50=    18.6ms p99=  2265.1ms
+t=  80s ok/s=   48.3 err/s=   0.0 p50=    22.3ms p99=  2109.4ms
+t=  90s ok/s=   50.6 err/s=   0.0 p50=    22.8ms p99=  1088.5ms
+t= 100s ok/s=   49.7 err/s=   0.0 p50=    20.4ms p99=  1055.7ms
+t= 110s ok/s=   50.3 err/s=   0.0 p50=    22.8ms p99=  1463.3ms
+t= 121s ok/s=   47.5 err/s=   0.0 p50=    24.3ms p99=   327.4ms
+t= 131s ok/s=   52.5 err/s=   0.0 p50=    20.0ms p99=  1033.7ms
+t= 141s ok/s=   47.1 err/s=   0.0 p50=    20.4ms p99=  1328.1ms
+t= 141s ok/s=    0.0 err/s=   0.0 p50=    20.4ms p99=  1328.1ms
+done: ok/s=49.7 counts=[5961, 0, 0, 0, 0] p50=20.9ms p99=1301.5ms
+results in /ab/results/Aplus-agents-n1000
+agentsim: 1000 agents -> 127.0.0.1:7150/data, body 50360 bytes
+t=  11s ok/s=  195.9 err/s=   0.0 p50=    27.5ms p99=   346.1ms
+t=  21s ok/s=  236.7 err/s=   0.0 p50=    25.9ms p99=   260.9ms
+t=  31s ok/s=  237.6 err/s=   0.0 p50=    25.9ms p99=   245.0ms
+t=  41s ok/s=  195.4 err/s=   0.0 p50=    28.7ms p99=   391.2ms
+done: ok/s=221.5 counts=[9967, 0, 0, 0, 0] p50=26.6ms p99=282.9ms
+results in /ab/results/Aplus-sat-n1000
+agentsim: 1000 agents -> 127.0.0.1:7150/data, body 50360 bytes
+t=  11s ok/s=   51.3 err/s=   0.0 p50=    15.3ms p99=    38.7ms
+t=  21s ok/s=   48.7 err/s=   0.0 p50=    19.1ms p99=  3094.5ms
+t=  31s ok/s=   48.5 err/s=   0.0 p50=   596.5ms p99=  7209.0ms
+t=  41s ok/s=   38.7 err/s=   2.1 p50=  2551.8ms p99=  8847.4ms
+t=  51s ok/s=   37.1 err/s=   1.7 p50=   296.2ms p99=  5660.7ms
+t=  61s ok/s=   16.9 err/s=  11.2 p50=  3246.1ms p99=  8683.5ms
+t=  71s ok/s=   31.4 err/s=  27.0 p50=  2727.9ms p99=  8863.7ms
+t=  81s ok/s=   36.3 err/s=   7.8 p50=  4022.3ms p99=  8847.4ms
+t=  91s ok/s=    5.2 err/s=   5.7 p50=  3375.1ms p99=  7475.2ms
+t= 100s ok/s=   65.3 err/s=  21.3 p50=  1030.7ms p99=  8519.7ms
+t= 111s ok/s=   64.0 err/s=   4.6 p50=   507.9ms p99=  7401.5ms
+t= 121s ok/s=   36.5 err/s=   1.3 p50=  1046.5ms p99=  7864.3ms
+t= 131s ok/s=   60.6 err/s=   0.2 p50=  1106.9ms p99=  6619.1ms
+t= 141s ok/s=   42.2 err/s=   4.9 p50=  1218.6ms p99=  7815.2ms
+orch_host_ls     n=  86 err=0 p50=1113.288 p99=4583.858 max=5955.66
+orch_ps_host     n=  85 err=0 p50=1121.86 p99=4562.472 max=5915.373
+balancer_status  n= 121 err=0 p50=6.032 p99=248.477 max=279.445
+pg_stat          n= 121 err=0 p50=0.807 p99=1.283 max=1.481
+mon_health       n= 121 err=0 p50=0.956 p99=1.952 max=2.349
+prom_metrics     n=  35 err=86 p50=36.604 p99=436.637 max=436.637
+t= 144s ok/s=    5.1 err/s=   3.7 p50=  1756.2ms p99=  7815.2ms
+t= 144s ok/s=    0.0 err/s=   0.0 p50=  1756.2ms p99=  7815.2ms
+done: ok/s=40.7 counts=[4881, 0, 0, 915, 0] p50=1225.7ms p99=8212.5ms
+results in /ab/results/AplusP-agents-n1000
+seeded 2000 hosts (4001 keys, 0 stale removed) in 3.5s
+waited 42s for TIME_WAIT on port 7150 to drain
+cephadm reloaded with 2000 hosts
+agentsim: 2000 agents -> 127.0.0.1:7150/data, body 50360 bytes
+t=  11s ok/s=    2.0 err/s=   0.0 p50=  4053.0ms p99=  7352.3ms
+t=  21s ok/s=   15.0 err/s=  99.6 p50=  1083.4ms p99=  7647.2ms
+t=  31s ok/s=   44.9 err/s=  68.4 p50=  1077.2ms p99=  8593.4ms
+t=  41s ok/s=  107.9 err/s=  38.6 p50=  1018.9ms p99=  8511.5ms
+t=  51s ok/s=  147.8 err/s=  15.3 p50=    24.5ms p99=  8708.1ms
+t=  61s ok/s=   76.3 err/s=   0.7 p50=    31.6ms p99=  3760.1ms
+t=  71s ok/s=  128.0 err/s=   5.9 p50=    50.7ms p99=  7626.8ms
+t=  81s ok/s=  108.4 err/s=   0.8 p50=    15.5ms p99=  7659.5ms
+t=  91s ok/s=   86.9 err/s=   1.6 p50=  1048.6ms p99=  7618.6ms
+t= 101s ok/s=   39.9 err/s=   6.2 p50=   242.6ms p99=  9691.1ms
+t= 111s ok/s=   62.0 err/s=  46.4 p50=  1436.7ms p99=  9715.7ms
+t= 121s ok/s=    3.1 err/s=  54.3 p50=  4325.4ms p99=  7847.9ms
+t= 131s ok/s=   55.3 err/s=  43.1 p50=  2519.0ms p99=  7954.4ms
+t= 141s ok/s=   25.7 err/s=  47.7 p50=  3522.6ms p99=  8044.5ms
+t= 149s ok/s=   24.8 err/s=  19.2 p50=  4808.7ms p99=  8896.5ms
+t= 149s ok/s=    0.0 err/s=   0.0 p50=  4808.7ms p99=  8896.5ms
+done: ok/s=74.7 counts=[8964, 0, 0, 2801, 0] p50=49.3ms p99=8683.5ms
+results in /ab/results/Aplus-agents-n2000
+agentsim: 2000 agents -> 127.0.0.1:7150/data, body 50360 bytes
+t=  11s ok/s=  153.7 err/s=   0.0 p50=    25.8ms p99=   480.3ms
+t=  21s ok/s=  135.0 err/s=   0.0 p50=    26.6ms p99=   884.2ms
+t=  31s ok/s=  156.4 err/s=   0.0 p50=    30.9ms p99=   542.2ms
+t=  40s ok/s=  152.8 err/s=   0.0 p50=    29.2ms p99=   646.1ms
+done: ok/s=148.4 counts=[6677, 0, 0, 0, 0] p50=30.3ms p99=568.3ms
+results in /ab/results/Aplus-sat-n2000
+agentsim: 2000 agents -> 127.0.0.1:7150/data, body 50360 bytes
+t=  11s ok/s=   81.1 err/s=   0.0 p50=    55.0ms p99=  3946.5ms
+t=  21s ok/s=  100.3 err/s=   1.6 p50=    18.6ms p99=  8658.9ms
+t=  31s ok/s=   78.9 err/s=   6.4 p50=  1051.6ms p99=  8757.2ms
+t=  41s ok/s=   55.3 err/s=  21.7 p50=  1440.8ms p99=  9052.2ms
+t=  51s ok/s=   90.6 err/s=  28.9 p50=  1301.5ms p99=  8978.4ms
+t=  61s ok/s=   23.5 err/s=  10.5 p50=  3237.9ms p99=  9363.5ms
+t=  71s ok/s=   79.3 err/s=  56.6 p50=   918.5ms p99=  8245.2ms
+t=  81s ok/s=   27.5 err/s=  29.6 p50=  2525.2ms p99=  8675.3ms
+t=  91s ok/s=   45.7 err/s=  58.9 p50=  4403.2ms p99=  8601.6ms
+t= 101s ok/s=   18.0 err/s=  50.2 p50=  1312.8ms p99=  9306.1ms
+t= 111s ok/s=  140.9 err/s=  25.3 p50=  2129.9ms p99=  8970.2ms
+t= 121s ok/s=   82.6 err/s=   0.0 p50=   288.3ms p99=  3676.2ms
+t= 131s ok/s=   76.5 err/s=  11.9 p50=  2236.4ms p99=  8683.5ms
+t= 141s ok/s=  130.6 err/s=  22.0 p50=  1324.0ms p99=  9396.2ms
+orch_host_ls     n=  36 err=0 p50=2157.495 p99=12050.988 max=12050.988
+orch_ps_host     n=  35 err=0 p50=2149.274 p99=12046.108 max=12046.108
+balancer_status  n= 121 err=0 p50=6.442 p99=653.266 max=654.357
+pg_stat          n= 121 err=0 p50=0.793 p99=1.236 max=1.313
+mon_health       n= 121 err=0 p50=0.999 p99=3.821 max=4.43
+prom_metrics     n=  60 err=61 p50=50.997 p99=219.884 max=1044.284
+t= 150s ok/s=   13.4 err/s=  16.9 p50=  7237.6ms p99=  8020.0ms
+t= 150s ok/s=    0.0 err/s=   0.0 p50=  7237.6ms p99=  8020.0ms
+done: ok/s=71.0 counts=[8524, 0, 0, 3330, 0] p50=1537.0ms p99=8986.6ms
+results in /ab/results/AplusP-agents-n2000
+seeded 4000 hosts (8001 keys, 0 stale removed) in 6.9s
+waited 34s for TIME_WAIT on port 7150 to drain
+cephadm reloaded with 4000 hosts
+agentsim: 4000 agents -> 127.0.0.1:7150/data, body 50360 bytes
+t=  11s ok/s=    0.1 err/s=   0.0 p50=     0.0ms p99=     0.0ms
+t=  21s ok/s=    0.0 err/s= 203.0 p50=     0.0ms p99=     0.0ms
+t=  31s ok/s=    0.0 err/s= 196.9 p50=     0.0ms p99=     0.0ms
+t=  41s ok/s=    0.0 err/s= 203.1 p50=     0.0ms p99=     0.0ms
+t=  51s ok/s=    0.0 err/s= 196.9 p50=     0.0ms p99=     0.0ms
+t=  61s ok/s=    0.0 err/s= 203.1 p50=     0.0ms p99=     0.0ms
+t=  71s ok/s=    0.0 err/s= 196.9 p50=     0.0ms p99=     0.0ms
+t=  81s ok/s=    0.0 err/s= 203.1 p50=     0.0ms p99=     0.0ms
+t=  91s ok/s=    0.0 err/s= 196.9 p50=     0.0ms p99=     0.0ms
+t= 101s ok/s=    0.0 err/s= 203.1 p50=     0.0ms p99=     0.0ms
+t= 111s ok/s=    0.0 err/s= 196.9 p50=     0.0ms p99=     0.0ms
+t= 121s ok/s=    0.0 err/s= 203.1 p50=     0.0ms p99=     0.0ms
+t= 131s ok/s=    0.0 err/s= 196.9 p50=     0.0ms p99=     0.0ms
+t= 141s ok/s=    0.0 err/s= 203.1 p50=     0.0ms p99=     0.0ms
+t= 150s ok/s=    0.0 err/s= 195.3 p50=     0.0ms p99=     0.0ms
+done: ok/s=0.0 counts=[0, 0, 0, 23997, 0] p50=0.0ms p99=0.0ms
+results in /ab/results/Aplus-agents-n4000
+agentsim: 4000 agents -> 127.0.0.1:7150/data, body 50360 bytes
+t=  10s ok/s=  127.4 err/s=   0.0 p50=    36.8ms p99=   800.8ms
+t=  13s ok/s=   10.5 err/s=   0.0 p50=    37.2ms p99=  1204.2ms
+t=  31s ok/s=  119.9 err/s=   0.7 p50=    27.4ms p99=   623.1ms
+t=  39s ok/s=  114.4 err/s=   0.0 p50=    38.5ms p99=   899.1ms
+t=  50s ok/s=   97.2 err/s=   0.0 p50=    39.4ms p99=  1334.3ms
+done: ok/s=87.2 counts=[3924, 0, 0, 7, 0] p50=34.3ms p99=1046.0ms
+results in /ab/results/Aplus-sat-n4000
+agentsim: 4000 agents -> 127.0.0.1:7150/data, body 50360 bytes
+t=  11s ok/s=   94.6 err/s=   0.0 p50=    68.2ms p99=  5931.0ms
+t=  21s ok/s=   83.5 err/s=  73.7 p50=   836.6ms p99=  8642.6ms
+t=  31s ok/s=  126.3 err/s= 127.8 p50=  1787.9ms p99=  9355.3ms
+t=  41s ok/s=  156.2 err/s=  30.2 p50=  4223.0ms p99=  9347.1ms
+t=  51s ok/s=  120.1 err/s=  45.1 p50=  4882.4ms p99=  9453.6ms
+t=  61s ok/s=   12.5 err/s= 132.0 p50=  1423.4ms p99=  8847.4ms
+t=  71s ok/s=  110.5 err/s= 138.5 p50=   818.2ms p99=  9199.6ms
+t=  81s ok/s=  119.0 err/s=  67.0 p50=  1323.0ms p99=  9134.1ms
+t=  91s ok/s=  112.1 err/s=  99.1 p50=  4284.4ms p99=  9379.8ms
+t= 101s ok/s=  142.1 err/s=  46.4 p50=  3190.8ms p99=  8626.2ms
+t= 111s ok/s=  142.2 err/s=  53.1 p50=  5406.7ms p99=  9830.4ms
+t= 121s ok/s=   50.0 err/s= 120.9 p50=  1136.6ms p99=  8355.8ms
+t= 131s ok/s=   31.5 err/s= 143.8 p50=  5394.4ms p99=  8904.7ms
+t= 141s ok/s=  122.3 err/s=  92.3 p50=  1728.5ms p99=  8912.9ms
+orch_host_ls     n=  11 err=0 p50=7678.719 p99=27732.404 max=27732.404
+orch_ps_host     n=  10 err=0 p50=7679.069 p99=27734.893 max=27734.893
+balancer_status  n= 118 err=0 p50=1.893 p99=1518.11 max=1522.655
+pg_stat          n= 121 err=0 p50=0.579 p99=1.269 max=1.363
+mon_health       n= 121 err=0 p50=0.94 p99=8.809 max=12.901
+prom_metrics     n=   0 err=117 p50=None p99=None max=None
+t= 151s ok/s=   83.9 err/s=  81.7 p50=  5070.8ms p99=  9732.1ms
+t= 151s ok/s=    0.0 err/s=   0.0 p50=  5070.8ms p99=  9732.1ms
+done: ok/s=109.1 counts=[13090, 0, 0, 10506, 0] p50=3745.8ms p99=9379.8ms
+results in /ab/results/AplusP-agents-n4000
+reverted /ab/mgr-modules/cephadm/agent.py
+sweep done

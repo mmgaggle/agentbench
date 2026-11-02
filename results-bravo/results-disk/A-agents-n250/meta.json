@@ -1,0 +1,33 @@
+{
+  "args": {
+    "name": "A-agents-n250",
+    "agents": 250,
+    "period": 20,
+    "duration": 180.0,
+    "warmup": null,
+    "saturate": null,
+    "target": null,
+    "osds": 16,
+    "prime": 16,
+    "no_seed": false,
+    "no_probes": false,
+    "idle": false,
+    "probe_interval": 1.0,
+    "settle": 10,
+    "sim_arg": []
+  },
+  "start": 1793395400.6069143,
+  "loadavg_before": [
+    0.822265625,
+    0.6025390625,
+    0.48974609375
+  ],
+  "seed_secs": 10.052781007019803,
+  "prime_secs": 42.90877684997395,
+  "end": 1793395683.6825044,
+  "loadavg_after": [
+    0.58056640625,
+    0.6923828125,
+    0.5634765625
+  ]
+}

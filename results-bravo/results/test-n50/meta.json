@@ -1,0 +1,33 @@
+{
+  "args": {
+    "name": "test-n50",
+    "agents": 50,
+    "period": 5.0,
+    "duration": 30.0,
+    "warmup": 5.0,
+    "saturate": null,
+    "target": null,
+    "osds": 16,
+    "prime": 16,
+    "no_seed": false,
+    "no_probes": false,
+    "idle": false,
+    "probe_interval": 1.0,
+    "settle": 10,
+    "sim_arg": []
+  },
+  "start": 1793395271.4578717,
+  "loadavg_before": [
+    0.177734375,
+    0.55029296875,
+    0.466796875
+  ],
+  "seed_secs": 3.8817638109903783,
+  "prime_secs": 6.315230358042754,
+  "end": 1793395331.6970766,
+  "loadavg_after": [
+    0.3291015625,
+    0.52490234375,
+    0.4599609375
+  ]
+}

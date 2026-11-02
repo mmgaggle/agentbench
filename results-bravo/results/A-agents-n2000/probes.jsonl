@@ -1,0 +1,488 @@
+{"probe": "orch_host_ls", "t": 0.052, "ms": 52.226, "behind_ms": 0.0, "bytes": 158001, "err": null}
+{"probe": "balancer_status", "t": 0.37, "ms": 36.44, "behind_ms": 0.1, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 0.501, "ms": 0.672, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 0.668, "ms": 0.773, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 0.883, "ms": 49.118, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 1.377, "ms": 43.751, "behind_ms": 0.1, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 1.501, "ms": 0.668, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 1.668, "ms": 0.86, "behind_ms": 0.4, "bytes": 316, "err": null}
+{"probe": "orch_ps_host", "t": 1.893, "ms": 1725.731, "behind_ms": 0.4, "bytes": 5994, "err": null}
+{"probe": "prom_metrics", "t": 1.894, "ms": 59.815, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "orch_host_ls", "t": 1.931, "ms": 930.996, "behind_ms": 0.1, "bytes": 158001, "err": null}
+{"probe": "balancer_status", "t": 2.338, "ms": 4.207, "behind_ms": 0.1, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 2.501, "ms": 0.724, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 2.668, "ms": 0.931, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 2.838, "ms": 3.551, "behind_ms": 0.5, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 3.337, "ms": 3.05, "behind_ms": 0.1, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 3.501, "ms": 0.46, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 3.669, "ms": 1.813, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 3.84, "ms": 5.112, "behind_ms": 0.6, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 4.337, "ms": 2.854, "behind_ms": 0.1, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 4.501, "ms": 0.443, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 4.668, "ms": 0.73, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 4.842, "ms": 7.605, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 5.339, "ms": 5.635, "behind_ms": 0.1, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 5.501, "ms": 0.728, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 5.668, "ms": 0.768, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 5.838, "ms": 4.276, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 6.347, "ms": 13.144, "behind_ms": 0.1, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 6.501, "ms": 0.752, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 6.668, "ms": 0.754, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 6.848, "ms": 13.757, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 7.34, "ms": 6.212, "behind_ms": 0.2, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 7.502, "ms": 0.57, "behind_ms": 0.6, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 7.668, "ms": 0.675, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 7.837, "ms": 2.75, "behind_ms": 0.2, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 8.335, "ms": 1.53, "behind_ms": 0.1, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 8.501, "ms": 0.645, "behind_ms": 0.3, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 8.668, "ms": 0.452, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 8.858, "ms": 23.828, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 9.339, "ms": 5.612, "behind_ms": 0.1, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 9.501, "ms": 0.552, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 9.668, "ms": 0.702, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 9.844, "ms": 9.819, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 10.341, "ms": 7.195, "behind_ms": 0.4, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 10.501, "ms": 0.52, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 10.668, "ms": 0.713, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 10.849, "ms": 14.902, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 11.336, "ms": 2.431, "behind_ms": 0.1, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 11.501, "ms": 0.666, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 11.668, "ms": 0.704, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 11.837, "ms": 3.383, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 12.352, "ms": 18.339, "behind_ms": 0.1, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 12.501, "ms": 0.528, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 12.668, "ms": 0.567, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 12.845, "ms": 10.562, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 13.348, "ms": 14.356, "behind_ms": 0.1, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 13.502, "ms": 0.606, "behind_ms": 0.6, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 13.668, "ms": 0.67, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 13.849, "ms": 14.807, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 14.35, "ms": 15.93, "behind_ms": 0.3, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 14.502, "ms": 0.788, "behind_ms": 0.6, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 14.668, "ms": 0.686, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 14.839, "ms": 5.394, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 15.336, "ms": 1.622, "behind_ms": 0.4, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 15.501, "ms": 0.769, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 15.668, "ms": 0.537, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 15.837, "ms": 2.699, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 16.337, "ms": 3.361, "behind_ms": 0.1, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 16.502, "ms": 1.138, "behind_ms": 0.7, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 16.668, "ms": 1.032, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 16.838, "ms": 3.852, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 17.337, "ms": 2.614, "behind_ms": 0.4, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 17.502, "ms": 0.865, "behind_ms": 0.4, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 17.668, "ms": 0.734, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 17.842, "ms": 8.439, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 18.339, "ms": 5.42, "behind_ms": 0.3, "bytes": 278, "err": null}
+{"probe": "pg_stat", "t": 18.501, "ms": 0.889, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 18.67, "ms": 2.292, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 18.841, "ms": 6.935, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 19.335, "ms": 1.053, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 19.501, "ms": 0.628, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 19.668, "ms": 0.795, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 19.854, "ms": 20.035, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 20.337, "ms": 2.761, "behind_ms": 0.2, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 20.501, "ms": 0.591, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 20.668, "ms": 0.72, "behind_ms": 0.4, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 20.837, "ms": 2.416, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 21.336, "ms": 2.309, "behind_ms": 0.3, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 21.502, "ms": 0.883, "behind_ms": 0.3, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 21.668, "ms": 0.624, "behind_ms": 0.2, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 21.855, "ms": 20.406, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 22.343, "ms": 9.488, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 22.502, "ms": 0.792, "behind_ms": 0.4, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 22.668, "ms": 0.551, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 22.853, "ms": 18.717, "behind_ms": 0.2, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 23.336, "ms": 2.267, "behind_ms": 0.3, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 23.501, "ms": 0.654, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 23.668, "ms": 0.821, "behind_ms": 0.2, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 23.842, "ms": 8.3, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 24.336, "ms": 2.038, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 24.502, "ms": 1.236, "behind_ms": 0.4, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 24.668, "ms": 0.812, "behind_ms": 0.4, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 24.848, "ms": 13.711, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 25.335, "ms": 1.586, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 25.501, "ms": 0.496, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 25.668, "ms": 0.887, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 25.846, "ms": 11.549, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 26.343, "ms": 8.922, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 26.501, "ms": 0.693, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 26.668, "ms": 0.736, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 26.838, "ms": 3.637, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 27.337, "ms": 2.935, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 27.501, "ms": 0.502, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 27.668, "ms": 0.86, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 28.055, "ms": 221.33, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 28.337, "ms": 3.431, "behind_ms": 0.0, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 28.501, "ms": 0.755, "behind_ms": 0.3, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 28.668, "ms": 0.818, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 28.837, "ms": 3.396, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 29.335, "ms": 1.414, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 29.501, "ms": 0.582, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 29.668, "ms": 0.622, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 29.837, "ms": 2.755, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 30.341, "ms": 7.745, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 30.501, "ms": 0.565, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 30.668, "ms": 0.856, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 30.845, "ms": 11.412, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 31.341, "ms": 7.111, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 31.501, "ms": 0.614, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 31.668, "ms": 0.654, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 31.852, "ms": 18.062, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 32.335, "ms": 0.918, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 32.501, "ms": 0.715, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 32.669, "ms": 0.876, "behind_ms": 0.6, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 32.841, "ms": 6.668, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 33.338, "ms": 4.389, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 33.501, "ms": 0.781, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 33.668, "ms": 0.57, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 33.851, "ms": 16.435, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 34.335, "ms": 1.633, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 34.501, "ms": 0.743, "behind_ms": 0.4, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 34.669, "ms": 0.884, "behind_ms": 0.6, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 34.86, "ms": 25.421, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 35.336, "ms": 2.329, "behind_ms": 0.2, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 35.501, "ms": 0.794, "behind_ms": 0.4, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 35.668, "ms": 0.722, "behind_ms": 0.4, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 35.843, "ms": 9.233, "behind_ms": 0.2, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 36.34, "ms": 6.069, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 36.501, "ms": 0.679, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 36.669, "ms": 1.509, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 36.858, "ms": 24.244, "behind_ms": 0.2, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 37.34, "ms": 6.314, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 37.501, "ms": 0.585, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 37.67, "ms": 2.356, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 37.863, "ms": 29.361, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 38.34, "ms": 6.374, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 38.501, "ms": 0.454, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 38.668, "ms": 1.042, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 38.851, "ms": 16.966, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 39.349, "ms": 15.126, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 39.501, "ms": 0.674, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 39.669, "ms": 1.808, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 39.851, "ms": 17.27, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 40.336, "ms": 1.582, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 40.501, "ms": 0.831, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 40.668, "ms": 0.93, "behind_ms": 0.4, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 41.138, "ms": 303.739, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 41.341, "ms": 6.751, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 41.501, "ms": 0.799, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 41.668, "ms": 0.659, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 41.85, "ms": 16.326, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 42.34, "ms": 6.279, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 42.501, "ms": 0.602, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 42.668, "ms": 1.01, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 42.842, "ms": 8.208, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 43.352, "ms": 18.493, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 43.501, "ms": 0.59, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 43.668, "ms": 0.767, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 43.847, "ms": 12.568, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 44.337, "ms": 3.122, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 44.501, "ms": 0.663, "behind_ms": 0.3, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 44.668, "ms": 0.783, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 44.853, "ms": 18.56, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 45.338, "ms": 4.223, "behind_ms": 0.5, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 45.501, "ms": 0.796, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 45.668, "ms": 0.872, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 45.863, "ms": 28.855, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 46.341, "ms": 7.329, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 46.501, "ms": 0.679, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 46.668, "ms": 0.691, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 46.837, "ms": 2.49, "behind_ms": 0.2, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 47.34, "ms": 5.676, "behind_ms": 0.6, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 47.501, "ms": 0.74, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 47.669, "ms": 1.926, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 47.844, "ms": 9.655, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 48.335, "ms": 1.041, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 48.501, "ms": 0.741, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 48.668, "ms": 0.582, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 48.853, "ms": 18.705, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 49.345, "ms": 11.151, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 49.501, "ms": 0.62, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 49.668, "ms": 0.807, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 49.836, "ms": 1.965, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 50.363, "ms": 28.932, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 50.501, "ms": 0.681, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 50.668, "ms": 0.762, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 50.836, "ms": 2.298, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 51.339, "ms": 4.836, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 51.501, "ms": 0.691, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 51.668, "ms": 0.633, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 51.852, "ms": 17.814, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 52.345, "ms": 11.296, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 52.501, "ms": 0.466, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 52.669, "ms": 1.734, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 52.842, "ms": 8.008, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 53.338, "ms": 3.889, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 53.501, "ms": 0.587, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 53.668, "ms": 0.738, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 53.848, "ms": 13.196, "behind_ms": 0.5, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 54.35, "ms": 16.393, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 54.501, "ms": 0.698, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 54.668, "ms": 0.721, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 54.88, "ms": 46.049, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 55.336, "ms": 2.151, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 55.501, "ms": 0.751, "behind_ms": 0.3, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 55.668, "ms": 0.771, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 55.836, "ms": 1.997, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 56.345, "ms": 11.079, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 56.501, "ms": 0.733, "behind_ms": 0.4, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 56.668, "ms": 0.808, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 56.847, "ms": 12.86, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "pg_stat", "t": 57.501, "ms": 0.678, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "balancer_status", "t": 57.578, "ms": 243.865, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "mon_health", "t": 57.668, "ms": 0.737, "behind_ms": 0.5, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 57.85, "ms": 16.14, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 58.338, "ms": 4.505, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 58.501, "ms": 0.674, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 58.668, "ms": 0.898, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 58.844, "ms": 10.097, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 59.338, "ms": 4.022, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 59.502, "ms": 0.766, "behind_ms": 0.4, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 59.669, "ms": 1.14, "behind_ms": 0.5, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 59.843, "ms": 8.642, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 60.338, "ms": 4.366, "behind_ms": 0.3, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 60.502, "ms": 1.064, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 60.668, "ms": 0.688, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 60.849, "ms": 14.428, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 61.336, "ms": 2.223, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 61.502, "ms": 0.734, "behind_ms": 0.5, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 61.668, "ms": 0.83, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 61.863, "ms": 29.19, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 62.338, "ms": 4.37, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 62.501, "ms": 0.698, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 62.668, "ms": 0.758, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 62.856, "ms": 21.675, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 63.336, "ms": 1.814, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 63.501, "ms": 0.751, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 63.668, "ms": 0.768, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 63.839, "ms": 4.536, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 64.345, "ms": 10.82, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 64.502, "ms": 0.745, "behind_ms": 0.5, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 64.668, "ms": 0.893, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 64.877, "ms": 43.214, "behind_ms": 0.2, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 65.341, "ms": 6.66, "behind_ms": 0.3, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 65.502, "ms": 0.791, "behind_ms": 0.6, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 65.668, "ms": 0.705, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 65.846, "ms": 11.659, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 66.34, "ms": 6.468, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 66.501, "ms": 0.523, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 66.668, "ms": 0.905, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 66.847, "ms": 12.975, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 67.351, "ms": 17.788, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 67.501, "ms": 0.716, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 67.669, "ms": 1.792, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 67.844, "ms": 10.413, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 68.34, "ms": 6.354, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 68.501, "ms": 0.92, "behind_ms": 0.2, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 68.668, "ms": 0.807, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 68.851, "ms": 17.029, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 69.34, "ms": 6.548, "behind_ms": 0.2, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 69.501, "ms": 0.714, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 69.668, "ms": 0.861, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 69.851, "ms": 17.027, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 70.339, "ms": 4.617, "behind_ms": 0.5, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 70.501, "ms": 0.81, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 70.668, "ms": 0.815, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 70.855, "ms": 20.601, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 71.34, "ms": 6.741, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 71.501, "ms": 0.805, "behind_ms": 0.3, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 71.668, "ms": 0.852, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 71.855, "ms": 20.711, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 72.336, "ms": 1.898, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 72.501, "ms": 0.666, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 72.668, "ms": 0.829, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 72.853, "ms": 19.156, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 73.34, "ms": 6.805, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 73.501, "ms": 0.693, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 73.668, "ms": 0.783, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 73.848, "ms": 13.745, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 74.359, "ms": 25.737, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 74.501, "ms": 0.79, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 74.668, "ms": 0.787, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 74.866, "ms": 31.541, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 75.335, "ms": 1.704, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 75.501, "ms": 0.774, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 75.668, "ms": 0.708, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 75.856, "ms": 21.971, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 76.339, "ms": 4.852, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 76.501, "ms": 0.626, "behind_ms": 0.3, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 76.668, "ms": 0.79, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 76.843, "ms": 8.823, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 77.345, "ms": 10.606, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 77.502, "ms": 0.863, "behind_ms": 0.4, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 77.668, "ms": 0.765, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 77.854, "ms": 19.403, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 78.337, "ms": 3.105, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 78.501, "ms": 0.701, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 78.668, "ms": 0.752, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 78.844, "ms": 9.804, "behind_ms": 0.5, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 79.341, "ms": 7.327, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 79.501, "ms": 0.753, "behind_ms": 0.4, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 79.668, "ms": 0.848, "behind_ms": 0.4, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 79.853, "ms": 19.241, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 80.339, "ms": 5.513, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 80.501, "ms": 0.719, "behind_ms": 0.4, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 80.668, "ms": 1.092, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 80.836, "ms": 1.667, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 81.337, "ms": 3.102, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 81.501, "ms": 0.59, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 81.669, "ms": 1.063, "behind_ms": 0.4, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 82.201, "ms": 367.04, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 82.338, "ms": 3.915, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 82.501, "ms": 0.712, "behind_ms": 0.3, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 82.668, "ms": 0.592, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 82.882, "ms": 47.665, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 83.335, "ms": 1.681, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 83.501, "ms": 0.615, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 83.668, "ms": 0.952, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 83.84, "ms": 5.715, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 84.339, "ms": 5.476, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 84.501, "ms": 0.718, "behind_ms": 0.3, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 84.668, "ms": 0.662, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 84.852, "ms": 18.363, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 85.344, "ms": 9.761, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 85.501, "ms": 0.593, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 85.668, "ms": 0.75, "behind_ms": 0.0, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 85.844, "ms": 10.265, "behind_ms": 0.2, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 86.34, "ms": 5.728, "behind_ms": 0.2, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 86.501, "ms": 0.496, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 86.669, "ms": 1.507, "behind_ms": 0.2, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 86.845, "ms": 10.651, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 87.347, "ms": 13.64, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 87.501, "ms": 0.681, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 87.669, "ms": 1.287, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 87.838, "ms": 4.161, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 88.335, "ms": 1.066, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 88.501, "ms": 0.547, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 88.668, "ms": 0.76, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 88.85, "ms": 16.145, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 89.337, "ms": 3.567, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 89.501, "ms": 0.738, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 89.668, "ms": 0.926, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 89.838, "ms": 3.326, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 90.335, "ms": 1.21, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 90.501, "ms": 0.828, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 90.668, "ms": 0.891, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 90.836, "ms": 2.057, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 91.335, "ms": 1.122, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 91.501, "ms": 0.681, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 91.668, "ms": 0.791, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 91.848, "ms": 13.611, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 92.338, "ms": 3.541, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 92.501, "ms": 0.64, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 92.668, "ms": 0.713, "behind_ms": 0.0, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 92.845, "ms": 10.715, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 93.339, "ms": 5.788, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 93.501, "ms": 0.864, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 93.669, "ms": 2.01, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 93.843, "ms": 8.699, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 94.34, "ms": 5.881, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 94.501, "ms": 0.558, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 94.668, "ms": 0.859, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 94.839, "ms": 5.357, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 95.34, "ms": 6.721, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 95.501, "ms": 0.771, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 95.669, "ms": 1.661, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 95.836, "ms": 2.22, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 96.338, "ms": 4.394, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 96.501, "ms": 0.675, "behind_ms": 0.3, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 96.668, "ms": 0.694, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 96.84, "ms": 5.487, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 97.337, "ms": 3.142, "behind_ms": 0.6, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 97.501, "ms": 0.835, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 97.668, "ms": 0.661, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 97.841, "ms": 7.01, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 98.343, "ms": 9.251, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 98.501, "ms": 0.642, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 98.668, "ms": 0.892, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 98.861, "ms": 26.901, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 99.335, "ms": 1.163, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 99.501, "ms": 0.593, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 99.668, "ms": 0.699, "behind_ms": 0.4, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 99.843, "ms": 9.081, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 100.336, "ms": 2.39, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 100.501, "ms": 0.798, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 100.668, "ms": 0.835, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 100.845, "ms": 10.5, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 101.335, "ms": 1.236, "behind_ms": 0.6, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 101.501, "ms": 0.843, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 101.668, "ms": 0.618, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 101.842, "ms": 7.891, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 102.34, "ms": 6.497, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 102.501, "ms": 0.761, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 102.668, "ms": 0.856, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 102.851, "ms": 17.023, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 103.335, "ms": 1.214, "behind_ms": 0.4, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 103.501, "ms": 0.671, "behind_ms": 0.4, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 103.668, "ms": 0.599, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 103.837, "ms": 3.229, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "pg_stat", "t": 104.501, "ms": 0.821, "behind_ms": 0.3, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 104.668, "ms": 0.945, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "balancer_status", "t": 104.809, "ms": 475.409, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "prom_metrics", "t": 104.876, "ms": 42.286, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 105.345, "ms": 11.204, "behind_ms": 0.3, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 105.501, "ms": 0.581, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 105.669, "ms": 1.661, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 105.877, "ms": 42.807, "behind_ms": 0.2, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 106.336, "ms": 2.019, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 106.501, "ms": 1.034, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 106.668, "ms": 0.994, "behind_ms": 0.0, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 106.837, "ms": 2.908, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 107.348, "ms": 14.688, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 107.501, "ms": 0.673, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 107.668, "ms": 0.924, "behind_ms": 0.4, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 107.854, "ms": 20.443, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 108.336, "ms": 1.98, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 108.501, "ms": 0.688, "behind_ms": 0.3, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 108.669, "ms": 1.857, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 108.865, "ms": 31.272, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 109.339, "ms": 5.361, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 109.501, "ms": 0.683, "behind_ms": 0.3, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 109.669, "ms": 1.174, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 109.846, "ms": 11.924, "behind_ms": 0.4, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 110.339, "ms": 5.396, "behind_ms": 0.2, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 110.501, "ms": 0.598, "behind_ms": 0.5, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 110.669, "ms": 0.921, "behind_ms": 0.5, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 110.844, "ms": 10.232, "behind_ms": 0.2, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 111.336, "ms": 1.803, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 111.501, "ms": 0.665, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 111.668, "ms": 0.954, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 111.837, "ms": 3.38, "behind_ms": 0.2, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 112.339, "ms": 5.5, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 112.501, "ms": 0.658, "behind_ms": 0.5, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 112.668, "ms": 0.811, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 112.859, "ms": 24.879, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 113.343, "ms": 9.575, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 113.501, "ms": 0.571, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 113.668, "ms": 0.764, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 113.839, "ms": 4.996, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 114.343, "ms": 9.147, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 114.501, "ms": 0.647, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 114.668, "ms": 0.783, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 114.836, "ms": 2.07, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 115.336, "ms": 2.602, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 115.501, "ms": 0.726, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 115.668, "ms": 0.875, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 115.844, "ms": 9.583, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 116.338, "ms": 4.056, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 116.502, "ms": 1.014, "behind_ms": 0.3, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 116.668, "ms": 0.728, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 116.84, "ms": 5.886, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 117.335, "ms": 0.817, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 117.501, "ms": 0.736, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 117.668, "ms": 0.873, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 117.841, "ms": 6.574, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 118.338, "ms": 4.531, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 118.501, "ms": 0.67, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 118.668, "ms": 0.875, "behind_ms": 0.1, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 118.836, "ms": 2.1, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 119.335, "ms": 1.666, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 119.501, "ms": 0.589, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 119.669, "ms": 1.541, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 119.866, "ms": 31.362, "behind_ms": 0.3, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "balancer_status", "t": 120.335, "ms": 1.164, "behind_ms": 0.1, "bytes": 333, "err": null}
+{"probe": "pg_stat", "t": 120.501, "ms": 0.652, "behind_ms": 0.1, "bytes": 230, "err": null}
+{"probe": "mon_health", "t": 120.668, "ms": 0.95, "behind_ms": 0.3, "bytes": 316, "err": null}
+{"probe": "prom_metrics", "t": 120.864, "ms": 30.18, "behind_ms": 0.1, "bytes": 0, "err": "HTTP Error 503: Service Unavailable"}
+{"probe": "orch_ps_host", "t": 302.725, "ms": 300832.256, "behind_ms": 0.0, "bytes": 5994, "err": null}

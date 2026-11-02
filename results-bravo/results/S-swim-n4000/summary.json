@@ -1,0 +1,79 @@
+{
+  "agents": 4000,
+  "args": {
+    "admin": "127.0.0.1:7161",
+    "agents": 4000,
+    "converge_timeout": 300.0,
+    "join_secs": 20.0,
+    "kill": 40,
+    "kill_wait": 90.0,
+    "out": "/ab/results/S-swim-n4000",
+    "settle": 30.0,
+    "signal_wait": 20.0,
+    "signals": 3,
+    "steady": 60.0,
+    "threads": 16
+  },
+  "converge_secs": 22.038953435,
+  "detection": {
+    "detect_secs": {
+      "max": 22.017509509,
+      "n": 40,
+      "p50": 16.849372396,
+      "p90": 17.74300151,
+      "p99": 22.017509509
+    },
+    "false_down_during_test": 0,
+    "killed": 40,
+    "undetected": 0
+  },
+  "members_declared_down_by_others": 0,
+  "send_errors": 0,
+  "signals": [
+    {
+      "latency_ms": {
+        "max": 1145.929618,
+        "n": 4000,
+        "p50": 438.337826,
+        "p90": 579.040486,
+        "p99": 726.364608
+      },
+      "of": 4000,
+      "received": 4000,
+      "version": 1
+    },
+    {
+      "latency_ms": {
+        "max": 1069.577441,
+        "n": 4000,
+        "p50": 440.365892,
+        "p90": 567.69994,
+        "p99": 717.791853
+      },
+      "of": 4000,
+      "received": 4000,
+      "version": 2
+    },
+    {
+      "latency_ms": {
+        "max": 955.962371,
+        "n": 4000,
+        "p50": 449.101732,
+        "p90": 591.436617,
+        "p99": 740.218148
+      },
+      "of": 4000,
+      "received": 4000,
+      "version": 3
+    }
+  ],
+  "steady": {
+    "controller_bytes_sent_per_sec": 70.33333333333333,
+    "controller_down_events": 0,
+    "controller_pkts_recv_per_sec": 2.3666666666666667,
+    "controller_pkts_sent_per_sec": 2.3,
+    "member_bytes_sent_per_sec": 70.15788333333333,
+    "member_pkts_recv_per_sec": 2.1459041666666665,
+    "member_pkts_sent_per_sec": 2.1458791666666666
+  }
+}

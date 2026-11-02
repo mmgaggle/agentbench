@@ -1,0 +1,4 @@
+agentd: loaded 0 hosts in 0.0s
+agentd: SWIM member at 127.3.0.1:7946
+agentd: serving 127.0.0.1:7160 (key Ec, persist None/Always), admin 127.0.0.1:7161
+blob gc: dropped 65000 unreferenced blobs (60498340 bytes) in 34.1 ms

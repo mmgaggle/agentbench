@@ -1,0 +1,70 @@
+{
+  "start": {
+    "ack_requests": 0,
+    "bad_metadata": 0,
+    "connections": 2745,
+    "failed": 0,
+    "failed_daemons": 0,
+    "handler_ms": {
+      "count": 2738,
+      "max": 59.967,
+      "p50": 10.087,
+      "p99": 27.663
+    },
+    "health_updates": 0,
+    "hosts": 1000,
+    "kicks": 0,
+    "messages": 2743,
+    "not_up_to_date": 0,
+    "ok": 2743,
+    "persist": {
+      "errors": 0,
+      "kv_set_ms": {
+        "count": 8218,
+        "max": 41.567,
+        "p50": 3.073,
+        "p99": 11.863
+      },
+      "mode": "Sync",
+      "queued": 0,
+      "skipped": 0,
+      "writes": 8218
+    },
+    "tls_errors": 0,
+    "uptime_s": 5.069217186
+  },
+  "end": {
+    "ack_requests": 0,
+    "bad_metadata": 0,
+    "connections": 28864,
+    "failed": 0,
+    "failed_daemons": 0,
+    "handler_ms": {
+      "count": 28856,
+      "max": 77.631,
+      "p50": 13.527,
+      "p99": 53.983
+    },
+    "health_updates": 0,
+    "hosts": 1000,
+    "kicks": 0,
+    "messages": 28861,
+    "not_up_to_date": 0,
+    "ok": 28861,
+    "persist": {
+      "errors": 0,
+      "kv_set_ms": {
+        "count": 86573,
+        "max": 65.215,
+        "p50": 4.191,
+        "p99": 18.607
+      },
+      "mode": "Sync",
+      "queued": 0,
+      "skipped": 0,
+      "writes": 86573
+    },
+    "tls_errors": 0,
+    "uptime_s": 65.069146862
+  }
+}

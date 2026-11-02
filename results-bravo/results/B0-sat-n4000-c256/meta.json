@@ -1,0 +1,33 @@
+{
+  "args": {
+    "name": "B0-sat-n4000-c256",
+    "agents": 4000,
+    "period": 20,
+    "duration": 60.0,
+    "warmup": null,
+    "saturate": 256,
+    "target": "127.0.0.1:7160",
+    "agentd": "--persist none --key rsa",
+    "keep_agentd": false,
+    "osds": 16,
+    "prime": 0,
+    "no_seed": true,
+    "no_probes": false,
+    "idle": false,
+    "probe_interval": 1.0,
+    "settle": 10,
+    "sim_arg": []
+  },
+  "start": 1793405948.6303136,
+  "loadavg_before": [
+    1.23095703125,
+    2.03857421875,
+    1.98095703125
+  ],
+  "end": 1793406192.729438,
+  "loadavg_after": [
+    1.59765625,
+    3.359375,
+    2.73876953125
+  ]
+}

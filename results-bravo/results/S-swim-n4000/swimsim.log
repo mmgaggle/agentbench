@@ -1,0 +1,16 @@
+t=    2s controller sees 402/4000 members up
+t=    4s controller sees 802/4000 members up
+t=    6s controller sees 1202/4000 members up
+t=    8s controller sees 1602/4000 members up
+t=   10s controller sees 2003/4000 members up
+t=   12s controller sees 2403/4000 members up
+t=   14s controller sees 2803/4000 members up
+t=   16s controller sees 3203/4000 members up
+t=   18s controller sees 3604/4000 members up
+t=   20s controller sees 3998/4000 members up
+t=   22s controller sees 4000/4000 members up
+steady: {"controller_bytes_sent_per_sec":70.33333333333333,"controller_down_events":0,"controller_pkts_recv_per_sec":2.3666666666666667,"controller_pkts_sent_per_sec":2.3,"member_bytes_sent_per_sec":70.15788333333333,"member_pkts_recv_per_sec":2.1459041666666665,"member_pkts_sent_per_sec":2.1458791666666666}
+signal v1: 4000/4000 members, latency ms {"max":1145.929618,"n":4000,"p50":438.337826,"p90":579.040486,"p99":726.364608}
+signal v2: 4000/4000 members, latency ms {"max":1069.577441,"n":4000,"p50":440.365892,"p90":567.69994,"p99":717.791853}
+signal v3: 4000/4000 members, latency ms {"max":955.962371,"n":4000,"p50":449.101732,"p90":591.436617,"p99":740.218148}
+detection: {"detect_secs":{"max":22.017509509,"n":40,"p50":16.849372396,"p90":17.74300151,"p99":22.017509509},"false_down_during_test":0,"killed":40,"undetected":0}

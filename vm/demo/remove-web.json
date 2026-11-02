@@ -1,0 +1,6 @@
+{
+  "units": {
+    "node-exporter.{host}": {"quadlet": "node-exporter.container"}
+  },
+  "remove": ["web.{host}", "crashy.{host}"]
+}

@@ -1,0 +1,711 @@
+<title>Cephadm Agent Endpoint A/B</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+  /* Layout: one reading column of prose; charts and tables span it; findings run as a ruled list. */
+  :root {
+    --bg: #f6f7f9;
+    --surface: #ffffff;
+    --ink: #151a21;
+    --ink-2: #4b5462;
+    --ink-3: #7a828e;
+    --rule: #dce0e6;
+    --grid: #eaedf1;
+    --code-bg: #eef1f5;
+    --s-a: #2a78d6;
+    --s-aplus: #eb6834;
+    --s-b1: #1baf7a;
+    --s-b2: #eda100;
+    --s-b3: #e87ba4;
+    --s-ref: #7a828e;
+    --s-v1: #6250d6;
+    --s-v2: #008300;
+    --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-display: "IBM Plex Sans Condensed", "IBM Plex Sans", system-ui, sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #111419; --surface: #191d23; --ink: #eceef2; --ink-2: #b3bac4; --ink-3: #8a929d;
+      --rule: #2b3139; --grid: #232830; --code-bg: #20252c;
+      --s-a: #3987e5; --s-aplus: #d95926; --s-b1: #199e70; --s-b2: #c98500; --s-b3: #d55181; --s-ref: #8a929d;
+      --s-v1: #9085e9; --s-v2: #2a9d2a;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #111419; --surface: #191d23; --ink: #eceef2; --ink-2: #b3bac4; --ink-3: #8a929d;
+    --rule: #2b3139; --grid: #232830; --code-bg: #20252c;
+    --s-a: #3987e5; --s-aplus: #d95926; --s-b1: #199e70; --s-b2: #c98500; --s-b3: #d55181; --s-ref: #8a929d;
+    --s-v1: #9085e9; --s-v2: #2a9d2a;
+    color-scheme: dark;
+  }
+
+  body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15.5px; line-height: 1.6; }
+  main {
+    max-width: 800px; margin: 0 auto;
+    padding-block: 40px 72px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    display: grid; gap: 26px;
+  }
+  main > * { min-width: 0; }
+  section { display: grid; gap: 14px; }
+  .eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.03em; color: var(--ink-3); }
+  h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(27px, 4.6vw, 38px); line-height: 1.13; margin: 6px 0 0; text-wrap: balance; }
+  h2 { font-family: var(--font-display); font-weight: 600; font-size: 23px; line-height: 1.2; margin: 18px 0 0; text-wrap: balance; }
+  h3 { font-family: var(--font-display); font-weight: 600; font-size: 17px; margin: 0; }
+  p { margin: 0; max-width: 68ch; }
+  .lede { color: var(--ink-2); font-size: 16.5px; }
+  code { font-family: var(--font-mono); font-size: 0.86em; background: var(--code-bg); padding: 1px 5px; border-radius: 3px; overflow-wrap: anywhere; }
+  pre { margin: 0; font-family: var(--font-mono); font-size: 12.5px; line-height: 1.55; background: var(--code-bg); padding: 12px 14px; border-radius: 5px; overflow-x: auto; }
+  a { color: var(--s-a); }
+  .muted { color: var(--ink-3); font-size: 13.5px; }
+
+  .figures { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 16px 22px; margin: 4px 0 0; padding: 18px 0 0; list-style: none; border-top: 1px solid var(--rule); }
+  .figures li { display: grid; gap: 4px; align-content: start; }
+  .figures .k { font-family: var(--font-mono); font-size: 25px; font-weight: 500; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .figures .v { color: var(--ink-2); font-size: 13.5px; line-height: 1.45; }
+
+  .variants { display: grid; gap: 0; border-top: 1px solid var(--rule); }
+  .variant { display: grid; grid-template-columns: 4.2em 1fr; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--rule); align-items: baseline; }
+  .variant .tag { font-family: var(--font-mono); font-weight: 500; display: inline-flex; align-items: center; gap: 7px; }
+  .variant .tag::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--c); flex: none; }
+  .variant p { font-size: 14.5px; color: var(--ink-2); }
+  .variant p b { color: var(--ink); font-weight: 600; }
+
+  figure { margin: 0; background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 18px 18px 12px; display: grid; gap: 8px; }
+  figcaption { display: grid; gap: 3px; }
+  figcaption b { font-family: var(--font-display); font-weight: 600; font-size: 17px; }
+  figcaption span { color: var(--ink-3); font-size: 13px; max-width: 70ch; }
+  .chart-host { min-width: 0; }
+
+  .chart { position: relative; }
+  .chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--ink-2); margin-bottom: 6px; }
+  .legend-item { display: inline-flex; align-items: center; gap: 7px; }
+  .swatch { display: inline-block; width: 16px; height: 3px; border-radius: 2px; background: var(--c); }
+  .swatch.dashed { background: repeating-linear-gradient(90deg, var(--c) 0 5px, transparent 5px 8px); }
+  .a { --c: var(--s-a); } .aplus { --c: var(--s-aplus); } .b1 { --c: var(--s-b1); }
+  .b2 { --c: var(--s-b2); } .b3 { --c: var(--s-b3); } .ref, .offered { --c: var(--s-ref); }
+  .v1 { --c: var(--s-v1); } .v2 { --c: var(--s-v2); }
+  .grid line { stroke: var(--grid); stroke-width: 1; }
+  .axis { stroke: var(--rule); stroke-width: 1; }
+  .tick { fill: var(--ink-3); font-family: var(--font-mono); font-size: 11px; }
+  .axis-label { fill: var(--ink-2); font-size: 12px; }
+  .line { stroke: var(--c); stroke-width: 2; fill: none; stroke-linejoin: round; }
+  .line.dashed { stroke-width: 1.5; stroke-dasharray: 5 4; }
+  .dot { fill: var(--c); stroke: var(--surface); stroke-width: 2; }
+  .bar { fill: var(--c); }
+  .bar-label { fill: var(--ink-2); font-size: 12.5px; }
+  .bar-value { fill: var(--ink); font-family: var(--font-mono); font-size: 12px; }
+  .note { fill: var(--ink-2); font-size: 11px; }
+  .cross { stroke: var(--ink-3); stroke-width: 1; stroke-dasharray: 3 3; }
+  .tip {
+    position: absolute; top: 34px; width: 200px; pointer-events: none; z-index: 2;
+    background: var(--surface); border: 1px solid var(--rule); border-radius: 5px;
+    padding: 8px 10px; font-size: 12.5px; line-height: 1.5; color: var(--ink-2);
+    box-shadow: 0 4px 14px rgb(0 0 0 / 0.14); font-variant-numeric: tabular-nums;
+  }
+  .tip b { color: var(--ink); font-weight: 600; }
+  .tip-h { font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-3); margin-bottom: 3px; }
+  .tip .swatch { margin-right: 6px; vertical-align: middle; }
+
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; font-variant-numeric: tabular-nums; }
+  th, td { padding: 6px 10px; text-align: right; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+  th:first-child, td:first-child { text-align: left; }
+  th { font-weight: 500; color: var(--ink-3); font-size: 12px; letter-spacing: 0.03em; vertical-align: bottom; }
+  td.bad { font-weight: 600; }
+  td .tag { display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-mono); }
+  td .tag::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
+  tr.group td { border-bottom: 0; padding-top: 14px; color: var(--ink-3); font-size: 12px; letter-spacing: 0.03em; }
+
+  .findings { list-style: none; margin: 0; padding: 0; display: grid; border-top: 1px solid var(--rule); }
+  .findings li { display: grid; gap: 6px; padding: 14px 0; border-bottom: 1px solid var(--rule); }
+  .findings h3 { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+  .sev { font-family: var(--font-mono); font-size: 11px; font-weight: 500; letter-spacing: 0.04em; padding: 1px 6px; border-radius: 3px; border: 1px solid var(--rule); color: var(--ink-2); }
+  .findings p { font-size: 14.5px; color: var(--ink-2); }
+  .findings p b { color: var(--ink); font-weight: 600; }
+  ul.plain { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; max-width: 70ch; }
+  ul.plain li { padding-left: 2px; }
+
+  :focus-visible { outline: 2px solid var(--s-a); outline-offset: 2px; }
+</style>
+
+<main>
+  <header>
+    <div class="eyebrow">bravo (16-core Ryzen AI Max+) · ceph main 9e49f5cb896 · vstart, 1 mon + 1 mgr · agents report every 20 s · 30–31 Oct 2026</div>
+    <h1>Cephadm agents overwhelm ceph-mgr near 1,000 hosts. A standalone endpoint carries 4,000 at 3 ms.</h1>
+  </header>
+  <p class="lede">Every cephadm agent opens a new TLS connection to the active mgr every 20 seconds and posts about 50 KB of host metadata: its daemons, devices, networks and host facts. We simulated up to 4,000 agents against the stock cephadm module, the same module with a ten-line fix, and agentd, a Rust prototype of the same endpoint. For each we measured how many reports got through, how fast, and what the load did to everything else the mgr serves.</p>
+
+  <ul class="figures">
+    <li><span class="k">~1,000</span><span class="v">hosts is the largest cluster the stock mgr keeps up with at the default refresh. At 1,500 it delivers nothing.</span></li>
+    <li><span class="k">62%</span><span class="v">of mgr GIL time at 1,000 hosts is spent rescanning every daemon in the cluster for the failed-daemon health check.</span></li>
+    <li><span class="k">3.2 ms</span><span class="v">p99 for agentd at 4,000 hosts and 200 reports/s, on 0.2 cores and with no steady-state mon writes.</span></li>
+    <li><span class="k">17 → 9,937</span><span class="v">peak reports/s at 4,000 hosts, stock mgr vs agentd.</span></li>
+  </ul>
+
+  <section>
+    <h2>What was compared</h2>
+    <div class="variants">
+      <div class="variant a"><span class="tag">A</span><p><b>Stock cephadm mgr module.</b> CherryPy endpoint <code>/data</code> → <code>HostData.handle_metadata()</code> in <code>src/pybind/mgr/cephadm/agent.py</code>.</p></div>
+      <div class="variant aplus"><span class="tag">A+</span><p><b>A with a ten-line patch.</b> The handler compares the reporting host's failed daemons before and after, instead of rescanning the whole cluster three times.</p></div>
+      <div class="variant b1"><span class="tag">B1</span><p><b>agentd doing the mgr's work.</b> Same protocol and validation, same RSA-4096 server cert, and the same three <code>config-key set</code> writes per report, completed before replying.</p></div>
+      <div class="variant b2"><span class="tag">B2</span><p><b>agentd with write-back.</b> Replies first. Once a second, a flusher writes every host that reported.</p></div>
+      <div class="variant b3"><span class="tag">B3</span><p><b>agentd, persisting only what changed.</b> Writes when a daemon, device or network changes, plus a 5-minute checkpoint. ECDSA P-256 server cert.</p></div>
+    </div>
+    <p class="muted">The simulated agent mirrors <code>CephadmAgent.run()</code>: a fresh TLS connection per report with no session resumption, 16 OSDs plus agent, crash, node-exporter and ceph-exporter daemons, 18 devices, a 10 s timeout, and a mgr→agent listener. Fake hosts are seeded into cephadm's KV store the way a mgr failover loads them, so every run starts in steady state.</p>
+  </section>
+
+  <section>
+    <h2>Delivered reports</h2>
+    <p>Offered load grows with the cluster: hosts ÷ 20 reports per second. The stock module holds up to about 1,000 hosts, and its latency is already measured in seconds there. One step further, it collapses completely. agentd delivers every report at every size, in all variants.</p>
+    <figure>
+      <figcaption><b>Share of agent reports delivered</b><span>A and A+ runs had no probe traffic, except A at 250 and 4,000 hosts. A report counts as delivered when the endpoint answers within the agent's 10 s timeout.</span></figcaption>
+      <div class="chart-host" id="c-delivered"></div>
+    </figure>
+    <figure>
+      <figcaption><b>Report latency, p99</b><span>Plotted only where at least 90% of reports were delivered. Log scale.</span></figcaption>
+      <div class="chart-host" id="c-p99"></div>
+    </figure>
+  </section>
+
+  <section>
+    <h2>Capacity</h2>
+    <p>Driving each endpoint with closed-loop senders gives its peak. The stock module's peak falls as the cluster grows, because each report costs more GIL time the more daemons the cluster has. It crosses the offered load at about 1,100 hosts. The A+ patch flattens the per-report cost and moves the crossing to about 2,700 hosts on paper. In practice A+ already lost a quarter of its reports at 2,000 hosts, to the serialized TLS handshakes (finding 3).</p>
+    <figure>
+      <figcaption><b>Peak capacity of the mgr endpoint</b><span>8 concurrent senders for 45–60 s. Offered = hosts ÷ 20 s. At 2,000 and 4,000 hosts the stock value agrees with its per-report CPU ceiling (41 ms → 24/s, 53 ms → 19/s).</span></figcaption>
+      <div class="chart-host" id="c-capacity"></div>
+    </figure>
+    <figure>
+      <figcaption><b>Peak reports per second at 4,000 hosts</b><span>Log scale. agentd runs used 256 concurrent senders (1,024 for B3's best). With the RSA-4096 cert, agentd is bound by TLS handshakes; with ECDSA it is bound by the 16 CPU threads it shares with the cluster.</span></figcaption>
+      <div class="chart-host" id="c-peak"></div>
+    </figure>
+    <p>Concurrency does not rescue the stock module. At 250 hosts it peaks around 184 reports/s with 4 senders. More senders only add queueing: p99 goes from 51 ms at 4 senders to 4.8 s at 64, and throughput falls back to 147/s.</p>
+    <div class="table-wrap"><table id="t-conc"></table></div>
+  </section>
+
+  <section>
+    <h2>Where the mgr's time goes</h2>
+    <p>ceph-mgr runs every Python module in one interpreter, so everything below shares one GIL. A py-spy profile at 1,000 hosts, sampling only the thread that held the GIL, found it held 83% of the time. Most of that went to one loop: <code>HostCache.get_error_daemons()</code> walks all 20,000 cached daemons, and the agent handler calls it three times per report (twice directly, once through <code>update_failed_daemon_health_check()</code>).</p>
+    <figure>
+      <figcaption><b>GIL time at 1,000 hosts with agents reporting</b><span>Share of GIL-holding samples, py-spy --gil at 100 Hz for 60 s.</span></figcaption>
+      <div class="chart-host" id="c-gil"></div>
+    </figure>
+    <p>The handler's own instrumentation shows the same thing as the cluster grows. A+ removes the scans and keeps the per-report cost flat.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>hosts</th><th>A: CPU per report</th><th>A: share in the rescans</th><th>A+: CPU per report</th></tr></thead>
+      <tbody>
+        <tr><td>250</td><td>5.3 ms</td><td>50%</td><td>–</td></tr>
+        <tr><td>500</td><td>6.9 ms</td><td>63%</td><td>–</td></tr>
+        <tr><td>1,000</td><td>15.2 ms</td><td>71%</td><td>3.4 ms</td></tr>
+        <tr><td>2,000</td><td>33.5 ms</td><td>83%</td><td>2.8 ms</td></tr>
+        <tr><td>4,000</td><td>53.1 ms</td><td>89%</td><td>3.0 ms</td></tr>
+      </tbody>
+    </table></div>
+    <p>Past the knee, garbage collection takes over. Reports waiting for the GIL keep their parsed bodies alive, which promotes them into the oldest generation and triggers full collections. Each full collection walks the whole heap, about 400 ms at 4,000 hosts. In the 4,000-host run, 86% of GIL time went to the collector and the handler finished no reports at all.</p>
+  </section>
+
+  <section>
+    <h2>What agent load does to other requests</h2>
+    <p>Probes ran once a second during every run. The two orchestrator commands suffer most: the orchestrator module runs its commands one at a time on a single finisher thread, so a slow <code>orch ps</code> also delays <code>orch host ls</code>. Requests served in C++ (<code>pg stat</code>) or by the mon are unaffected. With agents moved to agentd, the mgr's Python path recovers at 1,000 hosts. At 4,000 hosts, <code>orch ps</code> and the prometheus module are slow even with no agent load, because they copy every daemon in the cluster (finding 5).</p>
+    <div class="table-wrap"><table id="t-probes"></table></div>
+    <figure>
+      <figcaption><b><code>orch ps --hostname</code> for one host, p50</b><span>A: the mgr is also processing agent reports. B3: agents report to agentd, so the mgr only serves the probes. Log scale. At 4,000 hosts under agent load, one call completed during the run and took 149 s.</span></figcaption>
+      <div class="chart-host" id="c-orchps"></div>
+    </figure>
+  </section>
+
+  <section>
+    <h2>Persistence and the mon</h2>
+    <p>For every report the mgr writes three config-key records synchronously: the host's daemons (<code>host.&lt;name&gt;</code>), its devices (<code>host.&lt;name&gt;.devices.0</code>) and the agent record. Each write is a paxos commit on the mon. Nearly all of it is soft state the agent resends 20 seconds later. Writing only on change removes the mon load entirely in steady state.</p>
+    <div class="table-wrap"><table id="t-cost"></table></div>
+    <p class="muted">Synchronous writes are capped by the mon: agentd B1 peaked at about 1,300 config-key sets/s (435 reports/s) with 8 writers and 2 mon cores. Large parallel bursts did worse: with 256 writes in flight each took about a second and throughput fell to about 270/s. All of this is with the mon store on tmpfs. On this box's consumer NVMe, fsync stalls froze the mgr's handler threads for 5–8 s at only 12.5 reports/s.</p>
+  </section>
+
+  <section>
+    <h2>Findings in the cephadm module</h2>
+    <ol class="findings">
+      <li><h3>Every agent report rescans every daemon in the cluster <span class="sev">capacity</span></h3><p><code>HostData.handle_metadata()</code> builds the set of failed daemons for the whole cluster before and after processing, and <code>update_failed_daemon_health_check()</code> rebuilds it again. Per-report cost grows with cluster size, so total work grows with its square. <b>Fix:</b> compare the reporting host's failed daemons and rebuild the health check only when they change (A+: <code>cluster/patch_aplus.py</code>). This gave 4× capacity at 1,000 hosts and about 5× at 4,000.</p></li>
+      <li><h3>Overload turns into total collapse <span class="sev">availability</span></h3><p>The endpoint has no admission control. cheroot queues connections and its 30 workers process requests whose agents gave up after 10 s, so once offered load exceeds capacity, goodput drops to zero. At 2,000 hosts about 85% of handler work was for requests that had already timed out. The backlog outlives the overload: a light 8-sender run right after the 1,500-host run delivered nothing for its whole 45 s. Agents then look down, which in production triggers SSH refreshes of every host. <b>Fix:</b> bound the queue and drop requests older than the agent's timeout.</p></li>
+      <li><h3>TLS handshakes are serialized on one thread <span class="sev">capacity</span></h3><p>cheroot's builtin SSL adapter performs the blocking handshake in the accept loop (<code>ConnectionManager._from_server_socket</code>), with a 4096-bit RSA key (about 1.1 ms per signature on this CPU). Under GIL contention the accept thread is starved: handshake p99 reached 6.6 s at 2,000 hosts even with A+. <b>Fix:</b> an ECDSA endpoint cert, and handshakes off the accept thread.</p></li>
+      <li><h3>Three synchronous mon writes per report <span class="sev">efficiency</span></h3><p><code>save_host()</code>, <code>save_host_devices()</code> and <code>save_agent()</code> each wait for a paxos commit, 600 writes/s at 4,000 hosts, for data the agent resends 20 s later. <b>Fix:</b> persist on material change, with a periodic checkpoint for timestamps and usage.</p></li>
+      <li><h3><code>orch ps --hostname</code> copies the whole cluster <span class="sev">responsiveness</span></h3><p><code>list_daemons()</code> iterates <code>get_daemons_with_volatile_status()</code>, which copies every <code>DaemonDescription</code> through <code>to_json()</code>/<code>from_json()</code>, parsing every timestamp with <code>strptime</code>, before filtering by host. One host's listing costs 0.4 s at 1,000 hosts and 1.9 s at 4,000 with no other load. The prometheus module's collection takes the same path, so 63% of scrapes returned 503 at 4,000 hosts. <b>Fix:</b> filter before copying, and copy without a JSON round trip.</p></li>
+      <li><h3>The agent endpoint changes port after a restart under load <span class="sev">robustness</span></h3><p><code>mgr_util.test_port_allocation()</code> binds without <code>SO_REUSEADDR</code>, so TIME_WAIT connections left by agents make 7150 look busy and the endpoint moves to 7151. The port is one of the agents' config dependencies, so every agent then needs reconfiguring. We hit this on the first failover after a busy run. <b>Fix:</b> set <code>SO_REUSEADDR</code> in the probe, as cheroot does.</p></li>
+      <li><h3>The host inventory stops persisting at about 690 hosts <span class="sev">correctness</span></h3><p>cephadm stores every host in one config-key, <code>mgr/cephadm/inventory</code>, and the mon caps a value at 64 KiB by default. The 4,000-host inventory is 380 KB, 95 bytes per host here with short names and no labels, and the mon rejects it with <code>EFBIG</code>. <code>set_store()</code> only logs the failure, so cephadm runs on in-memory state and a failover reloads a stale host list. Real FQDNs and labels hit the limit sooner. <b>Fix:</b> one key per host, as the host cache already does.</p></li>
+      <li><h3>Each mgr→agent message generates an RSA-4096 key <span class="sev">efficiency</span></h3><p><code>AgentMessageThread.run()</code> calls <code>generate_cert()</code> for every message: 0.4–1.3 s of CPU each (median 0.7 s). It runs outside the GIL, but an orchestrator change touching 1,000 hosts costs about 700 core-seconds. <b>Fix:</b> generate the client cert once.</p></li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>agentd, the prototype</h2>
+    <ul class="plain">
+      <li>Rust: tokio, hyper and rustls. TLS handshakes run on all worker threads, and each host has its own lock, so reports for different hosts never wait on each other.</li>
+      <li>Implements <code>check_request_fields()</code>, <code>handle_metadata()</code> and <code>_process_ls_output()</code>: keyring and counter checks, ack requests to agents over mutual TLS, daemon/device/network/facts updates, failed-daemon set and serve-loop kick detection, and per-host metadata-up-to-date tracking. Failed daemons and up-to-date counts are kept incrementally.</li>
+      <li>Writes the same <code>host.*</code>, <code>host.*.devices.0</code> and <code>agent.*</code> records through librados. After a mgr failover, cephadm loaded them and showed all 20 daemons and 18 devices per host.</li>
+      <li>Serves <code>/hosts</code>, <code>/host/&lt;name&gt;</code>, <code>/health</code> and <code>/stats</code> on a plain admin port. The per-host query answered in 0.9 ms p50 at 4,000 hosts while agents reported, against 1.9 s for <code>orch ps --hostname</code>.</li>
+      <li>Not done: raising health checks in the mgr, telling the cephadm serve loop about changes, and failover between instances. These are integration work, not open performance questions.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Changing the agent protocol</h2>
+    <p>agentd above still speaks today's protocol: every agent sends its whole state every 20 seconds on a new TLS connection, and that report is also the only sign it is alive. Two follow-up experiments changed what the agent sends and how liveness and mgr→agent signals travel. Both ran against agentd alone, keeping state in memory with an ECDSA cert and no cluster, so they measure the protocol and nothing else.</p>
+
+    <h3>Deltas over a persistent connection (v2)</h3>
+    <p>Each agent keeps one TLS connection open and authenticates once. It sends a full snapshot when it connects, then only versioned changes: a daemon restarted, failed or recovered. Usage samples go every 5 minutes, and a small heartbeat goes when nothing else has been sent for a period. agentd applies a delta only on top of the version it was based on, and asks for a full snapshot otherwise. Changes were simulated at 0.01 per host per 20 s, which at 50,000 hosts is 25 per second.</p>
+    <figure>
+      <figcaption><b>agentd CPU to ingest agent reports</b><span>v1: today's full report on a new connection every 20 s. v2: persistent connection, deltas on change. No failures in any run.</span></figcaption>
+      <div class="chart-host" id="c-proto-cpu"></div>
+    </figure>
+    <div class="table-wrap"><table id="t-proto"></table></div>
+    <p>In v1 a change waits for the next report: up to 20 s, 10 s on average. In v2 it reached agentd in 1–3 ms. This assumes the agent notices the change when it happens, for example by watching podman and systemd events, instead of on its own 20-second gather. What v2 does not remove is liveness: at 50,000 hosts, 2,405 of its 2,596 messages per second are heartbeats. The center still does work proportional to the cluster just to know who is alive.</p>
+
+    <h3>Liveness and signals by gossip (SWIM)</h3>
+    <p>Every agent and agentd joined one SWIM membership using <code>foca</code>, a Rust implementation of the protocol behind Serf. Each member probes one random member per second and piggybacks membership changes on those messages. agentd learns which hosts died from the membership, and sends signals such as "refresh now" as a broadcast that members pass on.</p>
+    <div class="table-wrap"><table id="t-swim"></table></div>
+    <div class="table-wrap"><table>
+      <thead><tr><th></th><th>today</th><th>with SWIM (4,000 hosts)</th></tr></thead>
+      <tbody>
+        <tr><td>Liveness load at the center</td><td>one report or heartbeat per host per 20 s (200/s at 4,000 hosts)</td><td>about 5 packets/s in total, independent of cluster size</td></tr>
+        <tr><td>Time to notice a dead host</td><td>60 s (3 missed reports at the default settings)</td><td>16.8 s median, 22 s worst</td></tr>
+        <tr><td>Reaching every agent</td><td>one mutual-TLS connection per host from the mgr, each generating an RSA-4096 key (about 47 core-minutes for 4,000 hosts)</td><td>one broadcast: every agent within 0.44 s median, 1.15 s worst</td></tr>
+        <tr><td>Per-host cost</td><td>a 50 KB report every 20 s</td><td>2.1 packets/s, 70 bytes/s</td></tr>
+      </tbody>
+    </table></div>
+    <p>Detection time grows with the logarithm of the cluster because the suspicion timeout does: foca's LAN defaults give 4 × log₁₀(N) seconds. Signal latency also grows slowly, from 330 ms at 1,000 members to 440 ms at 4,000.</p>
+    <p class="muted">All members ran in one process on one machine over loopback, with no packet loss or network delay. 10,000 members exceeded what one process could simulate: foca finds members by scanning a list, which multiplies by N when every member shares a process. On a real host it is one member's scan, about 0.3 ms of CPU per second at 4,000 members. The prototype's gossip is unauthenticated. Serf encrypts with one shared key; Ceph would want per-host keys or signed messages. Gossip also needs a UDP port open between all hosts.</p>
+  </section>
+
+  <section>
+    <h2>Recommendations</h2>
+    <ul class="plain">
+      <li>Land the A+ change and the per-host <code>list_daemons</code> fast path. They are small, low-risk Python changes and move the mgr's limit from about 1,000 to roughly 2,000 hosts.</li>
+      <li>Fix the inventory key size, the port probe and the per-message keygen. They are correctness and robustness bugs regardless of scale.</li>
+      <li>Stop writing agent soft state on every report. This alone removes 600 mon writes/s at 4,000 hosts.</li>
+      <li>For clusters beyond a few thousand hosts, move agent ingestion out of the mgr's interpreter. A service like agentd owns the agent data and the cephadm module queries it, which keeps the mgr's GIL for the orchestrator itself.</li>
+      <li>Pair it with an agent that sends deltas over a persistent connection, and with SWIM for liveness and signals. Load at the center then follows the rate of change plus a constant for membership. Dead hosts are noticed in about 15 s instead of 60, and a signal reaches every host in about a second.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Method and caveats</h2>
+    <ul class="plain">
+      <li>One machine over loopback. The cluster and agentd were pinned to one CCX (16 threads) and the load generator, probes and sampler to the other.</li>
+      <li>Mon store on tmpfs to stand in for a power-loss-protected SSD. Runs with it on the consumer NVMe are kept separately.</li>
+      <li>Orchestrator paused, so it never tried to deploy over SSH; the refresh and health parts of the serve loop still ran. <code>agent_down_multiplier</code> was raised so missed reports never triggered SSH fallbacks. Report gaps were measured at the agent instead: every agent in the collapsed runs went more than 3 periods without a delivered report.</li>
+      <li><code>mon_config_key_max_entry_size</code> was raised to 4 MiB so the 4,000-host inventory could be stored at all (finding 7).</li>
+      <li>Real agents also spend time gathering facts, ls and ceph-volume output; that is not simulated. Real agents' reports also arrive over real networks, which lengthen the serialized handshakes.</li>
+      <li>A runs were instrumented: wrappers on the handler path plus a GC callback. An early version of the GC callback deadlocked the endpoint (a non-reentrant lock); those runs were discarded and repeated with the fix.</li>
+      <li>The 1 Hz <code>orch ps</code> probe is itself costly at scale (about 0.9 s of GIL per call at 1,000 hosts). This is why A and A+ capacity were also measured without probes. With probes, A+ delivered fewer reports at 1,000 hosts than with none (81%). The cheaper handler let <code>orch ps</code> take more of the GIL.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Reproduce</h2>
+    <p>Harness and prototype: <code>~/src/agentbench</code>, synced to <code>bravo:~/src/agentbench</code>, which also holds every run's raw results. Runs execute in the <code>agentbench</code> podman container on bravo.</p>
+    <pre>podman exec -it agentbench bash
+/ab/cluster/up.sh &amp;&amp; /ab/cluster/instrument.sh on
+python3 /ab/cluster/seed.py --hosts 1000 &amp;&amp; python3 /ab/cluster/certs.py
+python3 /ab/bench/run.py --name A-agents-n1000 --agents 1000 --prime 0
+python3 /ab/bench/run.py --name B3-agents-n1000 --agents 1000 --no-seed \
+    --agentd '--persist writeback --policy changed --key ec'
+python3 /ab/bench/report.py /ab/results 'A-*' 'B*'</pre>
+  </section>
+
+  <section>
+    <h2>All agent runs</h2>
+    <p class="muted">Every agent reporting each 20 s. CPU is cores, averaged over the measured window. "Down" counts agents that went more than 60 s without a delivered report, which the mgr would mark down at its default settings.</p>
+    <div class="table-wrap"><table id="t-all"></table></div>
+  </section>
+</main>
+
+<script>
+// Minimal SVG charts for the agentbench report: one y axis (linear or log),
+// categorical or numeric x, thin lines, hover tooltip, HTML legend.
+(function () {
+  const NS = 'http://www.w3.org/2000/svg';
+  const el = (tag, attrs, parent) => {
+    const e = document.createElementNS(NS, tag);
+    for (const [k, v] of Object.entries(attrs || {})) e.setAttribute(k, v);
+    if (parent) parent.appendChild(e);
+    return e;
+  };
+  const fmtNum = (v) => {
+    if (v == null || Number.isNaN(v)) return '–';
+    const a = Math.abs(v);
+    if (a >= 10000) return (v / 1000).toFixed(0) + 'k';
+    if (a >= 1000) return (v / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+    if (a >= 100) return v.toFixed(0);
+    if (a >= 10) return v.toFixed(1).replace(/\.0$/, '');
+    if (a >= 1) return v.toFixed(1).replace(/\.0$/, '');
+    return v.toPrecision(2);
+  };
+
+  function logTicks(min, max) {
+    const t = [];
+    for (let e = Math.floor(Math.log10(min)); e <= Math.ceil(Math.log10(max)); e++) {
+      const v = Math.pow(10, e);
+      if (v >= min * 0.999 && v <= max * 1.001) t.push(v);
+    }
+    return t;
+  }
+  function linTicks(min, max, n) {
+    const span = max - min;
+    const step0 = span / n;
+    const mag = Math.pow(10, Math.floor(Math.log10(step0)));
+    const step = [1, 2, 2.5, 5, 10].map((m) => m * mag).find((s) => span / s <= n) || mag * 10;
+    const t = [];
+    for (let v = Math.ceil(min / step) * step; v <= max + 1e-9; v += step) t.push(+v.toFixed(10));
+    return t;
+  }
+
+  // opts: {x: [...], xLabel, yLabel, yLog, yMin, yMax, unit, series: [{name, cls, values, dashed, markersOnly}]}
+  function lineChart(container, opts) {
+    const W = Math.max(320, Math.min(760, container.clientWidth || 640));
+    const H = Math.round(Math.max(230, Math.min(320, W * 0.5)));
+    const m = { l: 52, r: 14, t: 14, b: 44 };
+    const iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const wrap = document.createElement('div');
+    wrap.className = 'chart';
+    container.appendChild(wrap);
+
+    const legend = document.createElement('div');
+    legend.className = 'legend';
+    for (const s of opts.series) {
+      const it = document.createElement('span');
+      it.className = 'legend-item';
+      it.innerHTML = `<span class="swatch ${s.cls}${s.dashed ? ' dashed' : ''}"></span>${s.name}`;
+      legend.appendChild(it);
+    }
+    if (opts.series.length > 1) wrap.appendChild(legend);
+
+    const svg = el('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': opts.title || '' }, wrap);
+    const all = opts.series.flatMap((s) => s.values).filter((v) => v != null && v > (opts.yLog ? 0 : -Infinity));
+    let yMin = opts.yMin != null ? opts.yMin : (opts.yLog ? Math.pow(10, Math.floor(Math.log10(Math.min(...all)))) : 0);
+    let yMax = opts.yMax != null ? opts.yMax : (opts.yLog ? Math.pow(10, Math.ceil(Math.log10(Math.max(...all)))) : Math.max(...all) * 1.08);
+    const ys = opts.yLog
+      ? (v) => m.t + ih - (Math.log10(v) - Math.log10(yMin)) / (Math.log10(yMax) - Math.log10(yMin)) * ih
+      : (v) => m.t + ih - (v - yMin) / (yMax - yMin) * ih;
+    const xs = opts.xNumeric
+      ? (() => {
+          const lo = opts.xLog ? Math.log2(opts.x[0]) : opts.x[0];
+          const hi = opts.xLog ? Math.log2(opts.x[opts.x.length - 1]) : opts.x[opts.x.length - 1];
+          return (i) => m.l + ((opts.xLog ? Math.log2(opts.x[i]) : opts.x[i]) - lo) / (hi - lo || 1) * iw;
+        })()
+      : (i) => m.l + (opts.x.length === 1 ? iw / 2 : i / (opts.x.length - 1) * iw);
+
+    const grid = el('g', { class: 'grid' }, svg);
+    const ticks = opts.yLog ? logTicks(yMin, yMax) : linTicks(yMin, yMax, 5);
+    for (const t of ticks) {
+      const y = ys(t);
+      el('line', { x1: m.l, x2: W - m.r, y1: y, y2: y }, grid);
+      const lab = el('text', { x: m.l - 8, y: y + 4, 'text-anchor': 'end', class: 'tick' }, svg);
+      lab.textContent = (opts.yFmt || fmtNum)(t);
+    }
+    opts.x.forEach((xv, i) => {
+      const lab = el('text', { x: xs(i), y: H - m.b + 18, 'text-anchor': 'middle', class: 'tick' }, svg);
+      lab.textContent = opts.xFmt ? opts.xFmt(xv) : fmtNum(xv);
+    });
+    el('line', { x1: m.l, x2: W - m.r, y1: m.t + ih, y2: m.t + ih, class: 'axis' }, svg);
+    const xl = el('text', { x: m.l + iw / 2, y: H - 6, 'text-anchor': 'middle', class: 'axis-label' }, svg);
+    xl.textContent = opts.xLabel || '';
+    const yl = el('text', { x: 14, y: m.t + ih / 2, 'text-anchor': 'middle', class: 'axis-label', transform: `rotate(-90 14 ${m.t + ih / 2})` }, svg);
+    yl.textContent = opts.yLabel || '';
+
+    for (const s of opts.series) {
+      const g = el('g', { class: `series ${s.cls}` }, svg);
+      let d = '';
+      let pen = false;
+      s.values.forEach((v, i) => {
+        if (v == null || (opts.yLog && v <= 0)) { pen = false; return; }
+        const vv = Math.min(Math.max(v, yMin), yMax);
+        d += `${pen ? 'L' : 'M'}${xs(i).toFixed(1)},${ys(vv).toFixed(1)}`;
+        pen = true;
+      });
+      if (!s.markersOnly && d) el('path', { d, class: s.dashed ? 'line dashed' : 'line', fill: 'none' }, g);
+      if (!s.dashed) {
+        s.values.forEach((v, i) => {
+          if (v == null || (opts.yLog && v <= 0)) return;
+          const vv = Math.min(Math.max(v, yMin), yMax);
+          el('circle', { cx: xs(i), cy: ys(vv), r: 4, class: 'dot' }, g);
+        });
+      }
+      (s.notes || []).forEach((n) => {
+        if (n == null) return;
+        const [i, text] = n;
+        const t = el('text', { x: xs(i), y: m.t + 12, 'text-anchor': 'middle', class: 'note' }, svg);
+        t.textContent = text;
+      });
+    }
+
+    // hover
+    const tip = document.createElement('div');
+    tip.className = 'tip';
+    tip.hidden = true;
+    wrap.appendChild(tip);
+    const cross = el('line', { y1: m.t, y2: m.t + ih, class: 'cross', visibility: 'hidden' }, svg);
+    const hit = el('rect', { x: m.l - 10, y: m.t, width: iw + 20, height: ih, fill: 'transparent' }, svg);
+    const show = (evt) => {
+      const r = svg.getBoundingClientRect();
+      const px = (evt.clientX - r.left) / r.width * W;
+      let best = 0, bd = Infinity;
+      opts.x.forEach((_, i) => { const dd = Math.abs(xs(i) - px); if (dd < bd) { bd = dd; best = i; } });
+      cross.setAttribute('x1', xs(best)); cross.setAttribute('x2', xs(best));
+      cross.setAttribute('visibility', 'visible');
+      const rows = opts.series.map((s) => `<div><span class="swatch ${s.cls}${s.dashed ? ' dashed' : ''}"></span>${s.name}: <b>${s.values[best] == null ? (s.missing || '–') : (opts.tipFmt || fmtNum)(s.values[best])}</b>${opts.unit ? ' ' + opts.unit : ''}</div>`).join('');
+      tip.innerHTML = `<div class="tip-h">${opts.xLabel}: ${opts.xFmt ? opts.xFmt(opts.x[best]) : opts.x[best]}</div>${rows}`;
+      tip.hidden = false;
+      const left = xs(best) / W * r.width;
+      tip.style.left = Math.min(Math.max(left - 90, 0), r.width - 190) + 'px';
+    };
+    hit.addEventListener('mousemove', show);
+    hit.addEventListener('mouseleave', () => { tip.hidden = true; cross.setAttribute('visibility', 'hidden'); });
+    return wrap;
+  }
+
+  // Horizontal bars: rows [{label, value, cls, note}], one scale (linear or log).
+  function barChart(container, opts) {
+    const W = Math.max(320, Math.min(760, container.clientWidth || 640));
+    const rowH = 30, m = { l: Math.min(opts.labelWidth || 210, Math.round(W * 0.46)), r: 64, t: 6, b: 30 };
+    const H = m.t + m.b + rowH * opts.rows.length;
+    const iw = W - m.l - m.r;
+    const wrap = document.createElement('div');
+    wrap.className = 'chart';
+    container.appendChild(wrap);
+    const svg = el('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': opts.title || '' }, wrap);
+    const vals = opts.rows.map((r) => r.value).filter((v) => v > 0);
+    const lo = opts.log ? Math.pow(10, Math.floor(Math.log10(Math.min(...vals)))) : 0;
+    const hi = opts.log ? Math.pow(10, Math.ceil(Math.log10(Math.max(...vals)))) : Math.max(...vals) * 1.05;
+    const xs = opts.log ? (v) => m.l + (Math.log10(v) - Math.log10(lo)) / (Math.log10(hi) - Math.log10(lo)) * iw
+                        : (v) => m.l + v / hi * iw;
+    const ticks = opts.log ? logTicks(lo, hi) : linTicks(0, hi, 5);
+    const grid = el('g', { class: 'grid' }, svg);
+    for (const t of ticks) {
+      el('line', { x1: xs(t), x2: xs(t), y1: m.t, y2: H - m.b }, grid);
+      const lab = el('text', { x: xs(t), y: H - m.b + 18, 'text-anchor': 'middle', class: 'tick' }, svg);
+      lab.textContent = fmtNum(t);
+    }
+    opts.rows.forEach((r, i) => {
+      const y = m.t + i * rowH;
+      const lab = el('text', { x: m.l - 10, y: y + rowH / 2 + 4, 'text-anchor': 'end', class: 'bar-label' }, svg);
+      lab.textContent = r.label;
+      const x0 = opts.log ? xs(lo) : m.l;
+      const w = Math.max(r.value > 0 ? xs(r.value) - x0 : 0, 2);
+      const g = el('g', { class: `series ${r.cls}` }, svg);
+      el('rect', { x: x0, y: y + 7, width: w, height: rowH - 14, rx: 3, class: 'bar' }, g);
+      const v = el('text', { x: x0 + w + 6, y: y + rowH / 2 + 4, class: 'bar-value' }, svg);
+      v.textContent = (opts.fmt || fmtNum)(r.value) + (r.note ? ' ' + r.note : '');
+    });
+    const xl = el('text', { x: m.l + iw / 2, y: H - 4, 'text-anchor': 'middle', class: 'axis-label' }, svg);
+    xl.textContent = opts.xLabel || '';
+    return wrap;
+  }
+
+  // Stacked horizontal bars: rows [{label, parts: [{name, value, cls}]}]
+  function stackChart(container, opts) {
+    const W = Math.max(320, Math.min(760, container.clientWidth || 640));
+    const rowH = 30, m = { l: Math.min(opts.labelWidth || 120, Math.round(W * 0.4)), r: 64, t: 6, b: 30 };
+    const H = m.t + m.b + rowH * opts.rows.length;
+    const iw = W - m.l - m.r;
+    const wrap = document.createElement('div');
+    wrap.className = 'chart';
+    container.appendChild(wrap);
+    const legend = document.createElement('div');
+    legend.className = 'legend';
+    for (const p of opts.rows[0].parts) {
+      const it = document.createElement('span');
+      it.className = 'legend-item';
+      it.innerHTML = `<span class="swatch ${p.cls}"></span>${p.name}`;
+      legend.appendChild(it);
+    }
+    wrap.appendChild(legend);
+    const svg = el('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': opts.title || '' }, wrap);
+    const hi = opts.max || Math.max(...opts.rows.map((r) => r.parts.reduce((a, p) => a + p.value, 0))) * 1.02;
+    const xs = (v) => v / hi * iw;
+    const grid = el('g', { class: 'grid' }, svg);
+    for (const t of linTicks(0, hi, 5)) {
+      el('line', { x1: m.l + xs(t), x2: m.l + xs(t), y1: m.t, y2: H - m.b }, grid);
+      const lab = el('text', { x: m.l + xs(t), y: H - m.b + 18, 'text-anchor': 'middle', class: 'tick' }, svg);
+      lab.textContent = fmtNum(t);
+    }
+    opts.rows.forEach((r, i) => {
+      const y = m.t + i * rowH;
+      const lab = el('text', { x: m.l - 10, y: y + rowH / 2 + 4, 'text-anchor': 'end', class: 'bar-label' }, svg);
+      lab.textContent = r.label;
+      let x = m.l;
+      for (const p of r.parts) {
+        const w = xs(p.value);
+        if (w <= 0) continue;
+        const g = el('g', { class: `series ${p.cls}` }, svg);
+        const rect = el('rect', { x, y: y + 7, width: Math.max(w - 2, 0.5), height: rowH - 14, class: 'bar' }, g);
+        const t = el('title', {}, rect);
+        t.textContent = `${p.name}: ${fmtNum(p.value)}${opts.unit ? ' ' + opts.unit : ''}`;
+        x += w;
+      }
+      const tot = r.parts.reduce((a, p) => a + p.value, 0);
+      const v = el('text', { x: x + 6, y: y + rowH / 2 + 4, class: 'bar-value' }, svg);
+      v.textContent = fmtNum(tot) + (opts.unit ? ' ' + opts.unit : '');
+    });
+    const xl = el('text', { x: m.l + iw / 2, y: H - 4, 'text-anchor': 'middle', class: 'axis-label' }, svg);
+    xl.textContent = opts.xLabel || '';
+    return wrap;
+  }
+
+  // Draw now and again when the container's width changes.
+  function mount(container, draw) {
+    let last = -1;
+    const render = () => {
+      const w = container.clientWidth;
+      if (Math.abs(w - last) < 8) return;
+      last = w;
+      container.innerHTML = '';
+      draw(container);
+    };
+    render();
+    if (window.ResizeObserver) new ResizeObserver(render).observe(container);
+  }
+
+  window.AB = { lineChart, barChart, stackChart, fmtNum, mount };
+})();
+
+</script>
+<script>
+  const D = {"hosts":[250,500,750,1000,1500,2000,4000],"delivered":{"A":[99.9,99.8,99.6,98.5,0.0,5.4,0.0],"Aplus":[null,null,null,99.3,null,74.7,0.0],"B1":[99.9,null,null,100.0,null,100.0,100.0],"B3":[100.0,null,null,100.0,null,100.0,100.0]},"p99":{"A":[160.8,218.6,1077.2,2404.4,null,null,null],"Aplus":[null,null,null,1301.5,null,null,null],"B1":[21.9,null,null,21.2,null,22.8,31.2],"B3":[6.6,null,null,6.5,null,3.9,3.2]},"p50":{"A":[21.5,29.4,33.4,131.3,null,null,null],"Aplus":[null,null,null,20.9,null,null,null],"B1":[13.0,null,null,10.6,null,9.8,9.8],"B3":[3.6,null,null,2.4,null,1.8,1.4]},"src":{"A":["A-agents-n250","Anp-agents-n500","Anp-agents-n750","Anp-agents-n1000","Anp-agents-n1500","Anp-agents-n2000","A-agents-n4000"],"Aplus":[null,null,null,"Aplus-agents-n1000",null,"Aplus-agents-n2000","Aplus-agents-n4000"],"B1":["B1-agents-n250",null,null,"B1-agents-n1000",null,"B1-agents-n2000","B1-agents-n4000"],"B3":["B3-agents-n250",null,null,"B3-agents-n1000",null,"B3-agents-n2000","B3-agents-n4000"]},"capacity":{"A":[149.0,124.9,83.0,55.8,null,22.8,16.6],"Aplus":[null,null,null,221.5,null,148.4,87.2],"offered":[12.5,25.0,37.5,50.0,75.0,100.0,200.0]},"peak4000":[{"label":"A  stock mgr","cls":"a","value":16.6},{"label":"A+  patched mgr","cls":"aplus","value":87.2},{"label":"B1  agentd, sync writes","cls":"b1","value":245.9},{"label":"B2  agentd, write-back","cls":"b2","value":2376.3},{"label":"agentd, no writes, RSA","cls":"ref","value":2829.1},{"label":"B3  agentd, changed + EC","cls":"b3","value":9936.7}],"conc":{"c":[1,2,4,16,32,64],"ok":[86.8,143.2,184.2,180.5,175.5,147.1],"p99":[25.9,30.6,51.1,1085.4,2123.8,4755.5]},"probes":{"A-1000":{"orch_ps_host":{"p50":5801.9,"p99":14331.6,"n":28,"err":0},"orch_host_ls":{"p50":5797.5,"p99":14294.1,"n":29,"err":0},"prom_metrics":{"p50":8.7,"p99":376.2,"n":125,"err":56},"balancer_status":{"p50":2.8,"p99":140.6,"n":181,"err":0},"pg_stat":{"p50":0.7,"p99":1.3,"n":181,"err":0},"mon_health":{"p50":0.9,"p99":2.2,"n":181,"err":0},"agentd_host":{"p50":null,"p99":null,"n":0,"err":0}},"B3-1000":{"orch_ps_host":{"p50":418.8,"p99":596.3,"n":179,"err":0},"orch_host_ls":{"p50":413.9,"p99":564.1,"n":180,"err":0},"prom_metrics":{"p50":6.3,"p99":132.7,"n":181,"err":0},"balancer_status":{"p50":2.9,"p99":81.7,"n":181,"err":0},"pg_stat":{"p50":0.8,"p99":1.2,"n":181,"err":0},"mon_health":{"p50":1.1,"p99":3.3,"n":181,"err":0},"agentd_host":{"p50":1.4,"p99":4.0,"n":181,"err":0}},"A-4000":{"orch_ps_host":{"p50":149386.9,"p99":149386.9,"n":1,"err":0},"orch_host_ls":{"p50":1306.0,"p99":148327.5,"n":2,"err":0},"prom_metrics":{"p50":null,"p99":null,"n":0,"err":100},"balancer_status":{"p50":136.2,"p99":1576.5,"n":118,"err":0},"pg_stat":{"p50":0.8,"p99":1.4,"n":121,"err":0},"mon_health":{"p50":1.0,"p99":1.5,"n":121,"err":0},"agentd_host":{"p50":null,"p99":null,"n":0,"err":0}},"B3-4000":{"orch_ps_host":{"p50":1865.0,"p99":4677.3,"n":88,"err":0},"orch_host_ls":{"p50":1862.0,"p99":4570.1,"n":89,"err":0},"prom_metrics":{"p50":69.2,"p99":374.7,"n":67,"err":113},"balancer_status":{"p50":9.4,"p99":207.6,"n":181,"err":0},"pg_stat":{"p50":0.6,"p99":1.1,"n":181,"err":0},"mon_health":{"p50":0.8,"p99":1.5,"n":181,"err":0},"agentd_host":{"p50":0.9,"p99":1.5,"n":181,"err":0}}},"orchps":{"A":[231.6,477.1,1173.6,5801.9,null,1725.7,149386.9],"B3":[234.5,null,null,418.8,null,864.7,1865.0]},"cost":[{"label":"A  stock mgr, 1,000 hosts","reports":49.0,"writes":147.1,"endpoint_cpu":1.11,"mon_cpu":0.24,"p99":2709.5},{"label":"B1  sync writes, 1,000 hosts","reports":50.0,"writes":149.9,"endpoint_cpu":0.24,"mon_cpu":0.19,"p99":21.2},{"label":"B1  sync writes, 4,000 hosts","reports":199.9,"writes":599.7,"endpoint_cpu":0.81,"mon_cpu":0.82,"p99":31.2},{"label":"B2  write-back, 4,000 hosts","reports":199.9,"writes":599.8,"endpoint_cpu":0.84,"mon_cpu":1.7,"p99":7.8},{"label":"B3  changed only, 4,000 hosts","reports":200.0,"writes":0.0,"endpoint_cpu":0.2,"mon_cpu":0.01,"p99":3.2}],"table":[{"variant":"A","run":"A-agents-n250","hosts":250,"offered":12.5,"ok":12.5,"p50":21.5,"p99":160.8,"max":212.0,"down":0,"mgr":0.4,"mon":0.08,"agentd":null},{"variant":"A","run":"Anp-agents-n500","hosts":500,"offered":25.0,"ok":25.0,"p50":29.4,"p99":218.6,"max":1113.0,"down":0,"mgr":0.42,"mon":0.17,"agentd":null},{"variant":"A","run":"Anp-agents-n750","hosts":750,"offered":37.5,"ok":37.3,"p50":33.4,"p99":1077.2,"max":2150.0,"down":0,"mgr":0.63,"mon":0.21,"agentd":null},{"variant":"A","run":"Anp-agents-n1000","hosts":1000,"offered":50.0,"ok":49.2,"p50":131.3,"p99":2404.4,"max":4620.0,"down":0,"mgr":1.01,"mon":0.26,"agentd":null},{"variant":"A","run":"Anp-agents-n1500","hosts":1500,"offered":75.0,"ok":0.0,"p50":0.0,"p99":0.0,"max":0.0,"down":1500,"mgr":1.13,"mon":0.2,"agentd":null},{"variant":"A","run":"Anp-agents-n2000","hosts":2000,"offered":100.0,"ok":5.4,"p50":3475.5,"p99":9871.4,"max":10002.0,"down":2000,"mgr":1.11,"mon":0.17,"agentd":null},{"variant":"A","run":"A-agents-n4000","hosts":4000,"offered":200.0,"ok":0.0,"p50":0.0,"p99":0.0,"max":0.0,"down":4000,"mgr":1.01,"mon":0.01,"agentd":null},{"variant":"Aplus","run":"Aplus-agents-n1000","hosts":1000,"offered":50.0,"ok":49.7,"p50":20.9,"p99":1301.5,"max":3113.0,"down":0,"mgr":0.53,"mon":0.3,"agentd":null},{"variant":"Aplus","run":"Aplus-agents-n2000","hosts":2000,"offered":100.0,"ok":74.7,"p50":49.3,"p99":8683.5,"max":9740.0,"down":327,"mgr":0.77,"mon":0.32,"agentd":null},{"variant":"Aplus","run":"Aplus-agents-n4000","hosts":4000,"offered":200.0,"ok":0.0,"p50":0.0,"p99":0.0,"max":0.0,"down":4000,"mgr":1.01,"mon":0.0,"agentd":null},{"variant":"B1","run":"B1-agents-n250","hosts":250,"offered":12.5,"ok":12.5,"p50":13.0,"p99":21.9,"max":29.0,"down":0,"mgr":0.26,"mon":0.07,"agentd":0.07},{"variant":"B1","run":"B1-agents-n1000","hosts":1000,"offered":50.0,"ok":50.0,"p50":10.6,"p99":21.2,"max":29.0,"down":0,"mgr":0.53,"mon":0.19,"agentd":0.24},{"variant":"B1","run":"B1-agents-n2000","hosts":2000,"offered":100.0,"ok":100.0,"p50":9.8,"p99":22.8,"max":48.0,"down":0,"mgr":1.0,"mon":0.38,"agentd":0.43},{"variant":"B1","run":"B1-agents-n4000","hosts":4000,"offered":200.0,"ok":199.9,"p50":9.8,"p99":31.2,"max":51.0,"down":0,"mgr":1.02,"mon":0.82,"agentd":0.81},{"variant":"B2","run":"B2-agents-n1000","hosts":1000,"offered":50.0,"ok":50.0,"p50":5.8,"p99":8.9,"max":12.0,"down":0,"mgr":0.53,"mon":0.17,"agentd":0.24},{"variant":"B2","run":"B2-agents-n4000","hosts":4000,"offered":200.0,"ok":199.9,"p50":4.4,"p99":7.8,"max":31.0,"down":0,"mgr":1.01,"mon":1.7,"agentd":0.84},{"variant":"B3","run":"B3-agents-n250","hosts":250,"offered":12.5,"ok":12.5,"p50":3.6,"p99":6.6,"max":7.0,"down":0,"mgr":0.27,"mon":0.01,"agentd":0.03},{"variant":"B3","run":"B3-agents-n1000","hosts":1000,"offered":50.0,"ok":50.0,"p50":2.4,"p99":6.5,"max":12.0,"down":0,"mgr":0.53,"mon":0.01,"agentd":0.08},{"variant":"B3","run":"B3-agents-n2000","hosts":2000,"offered":100.0,"ok":100.0,"p50":1.8,"p99":3.9,"max":18.0,"down":0,"mgr":0.98,"mon":0.01,"agentd":0.12},{"variant":"B3","run":"B3-agents-n4000","hosts":4000,"offered":200.0,"ok":200.0,"p50":1.4,"p99":3.2,"max":29.0,"down":0,"mgr":1.0,"mon":0.01,"agentd":0.2}],"proto":{"v":[{"proto":"v1","hosts":4000,"requests_per_sec":200.0,"failed":0,"p50_ms":1.376,"p99_ms":3.723,"agentd_cpu":0.176,"bytes_per_agent_per_period":50360,"new_connections_per_sec":171.4,"change_lag_p50_ms":null,"change_lag_p99_ms":null,"kinds":null},{"proto":"v2","hosts":4000,"requests_per_sec":207.8,"failed":0,"p50_ms":0.303,"p99_ms":2.365,"agentd_cpu":0.022,"bytes_per_agent_per_period":96,"new_connections_per_sec":0.0,"change_lag_p50_ms":1.69,"change_lag_p99_ms":2.979,"kinds":{"delta":2.0,"full":0.0,"heartbeat":192.3,"usage":13.4}},{"proto":"v1","hosts":10000,"requests_per_sec":500.0,"failed":0,"p50_ms":0.964,"p99_ms":2.407,"agentd_cpu":0.358,"bytes_per_agent_per_period":50360,"new_connections_per_sec":428.5,"change_lag_p50_ms":null,"change_lag_p99_ms":null,"kinds":null},{"proto":"v2","hosts":10000,"requests_per_sec":519.3,"failed":0,"p50_ms":0.246,"p99_ms":0.875,"agentd_cpu":0.025,"bytes_per_agent_per_period":96,"new_connections_per_sec":0.0,"change_lag_p50_ms":1.502,"change_lag_p99_ms":2.617,"kinds":{"delta":5.1,"full":0.0,"heartbeat":480.7,"usage":33.5}},{"proto":"v1","hosts":20000,"requests_per_sec":999.9,"failed":0,"p50_ms":0.897,"p99_ms":2.381,"agentd_cpu":0.676,"bytes_per_agent_per_period":50360,"new_connections_per_sec":856.9,"change_lag_p50_ms":null,"change_lag_p99_ms":null,"kinds":null},{"proto":"v2","hosts":20000,"requests_per_sec":1038.6,"failed":0,"p50_ms":0.223,"p99_ms":1.232,"agentd_cpu":0.074,"bytes_per_agent_per_period":97,"new_connections_per_sec":0.0,"change_lag_p50_ms":1.332,"change_lag_p99_ms":2.711,"kinds":{"delta":10.1,"full":0.0,"heartbeat":960.9,"usage":67.6}},{"proto":"v1","hosts":50000,"requests_per_sec":2499.8,"failed":0,"p50_ms":0.928,"p99_ms":2.085,"agentd_cpu":1.666,"bytes_per_agent_per_period":50360,"new_connections_per_sec":2142.0,"change_lag_p50_ms":null,"change_lag_p99_ms":null,"kinds":null},{"proto":"v2","hosts":50000,"requests_per_sec":2596.4,"failed":0,"p50_ms":0.112,"p99_ms":0.852,"agentd_cpu":0.132,"bytes_per_agent_per_period":96,"new_connections_per_sec":0.0,"change_lag_p50_ms":1.17,"change_lag_p99_ms":2.433,"kinds":{"delta":25.2,"full":0.0,"heartbeat":2404.6,"usage":166.6}}],"swim":[{"members":1000,"converge_secs":20,"member_pkts_per_sec":2.44,"member_bytes_per_sec":82,"controller_pkts_per_sec":4.7,"controller_cpu":0.001,"sim_cpu_per_member_ms":0.185,"signal_coverage":1.0,"signal_p50_ms":330,"signal_p99_ms":587,"signal_max_ms":781,"killed":10,"undetected":0,"false_down":0,"detect_p50_s":14.2,"detect_max_s":16.9},{"members":4000,"converge_secs":22,"member_pkts_per_sec":2.15,"member_bytes_per_sec":70,"controller_pkts_per_sec":4.7,"controller_cpu":0.002,"sim_cpu_per_member_ms":0.325,"signal_coverage":1.0,"signal_p50_ms":440,"signal_p99_ms":726,"signal_max_ms":1146,"killed":40,"undetected":0,"false_down":0,"detect_p50_s":16.8,"detect_max_s":22.0}]}};
+  const NAMES = { A: 'A  stock mgr', Aplus: 'A+  patched mgr', B1: 'B1  agentd, sync writes', B2: 'B2  agentd, write-back', B3: 'B3  agentd, changed only' };
+  const CLS = { A: 'a', Aplus: 'aplus', B1: 'b1', B2: 'b2', B3: 'b3' };
+  const hostsFmt = (v) => v.toLocaleString('en-US');
+  const ms = (v) => v == null ? '–' : v >= 10000 ? (v / 1000).toFixed(0) + ' s' : v >= 1000 ? (v / 1000).toFixed(1) + ' s' : v >= 10 ? v.toFixed(0) + ' ms' : v.toFixed(1) + ' ms';
+  const num = (v, nd = 1) => v == null ? '–' : v.toLocaleString('en-US', { maximumFractionDigits: nd });
+
+  AB.mount(document.getElementById('c-delivered'), (el) => AB.lineChart(el, {
+    title: 'Share of agent reports delivered versus hosts',
+    x: D.hosts, xNumeric: true, xLog: true, xFmt: hostsFmt, xLabel: 'hosts', yLabel: 'delivered (%)',
+    yMin: 0, yMax: 100, unit: '%',
+    series: ['A', 'Aplus', 'B1', 'B3'].map((k) => ({ name: NAMES[k], cls: CLS[k], values: D.delivered[k], missing: 'not run' })),
+  }));
+  AB.mount(document.getElementById('c-p99'), (el) => AB.lineChart(el, {
+    title: 'p99 report latency versus hosts',
+    x: D.hosts, xNumeric: true, xLog: true, xFmt: hostsFmt, xLabel: 'hosts', yLabel: 'p99 latency (ms)',
+    yLog: true, yMin: 1, yMax: 10000, unit: 'ms',
+    series: ['A', 'Aplus', 'B1', 'B3'].map((k) => ({ name: NAMES[k], cls: CLS[k], values: D.p99[k], missing: 'not run or < 90% delivered' })),
+  }));
+  AB.mount(document.getElementById('c-capacity'), (el) => AB.lineChart(el, {
+    title: 'Peak capacity of the mgr endpoint versus hosts',
+    x: D.hosts, xNumeric: true, xLog: true, xFmt: hostsFmt, xLabel: 'hosts', yLabel: 'reports / s',
+    yMin: 0, yMax: 250, unit: '/s',
+    series: [
+      { name: 'Offered (hosts ÷ 20 s)', cls: 'offered', values: D.capacity.offered, dashed: true },
+      { name: NAMES.A, cls: 'a', values: D.capacity.A, missing: 'not measured (backlog)' },
+      { name: NAMES.Aplus, cls: 'aplus', values: D.capacity.Aplus, missing: 'not run' },
+    ],
+  }));
+  AB.mount(document.getElementById('c-peak'), (el) => AB.barChart(el, {
+    title: 'Peak reports per second at 4,000 hosts', log: true, labelWidth: 200,
+    rows: D.peak4000, xLabel: 'reports / s (log scale)',
+    fmt: (v) => num(v, v < 100 ? 1 : 0),
+  }));
+  AB.mount(document.getElementById('c-gil'), (el) => AB.barChart(el, {
+    title: 'Share of GIL time at 1,000 hosts', labelWidth: 280,
+    rows: [
+      { label: 'rescan all daemons for errors', value: 61.7, cls: 'a' },
+      { label: 'list_daemons (orchestrator queries)', value: 15.3, cls: 'a' },
+      { label: 'rest of the agent handler', value: 14.7, cls: 'a' },
+      { label: 'everything else', value: 8.3, cls: 'a' },
+    ],
+    xLabel: '% of GIL-holding samples', fmt: (v) => v.toFixed(1) + '%',
+  }));
+  AB.mount(document.getElementById('c-orchps'), (el) => AB.lineChart(el, {
+    title: 'orch ps --hostname p50 versus hosts',
+    x: D.hosts, xNumeric: true, xLog: true, xFmt: hostsFmt, xLabel: 'hosts', yLabel: 'p50 (ms)',
+    yLog: true, yMin: 100, yMax: 1000000, unit: 'ms',
+    yFmt: (v) => v >= 1000 ? (v / 1000) + ' s' : v + ' ms',
+    tipFmt: (v) => ms(v).replace(/ (ms|s)$/, ''),
+    series: [
+      { name: 'A  mgr also absorbing agents', cls: 'a', values: D.orchps.A, missing: 'not run' },
+      { name: 'B3  agents on agentd', cls: 'b3', values: D.orchps.B3, missing: 'not run' },
+    ],
+  }));
+
+  // Concurrency sweep table.
+  document.getElementById('t-conc').innerHTML =
+    '<thead><tr><th>senders</th>' + D.conc.c.map((c) => `<th>${c}</th>`).join('') + '</tr></thead><tbody>' +
+    '<tr><td>reports/s</td>' + D.conc.ok.map((v) => `<td>${num(v, 0)}</td>`).join('') + '</tr>' +
+    '<tr><td>p99</td>' + D.conc.p99.map((v) => `<td>${ms(v)}</td>`).join('') + '</tr></tbody>';
+
+  // Probe table: A vs B3 at 1,000 and 4,000 hosts.
+  const PROBES = [
+    ['orch_ps_host', 'orch ps --hostname'], ['orch_host_ls', 'orch host ls'], ['prom_metrics', 'prometheus scrape'],
+    ['balancer_status', 'balancer status'], ['pg_stat', 'pg stat (C++ only)'], ['mon_health', 'health (mon)'],
+    ['agentd_host', 'agentd /host/<name>'],
+  ];
+  const cell = (p) => {
+    if (!p || !p.n) return '<td>–</td>';
+    const failed = p.err ? ` <span class="muted">(${Math.round(100 * p.err / (p.n + p.err))}% failed)</span>` : '';
+    return `<td>${ms(p.p50)} / ${ms(p.p99)}${failed}</td>`;
+  };
+  document.getElementById('t-probes').innerHTML =
+    '<thead><tr><th>request (p50 / p99)</th><th>A, 1,000 hosts</th><th>B3, 1,000 hosts</th><th>A, 4,000 hosts</th><th>B3, 4,000 hosts</th></tr></thead><tbody>' +
+    PROBES.map(([k, label]) => `<tr><td>${label.replace('<', '&lt;').replace('>', '&gt;')}</td>` +
+      ['A-1000', 'B3-1000', 'A-4000', 'B3-4000'].map((r) => cell(D.probes[r][k])).join('') + '</tr>').join('') + '</tbody>';
+
+  // Persistence cost.
+  document.getElementById('t-cost').innerHTML =
+    '<thead><tr><th></th><th>reports/s</th><th>config-key writes/s</th><th>endpoint CPU</th><th>mon CPU</th><th>report p99</th></tr></thead><tbody>' +
+    D.cost.map((r) => `<tr><td>${r.label}</td><td>${num(r.reports)}</td><td>${num(r.writes, 0)}</td>` +
+      `<td>${num(r.endpoint_cpu, 2)}</td><td>${num(r.mon_cpu, 2)}</td><td>${ms(r.p99)}</td></tr>`).join('') + '</tbody>';
+
+
+  // Agent protocol: v1 vs v2, SWIM.
+  const PV = D.proto.v || [];
+  const pHosts = [...new Set(PV.map((r) => r.hosts))].sort((a, b) => a - b);
+  const pv = (proto, key) => pHosts.map((h) => (PV.find((r) => r.proto === proto && r.hosts === h) || {})[key] ?? null);
+  if (pHosts.length) {
+    AB.mount(document.getElementById('c-proto-cpu'), (el) => AB.lineChart(el, {
+      title: 'agentd CPU versus hosts, v1 and v2 agent protocols',
+      x: pHosts, xNumeric: true, xLog: true, xFmt: hostsFmt, xLabel: 'hosts', yLabel: 'agentd CPU (cores)',
+      yMin: 0, unit: 'cores', tipFmt: (v) => v.toFixed(2),
+      series: [
+        { name: 'v1  full report every 20 s', cls: 'v1', values: pv('v1', 'agentd_cpu') },
+        { name: 'v2  deltas, persistent connection', cls: 'v2', values: pv('v2', 'agentd_cpu') },
+      ],
+    }));
+    document.getElementById('t-proto').innerHTML =
+      '<thead><tr><th>hosts</th><th>agentd CPU v1 → v2</th><th>bytes per agent per 20 s</th><th>request p99 v1 → v2</th><th>v2 change lag p50 / p99</th></tr></thead><tbody>' +
+      pHosts.map((h) => {
+        const a = PV.find((r) => r.proto === 'v1' && r.hosts === h) || {};
+        const b = PV.find((r) => r.proto === 'v2' && r.hosts === h) || {};
+        return `<tr><td>${hostsFmt(h)}</td><td>${num(a.agentd_cpu, 2)} → ${num(b.agentd_cpu, 2)}</td>` +
+          `<td>${num(a.bytes_per_agent_per_period, 0)} → ${num(b.bytes_per_agent_per_period, 0)}</td>` +
+          `<td>${ms(a.p99_ms)} → ${ms(b.p99_ms)}</td><td>${ms(b.change_lag_p50_ms)} / ${ms(b.change_lag_p99_ms)}</td></tr>`;
+      }).join('') + '</tbody>';
+  }
+  const SW = D.proto.swim || [];
+  document.getElementById('t-swim').innerHTML =
+    '<thead><tr><th>members</th><th>per member</th><th>controller</th><th>signal reached</th><th>signal p50 / p99 / max</th><th>dead hosts found</th><th>detect p50 / max</th><th>wrongly down</th></tr></thead><tbody>' +
+    SW.map((r) => `<tr><td>${hostsFmt(r.members)}</td><td>${num(r.member_pkts_per_sec, 1)} pkt/s, ${num(r.member_bytes_per_sec, 0)} B/s</td>` +
+      `<td>${num(r.controller_pkts_per_sec, 1)} pkt/s, ${num(r.controller_cpu, 3)} cores</td>` +
+      `<td>${Math.round(100 * r.signal_coverage)}%</td><td>${ms(r.signal_p50_ms)} / ${ms(r.signal_p99_ms)} / ${ms(r.signal_max_ms)}</td>` +
+      `<td>${r.killed - r.undetected} of ${r.killed}</td><td>${num(r.detect_p50_s, 1)} s / ${num(r.detect_max_s, 1)} s</td><td>${r.false_down}</td></tr>`).join('') + '</tbody>';
+
+  // All agent runs.
+  let rows = '';
+  let last = null;
+  for (const r of D.table) {
+    if (r.variant !== last) {
+      rows += `<tr class="group"><td colspan="11">${NAMES[r.variant]}</td></tr>`;
+      last = r.variant;
+    }
+    const bad = r.ok < r.offered * 0.9;
+    rows += `<tr><td><span class="tag ${CLS[r.variant]}">${r.variant === 'Aplus' ? 'A+' : r.variant}</span></td>` +
+      `<td>${hostsFmt(r.hosts)}</td><td>${num(r.offered)}</td><td class="${bad ? 'bad' : ''}">${num(r.ok)}</td>` +
+      `<td>${r.ok ? ms(r.p50) : '–'}</td><td>${r.ok ? ms(r.p99) : '–'}</td><td>${r.ok ? ms(r.max) : '–'}</td>` +
+      `<td>${r.down ?? '–'}</td><td>${num(r.mgr, 2)}</td><td>${num(r.mon, 2)}</td><td>${num(r.agentd, 2)}</td></tr>`;
+  }
+  document.getElementById('t-all').innerHTML =
+    '<thead><tr><th></th><th>hosts</th><th>offered/s</th><th>delivered/s</th><th>p50</th><th>p99</th><th>max</th><th>down</th><th>mgr CPU</th><th>mon CPU</th><th>agentd CPU</th></tr></thead><tbody>' + rows + '</tbody>';
+</script>

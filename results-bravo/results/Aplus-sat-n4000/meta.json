@@ -1,0 +1,33 @@
+{
+  "args": {
+    "name": "Aplus-sat-n4000",
+    "agents": 4000,
+    "period": 20,
+    "duration": 45.0,
+    "warmup": null,
+    "saturate": 8,
+    "target": null,
+    "agentd": null,
+    "keep_agentd": false,
+    "osds": 16,
+    "prime": 0,
+    "no_seed": true,
+    "no_probes": true,
+    "idle": false,
+    "probe_interval": 1.0,
+    "settle": 10,
+    "sim_arg": []
+  },
+  "start": 1793407896.2746532,
+  "loadavg_before": [
+    0.98681640625,
+    1.19287109375,
+    2.515625
+  ],
+  "end": 1793407947.3099473,
+  "loadavg_after": [
+    1.13623046875,
+    1.20361328125,
+    2.44140625
+  ]
+}

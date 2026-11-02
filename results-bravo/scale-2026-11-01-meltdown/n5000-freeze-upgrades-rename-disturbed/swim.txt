@@ -1,0 +1,13 @@
+1793573867528 swim pkts_sent 4233189 pkts_recv 4110312 bytes_sent 4383797086 send_errors 2 renames 28435096 rejoins 6349
+1793573867524 swim pkts_sent 4133570 pkts_recv 4115372 bytes_sent 4285470665 send_errors 3 renames 28520815 rejoins 6333
+1793573867509 swim pkts_sent 4103152 pkts_recv 4100675 bytes_sent 4276200640 send_errors 6 renames 28368609 rejoins 6382
+1793573867530 swim pkts_sent 3898686 pkts_recv 4069032 bytes_sent 4008722683 send_errors 3 renames 28017138 rejoins 6543
+1793573867509 swim pkts_sent 3567309 pkts_recv 4021881 bytes_sent 3456659303 send_errors 4 renames 27307099 rejoins 6922
+1793573867503 swim pkts_sent 4065532 pkts_recv 4119724 bytes_sent 3950569825 send_errors 4 renames 27855166 rejoins 6493
+1793573867528 swim pkts_sent 3966820 pkts_recv 4058840 bytes_sent 3707741643 send_errors 5 renames 27393284 rejoins 6489
+1793573867523 swim pkts_sent 3958352 pkts_recv 4035862 bytes_sent 3697461021 send_errors 5 renames 27304257 rejoins 6491
+1793573867527 swim pkts_sent 4378894 pkts_recv 4115945 bytes_sent 4250338416 send_errors 2 renames 27570928 rejoins 5908
+1793573867528 swim pkts_sent 4270403 pkts_recv 4080147 bytes_sent 4116756918 send_errors 2 renames 26936039 rejoins 6043
+1793573867528 swim pkts_sent 4394479 pkts_recv 4122659 bytes_sent 4284805097 send_errors 2 renames 27387560 rejoins 6052
+1793573867544 swim pkts_sent 3792404 pkts_recv 4017640 bytes_sent 3466555156 send_errors 3 renames 26402652 rejoins 6464
+1793573867068 swim pkts_sent 772310 pkts_recv 390761 bytes_sent 907273365 send_errors 0 renames 2756014 rejoins 208

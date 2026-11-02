@@ -1,0 +1,67 @@
+{
+  "agents": 500,
+  "args": {
+    "admin": "127.0.0.1:7161",
+    "agents": 500,
+    "converge_timeout": 300.0,
+    "join_secs": 5.0,
+    "kill": 10,
+    "kill_wait": 45.0,
+    "out": "/ab/results/swimsmoke",
+    "settle": 10.0,
+    "signal_wait": 10.0,
+    "signals": 2,
+    "steady": 20.0,
+    "threads": 16
+  },
+  "converge_secs": 6.006788165,
+  "detection": {
+    "detect_secs": {
+      "max": 14.542040508,
+      "n": 10,
+      "p50": 13.489869212,
+      "p90": 13.969196441,
+      "p99": 14.542040508
+    },
+    "false_down_during_test": 0,
+    "killed": 10,
+    "undetected": 0
+  },
+  "members_declared_down_by_others": 0,
+  "send_errors": 0,
+  "signals": [
+    {
+      "latency_ms": {
+        "max": 625.126881,
+        "n": 500,
+        "p50": 275.85164,
+        "p90": 403.99231,
+        "p99": 535.660353
+      },
+      "of": 500,
+      "received": 500,
+      "version": 1
+    },
+    {
+      "latency_ms": {
+        "max": 639.578679,
+        "n": 500,
+        "p50": 298.295456,
+        "p90": 405.973599,
+        "p99": 526.85342
+      },
+      "of": 500,
+      "received": 500,
+      "version": 2
+    }
+  ],
+  "steady": {
+    "controller_bytes_sent_per_sec": 30.3,
+    "controller_down_events": 0,
+    "controller_pkts_recv_per_sec": 2.8,
+    "controller_pkts_sent_per_sec": 2.2,
+    "member_bytes_sent_per_sec": 104.8627,
+    "member_pkts_recv_per_sec": 2.4388,
+    "member_pkts_sent_per_sec": 2.44
+  }
+}

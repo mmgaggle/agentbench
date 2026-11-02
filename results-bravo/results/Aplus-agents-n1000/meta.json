@@ -1,0 +1,34 @@
+{
+  "args": {
+    "name": "Aplus-agents-n1000",
+    "agents": 1000,
+    "period": 20,
+    "duration": 120.0,
+    "warmup": null,
+    "saturate": null,
+    "target": null,
+    "agentd": null,
+    "keep_agentd": false,
+    "osds": 16,
+    "prime": 0,
+    "no_seed": false,
+    "no_probes": true,
+    "idle": false,
+    "probe_interval": 1.0,
+    "settle": 10,
+    "sim_arg": []
+  },
+  "start": 1793406813.702282,
+  "loadavg_before": [
+    3.1640625,
+    7.05078125,
+    5.74951171875
+  ],
+  "seed_secs": 19.969014709990006,
+  "end": 1793407003.7540736,
+  "loadavg_after": [
+    1.068359375,
+    4.21728515625,
+    4.86962890625
+  ]
+}

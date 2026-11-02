@@ -1,0 +1,94 @@
+{
+  "_seconds": 60.251924991607666,
+  "set_store": {
+    "calls": 26999,
+    "wall_ms_per_call": 2.4287328979665954,
+    "cpu_ms_per_call": 0.0965019392940479,
+    "wall_s": 65.57335951220011,
+    "cpu_s": 2.605455858999999
+  },
+  "get_error_daemons": {
+    "calls": 27002,
+    "wall_ms_per_call": 0.5731297897967693,
+    "cpu_ms_per_call": 0.5662914470779937,
+    "wall_s": 15.475650584092364,
+    "cpu_s": 15.291001653999984
+  },
+  "failed_daemon_health_check": {
+    "calls": 9000,
+    "wall_ms_per_call": 0.5839323007708622,
+    "cpu_ms_per_call": 0.5757872067777818,
+    "wall_s": 5.25539070693776,
+    "cpu_s": 5.182084861000036
+  },
+  "save_host_devices": {
+    "calls": 9000,
+    "wall_ms_per_call": 3.359866592729102,
+    "cpu_ms_per_call": 0.46563145411111123,
+    "wall_s": 30.238799334561918,
+    "cpu_s": 4.190683087000001
+  },
+  "save_host": {
+    "calls": 9000,
+    "wall_ms_per_call": 6.378606393467635,
+    "cpu_ms_per_call": 0.9226224756666662,
+    "wall_s": 57.407457541208714,
+    "cpu_s": 8.303602280999996
+  },
+  "process_ls_output": {
+    "calls": 9000,
+    "wall_ms_per_call": 20.71194012217974,
+    "cpu_ms_per_call": 1.9967313854444382,
+    "wall_s": 186.40746109961765,
+    "cpu_s": 17.970582468999943
+  },
+  "update_host_facts": {
+    "calls": 9000,
+    "wall_ms_per_call": 0.02921056468039751,
+    "cpu_ms_per_call": 0.029085021444444532,
+    "wall_s": 0.2628950821235776,
+    "cpu_s": 0.2617651930000008
+  },
+  "Devices.from_json": {
+    "calls": 8999,
+    "wall_ms_per_call": 7.140121543392392,
+    "cpu_ms_per_call": 0.3826786797421956,
+    "wall_s": 64.25395376898814,
+    "cpu_s": 3.4437254390000183
+  },
+  "update_host_devices": {
+    "calls": 8999,
+    "wall_ms_per_call": 0.09909764660862001,
+    "cpu_ms_per_call": 0.09877202633625864,
+    "wall_s": 0.8917797218309715,
+    "cpu_s": 0.8888494649999916
+  },
+  "all_host_metadata_up_to_date": {
+    "calls": 8999,
+    "wall_ms_per_call": 0.02620909360314728,
+    "cpu_ms_per_call": 0.026087513945992555,
+    "wall_s": 0.23585563333472237,
+    "cpu_s": 0.234761537999987
+  },
+  "save_agent": {
+    "calls": 8999,
+    "wall_ms_per_call": 1.9808189414990816,
+    "cpu_ms_per_call": 0.06665055139459994,
+    "wall_s": 17.825389654550236,
+    "cpu_s": 0.5997883120000049
+  },
+  "agent.handle_metadata": {
+    "calls": 8999,
+    "wall_ms_per_call": 31.915880154190567,
+    "cpu_ms_per_call": 4.506731981775757,
+    "wall_s": 287.2110055075609,
+    "cpu_s": 40.556081104000036
+  },
+  "agent.index": {
+    "calls": 8999,
+    "wall_ms_per_call": 31.930679761812815,
+    "cpu_ms_per_call": 4.520928337815334,
+    "wall_s": 287.34418717655353,
+    "cpu_s": 40.68383411200019
+  }
+}

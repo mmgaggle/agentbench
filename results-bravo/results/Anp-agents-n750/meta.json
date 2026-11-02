@@ -1,0 +1,34 @@
+{
+  "args": {
+    "name": "Anp-agents-n750",
+    "agents": 750,
+    "period": 20,
+    "duration": 120.0,
+    "warmup": null,
+    "saturate": null,
+    "target": null,
+    "agentd": null,
+    "keep_agentd": false,
+    "osds": 16,
+    "prime": 0,
+    "no_seed": false,
+    "no_probes": true,
+    "idle": false,
+    "probe_interval": 1.0,
+    "settle": 10,
+    "sim_arg": []
+  },
+  "start": 1793401959.444174,
+  "loadavg_before": [
+    1.6494140625,
+    0.962890625,
+    1.0107421875
+  ],
+  "seed_secs": 69.79600183397997,
+  "end": 1793402199.3245084,
+  "loadavg_after": [
+    0.46337890625,
+    0.701171875,
+    0.884765625
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "agents": 4000,
+  "args": {
+    "agents": null,
+    "change_rate": 0.01,
+    "dump_body": null,
+    "duration": 120.0,
+    "error_every": 0,
+    "hosts_file": "/mon/agents-4000.json",
+    "label": "V-v2-n4000",
+    "listen": false,
+    "osds": 16,
+    "out": "/ab/results/V-v2-n4000",
+    "path": "/data",
+    "period": 20.0,
+    "prime": 0,
+    "proto": "v2",
+    "saturate": null,
+    "src_ips": 16,
+    "target": null,
+    "threads": 16,
+    "timeout": 10.0,
+    "usage_every": 15.0,
+    "warmup": 40.0
+  },
+  "body_bytes": 50360,
+  "connect": {
+    "count": 24930,
+    "max_ms": 0.001,
+    "mean_ms": 0.001,
+    "p50_ms": 0.001,
+    "p90_ms": 0.001,
+    "p999_ms": 0.001,
+    "p99_ms": 0.001
+  },
+  "counts": {
+    "app_err": 0,
+    "conn_err": 0,
+    "http_err": 0,
+    "ok": 24930,
+    "timeout": 0
+  },
+  "errors": [],
+  "label": "V-v2-n4000",
+  "latency": {
+    "count": 24930,
+    "max_ms": 3.003,
+    "mean_ms": 0.4996673485760125,
+    "p50_ms": 0.303,
+    "p90_ms": 1.217,
+    "p999_ms": 2.817,
+    "p99_ms": 2.365
+  },
+  "listener_msgs": 0,
+  "max_report_gap": {
+    "agents_over_1_5x_period": 0,
+    "agents_over_3x_period": 0,
+    "max_s": 20.005428209000016,
+    "p50_s": 20.002577482999996,
+    "p99_s": 20.004579228999987
+  },
+  "mode": "agents",
+  "offered_per_sec": 200.0,
+  "ok_per_sec": 207.75,
+  "prime_secs": 0.0,
+  "response": {
+    "count": 24930,
+    "max_ms": 3.003,
+    "mean_ms": 0.4991446450060173,
+    "p50_ms": 0.302,
+    "p90_ms": 1.217,
+    "p999_ms": 2.813,
+    "p99_ms": 2.365
+  },
+  "tls_handshake": {
+    "count": 24930,
+    "max_ms": 0.001,
+    "mean_ms": 0.001,
+    "p50_ms": 0.001,
+    "p90_ms": 0.001,
+    "p999_ms": 0.001,
+    "p99_ms": 0.001
+  },
+  "v2": {
+    "bytes_per_agent_per_period": 95.57433333333333,
+    "connect_errors": 0,
+    "connects": 4000,
+    "kinds": {
+      "delta": {
+        "avg_bytes": 1227,
+        "bytes_per_sec": 2515.75,
+        "errors": 0,
+        "max_ms": 2.867,
+        "p50_ms": 0.346,
+        "p99_ms": 2.577,
+        "per_sec": 2.05
+      },
+      "full": {
+        "avg_bytes": 0,
+        "bytes_per_sec": 0.0,
+        "errors": 0,
+        "max_ms": 0.0,
+        "p50_ms": 0.0,
+        "p99_ms": 0.0,
+        "per_sec": 0.0
+      },
+      "heartbeat": {
+        "avg_bytes": 35,
+        "bytes_per_sec": 6729.041666666667,
+        "errors": 0,
+        "max_ms": 3.003,
+        "p50_ms": 0.298,
+        "p99_ms": 2.367,
+        "per_sec": 192.25833333333333
+      },
+      "usage": {
+        "avg_bytes": 734,
+        "bytes_per_sec": 9870.075,
+        "errors": 0,
+        "max_ms": 2.859,
+        "p50_ms": 0.331,
+        "p99_ms": 2.195,
+        "per_sec": 13.441666666666666
+      }
+    },
+    "request_bytes_per_sec": 19114.866666666665,
+    "requests_per_sec": 207.75,
+    "resyncs": 0
+  },
+  "window_secs": 120.0
+}

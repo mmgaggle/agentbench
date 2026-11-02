@@ -1,0 +1,75 @@
+{
+  "agents": 4000,
+  "args": {
+    "agents": 4000,
+    "duration": 60.0,
+    "error_every": 0,
+    "hosts_file": "/mon/vcluster/agents/hosts.json",
+    "label": "B1-sat-n4000-c256",
+    "listen": true,
+    "osds": 16,
+    "out": "/ab/results/B1-sat-n4000-c256",
+    "path": "/data",
+    "period": 20.0,
+    "prime": 0,
+    "saturate": 256,
+    "src_ips": 16,
+    "target": "127.0.0.1:7160",
+    "threads": 8,
+    "timeout": 10.0,
+    "warmup": 5.0
+  },
+  "body_bytes": 50360,
+  "connect": {
+    "count": 14753,
+    "max_ms": 0.28,
+    "mean_ms": 0.035163085474140876,
+    "p50_ms": 0.02,
+    "p90_ms": 0.066,
+    "p999_ms": 0.203,
+    "p99_ms": 0.175
+  },
+  "counts": {
+    "app_err": 0,
+    "conn_err": 0,
+    "http_err": 0,
+    "ok": 14753,
+    "timeout": 0
+  },
+  "errors": [],
+  "label": "B1-sat-n4000-c256",
+  "latency": {
+    "count": 14753,
+    "max_ms": 1153.023,
+    "mean_ms": 1034.0490194536703,
+    "p50_ms": 1037.823,
+    "p90_ms": 1087.487,
+    "p999_ms": 1149.951,
+    "p99_ms": 1133.567
+  },
+  "listener_msgs": 0,
+  "max_report_gap": null,
+  "mode": "saturate",
+  "offered_per_sec": null,
+  "ok_per_sec": 245.88333333333333,
+  "prime_secs": 0.0,
+  "response": {
+    "count": 14753,
+    "max_ms": 1148.927,
+    "mean_ms": 1030.8749526198055,
+    "p50_ms": 1034.751,
+    "p90_ms": 1084.415,
+    "p999_ms": 1146.879,
+    "p99_ms": 1130.495
+  },
+  "tls_handshake": {
+    "count": 14753,
+    "max_ms": 29.871,
+    "mean_ms": 3.112506473259671,
+    "p50_ms": 2.971,
+    "p90_ms": 3.665,
+    "p999_ms": 5.007,
+    "p99_ms": 4.255
+  },
+  "window_secs": 60.0
+}

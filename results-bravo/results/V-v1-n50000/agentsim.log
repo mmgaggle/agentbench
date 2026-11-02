@@ -1,0 +1,17 @@
+agentsim: 50000 agents -> 127.0.0.1:7160/data, body 50360 bytes
+t=  11s ok/s= 2490.4 err/s=   0.0 p50=     0.6ms p99=     0.9ms
+t=  21s ok/s= 2516.2 err/s=   0.0 p50=     0.6ms p99=     1.0ms
+t=  31s ok/s= 2483.3 err/s=   0.0 p50=     0.8ms p99=     1.3ms
+t=  41s ok/s= 2516.5 err/s=   0.0 p50=     0.9ms p99=     1.3ms
+t=  51s ok/s= 2482.9 err/s=   0.0 p50=     0.9ms p99=     2.1ms
+t=  61s ok/s= 2516.6 err/s=   0.0 p50=     0.9ms p99=     2.2ms
+t=  71s ok/s= 2483.0 err/s=   0.0 p50=     0.9ms p99=     2.1ms
+t=  81s ok/s= 2516.2 err/s=   0.0 p50=     0.9ms p99=     2.2ms
+t=  91s ok/s= 2483.3 err/s=   0.0 p50=     1.0ms p99=     2.2ms
+t= 101s ok/s= 2516.2 err/s=   0.0 p50=     1.0ms p99=     2.3ms
+t= 111s ok/s= 2483.3 err/s=   0.0 p50=     1.0ms p99=     2.2ms
+t= 121s ok/s= 2515.5 err/s=   0.0 p50=     1.0ms p99=     2.2ms
+t= 131s ok/s= 2484.0 err/s=   0.0 p50=     1.0ms p99=     2.2ms
+t= 140s ok/s= 2498.6 err/s=   0.0 p50=     1.0ms p99=     2.2ms
+t= 140s ok/s=    0.0 err/s=   0.0 p50=     1.0ms p99=     2.2ms
+done: ok/s=2499.8 counts=[299977, 0, 0, 0, 0] p50=0.9ms p99=2.1ms

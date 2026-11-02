@@ -1,0 +1,33 @@
+[19:41:13] join
+[19:41:18] join-done
+joined as h00126; config in /mon/scale/n5000/h00126/etc/agent.json
+joined as h00265; config in /mon/scale/n5000/h00265/etc/agent.json
+joined as h00254; config in /mon/scale/n5000/h00254/etc/agent.json
+4.9s: answered 4, 5000 approved in all
+[19:41:18] start
+{"label": "start", "mode": "counts", "elapsed_s": 125.25, "reported": 5000, "up": 5000, "timeline": [[110.61, 4416, 4417], [111.12, 4432, 4432], [111.62, 4456, 4456], [112.12, 4476, 4477], [112.63, 4493, 4493], [113.14, 4517, 4517], [113.64, 4536, 4538], [114.14, 4553, 4553], [114.65, 4577, 4577], [115.15, 4595, 4598], [115.66, 4613, 4614], [116.16, 4638, 4638], [116.67, 4656, 4659], [117.17, 4674, 4674], [117.68, 4698, 4698], [118.18, 4715, 4719], [118.69, 4734, 4734], [119.19, 4759, 4759], [119.7, 4775, 4779], [120.2, 4795, 4795], [120.71, 4819, 4819], [121.21, 4832, 4838], [121.72, 4855, 4855], [122.22, 4880, 4880], [122.73, 4892, 4897], [123.23, 4916, 4916], [123.74, 4940, 4940], [124.24, 4952, 4958], [124.75, 4976, 4976], [125.25, 5000, 5000]]}
+[19:43:23] start-done
+[19:43:58] deploy
+deploy: published 5000 hosts in 4.93s (mgr CPU 16.67s, 140000 requests, 3.335 ms CPU/host)
+{"label": "deploy", "cmd": "deploy", "hosts": 5000, "daemons": 70000, "publish_s": 4.934, "publish_cpu_s": 16.674, "publish_requests": 140000, "procs": 4, "not_applied": 0, "applied_after_store_s": {"p50": 17.38, "p90": 28.56, "p99": 29.836, "max": 30.241}, "applied_after_publish_start_s": {"p50": 19.8, "p99": 33.705, "max": 34.0871781}, "events": {"events": 80282, "unit": 70000, "applied": 5000, "gaps": 0, "polls": 286}}
+[19:44:33] deploy-done
+[19:44:33] agent-upgrade-paced-freeze
+[19:45:33] freeze-paced
+{"label": "freeze-during-paced", "mode": "liveness", "hosts": 40, "reached": 40, "first_s": 16.07, "p50_s": 17.71, "max_s": 21.17, "false_positives": 0, "false_positive_hosts": []}
+[19:46:04] thaw-paced
+{"label": "thaw-during-paced", "mode": "liveness", "hosts": 40, "reached": 40, "first_s": 0.55, "p50_s": 0.63, "max_s": 0.78, "false_positives": 0, "false_positive_hosts": []}
+{"label": "agent-upgrade-paced-freeze", "cmd": "agent-upgrade", "hosts": 5000, "version": "0.2.8-sim", "sha256": "e3254a7648c094dd", "binary_bytes": 8388608, "rate": 20.0, "canary": 10, "soak_s": 10.0, "max_in_flight_limit": 100, "wall_s": 261.04, "upgraded": 5000, "failed": 0, "halted": null, "not_started": 0, "still_in_flight": 0, "max_in_flight": 17, "mgr_publish_s": 23.47, "host_upgrade_s": {"p50": 0.533, "p90": 0.584, "p99": 0.604, "max": 0.701}, "liveness_down_events": 40, "hosts_seen_down": 40, "agent_events": 5000, "failures": {}}
+[19:48:54] agent-upgrade-paced-freeze-done
+[19:53:54] settled-agent-upgrade-paced-freeze
+[19:53:54] agent-upgrade-all-freeze
+[19:53:59] freeze-all
+{"label": "freeze-during-all", "mode": "liveness", "hosts": 40, "reached": 35, "first_s": 25.59, "p50_s": 53.64, "max_s": 112.22, "false_positives": 3562, "false_positive_hosts": ["h00000", "h00001", "h00002", "h00003", "h00004", "h00007", "h00008", "h00010", "h00011", "h00014", "h00015", "h00017", "h00018", "h00020", "h00021", "h00022", "h00026", "h00027", "h00029", "h00030"]}
+[19:57:09] thaw-all
+{"label": "thaw-during-all", "mode": "liveness", "hosts": 40, "reached": 40, "first_s": 0.0, "p50_s": 0.0, "max_s": 0.0, "false_positives": 0, "false_positive_hosts": []}
+{"label": "agent-upgrade-all-freeze", "cmd": "agent-upgrade", "hosts": 5000, "version": "0.2.9-sim", "sha256": "502b511b491197c7", "binary_bytes": 8388608, "rate": 0.0, "canary": 0, "soak_s": 10, "max_in_flight_limit": 0, "wall_s": 194.9, "upgraded": 5000, "failed": 0, "halted": null, "not_started": 0, "still_in_flight": 0, "max_in_flight": 5000, "mgr_publish_s": 4.14, "host_upgrade_s": {"p50": 1.84, "p90": 2.628, "p99": 2.924, "max": 190.594}, "liveness_down_events": 4842, "hosts_seen_down": 3637, "agent_events": 5000, "failures": {}}
+[19:57:10] agent-upgrade-all-freeze-done
+[20:02:10] settled-agent-upgrade-all-freeze
+agent log lines: 162865
+ 112055 applied generation N in N ms (N units, N with errors)
+     39 agentd: request to agentd timed out; retrying in Ns
+done: /ab/results/scale/n5000-freeze-upgrades

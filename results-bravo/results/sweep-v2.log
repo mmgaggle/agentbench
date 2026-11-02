@@ -1,0 +1,9 @@
+V-v1-n4000: done: ok/s=200.0 counts=[23998, 0, 0, 0, 0] p50=1.4ms p99=3.7ms
+V-v2-n4000: done: ok/s=207.8 counts=[24930, 0, 0, 0, 0] p50=0.3ms p99=2.4ms
+V-v1-n10000: done: ok/s=500.0 counts=[59998, 0, 0, 0, 0] p50=1.0ms p99=2.4ms
+V-v2-n10000: done: ok/s=519.3 counts=[62313, 0, 0, 0, 0] p50=0.2ms p99=0.9ms
+V-v1-n20000: done: ok/s=999.9 counts=[119991, 0, 0, 0, 0] p50=0.9ms p99=2.4ms
+V-v2-n20000: done: ok/s=1038.6 counts=[124637, 0, 0, 0, 0] p50=0.2ms p99=1.2ms
+V-v1-n50000: done: ok/s=2499.8 counts=[299977, 0, 0, 0, 0] p50=0.9ms p99=2.1ms
+V-v2-n50000: done: ok/s=2596.4 counts=[311570, 0, 0, 0, 0] p50=0.1ms p99=0.9ms
+sweep done

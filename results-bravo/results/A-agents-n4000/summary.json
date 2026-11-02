@@ -1,0 +1,83 @@
+{
+  "agents": 4000,
+  "args": {
+    "agents": 4000,
+    "duration": 120.0,
+    "error_every": 0,
+    "hosts_file": "/mon/vcluster/agents/hosts.json",
+    "label": "A-agents-n4000",
+    "listen": true,
+    "osds": 16,
+    "out": "/ab/results/A-agents-n4000",
+    "path": "/data",
+    "period": 20.0,
+    "prime": 0,
+    "saturate": null,
+    "src_ips": 16,
+    "target": null,
+    "threads": 8,
+    "timeout": 10.0,
+    "warmup": 20.0
+  },
+  "body_bytes": 50360,
+  "connect": {
+    "count": 0,
+    "max_ms": 0.0,
+    "mean_ms": 0.0,
+    "p50_ms": 0.0,
+    "p90_ms": 0.0,
+    "p999_ms": 0.0,
+    "p99_ms": 0.0
+  },
+  "counts": {
+    "app_err": 0,
+    "conn_err": 0,
+    "http_err": 0,
+    "ok": 0,
+    "timeout": 23998
+  },
+  "errors": [
+    "Timeout: no response in 10s"
+  ],
+  "label": "A-agents-n4000",
+  "latency": {
+    "count": 0,
+    "max_ms": 0.0,
+    "mean_ms": 0.0,
+    "p50_ms": 0.0,
+    "p90_ms": 0.0,
+    "p999_ms": 0.0,
+    "p99_ms": 0.0
+  },
+  "listener_msgs": 0,
+  "max_report_gap": {
+    "agents_over_1_5x_period": 4000,
+    "agents_over_3x_period": 4000,
+    "max_s": 120.0,
+    "p50_s": 120.0,
+    "p99_s": 120.0
+  },
+  "mode": "agents",
+  "offered_per_sec": 200.0,
+  "ok_per_sec": 0.0,
+  "prime_secs": 0.0,
+  "response": {
+    "count": 0,
+    "max_ms": 0.0,
+    "mean_ms": 0.0,
+    "p50_ms": 0.0,
+    "p90_ms": 0.0,
+    "p999_ms": 0.0,
+    "p99_ms": 0.0
+  },
+  "tls_handshake": {
+    "count": 0,
+    "max_ms": 0.0,
+    "mean_ms": 0.0,
+    "p50_ms": 0.0,
+    "p90_ms": 0.0,
+    "p999_ms": 0.0,
+    "p99_ms": 0.0
+  },
+  "window_secs": 120.0
+}

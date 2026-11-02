@@ -1,0 +1,23 @@
+# a stand-in daemon with a config file: busybox httpd serving www/
+[Unit]
+Description=Ceph {daemon} for {fsid}
+PartOf=ceph-{fsid}.target
+Before=ceph-{fsid}.target
+StartLimitIntervalSec=30min
+StartLimitBurst=5
+
+[Container]
+ContainerName=ceph-{fsid}-{daemon}
+Image=quay.io/prometheus/busybox:latest
+RunInit=true
+Network=host
+Exec=httpd -f -v -p 8080 -h /www
+Volume=/var/lib/ceph/{fsid}/{daemon}/www:/www:ro
+
+[Service]
+Restart=on-failure
+RestartSec=10s
+SuccessExitStatus=143
+
+[Install]
+WantedBy=ceph-{fsid}.target
